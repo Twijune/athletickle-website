@@ -7,9 +7,9 @@ export const colors = {
   color1: '#D35F5F',  // red
   color2: '#8FECD5',  // green (mint)
   color3: '#A9D1D7',  // yellow (light blue)
-  color4: '#ADF0E9',  // blue (turquoise - accent)
+  color4: '#D1622A',  // blue slot (logo orange - accent)
   color5: '#485362',  // magenta (dark blue-gray)
-  color6: '#7cf0ef',  // cyan
+  color6: '#E07B45',  // cyan slot (lighter orange)
   color7: '#646d7a',  // foreground (gray)
 
   // Bright colors (8-15)
@@ -17,16 +17,16 @@ export const colors = {
   color9: '#D35F5F',  // bright red
   color10: '#8FECD5', // bright green
   color11: '#A9D1D7', // bright yellow
-  color12: '#ADF0E9', // bright blue
+  color12: '#D1622A', // bright blue slot (logo orange)
   color13: '#485362', // bright magenta
-  color14: '#7cf0ef', // bright cyan
+  color14: '#E07B45', // bright cyan slot (lighter orange)
   color15: '#646d7a', // bright white
 
   // Additional theme colors
-  foreground: '#FFF5EE',  // seashell white
-  cursor: '#75dddd',
-  accent: '#ADF0E9',
-  selectionFg: '#40E0D0',
+  foreground: '#FFF5EE',  // seashell white (matches logo lettering)
+  cursor: '#E07B45',
+  accent: '#D1622A',      // logo orange
+  selectionFg: '#D1622A',
   selectionBg: '#485362',
 };
 

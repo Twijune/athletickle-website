@@ -4,19 +4,8 @@ import { useRef, useEffect, useState } from 'react'
 // Design 10: INVERTED DARK BRUTALIST
 // Dark background, stark white/neon accents, aggressive angles, high contrast, intense energy
 
-const FeatherLogo = ({ className = '' }: { className?: string }) => (
-  <svg viewBox="0 0 100 120" className={className}>
-    <defs>
-      <linearGradient id="featherDark" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#7cf0ef" />
-        <stop offset="100%" stopColor="#40E0D0" />
-      </linearGradient>
-    </defs>
-    <path
-      d="M75 10 Q60 25 55 45 Q50 65 45 85 Q40 100 35 115 Q35 100 38 85 Q25 75 15 60 Q25 65 35 65 Q30 50 25 35 Q35 45 45 50 Q45 35 50 20 Q55 35 55 50 Q65 45 75 35 Q70 50 65 65 Q75 65 85 60 Q75 75 62 85 Q65 100 65 115 Q55 95 50 75 Q45 55 50 35 Q55 20 75 10Z"
-      fill="url(#featherDark)"
-    />
-  </svg>
+const AthleLogo = ({ className = '' }: { className?: string }) => (
+  <img src="/athletickle-favicon-256.png" alt="Athletickle" className={className} />
 )
 
 const GlitchText = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => {
@@ -41,7 +30,7 @@ const GlitchText = ({ children, className = '' }: { children: React.ReactNode; c
             {children}
           </span>
           <span
-            className="absolute top-0 left-0 text-[#00ffff] mix-blend-screen"
+            className="absolute top-0 left-0 text-[#D1622A] mix-blend-screen"
             style={{ clipPath: 'inset(50% 0 20% 0)', transform: 'translateX(2px)' }}
           >
             {children}
@@ -81,7 +70,7 @@ export default function Design10() {
 
       {/* Diagonal accent lines */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-0 left-1/4 w-px h-full bg-gradient-to-b from-[#7cf0ef]/20 via-transparent to-[#7cf0ef]/20 transform rotate-12 origin-top" />
+        <div className="absolute top-0 left-1/4 w-px h-full bg-gradient-to-b from-[#D1622A]/20 via-transparent to-[#D1622A]/20 transform rotate-12 origin-top" />
         <div className="absolute top-0 right-1/3 w-px h-full bg-gradient-to-b from-transparent via-white/10 to-transparent transform -rotate-12 origin-top" />
       </div>
 
@@ -94,7 +83,7 @@ export default function Design10() {
       >
         <div className="flex items-center justify-between px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
           <div className="flex items-center gap-4">
-            <FeatherLogo className="w-10 h-12" />
+            <AthleLogo className="w-10 h-12" />
             <span className="text-xl tracking-[0.3em]">ATHLETICKLE</span>
           </div>
 
@@ -109,7 +98,7 @@ export default function Design10() {
                 className="relative group text-white/60 hover:text-white transition-colors"
               >
                 <span className="relative z-10">{item}</span>
-                <span className="absolute -bottom-1 left-0 w-full h-px bg-[#7cf0ef] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                <span className="absolute -bottom-1 left-0 w-full h-px bg-[#D1622A] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
               </motion.a>
             ))}
           </div>
@@ -117,7 +106,7 @@ export default function Design10() {
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="px-6 py-3 bg-white text-[#0a0a0a] text-sm tracking-[0.2em] font-bold hover:bg-[#7cf0ef] transition-colors"
+            className="px-6 py-3 bg-white text-[#0a0a0a] text-sm tracking-[0.2em] font-bold hover:bg-[#D1622A] transition-colors"
           >
             GET APP
           </motion.button>
@@ -142,8 +131,8 @@ export default function Design10() {
             >
               {/* Accent badge */}
               <div className="inline-flex items-center gap-2 mb-6">
-                <div className="w-3 h-3 bg-[#7cf0ef]" />
-                <span className="text-xs tracking-[0.4em] text-[#7cf0ef] font-['Space_Mono']">
+                <div className="w-3 h-3 bg-[#D1622A]" />
+                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">
                   ALGORITHM-DRIVEN
                 </span>
               </div>
@@ -151,7 +140,7 @@ export default function Design10() {
               <h1 className="text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight mb-8">
                 <GlitchText>DESTROY</GlitchText>
                 <br />
-                <span className="text-[#7cf0ef]">YOUR</span>
+                <span className="text-[#D1622A]">YOUR</span>
                 <br />
                 <GlitchText>LIMITS</GlitchText>
               </h1>
@@ -176,7 +165,7 @@ export default function Design10() {
                       →
                     </motion.span>
                   </span>
-                  <div className="absolute inset-0 bg-[#7cf0ef] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+                  <div className="absolute inset-0 bg-[#D1622A] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
                 </motion.button>
 
                 <button className="px-10 py-5 border-2 border-white/30 text-lg tracking-[0.1em] hover:border-white hover:bg-white/5 transition-all">
@@ -194,12 +183,12 @@ export default function Design10() {
             >
               {/* Aggressive frame */}
               <div className="absolute -inset-4 border-2 border-white/20 transform -skew-x-2" />
-              <div className="absolute -inset-8 border border-[#7cf0ef]/30 transform skew-x-3" />
+              <div className="absolute -inset-8 border border-[#D1622A]/30 transform skew-x-3" />
 
               <div className="relative">
                 {/* Corner accents */}
-                <div className="absolute -top-2 -left-2 w-8 h-8 border-l-4 border-t-4 border-[#7cf0ef]" />
-                <div className="absolute -bottom-2 -right-2 w-8 h-8 border-r-4 border-b-4 border-[#7cf0ef]" />
+                <div className="absolute -top-2 -left-2 w-8 h-8 border-l-4 border-t-4 border-[#D1622A]" />
+                <div className="absolute -bottom-2 -right-2 w-8 h-8 border-r-4 border-b-4 border-[#D1622A]" />
 
                 <div className="bg-[#0a0a0a] border border-white/10 p-3">
                   <img
@@ -213,7 +202,7 @@ export default function Design10() {
                 <motion.div
                   animate={{ y: [-5, 5, -5] }}
                   transition={{ repeat: Infinity, duration: 3 }}
-                  className="absolute -top-6 -right-6 px-4 py-2 bg-[#7cf0ef] text-[#0a0a0a] text-xs font-['Space_Mono'] tracking-wider"
+                  className="absolute -top-6 -right-6 px-4 py-2 bg-[#D1622A] text-[#0a0a0a] text-xs font-['Space_Mono'] tracking-wider"
                 >
                   500+ EXERCISES
                 </motion.div>
@@ -249,8 +238,8 @@ export default function Design10() {
           <div className="flex items-end justify-between mb-16">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-3 h-3 bg-[#7cf0ef]" />
-                <span className="text-xs tracking-[0.4em] text-[#7cf0ef] font-['Space_Mono']">CAPABILITIES</span>
+                <div className="w-3 h-3 bg-[#D1622A]" />
+                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">CAPABILITIES</span>
               </div>
               <h2 className="text-5xl md:text-6xl tracking-tight">
                 SYSTEM<br />
@@ -271,15 +260,15 @@ export default function Design10() {
                 className="bg-[#0a0a0a] p-10 group hover:bg-white/5 transition-colors relative overflow-hidden"
               >
                 {/* Hover accent */}
-                <div className="absolute top-0 left-0 w-1 h-0 bg-[#7cf0ef] group-hover:h-full transition-all duration-300" />
+                <div className="absolute top-0 left-0 w-1 h-0 bg-[#D1622A] group-hover:h-full transition-all duration-300" />
 
                 <div className="flex items-start justify-between mb-6">
-                  <span className="text-5xl font-black text-white/10 group-hover:text-[#7cf0ef]/30 transition-colors">
+                  <span className="text-5xl font-black text-white/10 group-hover:text-[#D1622A]/30 transition-colors">
                     {feature.id}
                   </span>
                   <motion.div
                     whileHover={{ rotate: 45 }}
-                    className="w-10 h-10 border border-white/20 flex items-center justify-center text-xl group-hover:border-[#7cf0ef] group-hover:text-[#7cf0ef] transition-colors"
+                    className="w-10 h-10 border border-white/20 flex items-center justify-center text-xl group-hover:border-[#D1622A] group-hover:text-[#D1622A] transition-colors"
                   >
                     +
                   </motion.div>
@@ -297,7 +286,7 @@ export default function Design10() {
       <section id="system" className="py-32 relative overflow-hidden">
         {/* Diagonal background element */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#7cf0ef]/5 to-transparent transform skew-x-12 origin-top-right" />
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#D1622A]/5 to-transparent transform skew-x-12 origin-top-right" />
         </div>
 
         <div className="container mx-auto px-8 relative z-10">
@@ -309,7 +298,7 @@ export default function Design10() {
               className="grid grid-cols-2 gap-4"
             >
               <div className="relative">
-                <div className="absolute -inset-2 bg-[#7cf0ef]/20 transform -skew-x-3" />
+                <div className="absolute -inset-2 bg-[#D1622A]/20 transform -skew-x-3" />
                 <div className="relative bg-[#0a0a0a] border border-white/10 p-2">
                   <img src="/createprog_snip.png" alt="Builder" className="w-full" />
                 </div>
@@ -330,13 +319,13 @@ export default function Design10() {
               viewport={{ once: true }}
             >
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-3 h-3 bg-[#7cf0ef]" />
-                <span className="text-xs tracking-[0.4em] text-[#7cf0ef] font-['Space_Mono']">THE ENGINE</span>
+                <div className="w-3 h-3 bg-[#D1622A]" />
+                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">THE ENGINE</span>
               </div>
 
               <h2 className="text-5xl md:text-6xl tracking-tight leading-tight mb-8">
                 INTELLIGENT<br />
-                <span className="text-[#7cf0ef]">PERIODIZATION</span>
+                <span className="text-[#D1622A]">PERIODIZATION</span>
               </h2>
 
               <p className="text-lg font-['Space_Mono'] text-white/50 leading-relaxed mb-8">
@@ -354,7 +343,7 @@ export default function Design10() {
                     viewport={{ once: true }}
                     className="flex items-center gap-4"
                   >
-                    <div className="w-8 h-px bg-[#7cf0ef]" />
+                    <div className="w-8 h-px bg-[#D1622A]" />
                     <span className="text-sm font-['Space_Mono'] tracking-wide">{item}</span>
                   </motion.div>
                 ))}
@@ -366,7 +355,7 @@ export default function Design10() {
 
       {/* STATS BAR */}
       <section className="py-16 border-y border-white/10 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#7cf0ef]/5 via-transparent to-[#7cf0ef]/5" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#D1622A]/5 via-transparent to-[#D1622A]/5" />
 
         <div className="container mx-auto px-8 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -383,7 +372,7 @@ export default function Design10() {
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
               >
-                <div className="text-5xl md:text-6xl font-black text-[#7cf0ef] mb-2">{stat.num}</div>
+                <div className="text-5xl md:text-6xl font-black text-[#D1622A] mb-2">{stat.num}</div>
                 <div className="text-xs tracking-[0.3em] text-white/40 font-['Space_Mono']">{stat.label}</div>
               </motion.div>
             ))}
@@ -399,12 +388,12 @@ export default function Design10() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <FeatherLogo className="w-20 h-24 mx-auto mb-8" />
+            <AthleLogo className="w-20 h-24 mx-auto mb-8" />
 
             <h2 className="text-6xl md:text-8xl tracking-tight mb-8">
               <GlitchText>START</GlitchText>
               <br />
-              <span className="text-[#7cf0ef]">NOW</span>
+              <span className="text-[#D1622A]">NOW</span>
             </h2>
 
             <p className="text-lg font-['Space_Mono'] text-white/50 max-w-md mx-auto mb-12">
@@ -416,7 +405,7 @@ export default function Design10() {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="px-12 py-6 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold hover:bg-[#7cf0ef] transition-colors"
+                className="px-12 py-6 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold hover:bg-[#D1622A] transition-colors"
               >
                 iOS DOWNLOAD
               </motion.button>
@@ -437,7 +426,7 @@ export default function Design10() {
         <div className="container mx-auto px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4">
-              <FeatherLogo className="w-8 h-10" />
+              <AthleLogo className="w-8 h-10" />
               <span className="text-sm tracking-[0.2em]">ATHLETICKLE © 2026</span>
             </div>
             <div className="flex gap-8 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
