@@ -2,6 +2,13 @@ export const LOCALES = ['en', 'fr', 'de', 'es'] as const
 
 export type Locale = (typeof LOCALES)[number]
 
+export const LOCALE_NAMES: Record<Locale, string> = {
+  en: 'English',
+  fr: 'Français',
+  de: 'Deutsch',
+  es: 'Español',
+}
+
 const en = {
   // Nav
   'nav.features': 'FEATURES',

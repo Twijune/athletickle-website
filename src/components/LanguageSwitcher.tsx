@@ -1,14 +1,7 @@
 import { AnimatePresence, motion } from 'motion/react'
 import { useEffect, useRef, useState } from 'react'
-import { LOCALES, type Locale } from '../i18n/translations'
+import { LOCALES, LOCALE_NAMES } from '../i18n/translations'
 import { useLanguage } from '../i18n/LanguageContext'
-
-const LOCALE_NAMES: Record<Locale, string> = {
-  en: 'English',
-  fr: 'Français',
-  de: 'Deutsch',
-  es: 'Español',
-}
 
 // Disclosure pattern (button + list of buttons) rather than a fake ARIA
 // listbox, which would require arrow-key navigation and focus management.

@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
 import { translations, LOCALES, type Locale, type TranslationKey } from './translations'
 
 const STORAGE_KEY = 'athletickle-locale'
@@ -47,12 +47,12 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     document.documentElement.lang = locale
   }, [locale])
 
-  const setLocale = useCallback((next: Locale) => {
+  const setLocale = (next: Locale) => {
     setLocaleState(next)
     safeStoreLocale(next)
-  }, [])
+  }
 
-  const t = useCallback((key: TranslationKey) => translations[locale][key], [locale])
+  const t = (key: TranslationKey) => translations[locale][key]
 
   return (
     <LanguageContext.Provider value={{ locale, setLocale, t }}>
