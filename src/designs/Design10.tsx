@@ -1,5 +1,7 @@
 import { motion, useScroll, useTransform } from 'motion/react'
 import { useRef, useEffect, useState } from 'react'
+import LanguageSwitcher from '../components/LanguageSwitcher'
+import { useLanguage } from '../i18n/LanguageContext'
 
 // Design 10: INVERTED DARK BRUTALIST
 // Dark background, stark white/neon accents, aggressive angles, high contrast, intense energy
@@ -44,14 +46,21 @@ const GlitchText = ({ children, className = '' }: { children: React.ReactNode; c
 
 export default function Design10() {
   const containerRef = useRef<HTMLDivElement>(null)
+  const { t } = useLanguage()
   const { scrollYProgress } = useScroll()
   const skewY = useTransform(scrollYProgress, [0, 1], [0, -2])
 
   const features = [
-    { id: '01', title: 'ADAPTIVE ALGORITHM', desc: 'Real-time periodization that evolves with every session' },
-    { id: '02', title: 'FATIGUE DETECTION', desc: 'System identifies overreaching before you feel it' },
-    { id: '03', title: 'EXERCISE ARSENAL', desc: '500+ movements organized by pattern and equipment' },
-    { id: '04', title: 'PROGRESS ENGINE', desc: 'Systematic overload that guarantees forward momentum' },
+    { id: '01', title: t('features.1.title'), desc: t('features.1.desc') },
+    { id: '02', title: t('features.2.title'), desc: t('features.2.desc') },
+    { id: '03', title: t('features.3.title'), desc: t('features.3.desc') },
+    { id: '04', title: t('features.4.title'), desc: t('features.4.desc') },
+  ]
+
+  const navItems = [
+    { label: t('nav.features'), href: '#features' },
+    { label: t('nav.system'), href: '#system' },
+    { label: t('nav.download'), href: '#download' },
   ]
 
   return (
@@ -81,35 +90,38 @@ export default function Design10() {
         transition={{ duration: 0.5 }}
         className="fixed top-0 left-0 right-0 z-50 border-b border-white/10"
       >
-        <div className="flex items-center justify-between px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
+        <div className="flex items-center justify-between px-4 md:px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
           <div className="flex items-center gap-4">
             <AthleLogo className="w-10 h-12" />
-            <span className="text-xl tracking-[0.3em]">ATHLETICKLE</span>
+            <span className="hidden sm:inline text-xl tracking-[0.3em]">ATHLETICKLE</span>
           </div>
 
           <div className="hidden md:flex items-center gap-12 text-sm tracking-[0.2em] font-['Space_Mono']">
-            {['FEATURES', 'SYSTEM', 'DOWNLOAD'].map((item, i) => (
+            {navItems.map((item, i) => (
               <motion.a
-                key={item}
-                href={`#${item.toLowerCase()}`}
+                key={item.href}
+                href={item.href}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: i * 0.1 }}
                 className="relative group text-white/60 hover:text-white transition-colors"
               >
-                <span className="relative z-10">{item}</span>
+                <span className="relative z-10">{item.label}</span>
                 <span className="absolute -bottom-1 left-0 w-full h-px bg-[#D1622A] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
               </motion.a>
             ))}
           </div>
 
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="px-6 py-3 bg-white text-[#0a0a0a] text-sm tracking-[0.2em] font-bold hover:bg-[#D1622A] transition-colors"
-          >
-            GET APP
-          </motion.button>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="px-6 py-3 bg-white text-[#0a0a0a] text-sm tracking-[0.2em] font-bold hover:bg-[#D1622A] transition-colors"
+            >
+              {t('nav.getApp')}
+            </motion.button>
+          </div>
         </div>
       </motion.nav>
 
@@ -133,21 +145,20 @@ export default function Design10() {
               <div className="inline-flex items-center gap-2 mb-6">
                 <div className="w-3 h-3 bg-[#D1622A]" />
                 <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">
-                  ALGORITHM-DRIVEN
+                  {t('hero.badge')}
                 </span>
               </div>
 
               <h1 className="text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight mb-8">
-                <GlitchText>DESTROY</GlitchText>
+                <GlitchText>{t('hero.title1')}</GlitchText>
                 <br />
-                <span className="text-[#D1622A]">YOUR</span>
+                <span className="text-[#D1622A]">{t('hero.title2')}</span>
                 <br />
-                <GlitchText>LIMITS</GlitchText>
+                <GlitchText>{t('hero.title3')}</GlitchText>
               </h1>
 
               <p className="text-lg font-['Space_Mono'] text-white/50 leading-relaxed max-w-md mb-10">
-                No more guessing. No more plateaus. Smart periodization that adapts
-                to your body and pushes you forward—systematically, relentlessly.
+                {t('hero.paragraph')}
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -157,7 +168,7 @@ export default function Design10() {
                   className="group px-10 py-5 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold relative overflow-hidden"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    DOWNLOAD FREE
+                    {t('hero.downloadFree')}
                     <motion.span
                       animate={{ x: [0, 4, 0] }}
                       transition={{ repeat: Infinity, duration: 1.5 }}
@@ -169,7 +180,7 @@ export default function Design10() {
                 </motion.button>
 
                 <button className="px-10 py-5 border-2 border-white/30 text-lg tracking-[0.1em] hover:border-white hover:bg-white/5 transition-all">
-                  WATCH DEMO
+                  {t('hero.watchDemo')}
                 </button>
               </div>
             </motion.div>
@@ -193,7 +204,7 @@ export default function Design10() {
                 <div className="bg-[#0a0a0a] border border-white/10 p-3">
                   <img
                     src="/createprog_snip.png"
-                    alt="Athletickle App"
+                    alt={t('hero.appAlt')}
                     className="w-full max-w-sm mx-auto"
                   />
                 </div>
@@ -204,7 +215,7 @@ export default function Design10() {
                   transition={{ repeat: Infinity, duration: 3 }}
                   className="absolute -top-6 -right-6 px-4 py-2 bg-[#D1622A] text-[#0a0a0a] text-xs font-['Space_Mono'] tracking-wider"
                 >
-                  500+ EXERCISES
+                  {t('hero.floatingStat')}
                 </motion.div>
               </div>
             </motion.div>
@@ -223,7 +234,7 @@ export default function Design10() {
             transition={{ repeat: Infinity, duration: 1.5 }}
             className="flex flex-col items-center gap-2"
           >
-            <span className="text-xs tracking-[0.3em] text-white/30 font-['Space_Mono']">SCROLL</span>
+            <span className="text-xs tracking-[0.3em] text-white/30 font-['Space_Mono']">{t('hero.scroll')}</span>
             <div className="w-px h-12 bg-gradient-to-b from-white/50 to-transparent" />
           </motion.div>
         </motion.div>
@@ -239,11 +250,11 @@ export default function Design10() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-3 h-3 bg-[#D1622A]" />
-                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">CAPABILITIES</span>
+                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">{t('features.kicker')}</span>
               </div>
               <h2 className="text-5xl md:text-6xl tracking-tight">
-                SYSTEM<br />
-                <span className="text-white/30">FEATURES</span>
+                {t('features.heading1')}<br />
+                <span className="text-white/30">{t('features.heading2')}</span>
               </h2>
             </div>
             <span className="text-[120px] font-black text-white/[0.03] leading-none hidden lg:block">01</span>
@@ -300,16 +311,16 @@ export default function Design10() {
               <div className="relative">
                 <div className="absolute -inset-2 bg-[#D1622A]/20 transform -skew-x-3" />
                 <div className="relative bg-[#0a0a0a] border border-white/10 p-2">
-                  <img src="/createprog_snip.png" alt="Builder" className="w-full" />
+                  <img src="/createprog_snip.png" alt={t('system.captionBuilder')} className="w-full" />
                 </div>
-                <p className="text-xs font-['Space_Mono'] text-white/30 mt-3 text-center tracking-wider">BUILDER</p>
+                <p className="text-xs font-['Space_Mono'] text-white/30 mt-3 text-center tracking-wider">{t('system.captionBuilder')}</p>
               </div>
               <div className="relative mt-12">
                 <div className="absolute -inset-2 bg-white/10 transform skew-x-3" />
                 <div className="relative bg-[#0a0a0a] border border-white/10 p-2">
-                  <img src="/previewofprogram.png" alt="Session" className="w-full" />
+                  <img src="/previewofprogram.png" alt={t('system.captionSession')} className="w-full" />
                 </div>
-                <p className="text-xs font-['Space_Mono'] text-white/30 mt-3 text-center tracking-wider">SESSION</p>
+                <p className="text-xs font-['Space_Mono'] text-white/30 mt-3 text-center tracking-wider">{t('system.captionSession')}</p>
               </div>
             </motion.div>
 
@@ -320,23 +331,22 @@ export default function Design10() {
             >
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-3 h-3 bg-[#D1622A]" />
-                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">THE ENGINE</span>
+                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">{t('system.kicker')}</span>
               </div>
 
               <h2 className="text-5xl md:text-6xl tracking-tight leading-tight mb-8">
-                INTELLIGENT<br />
-                <span className="text-[#D1622A]">PERIODIZATION</span>
+                {t('system.heading1')}<br />
+                <span className="text-[#D1622A]">{t('system.heading2')}</span>
               </h2>
 
               <p className="text-lg font-['Space_Mono'] text-white/50 leading-relaxed mb-8">
-                Our algorithm processes your training data—volume, intensity, fatigue markers—and
-                generates programs that push you to the edge without pushing you over.
+                {t('system.paragraph')}
               </p>
 
               <div className="space-y-4">
-                {['RIR-based auto-regulation', 'Volume landmark tracking', 'Automated deload scheduling'].map((item, i) => (
+                {[t('system.bullet1'), t('system.bullet2'), t('system.bullet3')].map((item, i) => (
                   <motion.div
-                    key={item}
+                    key={i}
                     initial={{ opacity: 0, x: 20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ delay: i * 0.1 }}
@@ -360,13 +370,13 @@ export default function Design10() {
         <div className="container mx-auto px-8 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { num: '500+', label: 'EXERCISES' },
-              { num: '∞', label: 'PROGRAMS' },
-              { num: '24/7', label: 'ACCESS' },
-              { num: 'FREE', label: 'FOREVER' },
+              { num: '500+', label: t('stats.exercises') },
+              { num: '∞', label: t('stats.programs') },
+              { num: '24/7', label: t('stats.access') },
+              { num: t('stats.freeNum'), label: t('stats.forever') },
             ].map((stat, i) => (
               <motion.div
-                key={stat.label}
+                key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
@@ -391,14 +401,13 @@ export default function Design10() {
             <AthleLogo className="w-20 h-24 mx-auto mb-8" />
 
             <h2 className="text-6xl md:text-8xl tracking-tight mb-8">
-              <GlitchText>START</GlitchText>
+              <GlitchText>{t('cta.title1')}</GlitchText>
               <br />
-              <span className="text-[#D1622A]">NOW</span>
+              <span className="text-[#D1622A]">{t('cta.title2')}</span>
             </h2>
 
             <p className="text-lg font-['Space_Mono'] text-white/50 max-w-md mx-auto mb-12">
-              Join thousands of athletes who refuse to accept anything less than
-              systematic, intelligent progress.
+              {t('cta.paragraph')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -407,14 +416,14 @@ export default function Design10() {
                 whileTap={{ scale: 0.98 }}
                 className="px-12 py-6 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold hover:bg-[#D1622A] transition-colors"
               >
-                iOS DOWNLOAD
+                {t('cta.ios')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-12 py-6 border-2 border-white text-lg tracking-[0.1em] hover:bg-white hover:text-[#0a0a0a] transition-colors"
               >
-                ANDROID DOWNLOAD
+                {t('cta.android')}
               </motion.button>
             </div>
           </motion.div>
@@ -430,9 +439,9 @@ export default function Design10() {
               <span className="text-sm tracking-[0.2em]">ATHLETICKLE © 2026</span>
             </div>
             <div className="flex gap-8 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
-              <a href="#" className="hover:text-white transition-colors">PRIVACY</a>
-              <a href="#" className="hover:text-white transition-colors">TERMS</a>
-              <a href="#" className="hover:text-white transition-colors">CONTACT</a>
+              <a href="#" className="hover:text-white transition-colors">{t('footer.privacy')}</a>
+              <a href="#" className="hover:text-white transition-colors">{t('footer.terms')}</a>
+              <a href="#" className="hover:text-white transition-colors">{t('footer.contact')}</a>
             </div>
           </div>
         </div>
