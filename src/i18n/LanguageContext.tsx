@@ -25,31 +25,44 @@ function safeStoreLocale(locale: Locale): void {
   }
 }
 
-function detectInitialLocale(): Locale {
+// eslint-disable-next-line react-refresh/only-export-components
+export function detectPreferredLocale(): Locale {
   const stored = safeGetStoredLocale()
   if (isLocale(stored)) return stored
-  const browser = navigator.language?.slice(0, 2).toLowerCase()
+  const browser =
+    typeof navigator !== 'undefined' ? navigator.language?.slice(0, 2).toLowerCase() : undefined
   return isLocale(browser) ? browser : 'en'
 }
 
 interface LanguageContextValue {
   locale: Locale
-  setLocale: (locale: Locale) => void
+  setLocale: (locale: Locale, options?: { persist?: boolean }) => void
   t: (key: TranslationKey) => string
 }
 
 const LanguageContext = createContext<LanguageContextValue | null>(null)
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(detectInitialLocale)
+interface LanguageProviderProps {
+  children: React.ReactNode
+  /**
+   * Locale for the FIRST render only, so hydration matches the prerendered
+   * HTML (URL-pinned locale on blog routes, 'en' elsewhere). After mount,
+   * LocaleSync in App.tsx keeps the locale in step with the current route
+   * and the visitor's saved preference (two-pass init).
+   */
+  initialLocale?: Locale
+}
+
+export function LanguageProvider({ children, initialLocale }: LanguageProviderProps) {
+  const [locale, setLocaleState] = useState<Locale>(initialLocale ?? 'en')
 
   useEffect(() => {
     document.documentElement.lang = locale
   }, [locale])
 
-  const setLocale = (next: Locale) => {
+  const setLocale = (next: Locale, { persist = true }: { persist?: boolean } = {}) => {
     setLocaleState(next)
-    safeStoreLocale(next)
+    if (persist) safeStoreLocale(next)
   }
 
   const t = (key: TranslationKey) => translations[locale][key]

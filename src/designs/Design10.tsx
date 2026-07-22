@@ -1,7 +1,13 @@
 import { motion, useScroll, useTransform } from 'motion/react'
 import { useRef, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import { useLanguage } from '../i18n/LanguageContext'
+import { blogPath } from '../blog/paths'
+import { landingMeta } from '../seo/meta'
+import { useHead } from '../seo/useHead'
+
+const MotionLink = motion.create(Link)
 
 // Design 10: INVERTED DARK BRUTALIST
 // Dark background, stark white/neon accents, aggressive angles, high contrast, intense energy
@@ -46,7 +52,8 @@ const GlitchText = ({ children, className = '' }: { children: React.ReactNode; c
 
 export default function Design10() {
   const containerRef = useRef<HTMLDivElement>(null)
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
+  useHead(landingMeta())
   const { scrollYProgress } = useScroll()
   const skewY = useTransform(scrollYProgress, [0, 1], [0, -2])
 
@@ -57,10 +64,12 @@ export default function Design10() {
     { id: '04', title: t('features.4.title'), desc: t('features.4.desc') },
   ]
 
+  // '/#...' instead of '#...' so the links also work from /blog pages
   const navItems = [
-    { label: t('nav.features'), href: '#features' },
-    { label: t('nav.system'), href: '#system' },
-    { label: t('nav.download'), href: '#download' },
+    { label: t('nav.features'), href: '/#features' },
+    { label: t('nav.system'), href: '/#system' },
+    { label: t('nav.blog'), href: blogPath(locale) },
+    { label: t('nav.download'), href: '/#download' },
   ]
 
   return (
@@ -97,19 +106,30 @@ export default function Design10() {
           </div>
 
           <div className="hidden md:flex items-center gap-12 text-sm tracking-[0.2em] font-['Space_Mono']">
-            {navItems.map((item, i) => (
-              <motion.a
-                key={item.href}
-                href={item.href}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: i * 0.1 }}
-                className="relative group text-white/60 hover:text-white transition-colors"
-              >
-                <span className="relative z-10">{item.label}</span>
-                <span className="absolute -bottom-1 left-0 w-full h-px bg-[#D1622A] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
-              </motion.a>
-            ))}
+            {navItems.map((item, i) => {
+              const inner = (
+                <>
+                  <span className="relative z-10">{item.label}</span>
+                  <span className="absolute -bottom-1 left-0 w-full h-px bg-[#D1622A] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                </>
+              )
+              const shared = {
+                initial: { opacity: 0 },
+                animate: { opacity: 1 },
+                transition: { delay: i * 0.1 },
+                className: 'relative group text-white/60 hover:text-white transition-colors',
+              }
+              // hash links scroll natively; route links stay SPA navigations
+              return item.href.startsWith('/#') ? (
+                <motion.a key={item.href} href={item.href} {...shared}>
+                  {inner}
+                </motion.a>
+              ) : (
+                <MotionLink key={item.href} to={item.href} {...shared}>
+                  {inner}
+                </MotionLink>
+              )
+            })}
           </div>
 
           <div className="flex items-center gap-4">
@@ -439,6 +459,7 @@ export default function Design10() {
               <span className="text-sm tracking-[0.2em]">ATHLETICKLE © 2026</span>
             </div>
             <div className="flex gap-8 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
+              <Link to={blogPath(locale)} className="hover:text-white transition-colors">{t('nav.blog')}</Link>
               <a href="#" className="hover:text-white transition-colors">{t('footer.privacy')}</a>
               <a href="#" className="hover:text-white transition-colors">{t('footer.terms')}</a>
               <a href="#" className="hover:text-white transition-colors">{t('footer.contact')}</a>

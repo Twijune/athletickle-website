@@ -1,7 +1,9 @@
 import { AnimatePresence, motion } from 'motion/react'
 import { useEffect, useRef, useState } from 'react'
-import { LOCALES, LOCALE_NAMES } from '../i18n/translations'
+import { useLocation, useNavigate } from 'react-router-dom'
+import { LOCALES, LOCALE_NAMES, type Locale } from '../i18n/translations'
 import { useLanguage } from '../i18n/LanguageContext'
+import { swapLocaleInPath } from '../blog/paths'
 
 // Disclosure pattern (button + list of buttons) rather than a fake ARIA
 // listbox, which would require arrow-key navigation and focus management.
@@ -10,6 +12,16 @@ export default function LanguageSwitcher() {
   const [open, setOpen] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
   const triggerRef = useRef<HTMLButtonElement>(null)
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  // On blog routes the locale is part of the URL, so switching language
+  // navigates to the same page under the new locale prefix.
+  const selectLocale = (next: Locale) => {
+    setLocale(next)
+    const target = swapLocaleInPath(location.pathname, next)
+    if (target !== location.pathname) navigate(target)
+  }
 
   useEffect(() => {
     if (!open) return
@@ -64,7 +76,7 @@ export default function LanguageSwitcher() {
               <li key={l}>
                 <button
                   onClick={() => {
-                    setLocale(l)
+                    selectLocale(l)
                     setOpen(false)
                     triggerRef.current?.focus()
                   }}
