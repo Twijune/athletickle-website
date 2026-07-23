@@ -13,6 +13,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
 
   const navItems = [
     { label: t('nav.features'), href: '/#features' },
+    { label: t('nav.editions'), href: '/#editions' },
     { label: t('nav.blog'), href: blogPath(locale) },
     { label: t('nav.download'), href: '/#download' },
   ]
@@ -77,9 +78,9 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
               <Link to={blogPath(locale)} className="hover:text-white transition-colors">
                 {t('nav.blog')}
               </Link>
-              <a href="#" className="hover:text-white transition-colors">{t('footer.privacy')}</a>
-              <a href="#" className="hover:text-white transition-colors">{t('footer.terms')}</a>
-              <a href="#" className="hover:text-white transition-colors">{t('footer.contact')}</a>
+              <Link to="/privacy" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
+              <Link to="/terms" className="hover:text-white transition-colors">{t('footer.terms')}</Link>
+              <Link to="/contact" className="hover:text-white transition-colors">{t('footer.contact')}</Link>
             </div>
           </div>
         </div>

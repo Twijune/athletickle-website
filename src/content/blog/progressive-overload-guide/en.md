@@ -37,4 +37,4 @@ You have four ways to make training harder. Pull them deliberately, one at a tim
 
 Systematic overload looks boring on paper. Fix your exercises for a training block. Log every set. Each week, beat the logbook on one lever — a rep here, a small load jump there — while keeping execution standards constant. When performance stalls across multiple sessions, that is fatigue talking. Deload, then resume the climb.
 
-This is exactly the logic Athletickle automates. The app tracks your RIR, detects accumulating fatigue, manages weekly volume against proven landmarks, and schedules deloads before you stall. You lift, it handles the math. [Download Athletickle free](/#download) and let progression run itself.
+This is exactly the logic Athletickle automates. The app tracks your RIR, detects accumulating fatigue, manages weekly volume against proven landmarks, and schedules deloads before you stall. You lift, it handles the math. [Start your free trial](/#download) and let progression run itself.

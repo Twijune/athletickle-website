@@ -36,4 +36,4 @@ Con unas semanas de práctica deliberada tendrás una calibración sólida. Los 
 
 ## Deja que el sistema haga los ajustes
 
-Registrar el RIR es el primer paso. Aplicarlo con constancia es donde la mayoría se queda a medias. Athletickle lee tu RIR registrado y tu rendimiento en repeticiones, detecta la fatiga que se va acumulando y ajusta automáticamente las cargas y el volumen de tu próxima sesión. Cuando los datos dicen que necesitas un deload, lo programa antes de que te estanques. Sin cirugía de hojas de cálculo, sin conjeturas. [Descarga Athletickle gratis](/#download) y deja que tu entrenamiento responda al levantador que eres hoy.
+Registrar el RIR es el primer paso. Aplicarlo con constancia es donde la mayoría se queda a medias. Athletickle lee tu RIR registrado y tu rendimiento en repeticiones, detecta la fatiga que se va acumulando y ajusta automáticamente las cargas y el volumen de tu próxima sesión. Cuando los datos dicen que necesitas un deload, lo programa antes de que te estanques. Sin cirugía de hojas de cálculo, sin conjeturas. [Empieza tu prueba gratuita](/#download) y deja que tu entrenamiento responda al levantador que eres hoy.

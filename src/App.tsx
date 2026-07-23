@@ -3,7 +3,10 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import Design10 from './designs/Design10'
 import BlogIndex from './pages/BlogIndex'
 import BlogPost from './pages/BlogPost'
+import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
+import Privacy from './pages/Privacy'
+import Terms from './pages/Terms'
 import { LanguageProvider, detectPreferredLocale, useLanguage } from './i18n/LanguageContext'
 import { localeFromPath } from './blog/paths'
 import type { Locale } from './i18n/translations'
@@ -29,6 +32,9 @@ function App({ initialLocale }: { initialLocale?: Locale }) {
       <LocaleSync />
       <Routes>
         <Route path="/" element={<Design10 />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<BlogIndex />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/:lang/blog" element={<BlogIndex />} />

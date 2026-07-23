@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { LOCALES, LOCALE_NAMES, type Locale } from '../i18n/translations'
 import { useLanguage } from '../i18n/LanguageContext'
-import { swapLocaleInPath } from '../blog/paths'
+import { blogPath, blogSlugFromPath, swapLocaleInPath } from '../blog/paths'
+import { getPost } from '../blog/posts'
 
 // Disclosure pattern (button + list of buttons) rather than a fake ARIA
 // listbox, which would require arrow-key navigation and focus management.
@@ -16,10 +17,14 @@ export default function LanguageSwitcher() {
   const location = useLocation()
 
   // On blog routes the locale is part of the URL, so switching language
-  // navigates to the same page under the new locale prefix.
+  // navigates to the same page under the new locale prefix. When the current
+  // page is a blog post that has no version in the target locale (posts may be
+  // English-only), fall back to that locale's blog index instead of a 404.
   const selectLocale = (next: Locale) => {
     setLocale(next)
-    const target = swapLocaleInPath(location.pathname, next)
+    let target = swapLocaleInPath(location.pathname, next)
+    const slug = blogSlugFromPath(location.pathname)
+    if (slug && !getPost(next, slug)) target = blogPath(next)
     if (target !== location.pathname) navigate(target)
   }
 

@@ -9,6 +9,9 @@ import { useHead } from '../seo/useHead'
 
 const MotionLink = motion.create(Link)
 
+// TODO: replace with the real invite before launch
+const DISCORD_URL = 'https://discord.gg/athletickle'
+
 // Design 10: INVERTED DARK BRUTALIST
 // Dark background, stark white/neon accents, aggressive angles, high contrast, intense energy
 
@@ -64,10 +67,28 @@ export default function Design10() {
     { id: '04', title: t('features.4.title'), desc: t('features.4.desc') },
   ]
 
+  const editions = [
+    {
+      id: 'V1',
+      title: t('editions.v1.title'),
+      desc: t('editions.v1.desc'),
+      tag: t('editions.v1.tag'),
+      chips: t('editions.v1.sports').split(',').map((s) => s.trim()),
+    },
+    {
+      id: 'V2',
+      title: t('editions.v2.title'),
+      desc: t('editions.v2.desc'),
+      tag: t('editions.v2.tag'),
+      chips: [t('editions.v2.track1'), t('editions.v2.track2'), t('editions.v2.track3')],
+    },
+  ]
+
   // '/#...' instead of '#...' so the links also work from /blog pages
   const navItems = [
     { label: t('nav.features'), href: '/#features' },
     { label: t('nav.system'), href: '/#system' },
+    { label: t('nav.editions'), href: '/#editions' },
     { label: t('nav.blog'), href: blogPath(locale) },
     { label: t('nav.download'), href: '/#download' },
   ]
@@ -92,12 +113,19 @@ export default function Design10() {
         <div className="absolute top-0 right-1/3 w-px h-full bg-gradient-to-b from-transparent via-white/10 to-transparent transform -rotate-12 origin-top" />
       </div>
 
+      {/* PRE-LAUNCH ANNOUNCEMENT BAR */}
+      <div className="fixed top-0 left-0 right-0 z-[60] h-10 flex items-center justify-center bg-[#D1622A] text-[#0a0a0a] px-4">
+        <span className="text-[10px] sm:text-xs tracking-[0.15em] font-['Space_Mono'] font-bold text-center truncate">
+          {t('launch.bar')}
+        </span>
+      </div>
+
       {/* NAV */}
       <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
-        className="fixed top-0 left-0 right-0 z-50 border-b border-white/10"
+        className="fixed top-10 left-0 right-0 z-50 border-b border-white/10"
       >
         <div className="flex items-center justify-between px-4 md:px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
           <div className="flex items-center gap-4">
@@ -146,7 +174,7 @@ export default function Design10() {
       </motion.nav>
 
       {/* HERO */}
-      <section className="min-h-screen pt-24 flex items-center relative overflow-hidden">
+      <section className="min-h-screen pt-36 flex items-center relative overflow-hidden">
         {/* Large background text */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
           <span className="text-[30vw] font-black text-white/[0.02] tracking-tighter">
@@ -182,26 +210,18 @@ export default function Design10() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <motion.button
-                  whileHover={{ scale: 1.02, x: 4 }}
-                  whileTap={{ scale: 0.98 }}
-                  className="group px-10 py-5 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold relative overflow-hidden"
-                >
-                  <span className="relative z-10 flex items-center gap-2">
-                    {t('hero.downloadFree')}
-                    <motion.span
-                      animate={{ x: [0, 4, 0] }}
-                      transition={{ repeat: Infinity, duration: 1.5 }}
-                    >
-                      →
-                    </motion.span>
-                  </span>
-                  <div className="absolute inset-0 bg-[#D1622A] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                </motion.button>
+                <div className="px-10 py-5 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold cursor-default opacity-90 flex items-center gap-2">
+                  {t('launch.cta')}
+                </div>
 
-                <button className="px-10 py-5 border-2 border-white/30 text-lg tracking-[0.1em] hover:border-white hover:bg-white/5 transition-all">
-                  {t('hero.watchDemo')}
-                </button>
+                <a
+                  href={DISCORD_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-10 py-5 border-2 border-white/30 text-lg tracking-[0.1em] hover:border-white hover:bg-white/5 transition-all text-center"
+                >
+                  {t('launch.discord')}
+                </a>
               </div>
             </motion.div>
 
@@ -310,6 +330,25 @@ export default function Design10() {
               </motion.div>
             ))}
           </div>
+
+          {/* Privacy-first note */}
+          <MotionLink
+            to={blogPath(locale, 'privacy-first-by-design')}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="group mt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border border-white/10 p-8 hover:bg-white/5 transition-colors"
+          >
+            <div className="flex items-center gap-4">
+              <span className="text-[#D1622A] text-xl" aria-hidden="true">🔒</span>
+              <span className="text-sm font-['Space_Mono'] text-white/60 leading-relaxed">
+                {t('privacy.strip')}
+              </span>
+            </div>
+            <span className="inline-flex items-center gap-2 text-xs tracking-[0.3em] font-['Space_Mono'] text-[#D1622A] whitespace-nowrap">
+              {t('privacy.stripLink')} <span aria-hidden="true">→</span>
+            </span>
+          </MotionLink>
         </div>
       </section>
 
@@ -383,6 +422,67 @@ export default function Design10() {
         </div>
       </section>
 
+      {/* EDITIONS */}
+      <section id="editions" className="py-32 relative">
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+
+        <div className="container mx-auto px-8">
+          <div className="flex items-end justify-between mb-6">
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-3 h-3 bg-[#D1622A]" />
+                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">{t('editions.kicker')}</span>
+              </div>
+              <h2 className="text-5xl md:text-6xl tracking-tight">
+                {t('editions.heading1')}<br />
+                <span className="text-white/30">{t('editions.heading2')}</span>
+              </h2>
+            </div>
+            <span className="text-[120px] font-black text-white/[0.03] leading-none hidden lg:block">02</span>
+          </div>
+
+          <p className="text-sm font-['Space_Mono'] text-white/50 mb-12 max-w-xl">{t('editions.shared')}</p>
+
+          <div className="grid md:grid-cols-2 gap-px bg-white/10">
+            {editions.map((edition, i) => (
+              <motion.div
+                key={edition.id}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.1 }}
+                viewport={{ once: true }}
+                className="bg-[#0a0a0a] p-10 group hover:bg-white/5 transition-colors relative overflow-hidden"
+              >
+                <div className="absolute top-0 left-0 w-1 h-0 bg-[#D1622A] group-hover:h-full transition-all duration-300" />
+
+                <div className="flex items-start justify-between mb-6 gap-4">
+                  <span className="text-5xl font-black text-white/10 group-hover:text-[#D1622A]/30 transition-colors">
+                    {edition.id}
+                  </span>
+                  <span className="text-[10px] tracking-[0.2em] font-['Space_Mono'] text-[#D1622A] border border-[#D1622A]/40 px-3 py-1 text-right">
+                    {edition.tag}
+                  </span>
+                </div>
+
+                <h3 className="text-xl tracking-wide mb-4">{edition.title}</h3>
+                <p className="text-sm font-['Space_Mono'] text-white/50 leading-relaxed mb-6">{edition.desc}</p>
+
+                <div className="flex flex-wrap gap-2">
+                  {edition.chips.map((chip) => (
+                    <span
+                      key={chip}
+                      className="text-xs font-['Space_Mono'] tracking-wide text-white/70 border border-white/15 px-3 py-1"
+                    >
+                      {chip}
+                    </span>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* STATS BAR */}
       <section className="py-16 border-y border-white/10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#D1622A]/5 via-transparent to-[#D1622A]/5" />
@@ -393,7 +493,7 @@ export default function Design10() {
               { num: '500+', label: t('stats.exercises') },
               { num: '∞', label: t('stats.programs') },
               { num: '24/7', label: t('stats.access') },
-              { num: t('stats.freeNum'), label: t('stats.forever') },
+              { num: t('stats.trialNum'), label: t('stats.trialLabel') },
             ].map((stat, i) => (
               <motion.div
                 key={i}
@@ -431,21 +531,18 @@ export default function Design10() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="px-12 py-6 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold hover:bg-[#D1622A] transition-colors"
-              >
-                {t('cta.ios')}
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="px-12 py-6 border-2 border-white text-lg tracking-[0.1em] hover:bg-white hover:text-[#0a0a0a] transition-colors"
-              >
-                {t('cta.android')}
-              </motion.button>
+              <div className="px-12 py-6 bg-white/10 text-white/60 text-lg tracking-[0.1em] font-bold cursor-default border border-white/10">
+                {t('launch.ios')}
+              </div>
+              <div className="px-12 py-6 border-2 border-white/20 text-white/60 text-lg tracking-[0.1em] cursor-default">
+                {t('launch.android')}
+              </div>
             </div>
+
+            <p className="text-xs font-['Space_Mono'] text-white/40 mt-8 tracking-wide">{t('launch.note')}</p>
+            <p className="text-xs font-['Space_Mono'] text-white/30 mt-2 tracking-wide">
+              <Link to="/terms" className="underline hover:text-white transition-colors">{t('launch.terms')}</Link>
+            </p>
           </motion.div>
         </div>
       </section>
@@ -460,9 +557,9 @@ export default function Design10() {
             </div>
             <div className="flex gap-8 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
               <Link to={blogPath(locale)} className="hover:text-white transition-colors">{t('nav.blog')}</Link>
-              <a href="#" className="hover:text-white transition-colors">{t('footer.privacy')}</a>
-              <a href="#" className="hover:text-white transition-colors">{t('footer.terms')}</a>
-              <a href="#" className="hover:text-white transition-colors">{t('footer.contact')}</a>
+              <Link to="/privacy" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
+              <Link to="/terms" className="hover:text-white transition-colors">{t('footer.terms')}</Link>
+              <Link to="/contact" className="hover:text-white transition-colors">{t('footer.contact')}</Link>
             </div>
           </div>
         </div>

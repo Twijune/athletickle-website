@@ -7,9 +7,12 @@ import { getAllSlugs, getPost } from './blog/posts'
 import {
   blogIndexMeta,
   blogPostMeta,
+  contactMeta,
   landingMeta,
   notFoundMeta,
+  privacyMeta,
   renderHead,
+  termsMeta,
   type Alternate,
   type PageMeta,
 } from './seo/meta'
@@ -56,6 +59,9 @@ export function getStaticRoutes(): StaticRoute[] {
       if (post) add(blogPostMeta(post), true, post.date)
     }
   }
+  add(termsMeta(), true)
+  add(privacyMeta(), true)
+  add(contactMeta(), true)
   add(notFoundMeta(), false)
   return routes
 }

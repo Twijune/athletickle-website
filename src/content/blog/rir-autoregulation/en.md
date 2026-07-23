@@ -36,4 +36,4 @@ Expect solid calibration within a few weeks of deliberate practice. Compound lif
 
 ## Let the System Do the Adjusting
 
-Logging RIR is step one. Acting on it consistently is where most lifters fall apart. Athletickle reads your logged RIR and rep performance, detects accumulating fatigue, and adjusts your next session's loads and volume automatically. When the data says you need a deload, it programs one before you stall. No spreadsheet surgery, no guesswork. [Download Athletickle free](/#download) and let your training respond to the lifter you are today.
+Logging RIR is step one. Acting on it consistently is where most lifters fall apart. Athletickle reads your logged RIR and rep performance, detects accumulating fatigue, and adjusts your next session's loads and volume automatically. When the data says you need a deload, it programs one before you stall. No spreadsheet surgery, no guesswork. [Start your free trial](/#download) and let your training respond to the lifter you are today.

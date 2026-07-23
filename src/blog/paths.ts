@@ -14,12 +14,25 @@ export interface Alternate {
   path: string
 }
 
-/** hreflang alternates for a blog index (no slug) or post (slug) page. */
-export function blogAlternates(slug?: string): Alternate[] {
+/**
+ * hreflang alternates for a blog index (no slug) or post (slug) page. `locales`
+ * defaults to all locales (indexes exist in every locale); pass a post's actual
+ * locales so an English-only post doesn't advertise pages that 404. x-default
+ * always points at English, which every post is required to have.
+ */
+export function blogAlternates(slug?: string, locales: readonly Locale[] = LOCALES): Alternate[] {
   return [
-    ...LOCALES.map((locale) => ({ hreflang: locale as string, path: blogPath(locale, slug) })),
+    ...locales.map((locale) => ({ hreflang: locale as string, path: blogPath(locale, slug) })),
     { hreflang: 'x-default', path: blogPath('en', slug) },
   ]
+}
+
+/** Slug of the blog post at `pathname`, or null if it isn't a blog post URL. */
+export function blogSlugFromPath(pathname: string): string | null {
+  const locale = localeFromPath(pathname)
+  if (!locale) return null
+  const prefix = locale === 'en' ? '/blog/' : `/${locale}/blog/`
+  return pathname.startsWith(prefix) ? pathname.slice(prefix.length) || null : null
 }
 
 /** Locale pinned by the URL, or null when the page manages its own locale. */

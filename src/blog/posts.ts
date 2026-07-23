@@ -80,8 +80,10 @@ const allPosts = Object.entries(files)
   .map(([file, raw]) => parsePost(file, raw))
   .filter((post) => !post.draft)
 
-// pSEO integrity: every post must exist in every locale under a shared slug,
-// otherwise hreflang alternates would point at 404s. Fails the build loudly.
+// Posts are English-first: every post must have an English (en) version, which
+// is the canonical/x-default base. Other locales are optional — a post may ship
+// English-only. Per-post hreflang alternates are trimmed to the locales that
+// actually exist (see blogAlternates + getPostLocales), so they never 404.
 const bySlug = new Map<string, Map<Locale, Post>>()
 for (const post of allPosts) {
   const variants = bySlug.get(post.slug) ?? new Map<Locale, Post>()
@@ -92,9 +94,8 @@ for (const post of allPosts) {
   bySlug.set(post.slug, variants)
 }
 for (const [slug, variants] of bySlug) {
-  const missing = LOCALES.filter((locale) => !variants.has(locale))
-  if (missing.length > 0) {
-    throw new Error(`Blog post ${slug}: missing translation(s): ${missing.join(', ')}`)
+  if (!variants.has('en')) {
+    throw new Error(`Blog post ${slug}: an English (en) version is required`)
   }
 }
 
@@ -110,4 +111,11 @@ export function getPost(lang: Locale, slug: string): Post | undefined {
 
 export function getAllSlugs(): string[] {
   return [...bySlug.keys()]
+}
+
+// Locales a given post actually has, in LOCALES order. Used to build hreflang
+// alternates that only point at pages that exist.
+export function getPostLocales(slug: string): Locale[] {
+  const variants = bySlug.get(slug)
+  return variants ? LOCALES.filter((locale) => variants.has(locale)) : []
 }

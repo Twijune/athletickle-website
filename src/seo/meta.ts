@@ -1,6 +1,6 @@
 import type { Locale } from '../i18n/translations'
 import { blogAlternates, blogPath, type Alternate } from '../blog/paths'
-import type { Post } from '../blog/posts'
+import { getPostLocales, type Post } from '../blog/posts'
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from './config'
 
 export type { Alternate }
@@ -26,7 +26,7 @@ const OG_LOCALE: Record<Locale, string> = {
 }
 
 const LANDING_DESCRIPTION =
-  'Athletickle is a free strength training app with algorithm-driven periodization: adaptive programming, fatigue detection, and 500+ exercises.'
+  'Athletickle is a strength training app with algorithm-driven periodization: adaptive programming, fatigue detection, and 500+ exercises. Start with a free trial.'
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
   en: {
@@ -98,7 +98,7 @@ export function blogPostMeta(post: Post): PageMeta {
     ogImage: post.cover ?? DEFAULT_OG_IMAGE,
     // full ISO datetime — the OG spec expects a datetime, not a bare date
     publishedTime: `${post.date}T00:00:00Z`,
-    alternates: blogAlternates(post.slug),
+    alternates: blogAlternates(post.slug, getPostLocales(post.slug)),
     jsonLd: [
       {
         '@context': 'https://schema.org',
@@ -114,6 +114,41 @@ export function blogPostMeta(post: Post): PageMeta {
         publisher: ORGANIZATION_JSON_LD,
       },
     ],
+  }
+}
+
+// Legal/contact pages are English-only canonical pages (no hreflang alternates).
+export function termsMeta(): PageMeta {
+  return {
+    title: `Terms of Use & EULA | ${SITE_NAME}`,
+    description:
+      'Athletickle Terms of Use and End User License Agreement, including the health disclaimer and assumption-of-risk terms for training with the app.',
+    path: '/terms',
+    locale: 'en',
+    ogType: 'website',
+    ogImage: DEFAULT_OG_IMAGE,
+  }
+}
+
+export function privacyMeta(): PageMeta {
+  return {
+    title: `Privacy Policy | ${SITE_NAME}`,
+    description: 'How Athletickle handles your data. Full privacy policy published ahead of launch.',
+    path: '/privacy',
+    locale: 'en',
+    ogType: 'website',
+    ogImage: DEFAULT_OG_IMAGE,
+  }
+}
+
+export function contactMeta(): PageMeta {
+  return {
+    title: `Contact | ${SITE_NAME}`,
+    description: 'Get in touch with the Athletickle team on Discord or by email.',
+    path: '/contact',
+    locale: 'en',
+    ogType: 'website',
+    ogImage: DEFAULT_OG_IMAGE,
   }
 }
 
