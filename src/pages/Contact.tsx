@@ -3,8 +3,7 @@ import BlogLayout from '../components/BlogLayout'
 import { contactMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
 
-// TODO: replace with the real invite before launch
-const DISCORD_URL = 'https://discord.gg/athletickle'
+const DISCORD_URL = 'https://discord.gg/PrXwF4QSuf'
 
 // Email is assembled at runtime so it never appears as plaintext in the
 // prerendered/static HTML that scrapers read. Parts kept separate on purpose.

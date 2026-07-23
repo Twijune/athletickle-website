@@ -9,8 +9,7 @@ import { useHead } from '../seo/useHead'
 
 const MotionLink = motion.create(Link)
 
-// TODO: replace with the real invite before launch
-const DISCORD_URL = 'https://discord.gg/athletickle'
+const DISCORD_URL = 'https://discord.gg/PrXwF4QSuf'
 
 // Design 10: INVERTED DARK BRUTALIST
 // Dark background, stark white/neon accents, aggressive angles, high contrast, intense energy
