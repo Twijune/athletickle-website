@@ -129,10 +129,10 @@ export default function Design10() {
         <div className="flex items-center justify-between px-4 md:px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
           <div className="flex items-center gap-4">
             <AthleLogo className="w-10 h-12" />
-            <span className="hidden sm:inline text-xl tracking-[0.3em]">ATHLETICKLE</span>
+            <span className="hidden sm:inline lg:hidden xl:inline text-xl tracking-[0.3em]">ATHLETICKLE</span>
           </div>
 
-          <div className="hidden md:flex items-center gap-12 text-sm tracking-[0.2em] font-['Space_Mono']">
+          <div className="hidden lg:flex items-center gap-6 xl:gap-12 text-sm tracking-[0.2em] font-['Space_Mono']">
             {navItems.map((item, i) => {
               const inner = (
                 <>
@@ -196,7 +196,7 @@ export default function Design10() {
                 </span>
               </div>
 
-              <h1 className="text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight mb-8">
+              <h1 className="text-6xl md:text-7xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-[0.9] tracking-tight mb-8">
                 <GlitchText>{t('hero.title1')}</GlitchText>
                 <br />
                 <span className="text-[#D1622A]">{t('hero.title2')}</span>
