@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from 'motion/react'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
+import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
 import { LOCALES, LOCALE_NAMES } from '../i18n/translations'
 import { useLanguage } from '../i18n/LanguageContext'
@@ -10,13 +11,27 @@ export interface NavItem {
   href: string
 }
 
+// createPortal needs document, so it must not run until we're on the client.
+// useSyncExternalStore rather than setState-in-effect: it returns the server
+// snapshot during SSR and hydration, so the trees still match.
+const subscribeToNothing = () => () => {}
+const onClient = () => true
+const onServer = () => false
+
 // Full-screen nav for < lg, where both layouts hide their link lists. Same
 // disclosure contract as LanguageSwitcher: Escape closes and returns focus to
 // the trigger. The panel only renders while open, so it stays out of the
 // prerendered HTML.
+//
+// The panel is portalled to <body> because both navs sit inside ancestors that
+// establish a containing block for position:fixed — the nav's motion transform
+// and the header's backdrop-blur. Rendered in place, `fixed inset-0` resolved
+// against the ~76px nav bar instead of the viewport and the menu came up empty.
 export default function MobileMenu({ navItems }: { navItems: NavItem[] }) {
   const { locale, t } = useLanguage()
   const [open, setOpen] = useState(false)
+  // false through SSR and the first client render, so hydration trees match
+  const mounted = useSyncExternalStore(subscribeToNothing, onClient, onServer)
   const triggerRef = useRef<HTMLButtonElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
   const selectLocale = useLocaleSwitch()
@@ -64,9 +79,10 @@ export default function MobileMenu({ navItems }: { navItems: NavItem[] }) {
         <span aria-hidden="true">☰</span>
       </button>
 
-      <AnimatePresence>
-        {open && (
-          <motion.div
+      {mounted && createPortal(
+        <AnimatePresence>
+          {open && (
+            <motion.div
             id="mobile-menu"
             role="dialog"
             aria-modal="true"
@@ -90,6 +106,18 @@ export default function MobileMenu({ navItems }: { navItems: NavItem[] }) {
             </div>
 
             <nav className="flex flex-col gap-6 mt-12">
+              <Link
+                to="/"
+                onClick={() => {
+                  close()
+                  // react-router v7 doesn't restore scroll, and Link to "/" is
+                  // a no-op when already on the landing page
+                  window.scrollTo({ top: 0 })
+                }}
+                className="text-[clamp(1.75rem,9vw,3rem)] tracking-tight text-white hover:text-[#D1622A] transition-colors"
+              >
+                {t('nav.home')}
+              </Link>
               {navItems.map((item) =>
                 // hash links scroll natively; route links stay SPA navigations
                 item.href.startsWith('/#') ? (
@@ -151,9 +179,11 @@ export default function MobileMenu({ navItems }: { navItems: NavItem[] }) {
                 ))}
               </div>
             </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            </motion.div>
+          )}
+        </AnimatePresence>,
+        document.body,
+      )}
     </>
   )
 }
