@@ -10,7 +10,7 @@ export interface NavItem {
   href: string
 }
 
-// Full-screen nav for < md, where both layouts hide their link lists. Same
+// Full-screen nav for < lg, where both layouts hide their link lists. Same
 // disclosure contract as LanguageSwitcher: Escape closes and returns focus to
 // the trigger. The panel only renders while open, so it stays out of the
 // prerendered HTML.
@@ -59,7 +59,7 @@ export default function MobileMenu({ navItems }: { navItems: NavItem[] }) {
         aria-expanded={open}
         aria-controls="mobile-menu"
         aria-label={t('nav.menu')}
-        className="md:hidden flex items-center justify-center w-11 h-11 -mr-1 border-2 border-white/30 text-lg hover:border-white hover:bg-white/5 transition-all"
+        className="lg:hidden flex items-center justify-center w-11 h-11 -mr-1 border-2 border-white/30 text-lg hover:border-white hover:bg-white/5 transition-all"
       >
         <span aria-hidden="true">☰</span>
       </button>
@@ -75,7 +75,7 @@ export default function MobileMenu({ navItems }: { navItems: NavItem[] }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
-            className="md:hidden fixed inset-0 z-[70] bg-[#0a0a0a] flex flex-col px-5 py-4 overflow-y-auto"
+            className="lg:hidden fixed inset-0 z-[70] bg-[#0a0a0a] flex flex-col px-5 py-4 overflow-y-auto"
           >
             <div className="flex items-center justify-between">
               <img src="/athletickle-favicon-256.png" alt="Athletickle" className="w-10 h-12" />

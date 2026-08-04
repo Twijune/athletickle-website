@@ -35,7 +35,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
             <span className="hidden sm:inline text-xl tracking-[0.3em]">ATHLETICKLE</span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-12 text-sm tracking-[0.2em] font-['Space_Mono']">
+          <div className="hidden lg:flex items-center gap-6 xl:gap-12 text-sm tracking-[0.2em] font-['Space_Mono']">
             {navItems.map((item) =>
               item.href.startsWith('/#') ? (
                 <a
