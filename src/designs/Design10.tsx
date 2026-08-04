@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform } from 'motion/react'
 import { useRef, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import LanguageSwitcher from '../components/LanguageSwitcher'
+import MobileMenu from '../components/MobileMenu'
 import { useLanguage } from '../i18n/LanguageContext'
 import { blogPath } from '../blog/paths'
 import { landingMeta } from '../seo/meta'
@@ -126,7 +127,7 @@ export default function Design10() {
         transition={{ duration: 0.5 }}
         className="fixed top-10 left-0 right-0 z-50 border-b border-white/10"
       >
-        <div className="flex items-center justify-between px-4 md:px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
+        <div className="flex items-center justify-between px-5 md:px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
           <div className="flex items-center gap-4">
             <AthleLogo className="w-10 h-12" />
             <span className="hidden sm:inline text-xl tracking-[0.3em]">ATHLETICKLE</span>
@@ -161,19 +162,21 @@ export default function Design10() {
 
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
-            <motion.button
+            <motion.a
+              href="/#download"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="px-6 py-3 bg-white text-[#0a0a0a] text-sm tracking-[0.2em] font-bold hover:bg-[#D1622A] transition-colors"
+              className="hidden md:block px-6 py-3 bg-white text-[#0a0a0a] text-sm tracking-[0.2em] font-bold hover:bg-[#D1622A] transition-colors"
             >
               {t('nav.getApp')}
-            </motion.button>
+            </motion.a>
+            <MobileMenu navItems={navItems} />
           </div>
         </div>
       </motion.nav>
 
       {/* HERO */}
-      <section className="min-h-screen pt-36 flex items-center relative overflow-hidden">
+      <section className="min-h-screen pt-32 md:pt-36 flex items-center relative overflow-hidden">
         {/* Large background text */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
           <span className="text-[30vw] font-black text-white/[0.02] tracking-tighter">
@@ -181,7 +184,7 @@ export default function Design10() {
           </span>
         </div>
 
-        <div className="container mx-auto px-8 relative z-10">
+        <div className="container mx-auto px-5 md:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -196,7 +199,7 @@ export default function Design10() {
                 </span>
               </div>
 
-              <h1 className="text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight mb-8">
+              <h1 className="text-[clamp(2rem,11.5vw,4.5rem)] lg:text-8xl leading-[0.9] tracking-tight mb-8">
                 <GlitchText>{t('hero.title1')}</GlitchText>
                 <br />
                 <span className="text-[#D1622A]">{t('hero.title2')}</span>
@@ -209,7 +212,7 @@ export default function Design10() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <div className="px-10 py-5 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold cursor-default opacity-90 flex items-center gap-2">
+                <div className="px-8 py-4 md:px-10 md:py-5 bg-white text-[#0a0a0a] text-lg tracking-[0.1em] font-bold cursor-default opacity-90 flex items-center gap-2">
                   {t('launch.cta')}
                 </div>
 
@@ -217,7 +220,7 @@ export default function Design10() {
                   href={DISCORD_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-10 py-5 border-2 border-white/30 text-lg tracking-[0.1em] hover:border-white hover:bg-white/5 transition-all text-center"
+                  className="px-8 py-4 md:px-10 md:py-5 border-2 border-white/30 text-lg tracking-[0.1em] hover:border-white hover:bg-white/5 transition-all text-center"
                 >
                   {t('launch.discord')}
                 </a>
@@ -232,8 +235,8 @@ export default function Design10() {
               className="relative"
             >
               {/* Aggressive frame */}
-              <div className="absolute -inset-4 border-2 border-white/20 transform -skew-x-2" />
-              <div className="absolute -inset-8 border border-[#D1622A]/30 transform skew-x-3" />
+              <div className="absolute -inset-2 md:-inset-4 border-2 border-white/20 transform -skew-x-2" />
+              <div className="absolute -inset-4 md:-inset-8 border border-[#D1622A]/30 transform skew-x-3" />
 
               <div className="relative">
                 {/* Corner accents */}
@@ -252,7 +255,7 @@ export default function Design10() {
                 <motion.div
                   animate={{ y: [-5, 5, -5] }}
                   transition={{ repeat: Infinity, duration: 3 }}
-                  className="absolute -top-6 -right-6 px-4 py-2 bg-[#D1622A] text-[#0a0a0a] text-xs font-['Space_Mono'] tracking-wider"
+                  className="absolute -top-4 -right-2 md:-top-6 md:-right-6 px-4 py-2 bg-[#D1622A] text-[#0a0a0a] text-xs font-['Space_Mono'] tracking-wider"
                 >
                   {t('hero.floatingStat')}
                 </motion.div>
@@ -280,18 +283,18 @@ export default function Design10() {
       </section>
 
       {/* FEATURES */}
-      <section id="features" className="py-32 relative">
+      <section id="features" className="py-20 md:py-32 relative">
         {/* Section accent line */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-5 md:px-8">
           <div className="flex items-end justify-between mb-16">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-3 h-3 bg-[#D1622A]" />
                 <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">{t('features.kicker')}</span>
               </div>
-              <h2 className="text-5xl md:text-6xl tracking-tight">
+              <h2 className="text-[clamp(1.75rem,9vw,3.75rem)] tracking-tight">
                 {t('features.heading1')}<br />
                 <span className="text-white/30">{t('features.heading2')}</span>
               </h2>
@@ -307,7 +310,7 @@ export default function Design10() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-[#0a0a0a] p-10 group hover:bg-white/5 transition-colors relative overflow-hidden"
+                className="bg-[#0a0a0a] p-6 md:p-10 group hover:bg-white/5 transition-colors relative overflow-hidden"
               >
                 {/* Hover accent */}
                 <div className="absolute top-0 left-0 w-1 h-0 bg-[#D1622A] group-hover:h-full transition-all duration-300" />
@@ -336,7 +339,7 @@ export default function Design10() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="group mt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border border-white/10 p-8 hover:bg-white/5 transition-colors"
+            className="group mt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border border-white/10 p-6 md:p-8 hover:bg-white/5 transition-colors"
           >
             <div className="flex items-center gap-4">
               <span className="text-[#D1622A] text-xl" aria-hidden="true">🔒</span>
@@ -352,19 +355,19 @@ export default function Design10() {
       </section>
 
       {/* SYSTEM */}
-      <section id="system" className="py-32 relative overflow-hidden">
+      <section id="system" className="py-20 md:py-32 relative overflow-hidden">
         {/* Diagonal background element */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#D1622A]/5 to-transparent transform skew-x-12 origin-top-right" />
         </div>
 
-        <div className="container mx-auto px-8 relative z-10">
+        <div className="container mx-auto px-5 md:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <motion.div
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="grid grid-cols-2 gap-4"
+              className="grid grid-cols-1 sm:grid-cols-2 gap-4"
             >
               <div className="relative">
                 <div className="absolute -inset-2 bg-[#D1622A]/20 transform -skew-x-3" />
@@ -373,7 +376,7 @@ export default function Design10() {
                 </div>
                 <p className="text-xs font-['Space_Mono'] text-white/30 mt-3 text-center tracking-wider">{t('system.captionBuilder')}</p>
               </div>
-              <div className="relative mt-12">
+              <div className="relative sm:mt-12">
                 <div className="absolute -inset-2 bg-white/10 transform skew-x-3" />
                 <div className="relative bg-[#0a0a0a] border border-white/10 p-2">
                   <img src="/previewofprogram.png" alt={t('system.captionSession')} className="w-full" />
@@ -392,7 +395,7 @@ export default function Design10() {
                 <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">{t('system.kicker')}</span>
               </div>
 
-              <h2 className="text-5xl md:text-6xl tracking-tight leading-tight mb-8">
+              <h2 className="text-[clamp(1.75rem,9vw,3.75rem)] tracking-tight leading-tight mb-8">
                 {t('system.heading1')}<br />
                 <span className="text-[#D1622A]">{t('system.heading2')}</span>
               </h2>
@@ -422,17 +425,17 @@ export default function Design10() {
       </section>
 
       {/* EDITIONS */}
-      <section id="editions" className="py-32 relative">
+      <section id="editions" className="py-20 md:py-32 relative">
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-5 md:px-8">
           <div className="flex items-end justify-between mb-6">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-3 h-3 bg-[#D1622A]" />
                 <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">{t('editions.kicker')}</span>
               </div>
-              <h2 className="text-5xl md:text-6xl tracking-tight">
+              <h2 className="text-[clamp(1.75rem,9vw,3.75rem)] tracking-tight">
                 {t('editions.heading1')}<br />
                 <span className="text-white/30">{t('editions.heading2')}</span>
               </h2>
@@ -450,7 +453,7 @@ export default function Design10() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-[#0a0a0a] p-10 group hover:bg-white/5 transition-colors relative overflow-hidden"
+                className="bg-[#0a0a0a] p-6 md:p-10 group hover:bg-white/5 transition-colors relative overflow-hidden"
               >
                 <div className="absolute top-0 left-0 w-1 h-0 bg-[#D1622A] group-hover:h-full transition-all duration-300" />
 
@@ -483,11 +486,11 @@ export default function Design10() {
       </section>
 
       {/* STATS BAR */}
-      <section className="py-16 border-y border-white/10 relative overflow-hidden">
+      <section className="py-12 md:py-16 border-y border-white/10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#D1622A]/5 via-transparent to-[#D1622A]/5" />
 
-        <div className="container mx-auto px-8 relative z-10">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="container mx-auto px-5 md:px-8 relative z-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
             {[
               { num: '500+', label: t('stats.exercises') },
               { num: '∞', label: t('stats.programs') },
@@ -501,7 +504,7 @@ export default function Design10() {
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
               >
-                <div className="text-5xl md:text-6xl font-black text-[#D1622A] mb-2">{stat.num}</div>
+                <div className="text-[clamp(1.5rem,7vw,3rem)] md:text-6xl font-black text-[#D1622A] mb-2">{stat.num}</div>
                 <div className="text-xs tracking-[0.3em] text-white/40 font-['Space_Mono']">{stat.label}</div>
               </motion.div>
             ))}
@@ -510,8 +513,8 @@ export default function Design10() {
       </section>
 
       {/* CTA */}
-      <section id="download" className="py-32 relative">
-        <div className="container mx-auto px-8 text-center relative z-10">
+      <section id="download" className="py-20 md:py-32 relative">
+        <div className="container mx-auto px-5 md:px-8 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -519,7 +522,7 @@ export default function Design10() {
           >
             <AthleLogo className="w-20 h-24 mx-auto mb-8" />
 
-            <h2 className="text-6xl md:text-8xl tracking-tight mb-8">
+            <h2 className="text-[clamp(2rem,11.5vw,4.5rem)] md:text-8xl tracking-tight mb-8">
               <GlitchText>{t('cta.title1')}</GlitchText>
               <br />
               <span className="text-[#D1622A]">{t('cta.title2')}</span>
@@ -530,10 +533,10 @@ export default function Design10() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <div className="px-12 py-6 bg-white/10 text-white/60 text-lg tracking-[0.1em] font-bold cursor-default border border-white/10">
+              <div className="px-8 py-5 md:px-12 md:py-6 bg-white/10 text-white/60 text-lg tracking-[0.1em] font-bold cursor-default border border-white/10">
                 {t('launch.ios')}
               </div>
-              <div className="px-12 py-6 border-2 border-white/20 text-white/60 text-lg tracking-[0.1em] cursor-default">
+              <div className="px-8 py-5 md:px-12 md:py-6 border-2 border-white/20 text-white/60 text-lg tracking-[0.1em] cursor-default">
                 {t('launch.android')}
               </div>
             </div>
@@ -548,13 +551,13 @@ export default function Design10() {
 
       {/* FOOTER */}
       <footer className="py-8 border-t border-white/10">
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-5 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <AthleLogo className="w-8 h-10" />
               <span className="text-sm tracking-[0.2em]">ATHLETICKLE © 2026</span>
             </div>
-            <div className="flex gap-8 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
               <Link to={blogPath(locale)} className="hover:text-white transition-colors">{t('nav.blog')}</Link>
               <Link to="/privacy" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
               <Link to="/terms" className="hover:text-white transition-colors">{t('footer.terms')}</Link>

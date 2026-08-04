@@ -1,6 +1,7 @@
 import { motion } from 'motion/react'
 import { Link } from 'react-router-dom'
 import LanguageSwitcher from './LanguageSwitcher'
+import MobileMenu from './MobileMenu'
 import { useLanguage } from '../i18n/LanguageContext'
 import { blogPath } from '../blog/paths'
 
@@ -28,7 +29,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
         animate={{ y: 0 }}
         className="fixed top-0 left-0 right-0 z-50 border-b border-white/10"
       >
-        <div className="flex items-center justify-between px-4 md:px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
+        <div className="flex items-center justify-between px-5 md:px-8 py-4 bg-[#0a0a0a]/90 backdrop-blur-md">
           <Link to="/" className="flex items-center gap-4">
             <AthleLogo className="w-10 h-12" />
             <span className="hidden sm:inline text-xl tracking-[0.3em]">ATHLETICKLE</span>
@@ -60,6 +61,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
 
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
+            <MobileMenu navItems={navItems} />
           </div>
         </div>
       </motion.nav>
@@ -68,13 +70,13 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
 
       {/* FOOTER */}
       <footer className="py-8 border-t border-white/10 mt-24">
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-5 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <Link to="/" className="flex items-center gap-4">
               <AthleLogo className="w-8 h-10" />
               <span className="text-sm tracking-[0.2em]">ATHLETICKLE © 2026</span>
             </Link>
-            <div className="flex gap-8 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-xs tracking-[0.2em] text-white/40 font-['Space_Mono']">
               <Link to={blogPath(locale)} className="hover:text-white transition-colors">
                 {t('nav.blog')}
               </Link>
