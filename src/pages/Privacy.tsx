@@ -9,14 +9,15 @@ import { useHead } from '../seo/useHead'
 // Before publishing:
 //  - Sign a Data Processing Agreement (DPA) with Glyphex and confirm the region
 //    they host/process in, then complete the "International transfers" section.
-//  - The "the app collects nothing off-device" claim (§4/§6) is accurate today
+//  - The "the app collects nothing off-device" claim (§3/§6) is accurate today
 //    (fully local, no crash/push/in-app-analytics SDKs). Re-check it if any SDK
-//    that sends data off the device is ever added.
+//    that sends data off the device is ever added. Vimeo (§4) is the one place
+//    a tap leaves the device, and it is the user's own browser that goes there.
 
 const COMPANY = '[[Company legal name]]'
 const CONTROLLER_COUNTRY = '[[country where you/your company are based]]'
 const MIN_AGE = '16'
-const LAST_UPDATED = '23 July 2026'
+const LAST_UPDATED = '8 September 2026'
 
 const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
   <section className="mb-12">
@@ -137,7 +138,17 @@ export default function Privacy() {
           </p>
         </Section>
 
-        <Section title="4. Subscriptions & Payments">
+        <Section title="4. Exercise Videos (Vimeo)">
+          <p>
+            Exercise demonstrations are hosted on Vimeo. The app does not embed or preload them: a
+            link opens in your browser or the Vimeo app only when you tap it. When you do, Vimeo
+            receives your IP address and may set its own cookies, as an independent controller under
+            its own <Ext href="https://vimeo.com/privacy">privacy policy</Ext>. We receive nothing
+            back — we cannot see which videos you watch, or whether you watch any.
+          </p>
+        </Section>
+
+        <Section title="5. Subscriptions & Payments">
           <p>
             Subscriptions are purchased and managed through the{' '}
             <Ext href="https://www.apple.com/legal/privacy/">Apple App Store</Ext> or{' '}
@@ -148,7 +159,7 @@ export default function Privacy() {
           </p>
         </Section>
 
-        <Section title="5. What We Do Not Do">
+        <Section title="6. What We Do Not Do">
           <ul className="space-y-3">
             {[
               'We do not require or offer user accounts.',
@@ -166,11 +177,15 @@ export default function Privacy() {
           </ul>
         </Section>
 
-        <Section title="6. Third-Party Services">
+        <Section title="7. Third-Party Services">
           <p>The only third parties involved in the Service are:</p>
           <ul className="space-y-3">
             {[
               ['Glyphex', 'Cookieless website analytics (processor). glyphex.io'],
+              [
+                'Vimeo',
+                'Hosting for exercise demonstration videos, opened outside the app when you tap a link. vimeo.com',
+              ],
               ['Apple', 'App Store distribution, payments, and subscriptions.'],
               ['Google', 'Google Play distribution, payments, and subscriptions.'],
             ].map(([name, role]) => (
@@ -184,7 +199,7 @@ export default function Privacy() {
           </ul>
         </Section>
 
-        <Section title="7. International Transfers">
+        <Section title="8. International Transfers">
           <p>
             Glyphex and the app stores may process data outside your country, including outside the
             EU/EEA. Where that happens, transfers are covered by appropriate safeguards (such as the
@@ -193,7 +208,7 @@ export default function Privacy() {
           </p>
         </Section>
 
-        <Section title="8. Data Retention">
+        <Section title="9. Data Retention">
           <p>
             Website analytics are retained by Glyphex only in anonymous, aggregate form. Because the
             app is local-first, any data it creates lives only on your device and is removed when you
@@ -201,7 +216,7 @@ export default function Privacy() {
           </p>
         </Section>
 
-        <Section title="9. Your Rights">
+        <Section title="10. Your Rights">
           <p>
             If you are in the EU, EEA, or UK, you have rights under the GDPR / UK GDPR, including the
             rights to access, correct, erase, restrict, object to, and port your personal data. Note
@@ -223,14 +238,14 @@ export default function Privacy() {
           </p>
         </Section>
 
-        <Section title="10. Children">
+        <Section title="11. Children">
           <p>
             The Service is not directed to children under {MIN_AGE}, and we do not knowingly collect
             personal data from them.
           </p>
         </Section>
 
-        <Section title="11. Changes to This Policy">
+        <Section title="12. Changes to This Policy">
           <p>
             We may update this policy from time to time. When we do, we will revise the
             &ldquo;Last updated&rdquo; date above and, where the change is material, provide
@@ -238,7 +253,7 @@ export default function Privacy() {
           </p>
         </Section>
 
-        <Section title="12. Contact">
+        <Section title="13. Contact">
           <p>
             Questions about this policy or your data? Reach us via our{' '}
             <a
