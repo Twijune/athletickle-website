@@ -67,6 +67,18 @@ export default function Design10() {
     { id: '04', title: t('features.4.title'), desc: t('features.4.desc') },
   ]
 
+  const models = [
+    { id: '01', title: t('models.1.title'), desc: t('models.1.desc') },
+    { id: '02', title: t('models.2.title'), desc: t('models.2.desc') },
+    { id: '03', title: t('models.3.title'), desc: t('models.3.desc') },
+    { id: '04', title: t('models.4.title'), desc: t('models.4.desc') },
+  ]
+
+  const modelEditions = [
+    { label: t('models.str.label'), desc: t('models.str.desc') },
+    { label: t('models.pk.label'), desc: t('models.pk.desc') },
+  ]
+
   const editions = [
     {
       id: 'V1',
@@ -354,6 +366,71 @@ export default function Design10() {
         </div>
       </section>
 
+      {/* PERIODIZATION MODELS */}
+      <section id="models" className="py-20 md:py-32 relative">
+        {/* Section accent line */}
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+
+        <div className="container mx-auto px-5 md:px-8">
+          <div className="flex items-end justify-between mb-8">
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-3 h-3 bg-[#D1622A]" />
+                <span className="text-xs tracking-[0.4em] text-[#D1622A] font-['Space_Mono']">{t('models.kicker')}</span>
+              </div>
+              <h2 className="text-[clamp(1.75rem,9vw,3.75rem)] tracking-tight">
+                {t('models.heading1')}<br />
+                <span className="text-white/30">{t('models.heading2')}</span>
+              </h2>
+            </div>
+            <span className="text-[120px] font-black text-white/[0.03] leading-none hidden lg:block">02</span>
+          </div>
+
+          <p className="text-sm md:text-base font-['Space_Mono'] text-white/50 leading-relaxed max-w-3xl mb-12">
+            {t('models.paragraph')}
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-px bg-white/10">
+            {models.map((model, i) => (
+              <motion.div
+                key={model.id}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.1 }}
+                viewport={{ once: true }}
+                className="bg-[#0a0a0a] p-6 md:p-10 group hover:bg-white/5 transition-colors relative overflow-hidden"
+              >
+                {/* Hover accent */}
+                <div className="absolute top-0 left-0 w-1 h-0 bg-[#D1622A] group-hover:h-full transition-all duration-300" />
+
+                <span className="text-5xl font-black text-white/10 group-hover:text-[#D1622A]/30 transition-colors">
+                  {model.id}
+                </span>
+
+                <h3 className="text-xl tracking-wide mt-6 mb-4">{model.title}</h3>
+                <p className="text-sm font-['Space_Mono'] text-white/50 leading-relaxed">{model.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+
+          {/* What each edition adds on top */}
+          <div className="grid md:grid-cols-2 gap-4 mt-4">
+            {modelEditions.map((edition) => (
+              <motion.div
+                key={edition.label}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="border border-white/10 p-6 md:p-8"
+              >
+                <div className="text-xs tracking-[0.3em] text-[#D1622A] font-['Space_Mono'] mb-3">{edition.label}</div>
+                <p className="text-sm font-['Space_Mono'] text-white/60 leading-relaxed">{edition.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* SYSTEM */}
       <section id="system" className="py-20 md:py-32 relative overflow-hidden">
         {/* Diagonal background element */}
@@ -440,7 +517,7 @@ export default function Design10() {
                 <span className="text-white/30">{t('editions.heading2')}</span>
               </h2>
             </div>
-            <span className="text-[120px] font-black text-white/[0.03] leading-none hidden lg:block">02</span>
+            <span className="text-[120px] font-black text-white/[0.03] leading-none hidden lg:block">03</span>
           </div>
 
           <p className="text-sm font-['Space_Mono'] text-white/50 mb-12 max-w-xl">{t('editions.shared')}</p>
@@ -493,7 +570,7 @@ export default function Design10() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
             {[
               { num: '250+', label: t('stats.exercises') },
-              { num: '∞', label: t('stats.programs') },
+              { num: '10', label: t('stats.programs') },
               { num: '24/7', label: t('stats.access') },
               { num: t('stats.trialNum'), label: t('stats.trialLabel') },
             ].map((stat, i) => (
