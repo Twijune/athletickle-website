@@ -492,7 +492,7 @@ export default function Design10() {
         <div className="container mx-auto px-5 md:px-8 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
             {[
-              { num: '500+', label: t('stats.exercises') },
+              { num: '250+', label: t('stats.exercises') },
               { num: '∞', label: t('stats.programs') },
               { num: '24/7', label: t('stats.access') },
               { num: t('stats.trialNum'), label: t('stats.trialLabel') },

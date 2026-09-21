@@ -45,4 +45,4 @@ Privacy-first isn't just a nice principle; it's a better deal:
 
 We'll be honest about the tradeoff: keeping everything on-device means we don't offer cloud backup or cross-device sync yet. If we ever add it, it will be opt-in, clearly explained, and designed to keep as much on your device as possible — not a reason to start hoovering up your data.
 
-Want the details in plain terms? Read our [Privacy Policy](/privacy). Ready to train? [Start your free trial](/#download).
+Want the details in plain terms? Read our [Privacy Policy](/privacy). Ready to train? [Start free](/#download).

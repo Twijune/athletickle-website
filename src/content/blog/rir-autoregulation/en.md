@@ -34,6 +34,6 @@ Untrained estimates run optimistic. Most lifters think they're at 2 RIR when the
 
 Expect solid calibration within a few weeks of deliberate practice. Compound lifts take longer than isolation work.
 
-## Let the System Do the Adjusting
+## Let the System Call the Direction
 
-Logging RIR is step one. Acting on it consistently is where most lifters fall apart. Athletickle reads your logged RIR and rep performance, detects accumulating fatigue, and adjusts your next session's loads and volume automatically. When the data says you need a deload, it programs one before you stall. No spreadsheet surgery, no guesswork. [Start your free trial](/#download) and let your training respond to the lifter you are today.
+Logging RIR is step one. Acting on it consistently is where most lifters fall apart. Athletickle reads your logged RIR and rep performance and tells you which way to take the load next time — add, repeat, or ease back. It never names the number, because it doesn't track your 1RM. And every block ends in a deload that was scheduled from the start, not bolted on once you stall. No spreadsheet surgery, no guesswork. [Start free — your first four weeks](/#download) and let your training respond to the lifter you are today.

@@ -26,7 +26,7 @@ const OG_LOCALE: Record<Locale, string> = {
 }
 
 const LANDING_DESCRIPTION =
-  'Athletickle is a strength training app with algorithm-driven periodization: adaptive programming, fatigue detection, and 500+ exercises. Start with a free trial.'
+  'Athletickle is a strength training app with algorithm-driven periodization: adaptive programming, a recovery check-in each block, and 250+ exercises. Your first four weeks are free.'
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
   en: {

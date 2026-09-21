@@ -34,6 +34,6 @@ Sans pratique, on surestime. La plupart des pratiquants pensent être à 2 RIR a
 
 Compte quelques semaines de pratique délibérée pour obtenir une calibration solide. Les mouvements polyarticulaires demandent plus de temps que le travail d'isolation.
 
-## Laisse le système faire les ajustements
+## Laisse le système indiquer la direction
 
-Noter son RIR, c'est la première étape. L'exploiter avec constance, c'est là que la plupart des pratiquants décrochent. Athletickle lit le RIR et les répétitions que tu enregistres, détecte la fatigue qui s'accumule et ajuste automatiquement les charges et le volume de ta prochaine séance. Quand les données montrent qu'un deload s'impose, il est programmé avant que tu ne stagnes. Pas de bidouillage de tableur, pas de devinettes. [Commence ton essai gratuit](/#download) et laisse ton entraînement s'adapter au pratiquant que tu es aujourd'hui.
+Noter son RIR, c'est la première étape. L'exploiter avec constance, c'est là que la plupart des pratiquants décrochent. Athletickle lit le RIR et les répétitions que tu enregistres et te dit dans quel sens emmener la charge la prochaine fois : ajouter, répéter ou revenir en arrière. Il ne nomme jamais le chiffre, parce qu'il ne suit pas ton 1RM. Et chaque bloc se termine par un deload prévu dès le départ, pas ajouté une fois que tu stagnes. Pas de bidouillage de tableur, pas de devinettes. [Commence gratuitement — tes 4 premières semaines](/#download) et laisse ton entraînement s'adapter au pratiquant que tu es aujourd'hui.

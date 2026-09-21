@@ -34,6 +34,6 @@ Ungeübte Schätzungen fallen zu optimistisch aus. Die meisten Athleten glauben,
 
 Mit ein paar Wochen bewusster Übung erreichst du eine solide Kalibrierung. Bei Grundübungen dauert es länger als bei Isolationsübungen.
 
-## Überlass dem System das Anpassen
+## Überlass dem System die Richtung
 
-RIR zu protokollieren ist Schritt eins. Konsequent danach zu handeln – genau daran scheitern die meisten. Athletickle liest dein protokolliertes RIR und deine Wiederholungsleistung, erkennt sich aufbauende Ermüdung und passt Lasten und Volumen deiner nächsten Einheit automatisch an. Wenn die Daten zeigen, dass du einen Deload brauchst, plant die App ihn ein, bevor du stagnierst. Keine Tabellen-Bastelei, kein Rätselraten. [Starte deine kostenlose Testphase](/#download) und lass dein Training auf den Athleten reagieren, der du heute bist.
+RIR zu protokollieren ist Schritt eins. Konsequent danach zu handeln – genau daran scheitern die meisten. Athletickle liest dein protokolliertes RIR und deine Wiederholungsleistung und sagt dir, in welche Richtung die Last beim nächsten Mal gehen soll: drauflegen, halten oder zurücknehmen. Die Zahl nennt die App nie, denn sie führt kein 1RM. Und jeder Block endet mit einem Deload, der von Anfang an eingeplant war – nicht erst, wenn du stagnierst. Keine Tabellen-Bastelei, kein Rätselraten. [Starte gratis – deine ersten 4 Wochen](/#download) und lass dein Training auf den Athleten reagieren, der du heute bist.

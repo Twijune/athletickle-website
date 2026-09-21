@@ -34,6 +34,6 @@ Sin práctica, las estimaciones pecan de optimistas. La mayoría de levantadores
 
 Con unas semanas de práctica deliberada tendrás una calibración sólida. Los básicos multiarticulares cuestan más de calibrar que el trabajo de aislamiento.
 
-## Deja que el sistema haga los ajustes
+## Deja que el sistema marque la dirección
 
-Registrar el RIR es el primer paso. Aplicarlo con constancia es donde la mayoría se queda a medias. Athletickle lee tu RIR registrado y tu rendimiento en repeticiones, detecta la fatiga que se va acumulando y ajusta automáticamente las cargas y el volumen de tu próxima sesión. Cuando los datos dicen que necesitas un deload, lo programa antes de que te estanques. Sin cirugía de hojas de cálculo, sin conjeturas. [Empieza tu prueba gratuita](/#download) y deja que tu entrenamiento responda al levantador que eres hoy.
+Registrar el RIR es el primer paso. Aplicarlo con constancia es donde la mayoría se queda a medias. Athletickle lee tu RIR registrado y tu rendimiento en repeticiones y te dice hacia dónde llevar la carga la próxima vez: subir, repetir o aflojar. Nunca nombra el número, porque no registra tu 1RM. Y cada bloque termina con un deload planificado desde el principio, no añadido cuando ya te has estancado. Sin cirugía de hojas de cálculo, sin conjeturas. [Empieza gratis: tus primeras 4 semanas](/#download) y deja que tu entrenamiento responda al levantador que eres hoy.
