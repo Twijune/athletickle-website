@@ -5,6 +5,8 @@ import App from './App'
 import { LOCALES, type Locale } from './i18n/translations'
 import { getAllSlugs, getPost } from './blog/posts'
 import {
+  aboutMeta,
+  editionMeta,
   blogIndexMeta,
   blogPostMeta,
   contactMeta,
@@ -52,6 +54,9 @@ export function getStaticRoutes(): StaticRoute[] {
   }
 
   add(landingMeta(), true)
+  add(editionMeta('parkour'), true)
+  add(editionMeta('strength'), true)
+  add(aboutMeta(), true)
   for (const locale of LOCALES) add(blogIndexMeta(locale), true)
   for (const slug of getAllSlugs()) {
     for (const locale of LOCALES) {

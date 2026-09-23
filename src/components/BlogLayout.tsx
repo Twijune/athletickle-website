@@ -13,7 +13,9 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
   const { locale, t } = useLanguage()
 
   const navItems = [
-    { label: t('nav.features'), href: '/#features' },
+    { label: 'Parkour', href: '/parkour' },
+    { label: 'Strength', href: '/strength' },
+    { label: 'Founder (EN)', href: '/about' },
     { label: t('nav.editions'), href: '/#editions' },
     { label: t('nav.blog'), href: blogPath(locale) },
     { label: t('nav.download'), href: '/#download' },

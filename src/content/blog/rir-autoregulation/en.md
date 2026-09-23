@@ -36,4 +36,4 @@ Expect solid calibration within a few weeks of deliberate practice. Compound lif
 
 ## Let the System Call the Direction
 
-Logging RIR is step one. Acting on it consistently is where most lifters fall apart. Athletickle reads your logged RIR and rep performance and tells you which way to take the load next time — add, repeat, or ease back. It never names the number, because it doesn't track your 1RM. And every block ends in a deload that was scheduled from the start, not bolted on once you stall. No spreadsheet surgery, no guesswork. [Start free — your first four weeks](/#download) and let your training respond to the lifter you are today.
+Athletickle Strength provides load-direction cues from the reps and RIR you log: add, repeat, or ease back. It does not choose a weight for you or rewrite the current block after each session. Each block includes a scheduled deload, and your end-of-block feedback informs the next block. Both apps are pre-launch. [Explore Strength](/strength) or [join the beta community](/#download).

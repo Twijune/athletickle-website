@@ -1,3 +1,4 @@
+import { editions, type Edition } from '../data/marketing'
 import type { Locale } from '../i18n/translations'
 import { blogAlternates, blogPath, type Alternate } from '../blog/paths'
 import { getPostLocales, type Post } from '../blog/posts'
@@ -26,7 +27,7 @@ const OG_LOCALE: Record<Locale, string> = {
 }
 
 const LANDING_DESCRIPTION =
-  'Athletickle is a strength training app with algorithm-driven periodization: adaptive programming, a recovery check-in each block, and 250+ exercises. Your first four weeks are free.'
+  'Structured training for parkour, strength and muscle. Meet the coach behind Athletickle and join the pre-launch beta community on Discord.'
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
   en: {
@@ -63,7 +64,7 @@ const ORGANIZATION_JSON_LD = {
 
 export function landingMeta(): PageMeta {
   return {
-    title: `${SITE_NAME} — Algorithm-Driven Strength Training`,
+    title: `${SITE_NAME} — Parkour & Strength Training`,
     description: LANDING_DESCRIPTION,
     path: '/',
     locale: 'en',
@@ -74,6 +75,14 @@ export function landingMeta(): PageMeta {
       { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: `${SITE_URL}/` },
     ],
   }
+}
+
+export function editionMeta(edition: Edition): PageMeta {
+  return { title: `${editions[edition].name} | Structured Training`, description: `${editions[edition].short} First four-week block free. Pre-launch: join the beta community on Discord.`, path: `/${edition}`, locale: 'en', ogType: 'website', ogImage: `/social/${edition}.png` }
+}
+
+export function aboutMeta(): PageMeta {
+  return { title: `Mika — Founder of Athletickle | ${SITE_NAME}`, description: 'Meet Mika, founder of Athletickle and exercise physiologist (MSc). Parkour athlete since 2005, coach since 2006, and co-founder of Athletica.', path: '/about', locale: 'en', ogType: 'website', ogImage: '/social/about.png' }
 }
 
 export function blogIndexMeta(locale: Locale): PageMeta {

@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Design10 from './designs/Design10'
+import Edition from './pages/Edition'
+import About from './pages/About'
 import BlogIndex from './pages/BlogIndex'
 import BlogPost from './pages/BlogPost'
 import Contact from './pages/Contact'
@@ -32,6 +34,9 @@ function App({ initialLocale }: { initialLocale?: Locale }) {
       <LocaleSync />
       <Routes>
         <Route path="/" element={<Design10 />} />
+        <Route path="/parkour" element={<Edition edition="parkour" />} />
+        <Route path="/strength" element={<Edition edition="strength" />} />
+        <Route path="/about" element={<About />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/contact" element={<Contact />} />

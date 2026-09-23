@@ -6,5 +6,5 @@ export const SITE_URL: string =
 
 export const SITE_NAME = 'Athletickle'
 
-// Social preview fallback; replace with a dedicated 1200x630 OG image later.
-export const DEFAULT_OG_IMAGE = '/logo_preview.png'
+// Dedicated 1200×630 brand card; product pages have their own variants.
+export const DEFAULT_OG_IMAGE = '/social/athletickle.png'

@@ -37,4 +37,4 @@ You have four ways to make training harder. Pull them deliberately, one at a tim
 
 Systematic overload looks boring on paper. Fix your exercises for a training block. Log every set. Each week, beat the logbook on one lever — a rep here, a small load jump there — while keeping execution standards constant. When performance stalls across multiple sessions, that is fatigue talking. Deload, then resume the climb.
 
-This is exactly the logic Athletickle automates. The app tracks your RIR, holds your weekly volume to its targets, and ends every block with a scheduled deload. You lift, it handles the math. [Start free — your first four weeks](/#download) and let progression run itself.
+Athletickle Strength provides load-direction cues from the reps and RIR you log: add, repeat, or ease back. It does not choose a weight for you or rewrite the current block after each session. Each block includes a scheduled deload, and your end-of-block feedback informs the next block. Both apps are pre-launch. [Explore Strength](/strength) or [join the beta community](/#download).

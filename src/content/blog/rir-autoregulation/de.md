@@ -36,4 +36,4 @@ Mit ein paar Wochen bewusster Übung erreichst du eine solide Kalibrierung. Bei 
 
 ## Überlass dem System die Richtung
 
-RIR zu protokollieren ist Schritt eins. Konsequent danach zu handeln – genau daran scheitern die meisten. Athletickle liest dein protokolliertes RIR und deine Wiederholungsleistung und sagt dir, in welche Richtung die Last beim nächsten Mal gehen soll: drauflegen, halten oder zurücknehmen. Die Zahl nennt die App nie, denn sie führt kein 1RM. Und jeder Block endet mit einem Deload, der von Anfang an eingeplant war – nicht erst, wenn du stagnierst. Keine Tabellen-Bastelei, kein Rätselraten. [Starte gratis – deine ersten 4 Wochen](/#download) und lass dein Training auf den Athleten reagieren, der du heute bist.
+Athletickle Strength gibt anhand protokollierter Wiederholungen und RIR eine Richtung vor: erhöhen, wiederholen oder reduzieren. Die App wählt kein Gewicht und schreibt den aktuellen Block nicht nach jeder Einheit um. Jeder Block enthält eine geplante Entlastungswoche; dein Feedback am Blockende fließt in den nächsten ein. Beide Apps sind vor dem Start. [Strength entdecken — Englisch](/strength) oder [zur Beta-Community](/#download).

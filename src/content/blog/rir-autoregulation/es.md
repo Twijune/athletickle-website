@@ -36,4 +36,4 @@ Con unas semanas de práctica deliberada tendrás una calibración sólida. Los 
 
 ## Deja que el sistema marque la dirección
 
-Registrar el RIR es el primer paso. Aplicarlo con constancia es donde la mayoría se queda a medias. Athletickle lee tu RIR registrado y tu rendimiento en repeticiones y te dice hacia dónde llevar la carga la próxima vez: subir, repetir o aflojar. Nunca nombra el número, porque no registra tu 1RM. Y cada bloque termina con un deload planificado desde el principio, no añadido cuando ya te has estancado. Sin cirugía de hojas de cálculo, sin conjeturas. [Empieza gratis: tus primeras 4 semanas](/#download) y deja que tu entrenamiento responda al levantador que eres hoy.
+Athletickle Strength indica la dirección de la carga según las repeticiones y el RIR registrados: subir, repetir o reducir. No elige el peso ni reescribe el bloque después de cada sesión. Cada bloque incluye una descarga planificada y tu valoración final orienta el siguiente. Ambas apps están en prelanzamiento. [Explora Strength — en inglés](/strength) o [únete a la comunidad beta](/#download).
