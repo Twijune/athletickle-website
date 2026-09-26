@@ -44,7 +44,7 @@ Public attribution: **Mika — Founder of Athletickle**. Interim founder photo i
 
 First person, for posts, Discord and the About page:
 
-“I’m Antti Vuoriainen, co-founder of Athletickle. I hold a Master of Education and a Master of Science. I taught parkour in Finland from 2008 to 2024. Today I work as a researcher, and in my free time I lift weights and do bodyweight training.”
+“I’m Antti Vuoriainen, co-founder of Athletickle. I have two master’s degrees: a Master of Education and a Master of Sport Sciences. I taught parkour in Finland from 2008 to 2024. Today I work as a researcher, and in my free time I lift weights and do bodyweight training.”
 
 Third person, for the founder strip, meta descriptions and third-party mentions. Written without pronouns; substitute if wanted:
 
