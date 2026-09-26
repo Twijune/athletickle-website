@@ -50,4 +50,4 @@ Third person, for the founder strip, meta descriptions and third-party mentions.
 
 “Antti Vuoriainen, M.Ed, M.Sc, is co-founder of Athletickle. Antti taught parkour in Finland from 2008 to 2024 and now works as a researcher. Free time goes to lifting weights and bodyweight training.”
 
-Public attribution: **Antti Vuoriainen, M.Ed, M.Sc — Co-founder of Athletickle**. No portrait supplied yet. Research field and institution are intentionally unnamed. Sixteen years of teaching is the only derived figure; do not round it up. Source: facts supplied by Antti, 24 September 2026.
+Public attribution: **Antti Vuoriainen, M.Ed, M.Sc — Co-founder of Athletickle**. No portrait supplied yet. Research field and institution are intentionally unnamed. Source: facts supplied by Antti, 24 September 2026.
