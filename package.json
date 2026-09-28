@@ -12,7 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "js-yaml": "^5.4.1",
-    "motion": "^12.42.2",
+    "motion": "^13.4.3",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-markdown": "^10.1.0",
