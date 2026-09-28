@@ -1,9 +1,9 @@
+import { COMPANY, COMPANY_COUNTRY, LEGAL_UPDATED } from '../data/company'
 import BlogLayout from '../components/BlogLayout'
 import { privacyMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
 
-// NOTE: Placeholders in [[double brackets]] must be filled in before launch.
-// This document is a starting template and is NOT legal advice — have a lawyer
+// NOTE: This document is a starting template and is NOT legal advice — have a lawyer
 // review it before going live, especially the international-transfers section.
 //
 // Before publishing:
@@ -14,10 +14,9 @@ import { useHead } from '../seo/useHead'
 //    that sends data off the device is ever added. Vimeo (§4) is the one place
 //    a tap leaves the device, and it is the user's own browser that goes there.
 
-const COMPANY = '[[Company legal name]]'
-const CONTROLLER_COUNTRY = '[[country where you/your company are based]]'
+const CONTROLLER_COUNTRY = COMPANY_COUNTRY
 const MIN_AGE = '16'
-const LAST_UPDATED = '8 September 2026'
+const LAST_UPDATED = LEGAL_UPDATED
 
 const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
   <section className="mb-12">
