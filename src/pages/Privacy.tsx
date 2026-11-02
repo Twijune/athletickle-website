@@ -73,7 +73,7 @@ export default function Privacy() {
               'The app runs entirely on your device. We run no server and never receive your training data.',
               'We don’t require an account, and we don’t sell or share your personal data.',
               'Apart from delivering the exercise videos you play, the only data collected off your device is anonymous website analytics (Glyphex.io) — cookieless, so no consent banner.',
-              'Exercise demo clips play inside the app. A clip streams from bunny.net, our video host in the EU, only when you tap play, so Bunny sees your IP address only then.',
+              'Exercise demo clips play inside the app. A clip streams from bunny.net, our EU-based video host, only when you tap play, so Bunny sees your IP address only then.',
               'Payments and subscriptions are handled by the Apple App Store and Google Play, not by us.',
             ].map((line) => (
               <li
@@ -153,15 +153,20 @@ export default function Privacy() {
             inside the app. Nothing is preloaded: a clip downloads only when you tap play on an
             exercise. To deliver it, Bunny receives your IP address and the address of the clip.
             Bunny handles this on our behalf, as our processor under a data processing agreement. It
-            sets no cookies when the app plays a clip, and the IP addresses in its delivery logs are
-            anonymised. We see only aggregate figures, such as how much video was delivered, never
-            who watched which clip. Our legal basis is providing the feature you asked for (Article
-            6(1)(b) GDPR).
+            sets no cookies when it delivers a clip, and it anonymises the IP addresses in its
+            delivery logs, so the logs show which clips were played but not who played them. Our
+            legal basis is providing the feature you asked for (Article 6(1)(b) GDPR).
           </p>
           <p>
-            If a clip will not load, the app offers to open it on Bunny&rsquo;s player page in your
-            browser instead. The exercise pages on athletickle.com play the same clips from
-            bunny.net in your browser, on the same terms.
+            The exercise pages on athletickle.com play the same clips from bunny.net in your
+            browser, on the same terms.
+          </p>
+          <p>
+            If a clip will not load in the app, the app offers to open it on Bunny&rsquo;s player
+            page in your browser instead. That page counts the play in Bunny&rsquo;s viewing
+            statistics for our videos, which show us totals such as views, watch time and country,
+            not who watched. Its player may remember settings such as mute or subtitle language in
+            your browser&rsquo;s local storage.
           </p>
         </Section>
 
@@ -218,10 +223,16 @@ export default function Privacy() {
 
         <Section title="8. International Transfers">
           <p>
-            Glyphex, bunny.net, and the app stores may process data outside your country, including outside the
+            Glyphex and the app stores may process data outside your country, including outside the
             EU/EEA. Where that happens, transfers are covered by appropriate safeguards (such as the
             EU Standard Contractual Clauses) provided by those services. {/* TODO: confirm Glyphex's
             hosting region and add its specific transfer mechanism here before launch. */}
+          </p>
+          <p>
+            bunny.net is based in the EU and processes its delivery logs there. A clip is served from
+            the Bunny server nearest you, which may be outside the EU, normally only when you are.
+            That server keeps the log in memory for under a minute before passing it on to Bunny in
+            the EU.
           </p>
         </Section>
 
