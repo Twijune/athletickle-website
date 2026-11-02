@@ -160,7 +160,8 @@ export default function Privacy() {
           </p>
           <p>
             If a clip will not load, the app offers to open it on Bunny&rsquo;s player page in your
-            browser instead.
+            browser instead. The exercise pages on athletickle.com play the same clips from
+            bunny.net in your browser, on the same terms.
           </p>
         </Section>
 
@@ -200,7 +201,7 @@ export default function Privacy() {
               ['Glyphex', 'Cookieless website analytics (processor). glyphex.io'],
               [
                 'bunny.net',
-                'Hosting and delivery of the exercise demonstration videos, streamed into the app when you tap play (processor). bunny.net',
+                'Hosting and delivery of the exercise demonstration videos, streamed into the app when you tap play and shown on our website’s exercise pages (processor). bunny.net',
               ],
               ['Apple', 'App Store distribution, payments, and subscriptions.'],
               ['Google', 'Google Play distribution, payments, and subscriptions.'],

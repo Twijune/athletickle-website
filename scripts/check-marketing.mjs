@@ -29,4 +29,33 @@ assert.match(strength, /two full-body sessions/i)
 assert.match(parkour, /currently belong to Athletickle Strength/)
 assert.match(strength, /21-day/)
 assert.match(parkour, /21-day/)
-console.log('Marketing smoke checks passed: 4 routes, metadata, sitemap, CTAs, images, edition boundaries.')
+// Exercise demo pages are unlisted: every one is prerendered with its clip,
+// carries noindex and no canonical, stays out of the sitemap, and nothing
+// lists them. The browser bundle must not ship the full list.
+const exercises = JSON.parse(await readFile(resolve(root, 'src/data/exercises.json'), 'utf8'))
+assert.ok(exercises.length > 250, 'exercise pages generated')
+for (const exercise of exercises) {
+  const path = `exercises/${exercise.slug}`
+  const html = await readFile(resolve(root, 'dist', path, 'index.html'), 'utf8')
+  assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `${path}: one H1`)
+  assert.match(html, /<meta name="robots" content="noindex" \/>/, `${path}: noindex`)
+  assert.doesNotMatch(html, /rel="canonical"/, `${path}: no canonical next to noindex`)
+  assert.ok(html.includes(`src="${exercise.video}"`), `${path}: plays its clip`)
+  assert.ok(html.includes(`property="og:image" content="${exercise.poster}"`), `${path}: poster preview`)
+  assert.ok(html.includes('id="exercise-data"'), `${path}: embedded entry for hydration`)
+  assert.ok(!sitemap.includes(`/${path}<`), `${path}: not in the sitemap`)
+}
+await assert.rejects(stat(resolve(root, 'dist/exercises/index.html')), 'no /exercises listing')
+const { readdir } = await import('node:fs/promises')
+for (const file of await readdir(resolve(root, 'dist/assets'))) {
+  if (!file.endsWith('.js')) continue
+  const js = await readFile(resolve(root, 'dist/assets', file), 'utf8')
+  assert.ok(!js.includes('b-cdn.net/'), `${file}: ships clip URLs (the exercise list leaked into the bundle)`)
+}
+const vercel = JSON.parse(await readFile(resolve(root, 'vercel.json'), 'utf8'))
+assert.ok(
+  vercel.headers.some((rule) => rule.source === '/exercises/(.*)' && rule.headers.some((h) => h.key === 'X-Robots-Tag' && h.value === 'noindex')),
+  'X-Robots-Tag noindex header on /exercises/',
+)
+
+console.log(`Marketing smoke checks passed: 4 routes, metadata, sitemap, CTAs, images, edition boundaries; ${exercises.length} unlisted exercise pages.`)

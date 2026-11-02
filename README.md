@@ -19,6 +19,7 @@ The build requires Bun for `scripts/prerender.ts`. That script can also run dire
 - `/parkour`, `/strength`, `/about`: English product and founder pages.
 - `/blog`, `/fr/blog`, `/de/blog`, `/es/blog`: existing training content.
 - `/contact`, `/privacy`, `/terms`: existing company/legal pages.
+- `/exercises/<slug>`: one unlisted demo page per filmed exercise (noindex, no sitemap entry, no index page, not linked from the site). Data comes from both apps' `exercises.json` through `node scripts/sync-exercises.ts` (or Bun); re-run it when either app's exercise list changes and commit `src/data/exercises.json`. Each page embeds only its own entry, so the full list never ships to the browser; `check-marketing.mjs` enforces all of this.
 
 Shared product facts and the Discord invitation live in `src/data/marketing.ts`. Homepage copy lives in `src/i18n/marketingCopy.ts`; shared navigation/blog labels remain in `src/i18n/translations.ts`. Add public routes to both App and the prerender route list so direct links, crawlers and the sitemap stay aligned.
 

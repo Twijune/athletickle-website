@@ -2,6 +2,7 @@ import { editions, type Edition } from '../data/marketing'
 import type { Locale } from '../i18n/translations'
 import { blogAlternates, blogPath, type Alternate } from '../blog/paths'
 import { getPostLocales, type Post } from '../blog/posts'
+import { exercisePath, type ExerciseEntry } from '../exercises/exercise'
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from './config'
 
 export type { Alternate }
@@ -12,6 +13,7 @@ export interface PageMeta {
   path: string
   locale: Locale
   ogType: 'website' | 'article'
+  /** Site path, or an absolute URL for an image hosted elsewhere. */
   ogImage: string
   publishedTime?: string
   alternates?: Alternate[]
@@ -161,6 +163,21 @@ export function contactMeta(): PageMeta {
   }
 }
 
+// Unlisted (see exercises/exercise.ts): noindex, but the share preview still
+// shows the clip's poster frame when someone sends the link.
+export function exerciseMeta(exercise: ExerciseEntry): PageMeta {
+  const apps = exercise.editions.map((edition) => editions[edition].name).join(' and ')
+  return {
+    title: `${exercise.name} — Exercise demo | ${SITE_NAME}`,
+    description: `Demonstration clip of ${exercise.name}, from ${apps}.`,
+    path: exercisePath(exercise.slug),
+    locale: 'en',
+    ogType: 'website',
+    ogImage: exercise.poster,
+    noindex: true,
+  }
+}
+
 export function notFoundMeta(): PageMeta {
   return {
     title: `404 | ${SITE_NAME}`,
@@ -189,7 +206,7 @@ export function canonicalUrl(meta: PageMeta): string {
 // crawlers see. useHead() keeps the client in sync during SPA navigation.
 export function renderHead(meta: PageMeta): string {
   const url = canonicalUrl(meta)
-  const image = `${SITE_URL}${meta.ogImage}`
+  const image = /^https?:\/\//.test(meta.ogImage) ? meta.ogImage : `${SITE_URL}${meta.ogImage}`
   const tags: string[] = [
     `<title>${escapeHtml(meta.title)}</title>`,
     `<meta name="description" content="${escapeHtml(meta.description)}" />`,
