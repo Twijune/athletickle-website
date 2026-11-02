@@ -7,4 +7,4 @@ export const COMPANY = `${COMPANY_NAME} (Business ID: ${BUSINESS_ID})`;
 export const EMAIL_USER = 'info';
 export const EMAIL_DOMAIN = 'athletickle.com';
 export const CONTACT_EMAIL = `${EMAIL_USER}@${EMAIL_DOMAIN}`;
-export const LEGAL_UPDATED = '28 September 2026';
+export const LEGAL_UPDATED = '2 November 2026';
