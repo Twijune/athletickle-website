@@ -13,6 +13,14 @@ Install dependencies using the existing `bun.lock`, then run `bun run dev`.
 
 The build requires Bun for `scripts/prerender.ts`. That script can also run directly with a Node version supporting TypeScript stripping (tested with Node 26), after the client and SSR builds.
 
+## Statichost deployment
+
+[`statichost.yml`](statichost.yml) defines the production build: Node 24, Bun 1.3.14, dependencies from `bun.lock`, and output in `dist`. Statichost reads this configuration from the repository instead of relying on the dashboard's build command.
+
+After prerendering, [`scripts/generate-statichost-routing.mjs`](scripts/generate-statichost-routing.mjs) generates `dist/_redirects` from the built pages. It preserves slash-free URLs with forced 308 redirects and 200 rewrites, including nested translated blog routes. Unknown URLs still use `404.html` with a 404 status. The current trailing-slash redirects drop query strings on Statichost.
+
+Production remains indexable: this configuration does not add the test site's `X-Robots-Tag: noindex, nofollow` header. Custom domains are managed in Statichost's domain settings, separately from the build configuration.
+
 ## Marketing surfaces
 
 - `/`: localized EN/FR/DE/ES homepage.
