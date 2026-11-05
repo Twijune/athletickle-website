@@ -11,7 +11,7 @@ Your program says 80% for 5 reps. Your body says otherwise. That gap between the
 
 ## What RIR Actually Measures
 
-Reps In Reserve is a simple question: how many more reps could you have done before failure? Rack the bar with two clean reps left in the tank, that set was 2 RIR. Grind to a near-miss, that was 0 RIR.
+Reps In Reserve is a simple question: how many more reps could you have done before failure? If you rack the bar with two clean reps left in the tank, that set was 2 RIR. If you grind out a near-miss, that was 0 RIR.
 
 RIR anchors intensity to proximity to failure, not to a number on a percentage chart. Proximity to failure is what actually drives the stimulus of a set. Two lifters can move the same weight and get completely different training effects depending on how close each one was to failing.
 
@@ -30,7 +30,7 @@ Untrained estimates run optimistic. Most lifters think they're at 2 RIR when the
 - Take controlled sets to actual failure occasionally on safe accessory movements, then compare against what you predicted.
 - Track bar speed. A sharp slowdown between reps is your most honest signal that reserve is running out.
 - Estimate RIR immediately after every working set and log it. Accuracy is a skill built through reps of the skill itself.
-- Trust your estimates more within 0-3 RIR. Beyond that range, everyone guesses.
+- Trust your estimates more within 0–3 RIR. Beyond that range, everyone guesses.
 
 Expect solid calibration within a few weeks of deliberate practice. Compound lifts take longer than isolation work.
 

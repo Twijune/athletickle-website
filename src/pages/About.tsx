@@ -28,7 +28,7 @@ export default function About() {
         <h2>Why I built Athletickle.</h2>
         <p>Over time, one-to-one coaching with me became something many people couldn’t afford. Students, recreational lifters and parkour practitioners still wanted a structured plan, but my time put it out of reach.</p>
         <p>Athletickle is my way of making the programming more accessible. It puts the logic I’ve used with clients into four-week training blocks on a 12- or 24-week roadmap. Deloads are planned in advance. The first complete block is free, and your programs and training logs stay on your phone.</p>
-        <p><Link to="/parkour">Athletickle Parkour</Link> builds complementary strength and power training around your parkour frequency. <Link to="/strength">Athletickle Strength</Link> focuses on strength and muscle in the gym, including a reduced-volume two-day option.</p>
+        <p><Link to="/parkour">Athletickle Parkour</Link> builds complementary strength and power around your parkour training. <Link to="/strength">Athletickle Strength</Link> focuses on strength and muscle mass in the gym, including a reduced-volume two-day option.</p>
         <h2>The plan is the start of a conversation.</h2>
         <p>The app provides the plan. You bring the effort and judgment to follow it. Both editions are pre-launch, and I’d like to hear how they work for you: what’s clear, what’s confusing and what gets in your way.</p>
         <p>You can find me on the Athletickle Discord.</p>

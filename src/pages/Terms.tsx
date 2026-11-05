@@ -99,8 +99,7 @@ export default function Terms() {
 
         <Section title="1. Acceptance & Eligibility">
           <p>
-            By creating an account or otherwise using the App, you confirm that you are at least {MIN_AGE}{' '}
-            years old (or the age of digital consent in your country, whichever is higher) and that
+            By using the App, you confirm that you are at least {MIN_AGE} years old (or the age of digital consent in your country, whichever is higher) and that
             you have the legal capacity to enter into these Terms. If you use the App on behalf of
             someone else, you represent that you are authorised to accept these Terms for them.
           </p>
@@ -350,15 +349,7 @@ export default function Terms() {
           <p>
             If you are a consumer, this choice of law does not deprive you of the protection of the
             mandatory provisions of the law of your country of residence, and you may also bring
-            proceedings in the courts of that country. Consumers in the EU may also use the European
-            Commission&rsquo;s online dispute resolution platform at{' '}
-            <a
-              href="https://ec.europa.eu/consumers/odr"
-              className="text-[#D1622A] underline underline-offset-4 hover:text-[#E07B45] transition-colors"
-            >
-              ec.europa.eu/consumers/odr
-            </a>
-            .
+            proceedings in the courts of that country.
           </p>
         </Section>
 

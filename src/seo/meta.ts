@@ -29,28 +29,28 @@ const OG_LOCALE: Record<Locale, string> = {
 }
 
 const LANDING_DESCRIPTION =
-  'Structured training for parkour, strength and muscle. Meet the coach behind Athletickle and join the pre-launch beta community on Discord.'
+  'Structured training for parkour, strength and muscle mass. Meet the coach behind Athletickle and join the pre-launch beta community on Discord.'
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
   en: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      'Training intel from Athletickle: evidence-based guides on periodization, progressive overload, RIR, and smarter strength programming.',
+      'Training intel from Athletickle: evidence-based guides on progressive overload, RIR, and smarter strength programming.',
   },
   fr: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      "Intel entraînement par Athletickle : guides fondés sur la science — périodisation, surcharge progressive, RIR et programmation intelligente.",
+      "Intel entraînement par Athletickle : guides fondés sur la science — surcharge progressive, RIR et programmation intelligente.",
   },
   de: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      'Trainings-Intel von Athletickle: evidenzbasierte Guides zu Periodisierung, progressiver Steigerung, RIR und intelligenter Trainingsplanung.',
+      'Trainings-Intel von Athletickle: evidenzbasierte Guides zu progressiver Steigerung, RIR und intelligenter Trainingsplanung.',
   },
   es: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      'Intel de entrenamiento de Athletickle: guías basadas en evidencia sobre periodización, sobrecarga progresiva, RIR y programación inteligente.',
+      'Intel de entrenamiento de Athletickle: guías basadas en evidencia sobre sobrecarga progresiva, RIR y programación inteligente.',
   },
 }
 
@@ -144,7 +144,7 @@ export function termsMeta(): PageMeta {
 export function privacyMeta(): PageMeta {
   return {
     title: `Privacy Policy | ${SITE_NAME}`,
-    description: 'How Athletickle handles your data. Full privacy policy published ahead of launch.',
+    description: 'How Athletickle handles your data: what stays on your phone, what the website measures, and who delivers the exercise videos.',
     path: '/privacy',
     locale: 'en',
     ogType: 'website',

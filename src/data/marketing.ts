@@ -14,20 +14,20 @@ export const editions = {
     features: [
       ['Your practice counts', 'Your parkour frequency is an input to your complementary training plan. The app programs the strength and power work; you plan your parkour practice.'],
       ['Strength with a purpose', 'Eligible programs can include jump-focused blocks, contrast sessions pairing a lift with a direction-matched jump, and speed-style lifting sessions. Your experience determines the options.'],
-      ['Understand the session', 'See sets, reps, effort and rest together. Linked movement demonstrations and an in-app training guide help explain what the plan asks of you.'],
+      ['Understand the session', 'See sets, reps, effort and rest together. Movement demonstration videos and an in-app training guide help explain what the plan asks of you.'],
     ],
-    details: ['Beginner free-weight mode emphasizes fundamental lifts.', 'Ring and Olympic-lift options reflect your access and experience.', '258 exercise records, filtered to fit your program. Some movements have no video link.', 'A block-end questionnaire informs the next block.'],
+    details: ['Beginner free-weight mode emphasizes fundamental lifts.', 'Ring and Olympic-lift options reflect your access and experience.', '258 exercise records, filtered to fit your program. Some movements have no demonstration video.', 'A block-end questionnaire informs the next block.'],
     faq: [
       ['Does it teach parkour skills?', 'This edition programs complementary strength and power training. It does not replace parkour coaching or generate your technical parkour practice.'],
       ['Can I schedule separate sprint workouts?', 'Not currently. Separate speed-training controls are not available in the app. Speed-style lifting sessions can still appear in eligible complementary programs.'],
-      ['Does it suggest my next weight from workout logs?', 'Parkour lets you log workouts, but the add / hold / reduce load cues currently belong to Athletickle Strength.'],
+      ['Does it suggest my next weight from workout logs?', 'Athletickle Parkour lets you log workouts, but the add / repeat / ease-back load cues are currently only in Athletickle Strength.'],
     ],
   },
   strength: {
     name: 'Athletickle Strength', code: 'STR',
     title: 'Give your strength training a direction.',
-    description: 'Structured training for strength and muscle. Choose your emphasis, your weekly frequency and your experience. See your roadmap before starting the first four-week block.',
-    short: 'Structured gym training for strength and muscle, with a two-day option.',
+    description: 'Structured training for strength and muscle mass. Choose your emphasis, your weekly frequency and your experience. See your roadmap before starting the first four-week block.',
+    short: 'Structured gym training for strength and muscle mass, with a two-day option.',
     features: [
       ['Two days can be the plan', 'Minimal effective dose builds two full-body sessions a week with a reduced volume budget. Progression and deloads remain part of the plan.'],
       ['Choose your emphasis', 'Bias your roadmap toward muscle mass, maximal strength, or both. Separately choose an upper- or lower-body emphasis, or keep the distribution balanced.'],
@@ -47,6 +47,6 @@ export const sharedFaq = [
   ['How much of the roadmap can I see?', 'Choose three or six four-week blocks: a 12- or 24-week direction. The sequence is visible up front, while detailed later blocks are generated as they unlock.'],
   ['Can I change the exercises?', 'Before saving a program, swap eligible exercises for equivalents. Some slots have no equivalent available. The prescribed dose is retained, and saved programs are fixed.'],
   ['Do I need gym equipment?', 'Yes. Gym access is assumed. A bodyweight preference influences exercise selection; it does not make the program equipment-free.'],
-  ['Does it work offline?', 'Program generation and saved training data are local. Linked demonstrations and store operations need connectivity. Premium access has a three-day offline grace period. There is no cloud backup or cross-device sync.'],
+  ['Does it work offline?', 'Program generation and saved training data are local. Demonstration videos and store operations need connectivity. Premium access has a three-day offline grace period. There is no cloud backup or cross-device sync.'],
   ['Is a Discord account required to train?', 'No. Discord is our community and beta communication channel, separate from the apps. The apps do not require an Athletickle account. Anything you choose to post on Discord is shared there.'],
 ] as const

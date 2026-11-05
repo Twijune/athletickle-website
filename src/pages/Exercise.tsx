@@ -42,7 +42,7 @@ export default function Exercise() {
         )}
 
         <p className="mt-10 font-['Space_Mono'] text-white/60 leading-relaxed max-w-2xl">
-          Your program sets the sets, reps, effort and rest for this movement.
+          Your program prescribes the sets, reps, effort and rest for this movement.
         </p>
 
         <h2 className="mt-14 mb-6 text-xl tracking-wide">IN THE APP</h2>

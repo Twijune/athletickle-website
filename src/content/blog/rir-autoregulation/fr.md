@@ -36,4 +36,4 @@ Compte quelques semaines de pratique délibérée pour obtenir une calibration s
 
 ## Laisse le système indiquer la direction
 
-Athletickle Strength indique une direction à partir des répétitions et du RIR enregistrés : ajouter, répéter ou alléger. L’appli ne choisit pas le poids et ne réécrit pas le bloc après chaque séance. Chaque bloc inclut une semaine allégée prévue, et votre bilan de fin de bloc oriente le suivant. Les deux applis sont en pré-lancement. [Découvrir Strength — en anglais](/strength) ou [rejoindre la communauté bêta](/#download).
+Athletickle Strength indique une direction à partir des répétitions et du RIR enregistrés : ajouter, répéter ou alléger. L’appli ne choisit pas le poids et ne réécrit pas le bloc après chaque séance. Chaque bloc inclut une semaine allégée prévue, et ton bilan de fin de bloc oriente le suivant. Les deux applis sont en pré-lancement. [Découvrir Strength — en anglais](/strength) ou [rejoindre la communauté bêta](/#download).

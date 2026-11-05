@@ -26,7 +26,7 @@ for (const path of pages) {
 const strength = await readFile(resolve(root, 'dist/strength/index.html'), 'utf8')
 const parkour = await readFile(resolve(root, 'dist/parkour/index.html'), 'utf8')
 assert.match(strength, /two full-body sessions/i)
-assert.match(parkour, /currently belong to Athletickle Strength/)
+assert.match(parkour, /currently only in Athletickle Strength/)
 assert.match(strength, /21-day/)
 assert.match(parkour, /21-day/)
 // Exercise demo pages are unlisted: every one is prerendered with its clip,
