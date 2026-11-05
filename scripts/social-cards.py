@@ -10,7 +10,7 @@ if not FONT.exists():
 CARDS = {
     'athletickle': ('PARKOUR + STRENGTH', ['A training plan', 'with a direction.'], 'Meet the coach. Join the beta community.'),
     'parkour': ('ATHLETICKLE PARKOUR', ['Strength and power.', 'Built around parkour.'], 'Complementary training. A structured roadmap.'),
-    'strength': ('ATHLETICKLE STRENGTH', ['Give your strength', 'training a direction.'], 'Strength. Muscle. A two-day option.'),
+    'strength': ('ATHLETICKLE STRENGTH', ['Give your strength', 'training a direction.'], 'Strength. Muscle mass. A two-day option.'),
     'about': ('MIKA / FOUNDER OF ATHLETICKLE', ['Coaching experience.', 'Made more accessible.'], 'MSc in Exercise Physiology. Parkour since 2005.'),
 }
 for name, (label, lines, subtitle) in CARDS.items():
