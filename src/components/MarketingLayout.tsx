@@ -19,7 +19,7 @@ export default function MarketingLayout({ children, localized = false }: { child
   ]
   return <div className="marketing-site" lang={localized ? locale : 'en'}>
     <a className="skip-link" href="#main">{localized && locale === 'fr' ? 'Aller au contenu' : localized && locale === 'de' ? 'Zum Inhalt' : localized && locale === 'es' ? 'Ir al contenido' : 'Skip to content'}</a>
-    <div className="launch-strip">{c.prelaunch}</div>
+    <div className="launch-strip">{c.launchStatus}</div>
     <header className="marketing-header">
       <Link to="/" className="brand"><img src="/athletickle-favicon-256.png" width="42" height="42" alt="" /><span>ATHLETICKLE</span></Link>
       <nav className="desktop-links" aria-label="Main navigation">{navItems.map(item => <Link key={item.href} to={item.href} aria-current={pathname === item.href ? 'page' : undefined}>{item.label}</Link>)}</nav>

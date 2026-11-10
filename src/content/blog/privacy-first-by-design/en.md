@@ -29,4 +29,4 @@ Discord is our community and beta communication channel. Joining is separate fro
 
 ## Talk to the founder
 
-Both apps are pre-launch. [Join the beta community](/#download) to ask questions and follow test-build announcements. Or explore [Parkour](/parkour) and [Strength](/strength) to see which edition fits your training.
+Athletickle Parkour is now available on Android. Strength is still pre-launch. [Join the beta community](https://discord.gg/PrXwF4QSuf) to ask questions and follow test-build announcements. Or explore [Parkour](/parkour) and [Strength](/strength) to see which edition fits your training.

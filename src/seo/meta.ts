@@ -29,7 +29,7 @@ const OG_LOCALE: Record<Locale, string> = {
 }
 
 const LANDING_DESCRIPTION =
-  'Structured training for parkour, strength and muscle mass. Meet the coach behind Athletickle and join the pre-launch beta community on Discord.'
+  'Structured training for parkour, strength and muscle mass. Athletickle Parkour is now available on Android via Google Play.'
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
   en: {
@@ -80,7 +80,7 @@ export function landingMeta(): PageMeta {
 }
 
 export function editionMeta(edition: Edition): PageMeta {
-  return { title: `${editions[edition].name} | Structured Training`, description: `${editions[edition].short} First four-week block free. Pre-launch: join the beta community on Discord.`, path: `/${edition}`, locale: 'en', ogType: 'website', ogImage: `/social/${edition}.png` }
+  return { title: `${editions[edition].name} | Structured Training`, description: `${editions[edition].short} First four-week block free. ${edition === 'parkour' ? 'Now available on Android via Google Play.' : 'Pre-launch: join the beta community on Discord.'}`, path: `/${edition}`, locale: 'en', ogType: 'website', ogImage: `/social/${edition}.png` }
 }
 
 export function aboutMeta(): PageMeta {

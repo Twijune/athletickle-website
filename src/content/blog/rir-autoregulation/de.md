@@ -36,4 +36,4 @@ Mit ein paar Wochen bewusster Übung erreichst du eine solide Kalibrierung. Bei 
 
 ## Überlass dem System die Richtung
 
-Athletickle Strength gibt anhand protokollierter Wiederholungen und RIR eine Richtung vor: erhöhen, wiederholen oder reduzieren. Die App wählt kein Gewicht und schreibt den aktuellen Block nicht nach jeder Einheit um. Jeder Block enthält eine geplante Entlastungswoche; dein Feedback am Blockende fließt in den nächsten ein. Beide Apps sind vor dem Start. [Strength entdecken — Englisch](/strength) oder [zur Beta-Community](/#download).
+Athletickle Strength gibt anhand protokollierter Wiederholungen und RIR eine Richtung vor: erhöhen, wiederholen oder reduzieren. Die App wählt kein Gewicht und schreibt den aktuellen Block nicht nach jeder Einheit um. Jeder Block enthält eine geplante Entlastungswoche; dein Feedback am Blockende fließt in den nächsten ein. Athletickle Parkour ist jetzt für Android verfügbar. Strength ist noch vor dem Start. [Strength entdecken — Englisch](/strength) oder [zur Beta-Community](https://discord.gg/PrXwF4QSuf).
