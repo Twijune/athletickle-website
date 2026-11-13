@@ -26,7 +26,7 @@ const en = {
   "footer.contact": 'CONTACT',
   // Language switcher,
   "lang.label": 'Language',
-  "cta.paragraph": "Athletickle Parkour is now available on Android. Strength is still pre-launch. Join us on Discord for beta updates and a conversation with the founder.",
+  "cta.paragraph": "Athletickle Parkour and Strength are now available on Android. Join us on Discord for app updates and a conversation with the founder.",
 } as const
 
 export type TranslationKey = keyof typeof en
@@ -52,7 +52,7 @@ const fr: Record<TranslationKey, string> = {
   "footer.terms": 'CONDITIONS',
   "footer.contact": 'CONTACT',
   "lang.label": 'Langue',
-  "cta.paragraph": "Athletickle Parkour est disponible sur Android. Strength est encore en pré-lancement. Rejoignez Discord pour suivre la bêta et échanger avec le fondateur.",
+  "cta.paragraph": "Athletickle Parkour et Strength sont disponibles sur Android. Rejoignez Discord pour suivre les nouveautés et échanger avec le fondateur.",
 }
 
 const de: Record<TranslationKey, string> = {
@@ -76,7 +76,7 @@ const de: Record<TranslationKey, string> = {
   "footer.terms": 'AGB',
   "footer.contact": 'KONTAKT',
   "lang.label": 'Sprache',
-  "cta.paragraph": "Athletickle Parkour ist jetzt für Android verfügbar. Strength ist noch vor dem Start. Erhalte Beta-Updates und sprich mit dem Gründer auf Discord.",
+  "cta.paragraph": "Athletickle Parkour und Strength sind jetzt für Android verfügbar. Erhalte App-Neuigkeiten und sprich mit dem Gründer auf Discord.",
 }
 
 const es: Record<TranslationKey, string> = {
@@ -100,7 +100,7 @@ const es: Record<TranslationKey, string> = {
   "footer.terms": 'TÉRMINOS',
   "footer.contact": 'CONTACTO',
   "lang.label": 'Idioma',
-  "cta.paragraph": "Athletickle Parkour ya está disponible en Android. Strength sigue en prelanzamiento. Únete a Discord para recibir novedades y hablar con el fundador.",
+  "cta.paragraph": "Athletickle Parkour y Strength ya están disponibles en Android. Únete a Discord para recibir novedades y hablar con el fundador.",
 }
 
 export const translations: Record<Locale, Record<TranslationKey, string>> = { en, fr, de, es }

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import MarketingLayout from '../components/MarketingLayout'
 import ProgramPreview from '../components/ProgramPreview'
-import { DISCORD_URL, PARKOUR_PLAY_URL, editions, FOUNDER_BIO, sharedFaq, type Edition as EditionName } from '../data/marketing'
+import { DISCORD_URL, PARKOUR_PLAY_URL, STRENGTH_PLAY_URL, editions, FOUNDER_BIO, sharedFaq, type Edition as EditionName } from '../data/marketing'
 import { editionMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
 
@@ -10,7 +10,7 @@ export default function Edition({ edition }: { edition: EditionName }) {
   const isParkour = edition === 'parkour'
   useHead(editionMeta(edition))
   return <MarketingLayout>
-    <section className="marketing-section hero-grid"><div><p className="eyebrow">{data.name} / {isParkour ? 'NOW ON ANDROID' : 'PRE-LAUNCH'}</p><h1>{data.title}</h1><p className="lead">{data.description}</p><a className="button primary" href={isParkour ? PARKOUR_PLAY_URL : DISCORD_URL}>{isParkour ? 'Get it on Google Play' : 'Join the beta community'} ↗</a><p className="small-note">{isParkour ? 'Available now on Android. Your first four-week block is free.' : 'On Discord. Test-build availability will be announced there.'}</p></div><ProgramPreview /></section>
+    <section className="marketing-section hero-grid"><div><p className="eyebrow">{data.name} / NOW ON ANDROID</p><h1>{data.title}</h1><p className="lead">{data.description}</p><a className="button primary" href={isParkour ? PARKOUR_PLAY_URL : STRENGTH_PLAY_URL}>Get it on Google Play ↗</a><p className="small-note">Available now on Android. Your first four-week block is free.</p></div><ProgramPreview /></section>
     <section className="marketing-section section-rule"><h2>Built for your training.</h2><div className="feature-grid three-columns">{data.features.map(([title, text], i) => <article key={title}><span className="feature-number">0{i + 1}</span><h3>{title}</h3><p>{text}</p></article>)}</div></section>
     <section className="marketing-section section-rule founder-strip"><div><p className="eyebrow">FROM SETUP TO SESSION</p><h2>Make the plan yours.</h2></div><div><p className="lead">Review your exercises. Swap eligible movements for equivalents before saving. Follow the prescribed sets, reps, effort and rest.</p><ul className="detail-list">{data.details.map(text => <li key={text}>{text}</li>)}</ul><p>Export your program through your phone’s share menu. Logging is optional; your generated block is ready to follow.</p></div></section>
     <section className="marketing-section founder-strip section-rule"><div><p className="eyebrow">MIKA / FOUNDER OF ATHLETICKLE</p><h2>Experience behind the programming.</h2></div><div><p className="lead">{FOUNDER_BIO}</p><Link to="/about" className="text-link">Meet Mika →</Link></div></section>

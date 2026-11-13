@@ -1,6 +1,7 @@
 // One invitation for the public site. Creator-specific invites belong in the launch ledger.
 export const DISCORD_URL = 'https://discord.gg/PrXwF4QSuf'
 export const PARKOUR_PLAY_URL = 'https://play.google.com/store/apps/details?id=com.athletickle.pk'
+export const STRENGTH_PLAY_URL = 'https://play.google.com/store/apps/details?id=com.athletickle.str'
 export const FOUNDER_NAME = 'Mika'
 export const FOUNDER_TITLE = 'Founder of Athletickle'
 export const FOUNDER_BIO = 'Athletickle is built by Mika, an exercise physiologist (MSc), parkour athlete since 2005 and coach since 2006. He co-founded Athletica, a coaching company that has worked with thousands of people, from everyday gym-goers to Olympic-level athletes and NHL players. Athletickle brings that programming experience into a more accessible training plan.'

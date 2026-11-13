@@ -1,14 +1,14 @@
 import type { Locale } from './translations'
 
 const en = {
-  launchStatus: 'PARKOUR IS LIVE ON ANDROID · GET IT ON GOOGLE PLAY',
-  pkStatus: 'NOW ON ANDROID', strStatus: 'PRE-LAUNCH',
-  download: 'Get Parkour on Google Play', downloadNote: 'Athletickle Parkour is now available on Android. Your first four-week block is free.',
+  launchStatus: 'PARKOUR + STRENGTH ARE LIVE ON ANDROID · GET IT ON GOOGLE PLAY',
+  pkStatus: 'NOW ON ANDROID', strStatus: 'NOW ON ANDROID',
+  download: 'Get Parkour on Google Play', downloadStrength: 'Get Strength on Google Play', downloadNote: 'Athletickle Parkour and Strength are now available on Android. Your first four-week block is free.',
   eyebrow: 'COACHING EXPERIENCE. STRUCTURED TRAINING.',
   title: 'A training plan with a direction.',
   intro: 'Strength and power for your parkour. Strength and muscle mass for the gym. Choose your edition and see the direction of your next 12 or 24 weeks.',
-  join: 'Join the beta community',
-  joinNote: 'On Discord · meet the founder, ask questions and hear when test builds are ready.',
+  join: 'Join the community',
+  joinNote: 'On Discord · meet the founder, ask questions and follow app updates.',
   choose: 'Find your edition',
   editionsTitle: 'Two apps. Your kind of training.',
   pk: 'Complementary strength and power built around your parkour training.',
@@ -40,8 +40,8 @@ const en = {
   system: 'Four-week blocks organize your training. Progression and a scheduled deload give each block a shape. Your end-of-block check-in informs the next one.',
   systemNote: 'Training targets depend on the edition, your experience and the block type. The app does not monitor your body or rewrite every session in real time.',
   systemLink: 'Read the training guides',
-  ctaTitle: 'Start your first Parkour block.',
-  cta: 'Download Athletickle Parkour for Android and start with four weeks free. Strength is still pre-launch. Join Discord for questions, feedback and updates.',
+  ctaTitle: 'Choose your app. Start your first block.',
+  cta: 'Download Athletickle Parkour or Strength for Android and start with four weeks free. Join Discord for questions, feedback and updates.',
   faqTitle: 'Before you start',
   faq: [
     ['Do I need a gym?', 'Yes. Gym access is assumed in both apps. A bodyweight preference does not make a program equipment-free.'],
@@ -53,13 +53,13 @@ const en = {
 
 type Copy = { [K in keyof typeof en]: (typeof en)[K] }
 const fr: Copy = {
-  launchStatus: 'PARKOUR EST DISPONIBLE SUR ANDROID · SUR GOOGLE PLAY',
-  pkStatus: 'DISPONIBLE SUR ANDROID', strStatus: 'PRÉ-LANCEMENT',
-  download: 'Parkour sur Google Play', downloadNote: 'Athletickle Parkour est disponible sur Android. Votre premier bloc de quatre semaines est offert.',
+  launchStatus: 'PARKOUR + STRENGTH SONT DISPONIBLES SUR ANDROID · SUR GOOGLE PLAY',
+  pkStatus: 'DISPONIBLE SUR ANDROID', strStatus: 'DISPONIBLE SUR ANDROID',
+  download: 'Parkour sur Google Play', downloadStrength: 'Strength sur Google Play', downloadNote: 'Athletickle Parkour et Strength sont disponibles sur Android. Votre premier bloc de quatre semaines est offert.',
   eyebrow: 'EXPÉRIENCE DU COACHING. ENTRAÎNEMENT STRUCTURÉ.',
   title: 'Un plan qui donne une direction à votre entraînement.',
   intro: 'Force et puissance pour le parkour. Force et masse musculaire pour la salle. Choisissez votre édition et découvrez le cap des 12 ou 24 prochaines semaines.',
-  join: 'Rejoindre la communauté bêta', joinNote: 'Sur Discord · échangez avec le fondateur et suivez la disponibilité des versions de test.', choose: 'Choisir mon édition',
+  join: 'Rejoindre la communauté', joinNote: 'Sur Discord · échangez avec le fondateur et suivez les nouveautés des applis.', choose: 'Choisir mon édition',
   editionsTitle: 'Deux applis. Votre entraînement.',
   pk: 'Force et puissance complémentaires, construites autour de votre pratique du parkour.',
   str: 'Un programme structuré de force et de prise de masse musculaire, avec une option à deux séances par semaine.',
@@ -78,7 +78,7 @@ const fr: Copy = {
   previewNote: 'Illustration, pas une capture de l’appli. La séquence est planifiée avant que les blocs suivants soient générés à leur déblocage.',
   systemTitle: 'Le plan suit un rythme.', system: 'Des blocs de quatre semaines structurent votre entraînement, avec une progression et une semaine allégée prévues. Votre bilan de fin de bloc oriente le suivant.',
   systemNote: 'Les objectifs dépendent de l’édition, de votre expérience et du bloc. L’appli ne surveille pas votre corps et ne réécrit pas chaque séance en temps réel.', systemLink: 'Lire les guides',
-  ctaTitle: 'Commencez votre premier bloc Parkour.', cta: 'Téléchargez Athletickle Parkour sur Android et commencez avec quatre semaines offertes. Strength est encore en pré-lancement. Rejoignez Discord pour vos questions, retours et les nouveautés.', faqTitle: 'Avant de commencer',
+  ctaTitle: 'Choisissez votre appli. Commencez votre premier bloc.', cta: 'Téléchargez Athletickle Parkour ou Strength sur Android et commencez avec quatre semaines offertes. Rejoignez Discord pour vos questions, retours et les nouveautés.', faqTitle: 'Avant de commencer',
   faq: [
     ['Faut-il une salle de sport ?', 'Oui. Les deux applis supposent un accès à une salle. Préférer le poids du corps ne garantit pas un programme sans matériel.'],
     ['Que débloque l’abonnement ?', 'Les blocs suivants nécessitent un abonnement. Un délai de 21 jours s’applique avant de débloquer le suivant, même pour les abonnés. Le prix est affiché avant l’achat.'],
@@ -87,11 +87,11 @@ const fr: Copy = {
   ],
 }
 const de: Copy = {
-  launchStatus: 'PARKOUR IST JETZT AUF ANDROID · BEI GOOGLE PLAY',
-  pkStatus: 'JETZT AUF ANDROID', strStatus: 'VOR DEM START',
-  download: 'Parkour bei Google Play', downloadNote: 'Athletickle Parkour ist jetzt für Android verfügbar. Dein erster Vier-Wochen-Block ist kostenlos.', eyebrow: 'COACHING-ERFAHRUNG. STRUKTURIERTES TRAINING.', title: 'Ein Trainingsplan mit Richtung.',
+  launchStatus: 'PARKOUR + STRENGTH JETZT AUF ANDROID · BEI GOOGLE PLAY',
+  pkStatus: 'JETZT AUF ANDROID', strStatus: 'JETZT AUF ANDROID',
+  download: 'Parkour bei Google Play', downloadStrength: 'Strength bei Google Play', downloadNote: 'Athletickle Parkour und Strength sind jetzt für Android verfügbar. Dein erster Vier-Wochen-Block ist kostenlos.', eyebrow: 'COACHING-ERFAHRUNG. STRUKTURIERTES TRAINING.', title: 'Ein Trainingsplan mit Richtung.',
   intro: 'Kraft und Explosivität für Parkour. Kraft und Muskelmasse fürs Gym. Wähle deine Edition und sieh die Richtung für die nächsten 12 oder 24 Wochen.',
-  join: 'Zur Beta-Community', joinNote: 'Auf Discord · lerne den Gründer kennen, stelle Fragen und erfahre, wann Testversionen bereit sind.', choose: 'Edition auswählen', editionsTitle: 'Zwei Apps. Dein Training.',
+  join: 'Zur Community', joinNote: 'Auf Discord · lerne den Gründer kennen, stelle Fragen und verfolge App-Neuigkeiten.', choose: 'Edition auswählen', editionsTitle: 'Zwei Apps. Dein Training.',
   pk: 'Ergänzendes Kraft- und Schnellkrafttraining, abgestimmt auf dein Parkourtraining.', str: 'Strukturiertes Training für Kraft und Muskelmasse, mit einer Zwei-Tage-Option für volle Wochen.', explore: 'App entdecken', english: 'Produktseiten auf Englisch',
   pkTags: ['Parkour-Häufigkeit', 'Kraft + Explosivität', 'Sprungbetonte Blöcke'], strTags: ['Fokus auf Muskelmasse oder Kraft', 'Zwei-Tage-Option', 'Progressionshinweise aus Logs'],
   founderLabel: "MIKA / GRÜNDER VON ATHLETICKLE", founderTitle: "Über 20 Jahre Parkour. Ein Plan für mehr Menschen.", founder: "Mika ist Sportphysiologe (MSc), seit 2005 Parkour-Athlet und seit 2006 Coach. Er hat Athletica mitgegründet, dessen Coaching Tausende Menschen erreicht hat – von Freizeitsportlern bis zu Athleten auf olympischem Niveau und NHL-Spielern. Athletickle macht diese Erfahrung in der Trainingsplanung zugänglicher.", about: "Mika kennenlernen · Englisch", featuresTitle: 'Wissen, was als Nächstes kommt.',
@@ -103,7 +103,7 @@ const de: Copy = {
   ],
   previewLabel: 'SO FUNKTIONIERT DIE ROADMAP · ILLUSTRATION', previewTitle: 'Eine Richtung für 12 oder 24 Wochen.', block: 'BLOCK', blockOne: 'Die ersten vier Wochen', free: 'Erster Block gratis', next: 'Weitere Blöcke', premium: 'Mit Abo fortsetzen', previewNote: 'Illustration, kein App-Screenshot. Die Reihenfolge steht zuerst; detaillierte spätere Blöcke entstehen beim Freischalten.',
   systemTitle: 'Der Plan hat einen Rhythmus.', system: 'Vier-Wochen-Blöcke strukturieren dein Training. Progression und eine geplante Entlastungswoche geben jedem Block Form. Dein Feedback am Blockende fließt in den nächsten ein.', systemNote: 'Vorgaben hängen von Edition, Erfahrung und Blocktyp ab. Die App überwacht deinen Körper nicht und schreibt nicht jede Einheit in Echtzeit um.', systemLink: 'Trainingswissen lesen',
-  ctaTitle: 'Starte deinen ersten Parkour-Block.', cta: 'Lade Athletickle Parkour für Android herunter und starte mit vier kostenlosen Wochen. Strength ist noch vor dem Start. Auf Discord gibt es Antworten, Feedback und Neuigkeiten.', faqTitle: 'Bevor du startest',
+  ctaTitle: 'Wähle deine App. Starte deinen ersten Block.', cta: 'Lade Athletickle Parkour oder Strength für Android herunter und starte mit vier kostenlosen Wochen. Auf Discord gibt es Antworten, Feedback und Neuigkeiten.', faqTitle: 'Bevor du startest',
   faq: [
     ['Brauche ich ein Fitnessstudio?', 'Ja. Beide Apps setzen Zugang zu einem Gym voraus. Eine Vorliebe für Körpergewichtsübungen bedeutet keinen gerätefreien Plan.'],
     ['Was kommt nach dem kostenlosen Block?', 'Weitere Blöcke brauchen ein Abo. Der nächste Block kann frühestens nach 21 Tagen freigeschaltet werden, auch mit Abo. Preise werden vor dem Kauf angezeigt.'],
@@ -112,10 +112,10 @@ const de: Copy = {
   ],
 }
 const es: Copy = {
-  launchStatus: 'PARKOUR YA ESTÁ EN ANDROID · EN GOOGLE PLAY',
-  pkStatus: 'YA EN ANDROID', strStatus: 'PRELANZAMIENTO',
-  download: 'Parkour en Google Play', downloadNote: 'Athletickle Parkour ya está disponible en Android. Tu primer bloque de cuatro semanas es gratis.', eyebrow: 'EXPERIENCIA COMO ENTRENADOR. ENTRENAMIENTO ESTRUCTURADO.', title: 'Un plan de entrenamiento con rumbo.',
-  intro: 'Fuerza y potencia para el parkour. Fuerza y masa muscular para el gimnasio. Elige tu edición y descubre el rumbo de tus próximas 12 o 24 semanas.', join: 'Únete a la comunidad beta', joinNote: 'En Discord · conoce al fundador, pregunta y entérate de cuándo estarán listas las versiones de prueba.', choose: 'Elige tu edición', editionsTitle: 'Dos apps. Tu entrenamiento.',
+  launchStatus: 'PARKOUR + STRENGTH YA EN ANDROID · EN GOOGLE PLAY',
+  pkStatus: 'YA EN ANDROID', strStatus: 'YA EN ANDROID',
+  download: 'Parkour en Google Play', downloadStrength: 'Strength en Google Play', downloadNote: 'Athletickle Parkour y Strength ya están disponibles en Android. Tu primer bloque de cuatro semanas es gratis.', eyebrow: 'EXPERIENCIA COMO ENTRENADOR. ENTRENAMIENTO ESTRUCTURADO.', title: 'Un plan de entrenamiento con rumbo.',
+  intro: 'Fuerza y potencia para el parkour. Fuerza y masa muscular para el gimnasio. Elige tu edición y descubre el rumbo de tus próximas 12 o 24 semanas.', join: 'Únete a la comunidad', joinNote: 'En Discord · conoce al fundador, pregunta y sigue las novedades de las apps.', choose: 'Elige tu edición', editionsTitle: 'Dos apps. Tu entrenamiento.',
   pk: 'Fuerza y potencia complementarias, construidas en torno a tu entrenamiento de parkour.', str: 'Entrenamiento estructurado para fuerza y masa muscular, con una opción de dos días para semanas ocupadas.', explore: 'Explora la app', english: 'Páginas de producto en inglés',
   pkTags: ['Frecuencia de parkour', 'Fuerza + potencia', 'Bloques centrados en saltos'], strTags: ['Masa muscular o fuerza', 'Opción de dos días', 'Indicaciones según el registro'],
   founderLabel: "MIKA / FUNDADOR DE ATHLETICKLE", founderTitle: "Más de 20 años de parkour. Un plan más accesible.", founder: "Mika es fisiólogo del ejercicio con un máster (MSc), atleta de parkour desde 2005 y entrenador desde 2006. Cofundó Athletica, cuyo trabajo ha llegado a miles de personas, desde usuarios de gimnasio hasta atletas de nivel olímpico y jugadores de la NHL. Athletickle hace más accesible esa experiencia de programación.", about: "Conoce a Mika · inglés", featuresTitle: 'Saber qué viene después.',
@@ -127,7 +127,7 @@ const es: Copy = {
   ],
   previewLabel: 'ASÍ FUNCIONA EL PLAN · ILUSTRACIÓN', previewTitle: 'Un rumbo para 12 o 24 semanas.', block: 'BLOQUE', blockOne: 'Primeras cuatro semanas', free: 'Primer bloque gratis', next: 'Bloques siguientes', premium: 'Suscripción para continuar', previewNote: 'Ilustración, no captura de la app. Primero se planifica la secuencia; los bloques posteriores se generan al desbloquearlos.',
   systemTitle: 'El plan tiene un ritmo.', system: 'Los bloques de cuatro semanas organizan tu entrenamiento. La progresión y una descarga programada dan forma a cada bloque. Tu valoración al terminar orienta el siguiente.', systemNote: 'Los objetivos dependen de la edición, la experiencia y el tipo de bloque. La app no monitoriza tu cuerpo ni reescribe cada sesión en tiempo real.', systemLink: 'Lee las guías',
-  ctaTitle: 'Empieza tu primer bloque de Parkour.', cta: 'Descarga Athletickle Parkour para Android y empieza con cuatro semanas gratis. Strength sigue en prelanzamiento. Únete a Discord para preguntas, comentarios y novedades.', faqTitle: 'Antes de empezar',
+  ctaTitle: 'Elige tu app. Empieza tu primer bloque.', cta: 'Descarga Athletickle Parkour o Strength para Android y empieza con cuatro semanas gratis. Únete a Discord para preguntas, comentarios y novedades.', faqTitle: 'Antes de empezar',
   faq: [
     ['¿Necesito un gimnasio?', 'Sí. Ambas apps suponen acceso a un gimnasio. Preferir ejercicios con peso corporal no garantiza un plan sin equipo.'],
     ['¿Qué sigue al bloque gratuito?', 'Los siguientes bloques requieren suscripción. El próximo bloque solo se puede desbloquear tras un mínimo de 21 días, también para suscriptores. Los precios aparecen antes de comprar.'],

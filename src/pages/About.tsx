@@ -30,7 +30,7 @@ export default function About() {
         <p>Athletickle is my way of making the programming more accessible. It puts the logic I’ve used with clients into four-week training blocks on a 12- or 24-week roadmap. Deloads are planned in advance. The first complete block is free, and your programs and training logs stay on your phone.</p>
         <p><Link to="/parkour">Athletickle Parkour</Link> builds complementary strength and power around your parkour training. <Link to="/strength">Athletickle Strength</Link> focuses on strength and muscle mass in the gym, including a reduced-volume two-day option.</p>
         <h2>The plan is the start of a conversation.</h2>
-        <p>The app provides the plan. You bring the effort and judgment to follow it. Athletickle Parkour is now available on Android. Strength is still pre-launch. I’d like to hear how the apps work for you: what’s clear, what’s confusing and what gets in your way.</p>
+        <p>The app provides the plan. You bring the effort and judgment to follow it. Athletickle Parkour and Strength are now available on Android. I’d like to hear how the apps work for you: what’s clear, what’s confusing and what gets in your way.</p>
         <p>You can find me on the Athletickle Discord.</p>
         <a className="button primary" href={DISCORD_URL}>Talk with Mika on Discord ↗</a>
         <p className="small-note">— {FOUNDER_NAME}, {FOUNDER_TITLE}</p>

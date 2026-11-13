@@ -37,4 +37,4 @@ Generate social preview cards with `python3 scripts/social-cards.py` (Pillow and
 
 Start with [docs/marketing/README.md](docs/marketing/README.md). It includes source-backed claims, Discord copy, creator briefs, store copy, content drafts, measurement sheets and release checks.
 
-Athletickle Parkour is available on Android via Google Play. Athletickle Strength is still pre-launch. The website uses labelled roadmap illustrations pending real release-build captures. Deployment, Discord setup and external outreach are separate operational steps.
+Athletickle Parkour and Athletickle Strength are available on Android via Google Play. Strength’s public listing was verified on 13 November 2026 for Finland and the US. The website uses labelled roadmap illustrations pending real release-build captures. Deployment, Discord setup and external outreach are separate operational steps.

@@ -36,4 +36,4 @@ Expect solid calibration within a few weeks of deliberate practice. Compound lif
 
 ## Let the System Call the Direction
 
-Athletickle Strength provides load-direction cues from the reps and RIR you log: add, repeat, or ease back. It does not choose a weight for you or rewrite the current block after each session. Each block includes a scheduled deload, and your end-of-block feedback informs the next block. Athletickle Parkour is now available on Android. Strength is still pre-launch. [Explore Strength](/strength) or [join the beta community](https://discord.gg/PrXwF4QSuf).
+Athletickle Strength provides load-direction cues from the reps and RIR you log: add, repeat, or ease back. It does not choose a weight for you or rewrite the current block after each session. Each block includes a scheduled deload, and your end-of-block feedback informs the next block. Athletickle Parkour and Strength are now available on Android. [Explore Strength](/strength) or [get Strength on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).
