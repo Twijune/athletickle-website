@@ -41,3 +41,10 @@ Use the new edition briefs instead of unverified language from older pitch draft
 ## Founder identity and confidentiality
 
 Use **Mika — Founder of Athletickle** publicly. The profile draft is the editorial source; it is not a public asset. Never publish athlete, team or client names, even in future campaign drafts; avoid uniquely identifying combinations of sport and achievement. The current bio omits the individual indoor-rowing world champion and the unresolved Parkour Akatemia end date. Portrait will be supplied by Mika.
+
+## Strength Android release — 13 November 2026
+
+The public Google Play listing for `com.athletickle.str` returned HTTP 200 with the title “Athletickle Strength” and an Install action for `gl=FI` and `gl=US` (English). This verifies the public listing in those storefronts, not every country or device. The current listing still describes a free first four-week block, later subscription blocks and the 21-day pacing gate. Upcoming store-managed trial plans are not advertised by this release update.
+
+Download: https://play.google.com/store/apps/details?id=com.athletickle.str
+Product page: https://athletickle.com/strength

@@ -4,12 +4,16 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 import App from './App.tsx'
 import { localeFromPath } from './blog/paths.ts'
+import { readEmbeddedExercise } from './exercises/exercise.ts'
 
 const container = document.getElementById('root')!
 const app = (
   <StrictMode>
     <BrowserRouter>
-      <App initialLocale={localeFromPath(window.location.pathname) ?? undefined} />
+      <App
+        initialLocale={localeFromPath(window.location.pathname) ?? undefined}
+        exercise={readEmbeddedExercise()}
+      />
     </BrowserRouter>
   </StrictMode>
 )

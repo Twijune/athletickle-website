@@ -8,9 +8,9 @@ REGULAR = FONT.with_name('LiberationSans-Regular.ttf')
 if not FONT.exists():
     raise SystemExit('Install Liberation Sans or update FONT to a local licensed font.')
 CARDS = {
-    'athletickle': ('PARKOUR + STRENGTH', ['A training plan', 'with a direction.'], 'Meet the coach. Join the beta community.'),
+    'athletickle': ('PARKOUR + STRENGTH', ['A training plan', 'with a direction.'], 'Parkour and Strength are now available on Android.'),
     'parkour': ('ATHLETICKLE PARKOUR', ['Strength and power.', 'Built around parkour.'], 'Complementary training. A structured roadmap.'),
-    'strength': ('ATHLETICKLE STRENGTH', ['Give your strength', 'training a direction.'], 'Strength. Muscle. A two-day option.'),
+    'strength': ('ATHLETICKLE STRENGTH', ['Give your strength', 'training a direction.'], 'Strength. Muscle mass. A two-day option.'),
     'about': ('MIKA / FOUNDER OF ATHLETICKLE', ['Coaching experience.', 'Made more accessible.'], 'MSc in Exercise Physiology. Parkour since 2005.'),
 }
 for name, (label, lines, subtitle) in CARDS.items():
@@ -32,5 +32,6 @@ for name, (label, lines, subtitle) in CARDS.items():
             size -= 1
         draw.text((62, 230 + i * 79), line, font=ImageFont.truetype(str(FONT), size), fill='#f5f3ef')
     draw.text((65, 438), subtitle, font=ImageFont.truetype(str(REGULAR), 25), fill='#b9b7b3')
-    draw.text((65, 554), 'PRE-LAUNCH  /  ATHLETICKLE.COM', font=ImageFont.truetype(str(FONT), 18), fill=accent)
+    status = 'NOW ON ANDROID' if name != 'about' else 'MEET THE FOUNDER'
+    draw.text((65, 554), f'{status}  /  ATHLETICKLE.COM', font=ImageFont.truetype(str(FONT), 18), fill=accent)
     image.save(ROOT / 'public' / 'social' / f'{name}.png', optimize=True)

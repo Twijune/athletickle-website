@@ -27,6 +27,7 @@ Production remains indexable: this configuration does not add the test site's `X
 - `/parkour`, `/strength`, `/about`: English product and founder pages.
 - `/blog`, `/fr/blog`, `/de/blog`, `/es/blog`: existing training content.
 - `/contact`, `/privacy`, `/terms`: existing company/legal pages.
+- `/exercises/<slug>`: one unlisted demo page per filmed exercise (noindex, no sitemap entry, no index page, not linked from the site). Data comes from both apps' `exercises.json` through `node scripts/sync-exercises.ts` (or Bun); re-run it when either app's exercise list changes and commit `src/data/exercises.json`. Each page embeds only its own entry, so the full list never ships to the browser; `check-marketing.mjs` enforces all of this.
 
 Shared product facts and the Discord invitation live in `src/data/marketing.ts`. Homepage copy lives in `src/i18n/marketingCopy.ts`; shared navigation/blog labels remain in `src/i18n/translations.ts`. Add public routes to both App and the prerender route list so direct links, crawlers and the sitemap stay aligned.
 
@@ -36,4 +37,4 @@ Generate social preview cards with `python3 scripts/social-cards.py` (Pillow and
 
 Start with [docs/marketing/README.md](docs/marketing/README.md). It includes source-backed claims, Discord copy, creator briefs, store copy, content drafts, measurement sheets and release checks.
 
-Both apps are pre-launch. The website uses labelled roadmap illustrations pending real release-build captures. Deployment, Discord setup and external outreach are separate operational steps.
+Athletickle Parkour and Athletickle Strength are available on Android via Google Play. Strength’s public listing was verified on 13 November 2026 for Finland and the US. The website uses labelled roadmap illustrations pending real release-build captures. Deployment, Discord setup and external outreach are separate operational steps.

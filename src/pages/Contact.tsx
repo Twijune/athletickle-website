@@ -1,3 +1,4 @@
+import { COMPANY, COMPANY_COUNTRY, EMAIL_USER, EMAIL_DOMAIN } from '../data/company'
 import { useEffect, useRef } from 'react'
 import BlogLayout from '../components/BlogLayout'
 import { contactMeta } from '../seo/meta'
@@ -7,8 +8,6 @@ const DISCORD_URL = 'https://discord.gg/PrXwF4QSuf'
 
 // Email is assembled at runtime so it never appears as plaintext in the
 // prerendered/static HTML that scrapers read. Parts kept separate on purpose.
-const EMAIL_USER = 'hello'
-const EMAIL_DOMAIN = 'athletickle.com'
 
 export default function Contact() {
   useHead(contactMeta())
@@ -33,6 +32,10 @@ export default function Contact() {
         <p className="font-['Space_Mono'] text-white/70 leading-relaxed mb-10 max-w-xl">
           The Discord is where it happens — community, questions, and launch updates. For formal,
           legal, or press matters, email us.
+        </p>
+
+        <p className="font-['Space_Mono'] text-sm text-white/70 mb-10">
+          {COMPANY} — {COMPANY_COUNTRY}
         </p>
 
         <div className="grid sm:grid-cols-2 gap-px bg-white/10 mb-12">

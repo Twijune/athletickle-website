@@ -1,26 +1,25 @@
+import { COMPANY, COMPANY_COUNTRY, LEGAL_UPDATED } from '../data/company'
 import BlogLayout from '../components/BlogLayout'
 import { termsMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
 
-// NOTE: Placeholders in [[double brackets]] must be filled in before launch.
-// This document is a starting template and is NOT legal advice — have a lawyer
+// NOTE: This document is a starting template and is NOT legal advice — have a lawyer
 // review it, especially the injury/liability clauses (§§3–7), the narrow
 // indemnity (§11) and the subscription/withdrawal terms (§8), before going live.
 //
 // This page is word-for-word the same document the apps bundle at
 // src/data/legal.ts (Athletickle PK and Athletickle STR). Both stores require
 // the Terms to be reachable next to the purchase button, so the apps ship their
-// own copy offline. If you edit one, edit the others and bump LAST_UPDATED in
-// all of them.
+// own copy offline. If you edit one, edit the others and bump LEGAL_UPDATED in
+// src/data/company.ts, which the site and both apps share byte for byte.
 //
 // One deliberate difference: §4 here is the union of both editions' risk text,
 // because this single page has to cover whichever app the reader has. The
 // lifestyle-sports clause comes from PK, the heavy-load bullet from STR.
 
-const COMPANY = '[[Company legal name]]'
-const GOVERNING_LAW = 'Finland'
+const GOVERNING_LAW = COMPANY_COUNTRY
 const MIN_AGE = '16'
-const LAST_UPDATED = '8 September 2026'
+const LAST_UPDATED = LEGAL_UPDATED
 
 const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
   <section className="mb-12">
@@ -100,8 +99,7 @@ export default function Terms() {
 
         <Section title="1. Acceptance & Eligibility">
           <p>
-            By creating an account or otherwise using the App, you confirm that you are at least {MIN_AGE}{' '}
-            years old (or the age of digital consent in your country, whichever is higher) and that
+            By using the App, you confirm that you are at least {MIN_AGE} years old (or the age of digital consent in your country, whichever is higher) and that
             you have the legal capacity to enter into these Terms. If you use the App on behalf of
             someone else, you represent that you are authorised to accept these Terms for them.
           </p>
@@ -351,15 +349,7 @@ export default function Terms() {
           <p>
             If you are a consumer, this choice of law does not deprive you of the protection of the
             mandatory provisions of the law of your country of residence, and you may also bring
-            proceedings in the courts of that country. Consumers in the EU may also use the European
-            Commission&rsquo;s online dispute resolution platform at{' '}
-            <a
-              href="https://ec.europa.eu/consumers/odr"
-              className="text-[#D1622A] underline underline-offset-4 hover:text-[#E07B45] transition-colors"
-            >
-              ec.europa.eu/consumers/odr
-            </a>
-            .
+            proceedings in the courts of that country.
           </p>
         </Section>
 

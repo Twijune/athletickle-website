@@ -1,9 +1,9 @@
+import { COMPANY, COMPANY_COUNTRY, LEGAL_UPDATED } from '../data/company'
 import BlogLayout from '../components/BlogLayout'
 import { privacyMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
 
-// NOTE: Placeholders in [[double brackets]] must be filled in before launch.
-// This document is a starting template and is NOT legal advice — have a lawyer
+// NOTE: This document is a starting template and is NOT legal advice — have a lawyer
 // review it before going live, especially the international-transfers section.
 //
 // Before publishing:
@@ -11,13 +11,15 @@ import { useHead } from '../seo/useHead'
 //    they host/process in, then complete the "International transfers" section.
 //  - The "the app collects nothing off-device" claim (§3/§6) is accurate today
 //    (fully local, no crash/push/in-app-analytics SDKs). Re-check it if any SDK
-//    that sends data off the device is ever added. Vimeo (§4) is the one place
-//    a tap leaves the device, and it is the user's own browser that goes there.
+//    that sends data off the device is ever added. The exercise-video download
+//    (§4, bunny.net, played in-app since 2 Nov 2026) is the one request the app
+//    makes besides the stores' purchase checks.
+//  - Accept bunny.net's DPA (dashboard → Account → Data Processing Agreement):
+//    §4 calls Bunny our processor.
 
-const COMPANY = '[[Company legal name]]'
-const CONTROLLER_COUNTRY = '[[country where you/your company are based]]'
+const CONTROLLER_COUNTRY = COMPANY_COUNTRY
 const MIN_AGE = '16'
-const LAST_UPDATED = '8 September 2026'
+const LAST_UPDATED = LEGAL_UPDATED
 
 const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
   <section className="mb-12">
@@ -70,7 +72,8 @@ export default function Privacy() {
             {[
               'The app runs entirely on your device. We run no server and never receive your training data.',
               'We don’t require an account, and we don’t sell or share your personal data.',
-              'The only data collected off your device is anonymous website analytics (Glyphex.io) — cookieless, so no consent banner.',
+              'Apart from delivering the exercise videos you play, the only data collected off your device is anonymous website analytics (Glyphex.io) — cookieless, so no consent banner.',
+              'Exercise demo clips play inside the app. A clip streams from bunny.net, our EU-based video host, only when you tap play, so Bunny sees your IP address only then.',
               'Payments and subscriptions are handled by the Apple App Store and Google Play, not by us.',
             ].map((line) => (
               <li
@@ -136,15 +139,34 @@ export default function Privacy() {
             your training data or how you use the app. Any programs, logs, and settings you create
             stay in the app&rsquo;s local storage on your device.
           </p>
+          <p>
+            Apart from the app store&rsquo;s own purchase checks (section 5), the only thing the app
+            sends over the internet is a request for an exercise video when you tap play on it
+            (section 4). That request carries your IP address and which clip you asked for, and
+            nothing about you, your programs or your logs.
+          </p>
         </Section>
 
-        <Section title="4. Exercise Videos (Vimeo)">
+        <Section title="4. Exercise Videos (bunny.net)">
           <p>
-            Exercise demonstrations are hosted on Vimeo. The app does not embed or preload them: a
-            link opens in your browser or the Vimeo app only when you tap it. When you do, Vimeo
-            receives your IP address and may set its own cookies, as an independent controller under
-            its own <Ext href="https://vimeo.com/privacy">privacy policy</Ext>. We receive nothing
-            back — we cannot see which videos you watch, or whether you watch any.
+            Exercise demonstrations are hosted by bunny.net (BunnyWay d.o.o., Slovenia) and play
+            inside the app. Nothing is preloaded: a clip downloads only when you tap play on an
+            exercise. To deliver it, Bunny receives your IP address and the address of the clip.
+            Bunny handles this on our behalf, as our processor under a data processing agreement. It
+            sets no cookies when it delivers a clip, and it anonymises the IP addresses in its
+            delivery logs, so the logs show which clips were played but not who played them. Our
+            legal basis is providing the feature you asked for (Article 6(1)(b) GDPR).
+          </p>
+          <p>
+            The exercise pages on athletickle.com play the same clips from bunny.net in your
+            browser, on the same terms.
+          </p>
+          <p>
+            If a clip will not load in the app, the app offers to open it on Bunny&rsquo;s player
+            page in your browser instead. That page counts the play in Bunny&rsquo;s viewing
+            statistics for our videos, which show us totals such as views, watch time and country,
+            not who watched. Its player may remember settings such as mute or subtitle language in
+            your browser&rsquo;s local storage.
           </p>
         </Section>
 
@@ -183,8 +205,8 @@ export default function Privacy() {
             {[
               ['Glyphex', 'Cookieless website analytics (processor). glyphex.io'],
               [
-                'Vimeo',
-                'Hosting for exercise demonstration videos, opened outside the app when you tap a link. vimeo.com',
+                'bunny.net',
+                'Hosting and delivery of the exercise demonstration videos, streamed into the app when you tap play and shown on our website’s exercise pages (processor). bunny.net',
               ],
               ['Apple', 'App Store distribution, payments, and subscriptions.'],
               ['Google', 'Google Play distribution, payments, and subscriptions.'],
@@ -206,11 +228,18 @@ export default function Privacy() {
             EU Standard Contractual Clauses) provided by those services. {/* TODO: confirm Glyphex's
             hosting region and add its specific transfer mechanism here before launch. */}
           </p>
+          <p>
+            bunny.net is based in the EU and processes its delivery logs there. A clip is served from
+            the Bunny server nearest you, which may be outside the EU, normally only when you are.
+            That server keeps the log in memory for under a minute before passing it on to Bunny in
+            the EU.
+          </p>
         </Section>
 
         <Section title="9. Data Retention">
           <p>
-            Website analytics are retained by Glyphex only in anonymous, aggregate form. Because the
+            Website analytics are retained by Glyphex only in anonymous, aggregate form. bunny.net
+            keeps short-lived delivery logs for the videos, with IP addresses anonymised. Because the
             app is local-first, any data it creates lives only on your device and is removed when you
             uninstall the app or clear its data.
           </p>
