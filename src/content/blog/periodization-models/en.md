@@ -10,7 +10,7 @@ draft: true
 
 Periodization training means planning in advance how your sets, reps and loads change over weeks and months. Linear periodization moves from more reps at lighter loads to fewer reps at heavier loads over several months. Weekly undulating periodization changes the rep range each week, daily undulating changes it each session, and block periodization runs short, focused phases one after another.
 
-If you have stalled and wonder whether a different model would fix it, the answer is probably not on its own, because the differences between models are small. Check your volume, effort and recovery first. If you have only ever run linear plans, trying an undulating plan for a couple of mesocycles is reasonable. That is coaching judgement, informed by the research summarized at the end.
+If you have stalled, a different model probably won't fix it on its own, because the differences between models are small. Check your volume, effort and recovery first. If you have only ever run linear plans, a couple of mesocycles on an undulating plan is a reasonable coaching call.
 
 Compared with non-periodized training, planned variation helps strength a little ([Moesgaard et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35044672/)). For muscle growth, the pooled studies show no model ahead.
 
@@ -26,13 +26,13 @@ A periodized plan nests three time scales:
 - **Mesocycle:** several microcycles, often about a month.
 - **Macrocycle:** the whole plan, often a year.
 
-Lengths vary by source. One clinical review uses the same words for longer units, with 3–4 month mesocycles and 1–4 week microcycles, so check what a program means by each term. As common coaching practice, gym programs often use four-week mesocycles, with a lighter [deload week](/blog/deload-week) at the end.
+Lengths vary by source. One clinical review uses the same words for longer units, with 3–4 month mesocycles and 1–4 week microcycles, so check what a program means by each term. Gym programs often use four-week mesocycles, with a lighter [deload week](/blog/deload-week) at the end.
 
 ## The main models, with example weeks
 
 Example weeks, not an Athletickle program. The three-day examples use Monday, Wednesday and Friday and three main lifts: squat, bench press and barbell row. "3 × 8" means three sets of eight reps. Every working set stops about 2 reps short of failure, or 2 reps in reserve (see the [guide to RIR](/blog/rir-autoregulation)), so fewer reps always means more weight.
 
-Two rules apply to the linear and undulating examples, both common coaching practice:
+The linear and undulating examples follow two common coaching rules:
 
 - **Progression:** when the last set of a lift leaves you more than about 2 reps in reserve, add the smallest load step you have the next time you do that lift at that rep range.
 - **Deload:** every fourth week is a lighter deload week.
@@ -91,11 +91,11 @@ Real programs often mix models, so yours may already change rep ranges within th
 
 ## Which model suits whom
 
-This section is coaching judgement, informed by the research below.
+This is coaching judgement, based on the research below.
 
-**Stalled after a year or more of lifting.** Before changing model, check four things. Are you doing enough hard sets? Are your sets close enough to failure? Are you sleeping and eating enough to recover? Are you taking a lighter week now and then? If those are in order and you have only run linear plans, try weekly or daily undulating. Some evidence favours undulating plans for trained lifters, and some does not.
+**Stalled after a year or more of lifting.** Before changing model, check four things: enough hard sets, sets close enough to failure, enough sleep and food to recover, and a lighter week now and then. If those are in order and you have only run linear plans, try weekly or daily undulating. Some evidence favours undulating plans for trained lifters, and some does not.
 
-**"DUP doubles your gains."** That claim usually traces to [one 2002 trial](https://pubmed.ncbi.nlm.nih.gov/11991778/) of 20 men, and the difference in absolute bench press gains was not statistically significant. Pooled studies find a modest advantage for undulating plans at best, and not all of them find one.
+**"DUP doubles your gains."** That claim usually traces to [one small 2002 trial](https://pubmed.ncbi.nlm.nih.gov/11991778/), and the real difference was smaller than the headline (details below). Pooled studies find a modest advantage for undulating plans at best, and not all of them find one.
 
 **New to lifting.** In untrained people, studies find little or no difference between models. A simple plan that you will follow, with steady load increases, is the usual coaching choice.
 
@@ -121,7 +121,7 @@ A meta-analysis of 17 studies found no strength difference between linear and un
 
 The 2002 trial behind "DUP doubles your gains" had 20 young men with at least two years of lifting, all on linear-style programs. In percentage terms the DUP group gained about twice as much (28.8% against 14.4% on the bench press), but it started much weaker on that lift, which inflates percentages. The difference in absolute bench press gains was not statistically significant. The between-group difference was statistically significant over the first six weeks but not over the last six, although the DUP group still gained more on average. The authors suggested the change of program, rather than DUP itself, might explain the result.
 
-Block periodization in lifting rests on few studies, too few for the volume-matched meta-analysis to pool. In 31 college track and field athletes, block and DUP training showed no significant strength difference ([Painter et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22173008/)). In 24 trained men, block training may have raised upper-body power more than a traditional periodized plan ([Bartolomei et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24476775/)). In 17 women, the same lab found bigger lower-body strength gains with weekly undulating training than with block training, and only the undulating group's thigh muscle growth was statistically significant ([Bartolomei et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25807030/)).
+Block periodization in lifting rests on few studies, too few for the volume-matched meta-analysis to pool. Block and DUP training showed no significant strength difference in 31 college track and field athletes ([Painter et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22173008/)). Block training may have raised upper-body power more than a traditional periodized plan in 24 trained men ([Bartolomei et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24476775/)), while a 2015 study of 17 women from the same lab found bigger lower-body strength gains with weekly undulating training than with block training, and only the undulating group's thigh muscle growth was statistically significant ([Bartolomei et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25807030/)).
 
 ### Limits and open questions
 

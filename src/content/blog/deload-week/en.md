@@ -34,7 +34,7 @@ Most survey athletes kept their usual training days and exercises. Squats, press
 
 ### A sample week
 
-This is an illustration, not a prescription from any study and not what either Athletickle app prescribes. It is a four-day upper and lower body split, where "4 × 6" means four sets of six reps and normal sets stop at about 1 to 2 RIR.
+Example plan, not an Athletickle program. It is a four-day upper and lower body split, where "4 × 6" means four sets of six reps and normal sets stop at about 1 to 2 RIR.
 
 In the deload week, the days, main lifts and reps stay the same. The sets roughly halve, the curls and pushdowns go, and the weight comes down enough that each set stops about four reps short of failure.
 
@@ -73,7 +73,7 @@ Use the lighter sets to practise technique. Walks and easy cycling are fine. Avo
 
 ### Planned or reactive
 
-A planned deload is written into the program in advance. A reactive deload is taken when you notice you need one, which coaches call autoregulation. In the survey, about half the athletes planned their deloads, and most of the rest combined a plan with reacting to how they felt. We could not find a trial comparing the two. A plan means the deload happens even in weeks when you feel fine and would skip it, while reacting fits your actual response better, as long as you read the signs honestly.
+A planned deload is written into the program in advance. A reactive deload is taken when you notice you need one, which coaches call autoregulation. In the survey, about half the athletes planned their deloads, and most of the rest combined a plan with reacting to how they felt. We could not find a trial comparing the two. With a plan, the deload happens even in a week when you feel fine and would have skipped it. Reacting matches how you actually respond, as long as you read the signs honestly.
 
 ### Signs lifters go by
 
@@ -84,9 +84,9 @@ The most common reason survey athletes gave was simply that the program said so.
 - Joints or tendons ache more than they usually do.
 - You feel worn down, physically and mentally.
 
-What about a lift that has felt heavy for three sessions running? One heavy session means little, because sleep, stress and food all move it. Three in a row on the same lift is starting to look like a pattern. If other lifts are slipping too, or you dread going to the gym, many coaches would take the lighter week now, or bring a planned one forward. If only one lift is stuck and everything else feels normal, the problem may be that lift's programming rather than overall fatigue.
+One heavy session means little, because sleep, stress and food all affect it. When the same lift has felt heavy three sessions running, it starts to look like a pattern. If other lifts are slipping too, or you dread going to the gym, many coaches would take the lighter week now, or bring a planned one forward. If only one lift is stuck and everything else feels normal, the problem may be that lift's programming rather than overall fatigue.
 
-Pain is a separate question from fatigue. As a general rule, see a physiotherapist or doctor if pain in a joint or tendon changes how you move, gets worse during or after sessions, or is still there after the lighter week.
+Pain is a separate question from fatigue. See a physiotherapist or doctor if pain in a joint or tendon changes how you move, gets worse during or after sessions, or is still there after the lighter week.
 
 ### How often
 
@@ -98,7 +98,7 @@ If your program already has a lighter week built in, that is your deload. If it 
 
 ## If lifting isn't your main sport
 
-If you also do parkour, run or play a sport, count all of your hard training, not only the gym. Jumping and landing load your legs and tendons as well. A deload that halves your gym sets but keeps every hard jump session leaves much of that load in place. As a general coaching judgement, ease the overall load that week, with fewer hard jumps and drops and more easy movement alongside the lighter gym sessions.
+If you also do parkour, run or play a sport, count all of your hard training, not only the gym. Jumping and landing load your legs and tendons as well. A deload that halves your gym sets but keeps every hard jump session leaves much of that load in place. A reasonable coaching call is to ease everything that week: fewer hard jumps and drops, and more easy movement alongside the lighter gym sessions.
 
 ## What the research does and doesn't show
 
@@ -114,7 +114,7 @@ Many coaches believe deloads reduce injuries, and the consensus panel agreed the
 
 ## How Athletickle handles deloads
 
-Both apps plan training in four-week blocks on a 12- or 24-week roadmap, and every block includes a scheduled deload, planned in advance. The apps do not monitor your body or rewrite sessions in real time, and your end-of-block check-in informs the next block. Your first four-week block is free, deload included.
+Both apps plan training in four-week blocks on a 12- or 24-week roadmap, and every block includes a scheduled deload, planned in advance. They don't monitor your body or rewrite sessions in real time. Instead, your end-of-block check-in informs the next block. Your first four-week block is free, deload included.
 
 - **Athletickle Strength** is structured gym training for strength and muscle mass. [See Athletickle Strength](/strength) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).
 - **Athletickle Parkour** is for people whose main training is parkour, and builds complementary strength and power training around it. [See Athletickle Parkour](/parkour) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.pk).

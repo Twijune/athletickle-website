@@ -14,9 +14,11 @@ Expect a gain of a few centimetres over two to three months of consistent traini
 
 A few centimetres can be enough if you are just short of a target, such as a rim or the top of a wall. If you are 20 cm short, one program is unlikely to get you there.
 
+Advice in this post without a linked study is common coaching practice, not a tested rule.
+
 ## Start here if you don't lift yet
 
-This is common coaching practice if you jump a lot but have never lifted. Learn the basic lifts first, from a coach or a gym induction.
+If you jump a lot but have never lifted, learn the basic lifts first, from a coach or a gym induction.
 
 - **Squat.** Start with a goblet squat, holding a dumbbell or kettlebell against your chest, or a squat with an empty 20 kg barbell. Go as deep as you can while your heels stay down and your back keeps its shape. Deep squats carry over to jumping better than quarter squats ([Hartmann et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22344055/)).
 - **Pick the weight.** Choose a weight you could lift about three more times at the end of each set: three reps in reserve (see the [guide to RIR](/blog/rir-autoregulation)). When every set feels easier, add a little weight.
@@ -26,7 +28,7 @@ This is common coaching practice if you jump a lot but have never lifted. Learn 
 
 ## What jump height depends on
 
-Jump height comes from how hard you push into the ground in the short time your feet are on it, relative to your body weight. So the main levers are strength relative to body mass ([Nuzzo et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18438251/)) and how quickly you build force ([McLellan et al., 2011](https://pubmed.ncbi.nlm.nih.gov/20093963/)), and extra mass that adds no force lowers your jump. Technique matters less than many guides suggest ([Vanezis and Lees, 2005](https://pubmed.ncbi.nlm.nih.gov/16338725/)), with one clear exception.
+Jump height comes from how hard you push into the ground in the short time your feet are on it, relative to your body weight. So the main levers are strength relative to body mass ([Nuzzo et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18438251/)) and how quickly you build force ([McLellan et al., 2011](https://pubmed.ncbi.nlm.nih.gov/20093963/)), and extra mass that adds no force lowers your jump. Technique matters less than many guides suggest ([Vanezis and Lees, 2005](https://pubmed.ncbi.nlm.nih.gov/16338725/)). The arm swing is the exception.
 
 ## How to train for a higher jump
 
@@ -40,9 +42,7 @@ Squats, Romanian deadlifts and split squats are the base. Stop most sets one to 
 
 ### Add plyometrics
 
-Plyometrics are full-effort jumps and hops, usually with a quick dip or a landing straight into the next push. Examples are the squat jump (from a held squat, no dip), the countermovement jump (the ordinary jump: dip quickly, then go), the broad jump, single-leg hops and the drop jump (step off a low box and jump as soon as you land). Mix several types and don't add weight to the jumps ([de Villarreal et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19197203/)).
-
-As common coaching practice:
+Plyometrics are full-effort jumps and hops, usually with a quick dip or a landing straight into the next push. Examples are the squat jump (from a held squat, no dip), the countermovement jump (the ordinary jump: dip quickly, then go), the broad jump, single-leg hops and the drop jump (step off a low box and jump as soon as you land). Mix several types and don't add weight to the jumps ([de Villarreal et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19197203/)). How to do them:
 
 - Make every jump a full effort, and rest a minute or two between sets.
 - Land with hips and knees bending together and knees in line with your toes.
@@ -73,7 +73,7 @@ Week total: 141 jumps, each session at the low end of the trial range. In betwee
 
 ## For parkour practitioners
 
-A parkour evening of precisions, drops and runs can hold dozens of landings, so count them. As a coaching judgement, if you practise three times a week you may already be near the trial volumes, and the gym is mainly where you add strength. Keep the gym jumps near the week 1 level and progress the lifts instead.
+A parkour evening of precisions, drops and runs can hold dozens of landings, so count them. Three sessions a week may already put you near the trial volumes, so use the gym mainly to add strength. Keep the gym jumps near the week 1 level and progress the lifts instead.
 
 One way to fit two gym days around three parkour evenings:
 
@@ -88,13 +88,13 @@ Cut the gym jumps first in a week with a long jumping session, and in a [deload 
 
 ## How long it takes
 
-Most trials lasted two months or less, so longer-term data are scarce. As common coaching practice, give a program eight weeks before you judge it and retest every four weeks.
+Most trials lasted two months or less, so longer-term data are scarce. Give a program eight weeks before you judge it and retest every four weeks.
 
 ## Jump volume and your knees
 
 Jumping and landing load the tendons. Jumper's knee (pain in the patellar tendon below the kneecap) is common in jump-heavy sports. In one study of elite Norwegian athletes, 14.2% had it, including 44.6% of volleyball players ([Lian et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15722279/)). In young elite volleyball players, more training hours and more match play were linked with higher odds of developing it ([Visnes and Bahr, 2013](https://pubmed.ncbi.nlm.nih.gov/22260424/)).
 
-As general advice, add jump volume gradually and count all your jumping, parkour, sport and gym, as one total. See a physiotherapist or doctor if tendon pain lasts, gets worse during or after sessions, or changes how you move.
+Add jump volume gradually, and count all your jumping (parkour, sport and gym) as one total. See a physiotherapist or doctor if tendon pain lasts, gets worse during or after sessions, or changes how you move.
 
 ## What the research does and doesn't show
 
@@ -108,6 +108,8 @@ As general advice, add jump volume gradually and count all your jumping, parkour
 
 ## How Athletickle Parkour fits
 
-Athletickle Parkour plans your gym strength and power work around your parkour practice. You tell it how often you practise parkour and how many gym days you want. Depending on your experience, it can include jump-focused blocks and sessions that pair a lift with a jump. It assumes you already know how to do the movements it names. A beginner free-weight mode emphasizes fundamental lifts, and demonstration videos show the movements, though some movements have no video. The app doesn't teach parkour technique or schedule separate sprint workouts, and you need gym access. Your first four-week block is free, and later blocks need a subscription.
+Athletickle Parkour plans your gym strength and power work around your parkour practice. You tell it how often you practise parkour and how many gym days you want. Depending on your experience, the plan can include jump-focused blocks and sessions that pair a lift with a jump.
+
+It is built for people who already know the movements it names. Beginner free-weight mode emphasizes fundamental lifts, and demonstration videos show the movements, though some have no video. It doesn't teach parkour technique or schedule separate sprint workouts, and you need a gym. Your first four-week block is free, and later blocks need a subscription.
 
 - **Athletickle Parkour:** [See Athletickle Parkour](/parkour) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.pk).

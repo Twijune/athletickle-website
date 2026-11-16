@@ -8,17 +8,17 @@ tags: ["running", "strength", "programming"]
 draft: true
 ---
 
-Yes, strength training is worth doing as a runner. Twice a week, with heavy lifts, jumps or both, it tends to make distance runners a little more economical, meaning they use less energy at a given pace. A meta-analysis of heavy and explosive programs put the average gain at about 4%, which its authors called small ([Denadai et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27497600/)). Race results improved in most trials that tested them ([Blagrove et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5889786/)).
+Strength training is worth doing as a runner. Twice a week, with heavy lifts, jumps or both, it tends to make distance runners a little more economical, meaning they use less energy at a given pace. A meta-analysis of heavy and explosive programs put the average gain at about 4%, which its authors called small ([Denadai et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27497600/)). Race results improved in most trials that tested them ([Blagrove et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5889786/)).
 
 It won't make you noticeably heavier. In most of those trials, body weight did not change while strength rose. Over a few months, expect your legs to gain a little muscle and the scales to move very little.
 
-It needn't wreck your long run either. Lifting rarely changed aerobic fitness in runner trials. A hard session can leave your legs tired the next day, so the trick is spacing, covered below.
+It needn't wreck your long run either. Lifting rarely changed aerobic fitness in runner trials. A hard session can leave your legs tired the next day, which is why the example week below keeps lifting away from your hard runs.
 
 Lifting is also often sold as injury prevention. For runners, that evidence is much weaker than for sport in general.
 
-## If you have never lifted
+Advice in this post without a linked study is common coaching practice, not a tested rule.
 
-This is common coaching practice for the first few weeks.
+## If you have never lifted
 
 **Your first session.** Pick four or five basic lifts: a goblet squat (holding one dumbbell at your chest), a dumbbell Romanian deadlift, a split squat, a calf raise and a dumbbell row. Learn them first from a coach or a gym induction, then do two sets of 8 to 10 reps each.
 
@@ -52,7 +52,7 @@ Avoid going to failure, which adds fatigue and may slow recovery.
 
 ### Jumps
 
-Plyometrics are quick jumps and hops with short ground contacts. Adding them to lifting may help further ([Llanos-Lagos et al., 2024b](https://pmc.ncbi.nlm.nih.gov/articles/PMC11258194/)). Good choices are skipping, low hops in place, bounding and small drop jumps from a 20–30 cm box. Start with 30 to 60 landings a session. Trials built mainly on jumps worked up to about 110–230 over six to nine weeks. Common coaching practice is to do them first, while you are fresh.
+Plyometrics are quick jumps and hops with short ground contacts. Adding them to lifting may help further ([Llanos-Lagos et al., 2024b](https://pmc.ncbi.nlm.nih.gov/articles/PMC11258194/)). Good choices are skipping, low hops in place, bounding and small drop jumps from a 20–30 cm box. Start with 30 to 60 landings a session. Trials built mainly on jumps worked up to about 110–230 over six to nine weeks. Do them first, while you are fresh.
 
 ### Two-day example
 
@@ -101,11 +101,11 @@ Each lift leaves more than 24 hours before the next hard run, and nothing heavy 
 
 ### Racing season and race week
 
-The 2018 review suggests dropping to one session a week in the racing season, and that suggestion rests mainly on one small study. In another study, gains were lost within about six weeks once lifting stopped, so keep that one session going. We could not find a trial on race week. Common coaching practice is a short session early in the week with fewer sets, then no lifting in the last few days before a key race.
+The 2018 review suggests dropping to one session a week in the racing season, and that suggestion rests mainly on one small study. In another study, gains were lost within about six weeks once lifting stopped, so keep that one session going. We could not find a trial on race week. A common approach is a short session early in the week with fewer sets, then no lifting in the last few days before a key race.
 
 ## For other athletes
 
-As coaching judgement, cyclists, triathletes and team-sport players can use the same pattern: two sessions a week with heavier loads, kept away from the hardest sport sessions, and often one in the competition season. A widely cited narrative review argues that stronger athletes tend to jump, sprint and change direction better ([Suchomel et al., 2016](https://pubmed.ncbi.nlm.nih.gov/26838985/)).
+Cyclists, triathletes and team-sport players can use the same pattern: two sessions a week with heavier loads, kept away from the hardest sport sessions, and often one in the competition season. A widely cited narrative review argues that stronger athletes tend to jump, sprint and change direction better ([Suchomel et al., 2016](https://pubmed.ncbi.nlm.nih.gov/26838985/)).
 
 ## What the research does and doesn't show
 
@@ -135,4 +135,10 @@ We could not find a trial of heavy gym lifting with running injuries as the outc
 
 ## How Athletickle Strength fits
 
-Athletickle Strength is a structured gym plan for strength and muscle mass. It has no input for running or any other sport, so it does not plan your running or adjust for your mileage. You decide how the sessions fit around your runs. If two days a week is what you have, there is a two-day option with less total volume: two full-body sessions a week, with progression and deloads still in the plan. You choose it when you create the program, and it stays with that program. You can bias the plan towards maximal strength and a lower-body emphasis. Beginner free-weight mode emphasizes fundamental lifts, but the app assumes you already know how to do the movements it names. Demonstration videos and an in-app training guide help explain what the plan asks of you, though some movements have no video. Gym access is assumed. Your first four-week block is free, and later blocks need a subscription. [See Athletickle Strength](/strength) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).
+Athletickle Strength is a structured gym plan for strength and muscle mass. It has no input for running or any other sport, so it does not plan your running or adjust for your mileage. You decide how the sessions fit around your runs.
+
+If two days a week is what you have, there is a two-day option with less total volume: two full-body sessions a week, with progression and deloads still in the plan. You choose it when you create the program, and it stays with that program. You can also bias the plan towards maximal strength and a lower-body emphasis.
+
+Beginner free-weight mode emphasizes fundamental lifts, but the app assumes you already know the movements it names and have a gym. Demonstration videos and an in-app training guide help explain what the plan asks of you, though some movements have no video. Your first four-week block is free, and later blocks need a subscription.
+
+- **Athletickle Strength:** [See Athletickle Strength](/strength) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).

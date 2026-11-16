@@ -12,6 +12,8 @@ Yes, two full-body sessions a week can build muscle and make you stronger. You w
 
 Keeping what you already have takes much less. A review concluded that younger adults can hold on to their strength and muscle size for months on one session a week, as long as the weights stay heavy ([Spiering et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33629972/)).
 
+Advice in this post without a linked study is common coaching practice, not a tested rule.
+
 ## An example two-day plan
 
 Example plan, not an Athletickle program. "3 × 6–8" means three sets of six to eight reps. Once you are past the first couple of weeks, stop most sets one to three reps short of failure. Those spare reps are called reps in reserve (RIR), and the [guide to RIR-based autoregulation](/blog/rir-autoregulation) explains how to judge them.
@@ -50,8 +52,6 @@ Sets that end closer to failure seem to build more muscle, while strength gains 
 
 ## Your first sessions back
 
-These are common coaching practice, not tested rules.
-
 - **Start light.** For the first week or two, pick weights you could lift for about four more reps than the plan asks. Expect some soreness at first.
 - **Warm up.** Before the first working set of each big lift, do two or three lighter sets with fewer reps, building up to your working weight.
 - **Rest between sets.** Rest until your breathing has settled and you feel ready to match the last set. Squats and deadlifts usually need longer than rows or presses.
@@ -84,9 +84,9 @@ For muscle growth, the total sets matter more than how many days you spread them
 
 ## Is two days a week enough for you?
 
-As a coaching judgement, two days is enough to get started or come back after a break, and to keep what you have when time is short. It also meets the World Health Organization's guideline for adults, which asks for muscle-strengthening activity on two or more days a week ([Bull et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/)). That guideline is about health and sets no target for muscle growth.
+Two days is enough to get started or come back after a break, and to keep what you have when time is short. It also meets the World Health Organization's guideline for adults, which asks for muscle-strengthening activity on two or more days a week ([Bull et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/)). That guideline is about health and sets no target for muscle growth.
 
-It is less likely to be enough if you want as much muscle as possible. The same goes, as a rule of thumb, if you have trained for years and progress has stalled. More sets per session or a third day are the usual next steps.
+It is less likely to be enough if you want as much muscle as possible. The same goes if you have trained for years and progress has stalled. More sets per session or a third day are the usual next steps.
 
 ### Older adults
 
@@ -94,7 +94,7 @@ In older adults, two sessions a week brought large strength gains in one analysi
 
 ### If the gym isn't your main sport
 
-If you run, practise parkour or play a team sport, two gym days is a common way to fit lifting around it. As a coaching judgement, keep heavy leg work away from the day before your hardest sport session. [Strength training for runners](/blog/strength-training-for-runners) covers scheduling.
+If you run, practise parkour or play a team sport, two gym days is a common way to fit lifting around it. Keep heavy leg work away from the day before your hardest sport session. [Strength training for runners](/blog/strength-training-for-runners) covers scheduling.
 
 ## What the research says about the minimum effective dose
 
@@ -108,6 +108,8 @@ For maintenance, the Spiering review concluded that one session a week can keep 
 
 ## How Athletickle Strength handles two-day training
 
-Athletickle Strength has a two-day option called minimal effective dose. It plans two full-body sessions a week with a reduced amount of training, and progression and deloads remain part of the plan. You choose the two-day option when you create a program, and it stays with that program as later blocks become available. If you are coming back after a break, beginner free-weight mode emphasizes fundamental lifts. The app assumes you already know how to do the movements it names. Movement demonstration videos help explain what the plan asks of you, though some movements have no video. If you log your sets, the app suggests adding load, repeating it or easing back, but it doesn't choose the weight for you. Gym access is assumed. Your first four-week block is free, and later blocks need a subscription.
+Athletickle Strength has a two-day option called minimal effective dose: two full-body sessions a week with a reduced amount of training. Progression and deloads stay in the plan. You choose it when you create a program, and it stays with that program as later blocks become available.
+
+If you log your sets, the app suggests adding load, repeating it or easing back. It doesn't choose the weight for you. It assumes you already know the movements it names and have a gym. If you are coming back after a break, beginner free-weight mode emphasizes fundamental lifts, and demonstration videos help explain what the plan asks of you, though some movements have no video. Your first four-week block is free, and later blocks need a subscription.
 
 - **Athletickle Strength** is structured gym training for strength and muscle mass. [See Athletickle Strength](/strength) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).
