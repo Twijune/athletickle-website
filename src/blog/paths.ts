@@ -36,6 +36,11 @@ export function blogSlugFromPath(pathname: string): string | null {
 }
 
 /** Locale pinned by the URL, or null when the page manages its own locale. */
+/** Content language of a page that differs from the site locales (the Finnish legal pages). */
+export function contentLangFromPath(pathname: string): 'fi' | null {
+  return pathname.startsWith('/fi/') ? 'fi' : null
+}
+
 export function localeFromPath(pathname: string): Locale | null {
   for (const locale of PREFIXED_LOCALES) {
     if (pathname === `/${locale}/blog` || pathname.startsWith(`/${locale}/blog/`)) {

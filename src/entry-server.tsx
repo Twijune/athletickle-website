@@ -31,6 +31,8 @@ export { SITE_URL } from './seo/config'
 export interface StaticRoute {
   path: string
   locale: Locale
+  /** <html lang>: the content language, which differs from `locale` on the Finnish legal pages */
+  htmlLang: string
   head: string
   lastmod?: string
   alternates?: Alternate[]
@@ -62,6 +64,7 @@ export function getStaticRoutes(): StaticRoute[] {
     routes.push({
       path: meta.path,
       locale: meta.locale,
+      htmlLang: meta.contentLang ?? meta.locale,
       head: extraHead ? `${renderHead(meta)}\n    ${extraHead}` : renderHead(meta),
       lastmod,
       alternates: meta.alternates,
@@ -82,6 +85,8 @@ export function getStaticRoutes(): StaticRoute[] {
   }
   add(termsMeta(), true)
   add(privacyMeta(), true)
+  add(termsMeta('fi'), true)
+  add(privacyMeta('fi'), true)
   add(contactMeta(), true)
   // Unlisted: noindex and kept out of the sitemap. robots.txt still allows
   // them, because a crawler has to fetch a page to see its noindex.

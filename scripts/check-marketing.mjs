@@ -23,6 +23,25 @@ for (const path of pages) {
   assert.equal(bytes.readUInt32BE(16), 1200)
   assert.equal(bytes.readUInt32BE(20), 630)
 }
+// Legal pages: English and Finnish versions of the apps' own documents
+// (src/data/legal), paired by hreflang, without the email in the static HTML.
+for (const [path, lang] of [['terms', 'en'], ['privacy', 'en'], ['fi/terms', 'fi'], ['fi/privacy', 'fi']]) {
+  const html = await readFile(resolve(root, 'dist', path, 'index.html'), 'utf8')
+  const id = path.replace('fi/', '')
+  assert.match(html, new RegExp(`<html lang="${lang}"`), `${path}: html lang`)
+  assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `${path}: one H1`)
+  assert.ok(html.includes(`hreflang="en" href="https://athletickle.com/${id}"`), `${path}: hreflang en`)
+  assert.ok(html.includes(`hreflang="fi" href="https://athletickle.com/fi/${id}"`), `${path}: hreflang fi`)
+  assert.ok(sitemap.includes(`/${path}</loc>`), `${path}: sitemap entry`)
+  assert.doesNotMatch(html, /info@athletickle\.com/, `${path}: email stays out of the static HTML`)
+  assert.doesNotMatch(html, /English version governs|englanninkielinen versio/i, `${path}: no "English governs"`)
+  assert.match(html, lang === 'fi' ? /edullisempaa tulkintaa/ : /more favourable to you applies/, `${path}: language clause`)
+}
+for (const [path, union] of [['terms', /parkour, climbing, snowboarding and surfing/], ['fi/terms', /ballistinen hyppyharjoittelu/]]) {
+  const html = await readFile(resolve(root, 'dist', path, 'index.html'), 'utf8')
+  assert.match(html, union, `${path}: §4 covers both editions`)
+  assert.match(html, /safety pins|turvatankoja/, `${path}: STR heavy-load bullet`)
+}
 const strength = await readFile(resolve(root, 'dist/strength/index.html'), 'utf8')
 const parkour = await readFile(resolve(root, 'dist/parkour/index.html'), 'utf8')
 assert.match(strength, /two full-body sessions/i)
