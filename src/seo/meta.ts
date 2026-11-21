@@ -1,4 +1,4 @@
-import { editions, type Edition } from '../data/marketing'
+import { DISCORD_URL, editions, PARKOUR_PLAY_URL, STRENGTH_PLAY_URL, type Edition } from '../data/marketing'
 import type { Locale } from '../i18n/translations'
 import { blogAlternates, blogPath, type Alternate } from '../blog/paths'
 import { getPostLocales, type Post } from '../blog/posts'
@@ -64,6 +64,9 @@ const ORGANIZATION_JSON_LD = {
     '@type': 'ImageObject',
     url: `${SITE_URL}/athletickle-favicon-256.png`,
   },
+  // Profiles the site already links publicly. Tells search engines these pages belong to
+  // the same organization, which helps Google tie the "Athletickle" brand to this site.
+  sameAs: [PARKOUR_PLAY_URL, STRENGTH_PLAY_URL, DISCORD_URL],
 }
 
 export function landingMeta(): PageMeta {
