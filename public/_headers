@@ -1,0 +1,5 @@
+*
+    X-Frame-Options: DENY
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+    Content-Security-Policy: default-src 'self'; script-src 'self' https://glyphex.io; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://vz-198bc333-b0b.b-cdn.net; media-src 'self' https://vz-198bc333-b0b.b-cdn.net; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://glyphex.io; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'
