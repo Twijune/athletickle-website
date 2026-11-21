@@ -14,5 +14,6 @@ jobs:
   check-local-paths:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # Pinned to a commit so a moved tag cannot change what runs here.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - run: node scripts/check-local-paths.mjs
