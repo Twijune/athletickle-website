@@ -8,14 +8,16 @@ The site has no Google rankings yet (`2026-11-13-dataforseo-first-pass.md`, repo
 
 ## Sources to read
 
+`Athletickle-marketing/` is the private working folder kept outside this repo. Paths that start with it are relative to wherever that folder lives on your machine.
+
 | What | Where |
 |---|---|
 | Keyword data and the reasons for each topic | `2026-11-13-dataforseo-first-pass.md` (repo root), section 3 |
 | What the apps do and must not be said to do | `docs/marketing/CLAIMS.md`, `src/data/marketing.ts`, `src/i18n/marketingCopy.ts` |
-| Banned words and sentence shapes | `/Users/anttivuoriainen/Documents/Athletickle-marketing/slop-blacklist.md` |
-| Brand tone | `/Users/anttivuoriainen/Documents/Athletickle-marketing/brand-and-source-material.md` (its Strength store note is out of date: Strength is live on Google Play) |
+| Banned words and sentence shapes | `Athletickle-marketing/slop-blacklist.md` |
+| Brand tone | `Athletickle-marketing/brand-and-source-material.md` (its Strength store note is out of date: Strength is live on Google Play) |
 | Existing posts, for format | `src/content/blog/*/en.md` |
-| Per-post product sheet (written by the claim checker) | `/Users/anttivuoriainen/Documents/Athletickle-marketing/Drafts/blog-batch-1/claims-sheet.md` |
+| Per-post product sheet (written by the claim checker) | `Athletickle-marketing/Drafts/blog-batch-1/claims-sheet.md` |
 
 The app source code is not available. Product statements must come from the files above, nothing else.
 
@@ -25,7 +27,7 @@ The app source code is not available. Product statements must come from the file
 - Second person to the reader. "We" for Athletickle only in the product section. No first-person founder voice: Mika has not signed these.
 - Plain, direct, short sentences. Explain a term the first time it appears. Concrete numbers and worked examples over general statements.
 - Sentence case for the title and headings.
-- Must pass `python3 -I /Users/anttivuoriainen/Documents/Athletickle-marketing/scripts/check_slop.py <file>` with zero hits. That includes no em-dashes and no semicolons. Spaced en-dashes are flagged, but `3–5` style ranges are fine.
+- Must pass `python3 -I Athletickle-marketing/scripts/check_slop.py <file>` with zero hits. That includes no em-dashes and no semicolons. Spaced en-dashes are flagged, but `3–5` style ranges are fine.
 
 ## Format
 
@@ -94,7 +96,7 @@ The app source code is not available. Product statements must come from the file
 
 ## Pipeline and files
 
-Working files go in `/Users/anttivuoriainen/Documents/Athletickle-marketing/Drafts/blog-batch-1/<slug>/`:
+Working files go in `Athletickle-marketing/Drafts/blog-batch-1/<slug>/`:
 
 1. `01-research.md`, by the hunter: the current top results and what they cover, related questions people ask, gaps, an outline, and a source list with verified links and one-line findings.
 2. `../claims-sheet.md`, by the claim checker, shared by all five: what each post may say about the product, and what it must not.
