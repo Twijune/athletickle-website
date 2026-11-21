@@ -18,7 +18,7 @@ export default function SiteHeader() {
     { label: t('nav.blog'), href: blogPath(locale) },
   ]
   return <div lang={locale}>
-    <a className="skip-link" href="#main">{locale === 'fr' ? 'Aller au contenu' : locale === 'de' ? 'Zum Inhalt' : locale === 'es' ? 'Ir al contenido' : 'Skip to content'}</a>
+    <a className="skip-link" href="#main">{c.skipToContent}</a>
     <div className="launch-strip">{c.launchStatus}</div>
     <header className="marketing-header">
       <Link to="/" className="brand"><img src="/athletickle-favicon-256.png" width="42" height="42" alt="" /><span>ATHLETICKLE</span></Link>

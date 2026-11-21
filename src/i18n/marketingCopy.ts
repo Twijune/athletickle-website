@@ -2,6 +2,7 @@ import type { Locale } from './translations'
 
 const en = {
   launchStatus: 'PARKOUR + STRENGTH ARE LIVE ON ANDROID · GET IT ON GOOGLE PLAY',
+  skipToContent: 'Skip to content',
   pkStatus: 'NOW ON ANDROID', strStatus: 'NOW ON ANDROID',
   download: 'Get Parkour on Google Play', downloadStrength: 'Get Strength on Google Play', downloadNote: 'Athletickle Parkour and Strength are now available on Android. Your first four-week block is free.',
   eyebrow: 'COACHING EXPERIENCE. STRUCTURED TRAINING.',
@@ -54,6 +55,7 @@ const en = {
 type Copy = { [K in keyof typeof en]: (typeof en)[K] }
 const fr: Copy = {
   launchStatus: 'PARKOUR + STRENGTH SONT DISPONIBLES SUR ANDROID · SUR GOOGLE PLAY',
+  skipToContent: 'Aller au contenu',
   pkStatus: 'DISPONIBLE SUR ANDROID', strStatus: 'DISPONIBLE SUR ANDROID',
   download: 'Parkour sur Google Play', downloadStrength: 'Strength sur Google Play', downloadNote: 'Athletickle Parkour et Strength sont disponibles sur Android. Votre premier bloc de quatre semaines est offert.',
   eyebrow: 'EXPÉRIENCE DU COACHING. ENTRAÎNEMENT STRUCTURÉ.',
@@ -88,6 +90,7 @@ const fr: Copy = {
 }
 const de: Copy = {
   launchStatus: 'PARKOUR + STRENGTH JETZT AUF ANDROID · BEI GOOGLE PLAY',
+  skipToContent: 'Zum Inhalt',
   pkStatus: 'JETZT AUF ANDROID', strStatus: 'JETZT AUF ANDROID',
   download: 'Parkour bei Google Play', downloadStrength: 'Strength bei Google Play', downloadNote: 'Athletickle Parkour und Strength sind jetzt für Android verfügbar. Dein erster Vier-Wochen-Block ist kostenlos.', eyebrow: 'COACHING-ERFAHRUNG. STRUKTURIERTES TRAINING.', title: 'Ein Trainingsplan mit Richtung.',
   intro: 'Kraft und Explosivität für Parkour. Kraft und Muskelmasse fürs Gym. Wähle deine Edition und sieh die Richtung für die nächsten 12 oder 24 Wochen.',
@@ -113,6 +116,7 @@ const de: Copy = {
 }
 const es: Copy = {
   launchStatus: 'PARKOUR + STRENGTH YA EN ANDROID · EN GOOGLE PLAY',
+  skipToContent: 'Ir al contenido',
   pkStatus: 'YA EN ANDROID', strStatus: 'YA EN ANDROID',
   download: 'Parkour en Google Play', downloadStrength: 'Strength en Google Play', downloadNote: 'Athletickle Parkour y Strength ya están disponibles en Android. Tu primer bloque de cuatro semanas es gratis.', eyebrow: 'EXPERIENCIA COMO ENTRENADOR. ENTRENAMIENTO ESTRUCTURADO.', title: 'Un plan de entrenamiento con rumbo.',
   intro: 'Fuerza y potencia para el parkour. Fuerza y masa muscular para el gimnasio. Elige tu edición y descubre el rumbo de tus próximas 12 o 24 semanas.', join: 'Únete a la comunidad', joinNote: 'En Discord · conoce al fundador, pregunta y sigue las novedades de las apps.', choose: 'Elige tu edición', editionsTitle: 'Dos apps. Tu entrenamiento.',
