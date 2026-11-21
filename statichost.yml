@@ -1,0 +1,7 @@
+image: node:24
+command: >-
+  npm install -g bun@1.3.14 &&
+  bun install --frozen-lockfile &&
+  bun run build &&
+  node scripts/generate-statichost-routing.mjs
+public: dist

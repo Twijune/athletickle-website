@@ -17,8 +17,8 @@ Avoid a channel for every feature. Use one scheduled 30-minute founder Q&A weekl
 
 Welcome to Athletickle. I’m building two training apps:
 
-**Parkour:** complementary strength and power training built around your parkour frequency.
-**Strength:** structured gym training for strength and muscle, including a two-day reduced-volume option.
+**Parkour:** complementary strength and power built around your parkour training.
+**Strength:** structured gym training for strength and muscle mass, including a two-day reduced-volume option.
 
 Both apps are pre-launch. This is where I’ll share test-build announcements, answer product questions and collect feedback.
 

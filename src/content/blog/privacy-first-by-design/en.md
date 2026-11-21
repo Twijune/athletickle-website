@@ -17,7 +17,7 @@ Local storage also has a tradeoff: there is no cloud backup or cross-device sync
 
 ## What still needs a connection
 
-Exercise demonstrations open external video links. Those providers handle your visit under their own policies. Store purchases and subscription checks also need connectivity; premium access has a three-day offline grace period.
+Exercise demonstrations play inside the app. A clip streams from bunny.net, our EU-based video host, only when you tap play. Store purchases and subscription checks also need connectivity; premium access has a three-day offline grace period.
 
 Subscriptions run through Apple or Google. Payment details are handled by the store, not by an Athletickle payment form.
 
@@ -29,4 +29,4 @@ Discord is our community and beta communication channel. Joining is separate fro
 
 ## Talk to the founder
 
-Both apps are pre-launch. [Join the beta community](/#download) to ask questions and follow test-build announcements. Or explore [Parkour](/parkour) and [Strength](/strength) to see which edition fits your training.
+Athletickle Parkour and Strength are now available on Android. [Join the community](https://discord.gg/PrXwF4QSuf) to ask questions and follow app updates. Or explore [Parkour](/parkour) and [Strength](/strength) to see which edition fits your training.

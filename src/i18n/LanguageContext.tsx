@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from 'react'
+import { createContext, useContext, useState } from 'react'
 import { translations, LOCALES, type Locale, type TranslationKey } from './translations'
 
 const STORAGE_KEY = 'athletickle-locale'
@@ -55,10 +55,6 @@ interface LanguageProviderProps {
 
 export function LanguageProvider({ children, initialLocale }: LanguageProviderProps) {
   const [locale, setLocaleState] = useState<Locale>(initialLocale ?? 'en')
-
-  useEffect(() => {
-    document.documentElement.lang = locale
-  }, [locale])
 
   const setLocale = (next: Locale, { persist = true }: { persist?: boolean } = {}) => {
     setLocaleState(next)

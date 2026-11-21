@@ -53,7 +53,7 @@ for (const route of routes) {
   // function replacers: rendered HTML may contain $-sequences ($&, $', $`)
   // that String.replace would otherwise interpret as substitution patterns
   const html = template
-    .replace(/<html lang="[^"]*"/, `<html lang="${route.locale}"`)
+    .replace(/<html lang="[^"]*"/, `<html lang="${route.htmlLang}"`)
     // page-specific title/description come from the injected head
     .replace(/[ \t]*<title>[\s\S]*?<\/title>\s*?\n/, '')
     .replace(/[ \t]*<meta name="description"[^>]*>\s*?\n/, '')

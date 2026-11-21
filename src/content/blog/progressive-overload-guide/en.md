@@ -31,10 +31,10 @@ You have four ways to make training harder. Pull them deliberately, one at a tim
 - **Load** — more weight on the bar for the same reps. The classic lever, and the slowest one for a trained lifter.
 - **Reps** — same weight, more reps per set. Usually the first lever to pull between load increases.
 - **Sets** — more total working sets per muscle per week. Powerful, but the fastest way to accumulate fatigue.
-- **Execution quality** — fuller range of motion, controlled eccentrics, less body English. The lever most lifters ignore, and the one that makes the other three honest.
+- **Execution quality** — fuller range of motion, controlled eccentrics, less momentum and cheating. The lever most lifters ignore, and the one that makes the other three honest.
 
 ## Applying It Week to Week
 
 Systematic overload looks boring on paper. Fix your exercises for a training block. Log every set. Each week, beat the logbook on one lever — a rep here, a small load jump there — while keeping execution standards constant. When performance stalls across multiple sessions, that is fatigue talking. Deload, then resume the climb.
 
-Athletickle Strength provides load-direction cues from the reps and RIR you log: add, repeat, or ease back. It does not choose a weight for you or rewrite the current block after each session. Each block includes a scheduled deload, and your end-of-block feedback informs the next block. Both apps are pre-launch. [Explore Strength](/strength) or [join the beta community](/#download).
+Athletickle Strength provides load-direction cues from the reps and RIR you log: add, repeat, or ease back. It does not choose a weight for you or rewrite the current block after each session. Each block includes a scheduled deload, and your end-of-block feedback informs the next block. Athletickle Parkour and Strength are now available on Android. [Explore Strength](/strength) or [get Strength on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).

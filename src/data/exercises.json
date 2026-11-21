@@ -1,0 +1,3311 @@
+[
+  {
+    "slug": "1-5-back-squat",
+    "name": "1.5-Back Squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a2e006b3-5ff4-4bb2-bfeb-73c77a2a7379/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a2e006b3-5ff4-4bb2-bfeb-73c77a2a7379/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "1-5-chin-up-emphasis-on-top",
+    "name": "1.5 chin-up emphasis on top",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/95ad691c-b634-4ab4-b692-6870742e1c0f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/95ad691c-b634-4ab4-b692-6870742e1c0f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "1-5-deadlift-extension-emphasis",
+    "name": "1.5 deadlift extension emphasis",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/19c4d18a-0b4d-4dcf-8d25-3142dcada69d/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/19c4d18a-0b4d-4dcf-8d25-3142dcada69d/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "1-5-deadlift-lift-off-emphasis",
+    "name": "1.5 deadlift lift off emphasis",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4b1135e3-539f-47a5-87ee-6307b3d8fce2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4b1135e3-539f-47a5-87ee-6307b3d8fce2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "3-jump-plyo",
+    "name": "3-jump + plyo",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bdd9e3ab-b514-45b2-99de-d263d039faf9/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bdd9e3ab-b514-45b2-99de-d263d039faf9/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "abdominal-and-hip-flexor-crunches-on-the-incline-board",
+    "name": "Abdominal and hip flexor crunches on the incline board",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d608c4cc-30c7-476b-acc8-33111e9d6f8a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d608c4cc-30c7-476b-acc8-33111e9d6f8a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = all 3 directions"
+  },
+  {
+    "slug": "abductor-slides",
+    "name": "Abductor slides",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8ff024f6-22eb-49c8-9b7a-1e75d2bf7b4c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8ff024f6-22eb-49c8-9b7a-1e75d2bf7b4c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ankle-flexion-with-a-resistance-rubber-band",
+    "name": "Ankle flexion with a resistance rubber band",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/029017bd-581f-49f1-81c0-def19b304c8d/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/029017bd-581f-49f1-81c0-def19b304c8d/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "arch-swings",
+    "name": "Arch swings",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ff3b9c82-0683-4828-8374-7903d74ffec0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ff3b9c82-0683-4828-8374-7903d74ffec0/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "archer-ring-press",
+    "name": "Archer ring press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/429ed391-048e-44b2-a4b4-83b8bd7192c5/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/429ed391-048e-44b2-a4b4-83b8bd7192c5/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "around-the-world",
+    "name": "Around the world",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f6cd0b31-11fc-4c7d-89b1-f6f8c2618385/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f6cd0b31-11fc-4c7d-89b1-f6f8c2618385/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "assisted-cm-jump-continuous",
+    "name": "Assisted CM-jump continuous",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/df393bf6-f576-466c-8082-bc18cc1b0815/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/df393bf6-f576-466c-8082-bc18cc1b0815/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 5 jumps"
+  },
+  {
+    "slug": "asymmetric-front-push-up",
+    "name": "Asymmetric front push-up",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/21dce68c-efcc-4208-80c2-6daf0db0939e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/21dce68c-efcc-4208-80c2-6daf0db0939e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "asymmetric-good-mornings",
+    "name": "Asymmetric good mornings",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/247a8407-188f-4a86-b95e-f8aa2cf714fd/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/247a8407-188f-4a86-b95e-f8aa2cf714fd/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "asymmetrical-bear-push-up",
+    "name": "Asymmetrical bear push-up",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7847f3f3-ceec-48e8-88ad-ec77823ebcec/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7847f3f3-ceec-48e8-88ad-ec77823ebcec/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "back-squat",
+    "name": "Back squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/9fb7dad6-e485-4441-8134-f7e27c5aee8e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/9fb7dad6-e485-4441-8134-f7e27c5aee8e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "back-squat-pause-at-ascension",
+    "name": "Back squat pause at ascension",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7aa31965-7f98-45e1-baf0-79b34266c35f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7aa31965-7f98-45e1-baf0-79b34266c35f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1s pause"
+  },
+  {
+    "slug": "back-squat-pause-at-descension",
+    "name": "Back squat pause at descension",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/61920c0a-07a6-4919-9a26-9aa2fa838bb4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/61920c0a-07a6-4919-9a26-9aa2fa838bb4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1s pause"
+  },
+  {
+    "slug": "back-squat-with-band-resistance",
+    "name": "Back squat with band resistance",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/82a56f5d-77ba-4261-8ce5-871e9cdabbe0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/82a56f5d-77ba-4261-8ce5-871e9cdabbe0/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ballistic-push-up-boxes",
+    "name": "Ballistic push-up (boxes)",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a290026b-65c9-4f9d-a1e0-2e78d846b16c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a290026b-65c9-4f9d-a1e0-2e78d846b16c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ballistically-swinging-abs-with-a-rubber-band",
+    "name": "Ballistically swinging abs with a rubber band",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/210b73b5-4ec7-4f54-8ed4-d26dde9a2706/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/210b73b5-4ec7-4f54-8ed4-d26dde9a2706/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "band-assisted-nordic-curl",
+    "name": "Band-assisted Nordic curl",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/31c7285e-1f5c-446c-a349-144b53cb5c8b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/31c7285e-1f5c-446c-a349-144b53cb5c8b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "band-cross-country-ski-kick",
+    "name": "Band cross-country ski kick",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/3af3fde9-cb35-402d-a9d0-38c45a067376/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/3af3fde9-cb35-402d-a9d0-38c45a067376/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "barbell-curl",
+    "name": "Barbell curl",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/60396534-e88a-44ce-adcf-0fd62bc8fc76/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/60396534-e88a-44ce-adcf-0fd62bc8fc76/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "barbell-overhead-press",
+    "name": "Barbell overhead press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/132455f5-ac89-44b1-9d98-76d903a2e281/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/132455f5-ac89-44b1-9d98-76d903a2e281/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bear-push-up",
+    "name": "Bear push-up",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/9fe58769-0f97-49a4-9a29-d94b9be87311/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/9fe58769-0f97-49a4-9a29-d94b9be87311/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bench-press",
+    "name": "Bench press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/57e2443d-e1eb-4865-a64b-e0c8f4a6dd69/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/57e2443d-e1eb-4865-a64b-e0c8f4a6dd69/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bench-rise",
+    "name": "Bench rise",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a4fd3ed9-3c1f-454a-b659-205e110d1af4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a4fd3ed9-3c1f-454a-b659-205e110d1af4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bench-rise-jump",
+    "name": "Bench rise jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b02d6f47-8b5f-497a-ab42-e4e9c73b09f2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b02d6f47-8b5f-497a-ab42-e4e9c73b09f2/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "bench-rise-with-weights",
+    "name": "Bench rise with weights",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d74d0fbd-7ea2-4fa2-82b5-b36802e5d0eb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d74d0fbd-7ea2-4fa2-82b5-b36802e5d0eb/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bicep-curl-on-an-incline-bench",
+    "name": "Bicep curl on an incline bench",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1f61ef04-769a-47ba-a026-4dc4232dd57d/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1f61ef04-769a-47ba-a026-4dc4232dd57d/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "biceps-curl-with-rotation",
+    "name": "Biceps curl with rotation",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/722bfa2b-a5df-4cab-b307-b16051565bd1/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/722bfa2b-a5df-4cab-b307-b16051565bd1/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "block-deadlift",
+    "name": "Block deadlift",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/71045b22-eeed-486c-ac8a-b360fe788e85/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/71045b22-eeed-486c-ac8a-b360fe788e85/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bodyweight-rows",
+    "name": "Bodyweight rows",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/59c74e71-25f2-4dc4-b7d5-890de12ad299/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/59c74e71-25f2-4dc4-b7d5-890de12ad299/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "box-squat",
+    "name": "Box squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/25681191-41a2-4f86-acca-9568b3170378/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/25681191-41a2-4f86-acca-9568b3170378/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "braking-jump",
+    "name": "Braking jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ad5f97d9-0d30-4ef9-b83e-638861370238/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ad5f97d9-0d30-4ef9-b83e-638861370238/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "bulgarian-split-squat-jump",
+    "name": "Bulgarian split squat jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7e3a495a-666f-421f-90c7-79cd4870d159/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7e3a495a-666f-421f-90c7-79cd4870d159/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "bulgarian-step-squat",
+    "name": "Bulgarian step squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6b19271b-9c80-4119-b153-e6589d168fd0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6b19271b-9c80-4119-b153-e6589d168fd0/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bulgarian-step-squat-jump-with-bottom-stop",
+    "name": "Bulgarian step squat jump with bottom stop",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/96712102-130f-420c-978e-84417c342ba7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/96712102-130f-420c-978e-84417c342ba7/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "bulgarian-step-squat-rubbers-iron",
+    "name": "Bulgarian step squat (rubbers + iron)",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4afe4ca6-d94a-4945-99c0-614e0fdb2abd/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4afe4ca6-d94a-4945-99c0-614e0fdb2abd/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "bupka",
+    "name": "Bupka",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/dc3d351f-b001-4484-9751-aa8d25fb8f78/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/dc3d351f-b001-4484-9751-aa8d25fb8f78/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cable-crunches-on-knees",
+    "name": "Cable crunches on knees",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/05e75af4-8037-4c93-8c55-2547ec78f731/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/05e75af4-8037-4c93-8c55-2547ec78f731/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cable-overhead-row-v-handle",
+    "name": "Cable overhead row V handle",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6e37c1f9-893c-4bf0-81af-98312597fb23/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6e37c1f9-893c-4bf0-81af-98312597fb23/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cable-overhead-row-wide-grip",
+    "name": "Cable overhead row wide grip",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0d205a11-7b52-4307-a880-b2daaaaf6846/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0d205a11-7b52-4307-a880-b2daaaaf6846/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cable-push-down",
+    "name": "Cable push down",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8c5576ce-80fc-4f89-8c2d-191d9fa84d57/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8c5576ce-80fc-4f89-8c2d-191d9fa84d57/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cable-row-sitting-v-handle",
+    "name": "Cable row sitting (V-handle)",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/61102f82-8f72-48dc-b9b3-b66bcadada94/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/61102f82-8f72-48dc-b9b3-b66bcadada94/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "calf-drop-box-jumps",
+    "name": "Calf drop box jumps",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e71f4cbd-8d7f-4c4b-9ad0-fe4734b48599/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e71f4cbd-8d7f-4c4b-9ad0-fe4734b48599/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 3 jumps"
+  },
+  {
+    "slug": "calf-raise-2-up-1-down-bilateral",
+    "name": "Calf raise 2 up, 1 down (bilateral)",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6a66beb8-7d88-429d-99a6-4891644bc3b3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6a66beb8-7d88-429d-99a6-4891644bc3b3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "calf-raise-2-up-1-down-unilateral-eccentric",
+    "name": "Calf raise 2 up, 1 down (unilateral, eccentric)",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/48b10f01-5986-4823-8667-4e80cc8b6e65/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/48b10f01-5986-4823-8667-4e80cc8b6e65/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "calf-squat-with-kettlebells",
+    "name": "Calf squat with kettlebells",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7431979f-a547-454c-9759-fffd806a85c2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7431979f-a547-454c-9759-fffd806a85c2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cat-pass-to-box-jump",
+    "name": "Cat pass to box jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ac56ec5b-c7b1-401c-967f-58b0be2804fd/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ac56ec5b-c7b1-401c-967f-58b0be2804fd/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "cat-pass-to-plyo",
+    "name": "Cat pass to plyo",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/302922f5-701a-4459-9269-33867813323a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/302922f5-701a-4459-9269-33867813323a/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "cat-pass-to-plyo-up",
+    "name": "Cat pass to plyo up",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/095e732a-14b4-493c-937b-ef84980619c1/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/095e732a-14b4-493c-937b-ef84980619c1/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "chin-up-pause-at-eye-level",
+    "name": "Chin-up pause at eye level",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/73ea8e56-e289-418a-a4f1-6ce34ec8af87/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/73ea8e56-e289-418a-a4f1-6ce34ec8af87/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "chin-up-with-band-resistance",
+    "name": "Chin-up with band resistance",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/3a0ac698-b69b-4796-964b-f20223359629/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/3a0ac698-b69b-4796-964b-f20223359629/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "clean-variations",
+    "name": "Clean variations",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7904f067-3270-4679-a8fd-9f2db772d028/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7904f067-3270-4679-a8fd-9f2db772d028/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = doing 1 lift from each position"
+  },
+  {
+    "slug": "cm-jump-dumbbells",
+    "name": "CM jump dumbbells",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f3f34195-6e3a-41b3-99ae-85a10dcb744a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f3f34195-6e3a-41b3-99ae-85a10dcb744a/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "Added weight around 10-15% of bodyweight"
+  },
+  {
+    "slug": "cm-jump-with-eccentric-overload",
+    "name": "CM jump with eccentric overload",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8a08ed46-5e8e-4452-81f1-362f8ac01edb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8a08ed46-5e8e-4452-81f1-362f8ac01edb/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "Overload with around 20% of BW"
+  },
+  {
+    "slug": "cm-jumps-singles",
+    "name": "CM jumps (singles)",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/96cd0646-f525-4e35-b240-4e887ed49661/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/96cd0646-f525-4e35-b240-4e887ed49661/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "cossack",
+    "name": "Cossack",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/90b991ea-68e6-444e-a038-41abd88b8401/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/90b991ea-68e6-444e-a038-41abd88b8401/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cossack-rotation-zercher",
+    "name": "Cossack+rotation (zercher)",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/49f5efc2-8f57-451f-ac15-241fc2c1e40b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/49f5efc2-8f57-451f-ac15-241fc2c1e40b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "countermovement-jump-with-band-resistance-continuous",
+    "name": "Countermovement jump with band resistance (continuous)",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/32e2c813-1f46-442e-9f87-062cb2850bd5/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/32e2c813-1f46-442e-9f87-062cb2850bd5/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 5 hops"
+  },
+  {
+    "slug": "countermovement-jump-with-band-resistance-singles",
+    "name": "Countermovement jump with band resistance (singles)",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0633e35f-8da9-4c9e-a8e1-0864ec97b7d0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0633e35f-8da9-4c9e-a8e1-0864ec97b7d0/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "cross-grip-chin-ups",
+    "name": "Cross grip chin ups",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d2db75b7-63d4-4034-967b-f63775b7a572/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d2db75b7-63d4-4034-967b-f63775b7a572/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "crossover-high-step-up",
+    "name": "Crossover high step up",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/397be6ee-08cf-4577-87d7-18099e08e805/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/397be6ee-08cf-4577-87d7-18099e08e805/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cuban-rotation-behind-the-neck",
+    "name": "Cuban rotation behind the neck",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bb00a141-2d76-4c1c-a19b-fdfa86ed8dec/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bb00a141-2d76-4c1c-a19b-fdfa86ed8dec/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cup-arch-and-side-swings",
+    "name": "Cup, arch and side swings",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/14d26a2c-4128-4863-aea9-34446a136e48/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/14d26a2c-4128-4863-aea9-34446a136e48/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "cup-swings",
+    "name": "Cup swings",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/11b40119-793e-43ff-bb70-225ca2529613/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/11b40119-793e-43ff-bb70-225ca2529613/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "deadlift",
+    "name": "Deadlift",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/5f77aef9-e4df-4560-aaec-e91e0e76cd86/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/5f77aef9-e4df-4560-aaec-e91e0e76cd86/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "deadlift-narrow-lunge",
+    "name": "Deadlift (narrow lunge)",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/532a0454-7424-4151-a017-86464876764e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/532a0454-7424-4151-a017-86464876764e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "deadlift-narrow-splitsquat-trapbar",
+    "name": "Deadlift narrow splitsquat trapbar",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/eb80471b-0c03-4e64-8d2d-d06420dc343f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/eb80471b-0c03-4e64-8d2d-d06420dc343f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "deadlift-pause-at-ascension-below-knee",
+    "name": "Deadlift pause at ascension below knee",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/41b884a5-072c-4cd6-86d7-3ca33e9298c0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/41b884a5-072c-4cd6-86d7-3ca33e9298c0/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "deadlift-trap-bar",
+    "name": "Deadlift (trap-bar)",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/216a9d77-c167-43b4-bdcf-40bdbe5c5513/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/216a9d77-c167-43b4-bdcf-40bdbe5c5513/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "deep-cossack-squat",
+    "name": "Deep cossack squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/9a52bdbd-1f73-476b-84e5-fdf77aadb3e6/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/9a52bdbd-1f73-476b-84e5-fdf77aadb3e6/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "deficit-deadlift",
+    "name": "Deficit deadlift",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/035008c4-d8f9-4fb4-8c54-3ff699be867c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/035008c4-d8f9-4fb4-8c54-3ff699be867c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "diagonal-jump-forward-band-resisted",
+    "name": "diagonal jump forward band resisted",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/29277739-9130-4e9f-a879-51aa5e549a08/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/29277739-9130-4e9f-a879-51aa5e549a08/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "diagonal-jump-to-pause",
+    "name": "Diagonal jump to pause",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/209e6400-5d6a-4b82-af22-db678995c42f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/209e6400-5d6a-4b82-af22-db678995c42f/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "diagonal-jump-with-stop",
+    "name": "Diagonal jump with stop",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/cafc4b95-407c-4cf7-8001-2559ee10d260/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/cafc4b95-407c-4cf7-8001-2559ee10d260/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "dip-on-rings",
+    "name": "Dip on rings",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d3598691-9483-4d95-a7b6-50955cbfec3d/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d3598691-9483-4d95-a7b6-50955cbfec3d/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "dips",
+    "name": "Dips",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/cc5e1270-2d8b-426b-b205-e95c90a8c520/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/cc5e1270-2d8b-426b-b205-e95c90a8c520/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "dragon-flag-bottom-position-drill",
+    "name": "Dragon flag bottom position drill",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/9e534b00-a7c5-4d19-beb1-209ff889ccde/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/9e534b00-a7c5-4d19-beb1-209ff889ccde/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "dragon-flag-eccentric",
+    "name": "Dragon flag eccentric",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0bf40f11-8c76-4945-b25c-fc97dc13799a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0bf40f11-8c76-4945-b25c-fc97dc13799a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "drop-jump-forward",
+    "name": "Drop jump forward",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a8a18bad-18aa-4644-b05e-fb3abad15d46/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a8a18bad-18aa-4644-b05e-fb3abad15d46/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "drop-jump-reactive",
+    "name": "Drop Jump (Reactive)",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ee4d0932-9c13-4d14-a2c4-2bb48ca4e0ee/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ee4d0932-9c13-4d14-a2c4-2bb48ca4e0ee/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "Minimize the contact time on the ground while still jumping relatively high"
+  },
+  {
+    "slug": "drop-jump-vertical",
+    "name": "Drop jump vertical",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1fb60931-dd1d-4aea-a4db-1cdd3673a45b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1fb60931-dd1d-4aea-a4db-1cdd3673a45b/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "drop-land-with-balls-of-the-feet",
+    "name": "Drop land with balls of the feet",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8defc239-a3b4-48c0-a87e-d103be8967ce/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8defc239-a3b4-48c0-a87e-d103be8967ce/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "drop-to-deep-squat",
+    "name": "Drop to deep squat",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/18f291e3-5530-4e2b-8b6b-1242193a5a25/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/18f291e3-5530-4e2b-8b6b-1242193a5a25/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "drops-with-eliminated-ankles",
+    "name": "Drops with eliminated ankles",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/25a793a0-af28-424d-9608-ab7345a03bee/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/25a793a0-af28-424d-9608-ab7345a03bee/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "Stiffen the ankle, bounce from hip and knees"
+  },
+  {
+    "slug": "dumbbell-bench-press",
+    "name": "Dumbbell bench press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/11fa9296-48dc-40a5-b027-768b1b587013/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/11fa9296-48dc-40a5-b027-768b1b587013/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "dumbbell-french-press",
+    "name": "Dumbbell french press",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6218a6ac-60ff-4d85-8ddd-42ebfa66fe88/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6218a6ac-60ff-4d85-8ddd-42ebfa66fe88/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "dumbbell-overhead-press",
+    "name": "Dumbbell overhead press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8be55e9d-e884-4625-864d-0fc3fc942070/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8be55e9d-e884-4625-864d-0fc3fc942070/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-hamstring-slide",
+    "name": "Eccentric hamstring slide",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8b7ea05f-8707-4d3a-a5d3-a6b163e84be2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8b7ea05f-8707-4d3a-a5d3-a6b163e84be2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-leg-press",
+    "name": "Eccentric leg press",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/af46d578-1277-48b1-bd31-7e3cb80b5655/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/af46d578-1277-48b1-bd31-7e3cb80b5655/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-one-leg-hack-squat",
+    "name": "Eccentric One Leg Hack Squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f123ffc4-875b-46ce-9f70-66180daf2dd7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f123ffc4-875b-46ce-9f70-66180daf2dd7/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-one-leg-knee-flexion-while-lying-down",
+    "name": "Eccentric one-leg knee flexion while lying down",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bda5466e-709a-4e6c-ac68-d01ffbcf2614/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bda5466e-709a-4e6c-ac68-d01ffbcf2614/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-one-leg-knee-flexion-while-seated",
+    "name": "Eccentric one leg knee flexion while seated",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/65e8b3db-be9d-4c77-8f3f-fd47d391d823/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/65e8b3db-be9d-4c77-8f3f-fd47d391d823/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-single-leg-hip-extension",
+    "name": "Eccentric single leg hip extension",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4d28a0e6-6592-4538-b96f-1b18e570b9e7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4d28a0e6-6592-4538-b96f-1b18e570b9e7/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-single-leg-hip-thrust",
+    "name": "Eccentric single leg hip thrust",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/09a68a0b-2638-4bf0-9cfc-9fd7fbeabc5c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/09a68a0b-2638-4bf0-9cfc-9fd7fbeabc5c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "eccentric-single-leg-knee-extension",
+    "name": "Eccentric single leg knee extension",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d9ee9f0f-715d-4942-8b8a-d127e0a3e12f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d9ee9f0f-715d-4942-8b8a-d127e0a3e12f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "extensor-push-up-behind-the-neck-while-standing-in-a-sling",
+    "name": "Extensor push-up behind the neck while standing in a sling",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7e00462b-333b-4cff-8c69-0d1b1d8597c4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7e00462b-333b-4cff-8c69-0d1b1d8597c4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "face-pull",
+    "name": "Face pull",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1960c3da-a810-4c7d-9033-5f0d86f81814/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1960c3da-a810-4c7d-9033-5f0d86f81814/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "face-pull-with-external-rotation",
+    "name": "Face pull with external rotation",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e891a040-5ce4-4d3f-b35b-9e54c36fcbbb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e891a040-5ce4-4d3f-b35b-9e54c36fcbbb/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "flea-jump-up",
+    "name": "Flea jump up",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/eabc9ad5-6317-482c-adf1-efef193208be/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/eabc9ad5-6317-482c-adf1-efef193208be/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "floor-bench-press",
+    "name": "Floor bench press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/fb320783-0143-4ff2-920c-f8f2376ca86c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/fb320783-0143-4ff2-920c-f8f2376ca86c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "frog-thrust",
+    "name": "Frog thrust",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6390e2af-85f7-4031-88fb-0ae287d48abb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6390e2af-85f7-4031-88fb-0ae287d48abb/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "front-lever-pull-ups",
+    "name": "Front lever pull-ups",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8936db41-ddb9-4ed2-b104-46569d34c4ff/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8936db41-ddb9-4ed2-b104-46569d34c4ff/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "front-lever-pulls",
+    "name": "Front lever pulls",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1748097b-2151-476a-ae4f-c112454e6bfd/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1748097b-2151-476a-ae4f-c112454e6bfd/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "front-squat",
+    "name": "Front squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/61785e57-2edf-4b2d-a284-57ae230e1dc3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/61785e57-2edf-4b2d-a284-57ae230e1dc3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "front-squat-rubbers-iron",
+    "name": "Front squat (rubbers + iron)",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/50966847-b2e3-4e3d-baf8-0da9bcc34870/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/50966847-b2e3-4e3d-baf8-0da9bcc34870/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ghr-with-eccentric-overload",
+    "name": "GHR with eccentric overload",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a0ccd8f1-e357-4a8c-8e3a-606025db2f75/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a0ccd8f1-e357-4a8c-8e3a-606025db2f75/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "goblet-squat",
+    "name": "Goblet Squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f774513b-97f2-438c-aad5-1237ad834132/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f774513b-97f2-438c-aad5-1237ad834132/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "good-morning",
+    "name": "Good morning",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ba47bc70-493f-4a64-bb02-55c5fec34ebf/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ba47bc70-493f-4a64-bb02-55c5fec34ebf/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "half-squat",
+    "name": "Half squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d763ceae-cf13-4985-8d3b-4f2e8a7062f3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d763ceae-cf13-4985-8d3b-4f2e8a7062f3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "hamstring-slide-1-or-2-feet",
+    "name": "Hamstring slide (1 or 2 feet)",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c25abdd3-cd72-4139-b3c8-d21777bed204/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c25abdd3-cd72-4139-b3c8-d21777bed204/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "hanging-belly-combo-5-lifts",
+    "name": "Hanging belly combo (5 lifts)",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6af45a40-fbc5-48c9-a852-5f5a332f932e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6af45a40-fbc5-48c9-a852-5f5a332f932e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = whole set of 5"
+  },
+  {
+    "slug": "hanging-knee-raise-with-rotations",
+    "name": "Hanging knee raise with rotations",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/dd11fa27-c749-4e19-9800-7840d61efc64/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/dd11fa27-c749-4e19-9800-7840d61efc64/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "harop-curl",
+    "name": "Harop curl",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/5df7c1b2-cb01-48dd-b466-3fd734179485/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/5df7c1b2-cb01-48dd-b466-3fd734179485/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "high-bench-press-with-weights",
+    "name": "High bench press (with weights)",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c37419c7-1e80-467d-ad9a-fa7be1204629/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c37419c7-1e80-467d-ad9a-fa7be1204629/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "high-bench-rise",
+    "name": "High bench rise",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/00b6220a-e2b8-461c-8ef9-6f8d8bc68a5a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/00b6220a-e2b8-461c-8ef9-6f8d8bc68a5a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "hip-adduction-with-resistance-band",
+    "name": "Hip adduction with resistance band",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e275441b-caaf-4c16-a8e8-dcfe3d83ffad/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e275441b-caaf-4c16-a8e8-dcfe3d83ffad/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "hip-external-rotation-while-sitting-on-resistance-rubber",
+    "name": "Hip external rotation while sitting on resistance rubber",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/fd9f2f0f-9fde-4b34-9125-665252d67fc1/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/fd9f2f0f-9fde-4b34-9125-665252d67fc1/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "hip-flexion-with-isometric-ankle-flexion",
+    "name": "Hip flexion with isometric ankle flexion",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6c7a7ce6-bc8c-4957-85cd-8b2514ca0724/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6c7a7ce6-bc8c-4957-85cd-8b2514ca0724/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "hip-thrust",
+    "name": "Hip thrust",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/3ed2da5c-5efd-45a8-a593-3da51eb4b8eb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/3ed2da5c-5efd-45a8-a593-3da51eb4b8eb/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "hollow-swings",
+    "name": "Hollow swings",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c5cb7476-4b00-4eae-a487-9c6041e62b83/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c5cb7476-4b00-4eae-a487-9c6041e62b83/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "human-flag-drill-underhand-thrust",
+    "name": "Human flag drill - underhand thrust",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4eea4ecb-93f3-4bbe-a37e-cd44ee80f552/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4eea4ecb-93f3-4bbe-a37e-cd44ee80f552/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "incline-bench-press",
+    "name": "Incline bench press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/323a60dd-bb84-4fbc-936c-847c169b7d4e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/323a60dd-bb84-4fbc-936c-847c169b7d4e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "isometric-ankle-rack",
+    "name": "Isometric ankle rack",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4c70424c-53a1-499a-a442-77d671b010d9/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4c70424c-53a1-499a-a442-77d671b010d9/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "isometric-calf-movement-in-an-elevated-step-squat",
+    "name": "Isometric calf movement in an elevated step squat",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e81df13e-0620-4ad5-b4aa-7bd0f12c59f3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e81df13e-0620-4ad5-b4aa-7bd0f12c59f3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "jm-press",
+    "name": "JM-press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/527fe74f-3616-47e2-b2db-d57bad7b56ea/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/527fe74f-3616-47e2-b2db-d57bad7b56ea/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "jumps-on-the-trap-bar",
+    "name": "Jumps on the Trap-bar",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7e09a5d8-73c9-466c-a77a-e62662055a38/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7e09a5d8-73c9-466c-a77a-e62662055a38/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "Up to 40% of BW load"
+  },
+  {
+    "slug": "kettlebell-front-squat",
+    "name": "Kettlebell front squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f5665ff4-fa00-41ef-8395-4fca73b0128e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f5665ff4-fa00-41ef-8395-4fca73b0128e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "kettlebell-snatch",
+    "name": "Kettlebell snatch",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c0d87a0e-7c79-4c56-bc70-0498bfea01cd/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c0d87a0e-7c79-4c56-bc70-0498bfea01cd/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "kettlebell-swing",
+    "name": "Kettlebell swing",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/9dc101e2-e331-411c-a040-69016dc62eef/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/9dc101e2-e331-411c-a040-69016dc62eef/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "knees-over-toes-split-squat",
+    "name": "Knees-over-toes split squat",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/5786b827-2a6d-4800-9c15-9a351e50b1c4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/5786b827-2a6d-4800-9c15-9a351e50b1c4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "knees-over-toes-split-squat-with-kettlebell",
+    "name": "Knees-over-toes split squat with kettlebell",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ddd1c2d1-36fd-4460-b577-b8f5e910a92e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ddd1c2d1-36fd-4460-b577-b8f5e910a92e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lat-pulldown",
+    "name": "Lat pulldown",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bce5e251-f698-43a2-9d44-7b8f524f8882/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bce5e251-f698-43a2-9d44-7b8f524f8882/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lat-pulldown-behind-the-neck",
+    "name": "Lat pulldown behind the neck",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/afc05feb-925d-4f0b-a3f5-c1af090fe776/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/afc05feb-925d-4f0b-a3f5-c1af090fe776/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lateral-box-jump",
+    "name": "Lateral box jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/002e12e8-6796-4f03-9dc3-2ea3b4c224a1/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/002e12e8-6796-4f03-9dc3-2ea3b4c224a1/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "lateral-fold",
+    "name": "Lateral fold",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/58ef033a-924f-404a-9f09-28f21c5180a2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/58ef033a-924f-404a-9f09-28f21c5180a2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lateral-jump-with-rubber-resistance",
+    "name": "Lateral jump with rubber resistance",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1af08b74-fe8e-4cac-8b8a-622156b95074/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1af08b74-fe8e-4cac-8b8a-622156b95074/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "lateral-leaping-continuously",
+    "name": "Lateral leaping continuously",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d3e7daa4-fb41-483a-8bb5-966a5ac9229b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d3e7daa4-fb41-483a-8bb5-966a5ac9229b/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 3 hops each leg"
+  },
+  {
+    "slug": "lateral-step-up",
+    "name": "Lateral step-up",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f9a5008d-3c87-49f9-9eaf-cbbb919bba79/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f9a5008d-3c87-49f9-9eaf-cbbb919bba79/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "leaning-step-squat-with-a-landmine",
+    "name": "Leaning step squat with a landmine",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c9356f15-274a-439b-bed3-873d31127fd1/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c9356f15-274a-439b-bed3-873d31127fd1/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "leg-press",
+    "name": "Leg press",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0abdc5a7-fb3a-4d11-8ad7-ef631a9b4ea2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0abdc5a7-fb3a-4d11-8ad7-ef631a9b4ea2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lever-lifts-to-the-rear",
+    "name": "Lever lifts to the rear",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/db86a038-43b2-4a36-9868-edf021ae7a0a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/db86a038-43b2-4a36-9868-edf021ae7a0a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lever-lifts-to-the-sides",
+    "name": "Lever lifts to the sides",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/39bde8ee-0446-4ce8-a25e-92b9631dee37/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/39bde8ee-0446-4ce8-a25e-92b9631dee37/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "levitation-squat",
+    "name": "Levitation squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8e04e899-54f8-46d4-8c15-d9e1a42ac457/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8e04e899-54f8-46d4-8c15-d9e1a42ac457/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "limited-range-skin-the-cats",
+    "name": "Limited range skin the cats",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/99c93ab4-35ab-4644-beb0-fa3807df8695/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/99c93ab4-35ab-4644-beb0-fa3807df8695/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "log-spinner-link-knife",
+    "name": "Log spinner + link knife",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/36ea310e-4f68-41a0-bcd1-af0be240bd40/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/36ea310e-4f68-41a0-bcd1-af0be240bd40/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = both directions"
+  },
+  {
+    "slug": "long-step-squat-hands-overhead",
+    "name": "Long step squat hands overhead",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/058ca33e-b68e-41bd-97ec-e4a9e81fd273/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/058ca33e-b68e-41bd-97ec-e4a9e81fd273/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lumberjack-diagonal-down",
+    "name": "Lumberjack diagonal down",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/86988a27-b128-40ea-9bcd-af5ef5c3b1a7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/86988a27-b128-40ea-9bcd-af5ef5c3b1a7/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lumberjack-diagonal-up",
+    "name": "Lumberjack diagonal up",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4d1ed5cc-310a-483c-ad5b-cf80d253835b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4d1ed5cc-310a-483c-ad5b-cf80d253835b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lumberjack-horizontal",
+    "name": "Lumberjack (horizontal)",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0468b65f-1f52-4b43-81d8-744651bedd9b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0468b65f-1f52-4b43-81d8-744651bedd9b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lumberjack-in-horizontal-plane",
+    "name": "Lumberjack in horizontal plane",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bf40e3a1-5324-4d72-bd01-280789cb9bef/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bf40e3a1-5324-4d72-bd01-280789cb9bef/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "lying-straight-arm-curl",
+    "name": "Lying straight-arm curl",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c2668a88-bff4-4cb4-a1ea-e739288a23a8/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c2668a88-bff4-4cb4-a1ea-e739288a23a8/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "mid-range-hurdle",
+    "name": "Mid range hurdle",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/2095151f-09c4-42a3-97ae-d0e2852388c4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/2095151f-09c4-42a3-97ae-d0e2852388c4/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "monster-walk-diagonally",
+    "name": "Monster walk diagonally",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4a9b2728-16bc-4c64-a43d-c2d2d29d827a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4a9b2728-16bc-4c64-a43d-c2d2d29d827a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "monster-walk-sideways",
+    "name": "Monster walk sideways",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/36c1e4a7-7b8c-4353-8666-91450bccc962/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/36c1e4a7-7b8c-4353-8666-91450bccc962/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "muscle-up-bar",
+    "name": "Muscle-up (bar)",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c688e5d2-580b-4d88-9b8e-f104c7973ffe/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c688e5d2-580b-4d88-9b8e-f104c7973ffe/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "narrow-grip-bench-press",
+    "name": "Narrow grip bench press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1420d362-bc5b-44bb-85cf-2c764bdb846a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1420d362-bc5b-44bb-85cf-2c764bdb846a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "nordic-curl",
+    "name": "Nordic curl",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/39dbeb38-547e-4109-b312-1359e824b257/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/39dbeb38-547e-4109-b312-1359e824b257/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-dumbbell-row",
+    "name": "One-arm dumbbell row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/aa6130a6-549d-45c8-852b-402b6525f2f0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/aa6130a6-549d-45c8-852b-402b6525f2f0/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-extensor-push-up-behind-the-neck",
+    "name": "One-arm extensor push-up behind the neck",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/167a2f18-e000-4cfc-80ab-5c67e74603ac/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/167a2f18-e000-4cfc-80ab-5c67e74603ac/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-landmine-press",
+    "name": "One-arm Landmine press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1ff5f937-dd79-47c3-8a92-a4afb1ddd6f2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1ff5f937-dd79-47c3-8a92-a4afb1ddd6f2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-landmine-press-from-kneeling-position",
+    "name": "One-arm Landmine press from kneeling position",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/afd118e8-ba84-43cf-9152-619e55dd97b1/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/afd118e8-ba84-43cf-9152-619e55dd97b1/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-level-lift-from-laying",
+    "name": "One-arm level lift from laying",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7bc27bae-a37e-42ea-b1f4-e74e24dbe942/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7bc27bae-a37e-42ea-b1f4-e74e24dbe942/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-lizard-push-up",
+    "name": "One-arm lizard push-up",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0cd7958b-1068-4796-8fd0-cb641935954a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0cd7958b-1068-4796-8fd0-cb641935954a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-ring-row",
+    "name": "One-arm ring row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/60c4f674-f4df-42b2-8215-344555badf10/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/60c4f674-f4df-42b2-8215-344555badf10/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-side-lever-lift-on-a-45-degree-bench",
+    "name": "One-arm side lever lift on a 45-degree bench",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/fc6ce41e-5d32-461f-be10-b16f1f04d3a4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/fc6ce41e-5d32-461f-be10-b16f1f04d3a4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-arm-vertical-row",
+    "name": "One arm vertical row",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8fc03885-fa12-4217-aadd-7993f944e594/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8fc03885-fa12-4217-aadd-7993f944e594/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-hand-cuban-rotation",
+    "name": "One hand cuban rotation",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/459e4775-f74a-4c37-8e97-ec02017e32bb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/459e4775-f74a-4c37-8e97-ec02017e32bb/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-handed-band-overhead-pull",
+    "name": "One-handed band overhead pull",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/fc5f0e1e-e898-48e1-ba58-6f04dfcacdb7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/fc5f0e1e-e898-48e1-ba58-6f04dfcacdb7/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-handed-band-row",
+    "name": "One-handed band row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/de62d20c-60f0-4d36-9453-092a022b7083/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/de62d20c-60f0-4d36-9453-092a022b7083/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-handed-face-pull",
+    "name": "One-handed face pull",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/21d22261-757c-41f8-bedf-3aa0ba42c944/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/21d22261-757c-41f8-bedf-3aa0ba42c944/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-adduction-with-resistance-band",
+    "name": "One leg adduction with resistance band",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7e50cfac-40c6-46f2-9d0b-fae500e129ee/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7e50cfac-40c6-46f2-9d0b-fae500e129ee/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-box-jump",
+    "name": "One leg box jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/9e655337-75e5-448c-ae94-06761e464e31/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/9e655337-75e5-448c-ae94-06761e464e31/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "one-leg-box-jump-from-sitting",
+    "name": "One leg box jump from sitting",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/701214c6-de2d-4cc0-88b1-e403ad4304aa/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/701214c6-de2d-4cc0-88b1-e403ad4304aa/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "one-leg-hip-flexion-in-pulley",
+    "name": "One leg hip flexion in pulley",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/da383742-a13a-4ada-b62e-5a82bfcf7128/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/da383742-a13a-4ada-b62e-5a82bfcf7128/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-hip-thrust",
+    "name": "One leg hip thrust",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/45bc210c-3c72-48f9-b174-eb5e83257624/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/45bc210c-3c72-48f9-b174-eb5e83257624/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-hip-thrust-with-resistance-bands",
+    "name": "One leg hip thrust with resistance bands",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7db477dd-219b-4fda-b181-16df2e9a9991/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7db477dd-219b-4fda-b181-16df2e9a9991/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-knee-bend-while-standing",
+    "name": "One leg knee bend while standing",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d7e2e190-981a-4e26-9c7b-a9051eb43071/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d7e2e190-981a-4e26-9c7b-a9051eb43071/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-platform-jump-ballistic",
+    "name": "One-leg platform jump (ballistic)",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/90f09140-dd35-41f5-a129-9c4929676149/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/90f09140-dd35-41f5-a129-9c4929676149/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "one-leg-platform-jump-reactive",
+    "name": "One-leg platform jump (reactive)",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0933b6b5-8fb3-45e2-ae94-fdb640562b37/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0933b6b5-8fb3-45e2-ae94-fdb640562b37/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "one-leg-rdl-raiser",
+    "name": "One Leg RDL (Raiser)",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1a410b42-d143-480c-885a-f703952d588a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1a410b42-d143-480c-885a-f703952d588a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-rdl-wall",
+    "name": "One Leg RDL (Wall)",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f5201dea-c2e3-4668-958a-4155f5eae9b4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f5201dea-c2e3-4668-958a-4155f5eae9b4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-leg-rdl-without-support",
+    "name": "One Leg RDL (Without Support)",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8578405d-64d2-45ca-a409-ca0d713a15d7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8578405d-64d2-45ca-a409-ca0d713a15d7/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "one-legged-cable-knee-bend-lying-down",
+    "name": "One-legged cable knee bend lying down",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7d9ea808-df89-4be4-b8a9-5da3042b80c4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7d9ea808-df89-4be4-b8a9-5da3042b80c4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "outdoor-circuit-drill-on-an-incline-bench",
+    "name": "Outdoor circuit drill on an incline bench",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/492d89a2-9b72-4b94-a7c7-d7de615cccd6/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/492d89a2-9b72-4b94-a7c7-d7de615cccd6/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "overhead-cable-row-single-arm",
+    "name": "Overhead cable row single arm",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/53cb1b02-8dd4-49bb-99c5-6803bb950118/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/53cb1b02-8dd4-49bb-99c5-6803bb950118/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "overhead-press",
+    "name": "Overhead press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b69bc19c-0a24-4176-81ee-5e50f17e6b45/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b69bc19c-0a24-4176-81ee-5e50f17e6b45/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "overhead-squat",
+    "name": "Overhead squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/60268569-e40d-4443-bb3d-eaa359d93812/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/60268569-e40d-4443-bb3d-eaa359d93812/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pallof-press-behind",
+    "name": "Pallof press behind",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/09d3d314-8a4d-49e5-a9c2-c8977aeceb67/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/09d3d314-8a4d-49e5-a9c2-c8977aeceb67/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pallof-press-body-rotation",
+    "name": "Pallof press + body rotation",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/600aec50-5654-4965-840d-66b978ca2217/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/600aec50-5654-4965-840d-66b978ca2217/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pallof-press-hold",
+    "name": "Pallof press hold",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7b6abe74-c40d-4531-a70d-65e1505181e8/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7b6abe74-c40d-4531-a70d-65e1505181e8/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pallof-press-in-step-squat",
+    "name": "Pallof press in step squat",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/97345121-0c2a-43c1-a67b-f2c68103b6a8/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/97345121-0c2a-43c1-a67b-f2c68103b6a8/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pallof-press-reps",
+    "name": "Pallof press reps",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bcc5d3c3-880d-4ab6-90cf-8b3c9fcab716/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bcc5d3c3-880d-4ab6-90cf-8b3c9fcab716/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pause-chin-up-midway",
+    "name": "Pause chin-up midway",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/efde65a3-3b3b-47d0-b568-3d4c50a8df2e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/efde65a3-3b3b-47d0-b568-3d4c50a8df2e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pause-chin-up-top",
+    "name": "Pause chin-up top",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d9b988ca-2cf9-4a6f-af08-9e25f2ee5c23/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d9b988ca-2cf9-4a6f-af08-9e25f2ee5c23/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pause-front-squat",
+    "name": "Pause front squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/df9c4475-b284-46ab-94ba-f8bffc4c34a0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/df9c4475-b284-46ab-94ba-f8bffc4c34a0/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pause-squat",
+    "name": "Pause squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b13808a4-d923-429e-b544-ef3bdd2ba66f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b13808a4-d923-429e-b544-ef3bdd2ba66f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "Pause at bottom for 2-3s"
+  },
+  {
+    "slug": "pendlay-row",
+    "name": "Pendlay row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/07e3d647-3054-4df2-aa95-568012d544be/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/07e3d647-3054-4df2-aa95-568012d544be/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "penknife",
+    "name": "Penknife",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b12423ff-76fe-428e-a1f8-e8e74e7e534f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b12423ff-76fe-428e-a1f8-e8e74e7e534f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pistol-squat-rubber-band-assistance",
+    "name": "Pistol squat (rubber band assistance)",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ca8e8a70-1def-41d0-8811-946faa57ae33/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ca8e8a70-1def-41d0-8811-946faa57ae33/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pistol-squat-with-box",
+    "name": "Pistol squat with box",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/99a0a300-3853-4ea3-ada5-7fdcfc8a7de3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/99a0a300-3853-4ea3-ada5-7fdcfc8a7de3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "plank-slide-to-the-back",
+    "name": "Plank slide to the back",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d8f53fc9-cb28-4169-b988-f740564cb910/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d8f53fc9-cb28-4169-b988-f740564cb910/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "plate-bar-rotations-below-the-knee",
+    "name": "Plate bar rotations below the knee",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/072734e2-ec31-4b14-9029-2f6ca757b28a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/072734e2-ec31-4b14-9029-2f6ca757b28a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "plate-bar-rotations-from-the-hips",
+    "name": "Plate bar rotations from the hips",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bc9fc893-46dc-47b6-ab32-6cc1e77df1ca/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bc9fc893-46dc-47b6-ab32-6cc1e77df1ca/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "plate-rod-rotations-from-the-ground",
+    "name": "Plate rod rotations from the ground",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c590b658-3038-41c1-8a56-943e4105ef66/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c590b658-3038-41c1-8a56-943e4105ef66/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "plyo-to-box-jump",
+    "name": "Plyo to box jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/3c70433c-aa55-41cd-8b31-02c6fb2d32b4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/3c70433c-aa55-41cd-8b31-02c6fb2d32b4/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "power-wheel",
+    "name": "Power wheel",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/5ce8b3dc-ed5d-4c64-9795-cfd56c3c3e45/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/5ce8b3dc-ed5d-4c64-9795-cfd56c3c3e45/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "prone-leg-and-torso-raise",
+    "name": "Prone leg and torso raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f98a8985-4b7b-458f-8051-6f62356710ac/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f98a8985-4b7b-458f-8051-6f62356710ac/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "prone-leg-raise",
+    "name": "Prone leg raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c6561859-1b57-4b0d-92d9-e97de51e6315/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c6561859-1b57-4b0d-92d9-e97de51e6315/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "prone-torso-raise",
+    "name": "Prone torso raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/144e2354-c03e-4663-8c96-e5b0f7dd57e8/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/144e2354-c03e-4663-8c96-e5b0f7dd57e8/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pull-up-classic-grip",
+    "name": "Pull-up classic grip",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/622e1af9-b2ec-4d2c-8024-6d8a6c25ba3e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/622e1af9-b2ec-4d2c-8024-6d8a6c25ba3e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pull-up-wide-grip",
+    "name": "Pull-up wide grip",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f53f4857-e160-4ffe-8536-248b2b151ebc/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f53f4857-e160-4ffe-8536-248b2b151ebc/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "pull-ups",
+    "name": "Pull ups",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/64cd4b25-749a-43c6-ba2a-106f3e486a59/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/64cd4b25-749a-43c6-ba2a-106f3e486a59/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "push-up",
+    "name": "Push-up",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c1ffce7e-d7a2-4cc8-bc06-04dc27605f43/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c1ffce7e-d7a2-4cc8-bc06-04dc27605f43/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "resistance-band-row",
+    "name": "Resistance band row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/213cf1a0-470a-4951-ba28-0ff8749693bb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/213cf1a0-470a-4951-ba28-0ff8749693bb/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "reverse-fly-with-resistance-rubber",
+    "name": "Reverse fly with resistance rubber",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/30994a65-1cf9-42a4-ba76-ac97e300ff64/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/30994a65-1cf9-42a4-ba76-ac97e300ff64/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "reverse-hyperextension",
+    "name": "Reverse hyperextension",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/3af41908-499a-4b3a-acbf-7417b1f9fd40/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/3af41908-499a-4b3a-acbf-7417b1f9fd40/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "reverse-nordic-curl",
+    "name": "Reverse nordic curl",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/65dc209d-a119-43bf-b784-ee37c686280a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/65dc209d-a119-43bf-b784-ee37c686280a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ring-pull-up-archer-down",
+    "name": "Ring pull-up, archer down",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/053dd6a5-1249-4475-8f80-c1877ad2f971/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/053dd6a5-1249-4475-8f80-c1877ad2f971/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ring-pull-up-fold-down",
+    "name": "Ring pull-up, fold down",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/66792827-b82c-4459-9afa-720bfe09a8e8/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/66792827-b82c-4459-9afa-720bfe09a8e8/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ring-pull-ups",
+    "name": "Ring pull-ups",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/cfb35c0a-e0ac-423c-84ba-b11f82a8c349/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/cfb35c0a-e0ac-423c-84ba-b11f82a8c349/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ring-push-ups",
+    "name": "Ring push-ups",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a6c1fbe3-fc3d-4b8e-a079-e3e91e3e1730/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a6c1fbe3-fc3d-4b8e-a079-e3e91e3e1730/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "ring-rows",
+    "name": "Ring rows",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/93ca24b4-1ae8-45cf-9519-6f8cc15f7f23/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/93ca24b4-1ae8-45cf-9519-6f8cc15f7f23/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "rocker-jumps-with-additional-load",
+    "name": "Rocker jumps (with additional load)",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/26397c78-d0cf-4c6f-9cc9-757f20f570fb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/26397c78-d0cf-4c6f-9cc9-757f20f570fb/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "romanian-deadlift",
+    "name": "Romanian deadlift",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/ee7abd18-a65b-4f92-86e6-a40026c3ec56/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/ee7abd18-a65b-4f92-86e6-a40026c3ec56/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "rotating-diagonal-woodchopper",
+    "name": "Rotating diagonal woodchopper",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/f8590685-d471-41aa-8e94-f3e1335e0796/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/f8590685-d471-41aa-8e94-f3e1335e0796/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "runners-progressive-step-squat-with-a-plate-bar-on-flat-ground",
+    "name": "Runner's progressive step squat with a plate bar on flat ground",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/781fcad6-f1a7-47de-ac25-c83dd109add3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/781fcad6-f1a7-47de-ac25-c83dd109add3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "runners-step-squat",
+    "name": "Runner's step squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a7481b6a-09af-4633-9251-660bff726205/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a7481b6a-09af-4633-9251-660bff726205/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "sailor-bench",
+    "name": "Sailor bench",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7b58a2a9-9379-4360-b9df-d521517cca56/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7b58a2a9-9379-4360-b9df-d521517cca56/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "sailor-overhead-press",
+    "name": "Sailor overhead press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8ac75bc4-a6a3-47c7-814c-139b3a29c025/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8ac75bc4-a6a3-47c7-814c-139b3a29c025/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "seated-calf-press",
+    "name": "Seated calf press",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b8e976a7-a83b-4aef-92b9-b7bdd3307efa/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b8e976a7-a83b-4aef-92b9-b7bdd3307efa/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "short-range-hurdles",
+    "name": "Short range hurdles",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/2ee7e691-4861-4a2c-a2c9-b62973ccc08e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/2ee7e691-4861-4a2c-a2c9-b62973ccc08e/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "shoulder-rotation-drill-with-rubber-resistance",
+    "name": "Shoulder rotation drill with rubber resistance",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/d10e16bd-a36c-4735-85de-05f71bbc63f5/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/d10e16bd-a36c-4735-85de-05f71bbc63f5/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "side-box-jump",
+    "name": "Side box jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/713dffa5-fa13-47ba-803b-03b7c56fb788/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/713dffa5-fa13-47ba-803b-03b7c56fb788/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "side-box-jump-continuous",
+    "name": "Side box jump continuous",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1db4ef60-19ec-46a4-b913-16580cc44354/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1db4ef60-19ec-46a4-b913-16580cc44354/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 3 jumps"
+  },
+  {
+    "slug": "side-jump-to-a-stop",
+    "name": "Side jump to a stop",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/3fd0ad53-5a10-44cb-a2e7-690f184d9309/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/3fd0ad53-5a10-44cb-a2e7-690f184d9309/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "side-lying-leg-and-torso-raise",
+    "name": "Side-lying leg and torso raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/71a7a5a5-faac-489f-9482-58c6ad71e39e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/71a7a5a5-faac-489f-9482-58c6ad71e39e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "side-lying-leg-raise",
+    "name": "Side-lying leg raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4eac586e-1f8b-418a-afbe-b4e60e8dbc7a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4eac586e-1f8b-418a-afbe-b4e60e8dbc7a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "side-step-squat",
+    "name": "Side step squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/66aaf878-b391-43bf-803b-d23aa45e1149/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/66aaf878-b391-43bf-803b-d23aa45e1149/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "side-step-squat-with-resistance-bands",
+    "name": "Side step squat with resistance bands",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c142d6c3-3af5-451b-9498-1102143dea8b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c142d6c3-3af5-451b-9498-1102143dea8b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "side-step-squat-with-rubber-resistance-coming-from-the-side",
+    "name": "Side step squat with rubber resistance coming from the side",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0ac22d6b-db80-4c9d-8f58-b9569e99c6af/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0ac22d6b-db80-4c9d-8f58-b9569e99c6af/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "side-swing-assisted",
+    "name": "Side swing assisted",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/2417ffb2-db74-4715-b0e6-b375f08eb747/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/2417ffb2-db74-4715-b0e6-b375f08eb747/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-barbell-overhead-press",
+    "name": "Single-arm barbell overhead press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/205d7f02-656e-4c73-bb67-3d3f29f2fd6a/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/205d7f02-656e-4c73-bb67-3d3f29f2fd6a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-cable-row",
+    "name": "Single arm cable row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/5063b72f-68b1-4f6e-afc9-e1c08bbad180/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/5063b72f-68b1-4f6e-afc9-e1c08bbad180/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-cable-row-with-rotation",
+    "name": "Single arm cable row with rotation",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4c6d2368-e6dc-4796-bafd-4f0c9660897f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4c6d2368-e6dc-4796-bafd-4f0c9660897f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-dumbbell-bench-press",
+    "name": "Single-arm dumbbell bench press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/53d2fe04-5042-4f82-a25d-6e6e3058ba5c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/53d2fe04-5042-4f82-a25d-6e6e3058ba5c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-kettlebell-clean-and-press",
+    "name": "Single-arm kettlebell clean and press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/42a51706-3e78-4d4e-b63c-576872b67c13/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/42a51706-3e78-4d4e-b63c-576872b67c13/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-kettlebell-row",
+    "name": "Single-arm kettlebell row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/56a2af7e-f9a1-4998-be07-e3538f459d9c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/56a2af7e-f9a1-4998-be07-e3538f459d9c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-kettlebell-swing",
+    "name": "Single-arm kettlebell swing",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/bfbfc7af-5fd6-4740-89fa-74aa84b4c97c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/bfbfc7af-5fd6-4740-89fa-74aa84b4c97c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-overhead-press",
+    "name": "Single arm overhead press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7a55eeed-2b40-4bba-866e-7fcf5e8bd69b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7a55eeed-2b40-4bba-866e-7fcf5e8bd69b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-arm-pallof-press",
+    "name": "Single-arm Pallof press",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/616b1c74-890d-420e-80f0-5b2359a8c09e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/616b1c74-890d-420e-80f0-5b2359a8c09e/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-leg-bench-rise-jump",
+    "name": "Single-leg bench rise jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c1ed9f2d-53f9-47b0-bda7-a0a7f4ca1c08/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c1ed9f2d-53f9-47b0-bda7-a0a7f4ca1c08/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "single-leg-bounding",
+    "name": "Single leg bounding",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/6665b4b2-ecc6-4fbe-a9be-83dee3547da7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/6665b4b2-ecc6-4fbe-a9be-83dee3547da7/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "single-leg-braking-jump",
+    "name": "Single leg braking jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/0f519fff-c9c3-452e-8dfa-0199d3440a3c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/0f519fff-c9c3-452e-8dfa-0199d3440a3c/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "single-leg-calf-raise",
+    "name": "Single leg calf raise",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/350b41e3-acb5-418b-b064-ab20b4f40831/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/350b41e3-acb5-418b-b064-ab20b4f40831/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-leg-drop-jump",
+    "name": "Single leg drop jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a78f3acb-b297-4446-bc63-24af142203ec/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a78f3acb-b297-4446-bc63-24af142203ec/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "single-leg-drop-jump-forward",
+    "name": "Single leg drop jump forward",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/05708c6f-65b4-4101-bb80-891a1368563c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/05708c6f-65b4-4101-bb80-891a1368563c/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "single-leg-drop-land-with-ball-of-the-foot",
+    "name": "Single-leg drop land with ball of the foot",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/128bce3a-6140-4e5b-887d-2013c9e6f37e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/128bce3a-6140-4e5b-887d-2013c9e6f37e/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "single-leg-drop-with-eliminated-ankle",
+    "name": "Single-leg drop with eliminated ankle",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/68701f0c-db67-408d-9926-8ed5a429cbdb/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/68701f0c-db67-408d-9926-8ed5a429cbdb/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "Stiffen the ankle, bounce from hip and knees"
+  },
+  {
+    "slug": "single-leg-good-morning",
+    "name": "Single leg good morning",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8c0f0cd8-44b4-48b6-afce-4d5d6242afcd/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8c0f0cd8-44b4-48b6-afce-4d5d6242afcd/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-leg-hip-bridge",
+    "name": "Single leg hip bridge",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/da4aea87-81df-4f08-b083-60975c74f517/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/da4aea87-81df-4f08-b083-60975c74f517/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-leg-leg-press",
+    "name": "Single-leg leg press",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/2ce68a5f-7185-4eb7-9995-ac62242480ad/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/2ce68a5f-7185-4eb7-9995-ac62242480ad/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "single-leg-standing-long-jump",
+    "name": "Single leg standing long jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/3cbfe347-6c1a-4841-a338-f7cd3bbe1a16/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/3cbfe347-6c1a-4841-a338-f7cd3bbe1a16/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "single-leg-static-box-jump",
+    "name": "Single leg static box jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/de46e12e-f83c-42a8-98ad-6e9dffb98e61/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/de46e12e-f83c-42a8-98ad-6e9dffb98e61/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "sit-up-with-straight-legs-skk",
+    "name": "Sit-up with straight legs SKK",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/afe26159-97e5-4608-a9a5-e57d7581fb4c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/afe26159-97e5-4608-a9a5-e57d7581fb4c/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = all 3 directions"
+  },
+  {
+    "slug": "sitting-hamstring-curl",
+    "name": "Sitting hamstring curl",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e662ac2a-3e6a-4138-afa2-2e0c570b364b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e662ac2a-3e6a-4138-afa2-2e0c570b364b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "sitting-knee-extension",
+    "name": "Sitting knee extension",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e4590177-b033-474d-8be6-d22fb12f1766/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e4590177-b033-474d-8be6-d22fb12f1766/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "skate-jump-with-stop",
+    "name": "Skate jump with stop",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/14188b1a-d67b-406a-b1b8-54c3b124df7d/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/14188b1a-d67b-406a-b1b8-54c3b124df7d/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "slowly-moving-tendon-jump",
+    "name": "Slowly moving tendon jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/73044dc9-736e-441b-93b3-c87e9b5a2748/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/73044dc9-736e-441b-93b3-c87e9b5a2748/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 3 jumps"
+  },
+  {
+    "slug": "soleus-press",
+    "name": "Soleus press",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/09d262dd-c982-4200-88bc-1bc790775ca5/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/09d262dd-c982-4200-88bc-1bc790775ca5/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "split-squat-jumps-continuous",
+    "name": "Split squat jumps continuous",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4f1df0c5-1d89-4a06-9cf9-f69bbb9dfa34/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4f1df0c5-1d89-4a06-9cf9-f69bbb9dfa34/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 3 jumps with each leg"
+  },
+  {
+    "slug": "split-squat-jumps-with-weights-continuous",
+    "name": "Split squat jumps with weights continuous",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e50b7234-ddf0-4143-9702-8d3411454c1e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e50b7234-ddf0-4143-9702-8d3411454c1e/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ],
+    "info": "1 repetition = 3 jumps with each leg"
+  },
+  {
+    "slug": "standing-band-hip-abduction",
+    "name": "Standing band hip abduction",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8cc354e9-775d-41a3-bd79-bf3b73bf1d3b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8cc354e9-775d-41a3-bd79-bf3b73bf1d3b/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "standing-long-jump",
+    "name": "Standing long jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b7bafe46-125c-40c7-abf3-52133356354e/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b7bafe46-125c-40c7-abf3-52133356354e/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "standing-long-jump-band-resisted",
+    "name": "Standing long jump band resisted",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1d4752c4-936c-4130-98b1-0c01f27c664c/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1d4752c4-936c-4130-98b1-0c01f27c664c/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "standing-long-jump-plyo",
+    "name": "Standing long jump + plyo",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/1cf2d299-d68f-4d9c-a0cb-3bb58731ec1b/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/1cf2d299-d68f-4d9c-a0cb-3bb58731ec1b/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "static-box-jump",
+    "name": "Static box jump",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/146f05d6-90a5-4860-947d-fb191794c7aa/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/146f05d6-90a5-4860-947d-fb191794c7aa/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "straddle-folds-on-rings",
+    "name": "Straddle folds on rings",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b5aa1576-04c6-4638-8524-fb5c1c4424f2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b5aa1576-04c6-4638-8524-fb5c1c4424f2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "strict-curl",
+    "name": "Strict curl",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/2958f08c-63e0-46db-a8d7-96eece4e8dc3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/2958f08c-63e0-46db-a8d7-96eece4e8dc3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "supinated-overhead-cable-row",
+    "name": "Supinated overhead cable row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c0d26366-ab1a-47fb-babf-454d8cf17169/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c0d26366-ab1a-47fb-babf-454d8cf17169/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "supine-leg-and-torso-raise",
+    "name": "Supine leg and torso raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b3bbb23c-48a6-4ac8-b88e-3e55a80dd405/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b3bbb23c-48a6-4ac8-b88e-3e55a80dd405/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "supine-leg-raise",
+    "name": "Supine leg raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4b54f7ef-1c7f-474a-95da-8f34f8bdd6b3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4b54f7ef-1c7f-474a-95da-8f34f8bdd6b3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "supine-upper-body-raise",
+    "name": "Supine upper-body raise",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/12b161c5-4b98-4c2d-a565-0fbf49cf63b6/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/12b161c5-4b98-4c2d-a565-0fbf49cf63b6/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "tailors-pose-lifts",
+    "name": "Tailor's pose lifts",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/473c0b54-170b-4986-a8a1-68cacdeb1cd7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/473c0b54-170b-4986-a8a1-68cacdeb1cd7/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "three-step-acceleration",
+    "name": "Three-step acceleration",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/631a89ac-062a-495e-b700-9a6b879c0796/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/631a89ac-062a-495e-b700-9a6b879c0796/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "tibialis-lift",
+    "name": "Tibialis lift",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/9d980849-f37d-4ef5-9fc4-1e12e46caf36/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/9d980849-f37d-4ef5-9fc4-1e12e46caf36/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "tic-tac-to-single-leg-bound",
+    "name": "Tic-tac to single-leg bound",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/12573301-625f-4e75-b7d2-3a556fcc1cda/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/12573301-625f-4e75-b7d2-3a556fcc1cda/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "toes-to-bar",
+    "name": "Toes to bar",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4860f96c-c066-4e7b-8f33-9b5c17e4b965/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4860f96c-c066-4e7b-8f33-9b5c17e4b965/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = all 3 directions"
+  },
+  {
+    "slug": "toes-to-bar-with-back-support",
+    "name": "Toes to bar with back support",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/30d6ad6d-403d-461b-bbdb-4b7ef70bc5d6/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/30d6ad6d-403d-461b-bbdb-4b7ef70bc5d6/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "toes-to-bar-with-rubber-skk",
+    "name": "Toes to bar with rubber SKK",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/e1aba399-fbfc-4b11-a00e-4821ee5d0fee/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/e1aba399-fbfc-4b11-a00e-4821ee5d0fee/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = all 3 directions"
+  },
+  {
+    "slug": "two-steps-to-stop",
+    "name": "Two steps to stop",
+    "category": "Impacts",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/25c81ade-1e98-4830-9cd3-3c6d55f06596/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/25c81ade-1e98-4830-9cd3-3c6d55f06596/thumbnail.jpg",
+    "editions": [
+      "parkour"
+    ]
+  },
+  {
+    "slug": "unassisted-side-swing",
+    "name": "Unassisted side swing",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8d62497f-7d5e-4454-8de2-51b01ece0d84/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8d62497f-7d5e-4454-8de2-51b01ece0d84/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "unilateral-dumbbell-french-press",
+    "name": "Unilateral dumbbell French press",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4cdeb950-0757-49fd-a9d0-c261cb4bcc75/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4cdeb950-0757-49fd-a9d0-c261cb4bcc75/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "wall-handstand-push-up",
+    "name": "Wall handstand push-up",
+    "category": "Upper body, push",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/5b4007c8-d6f5-48cd-b6d1-d45870144eb1/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/5b4007c8-d6f5-48cd-b6d1-d45870144eb1/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "wide-bulgarian-split-squat",
+    "name": "Wide Bulgarian split squat",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/8de405a4-416d-48ea-8bd9-76a2bd12f491/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/8de405a4-416d-48ea-8bd9-76a2bd12f491/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "wide-grip-cable-row",
+    "name": "Wide grip cable row",
+    "category": "Upper body, pull",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/a123d68a-0eef-4122-a90f-5cdfe84e7340/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/a123d68a-0eef-4122-a90f-5cdfe84e7340/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "wide-single-leg-hip-thrust",
+    "name": "Wide single leg hip thrust",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/4ac72b84-ee88-4b8c-bc85-3d9fc7a52dc2/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/4ac72b84-ee88-4b8c-bc85-3d9fc7a52dc2/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "wide-split-squat-with-load",
+    "name": "Wide split squat (with load)",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/c414a3c3-4d39-4bb4-8037-e1c7c6b3a18f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/c414a3c3-4d39-4bb4-8037-e1c7c6b3a18f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "windshield-wiper",
+    "name": "Windshield wiper",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7c4f5169-c663-49fd-9205-1be2212720a7/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7c4f5169-c663-49fd-9205-1be2212720a7/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1 repetition = both directions"
+  },
+  {
+    "slug": "woodcutter-in-a-pulley-diagonal-up",
+    "name": "Woodcutter in a pulley diagonal up",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/b2eab78e-bde3-44de-b510-d9187b362c58/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/b2eab78e-bde3-44de-b510-d9187b362c58/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "zombie-slide-drill",
+    "name": "Zombie slide drill",
+    "category": "Core",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/da52cee3-37ea-4215-b2f3-3091517fc4f3/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/da52cee3-37ea-4215-b2f3-3091517fc4f3/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  }
+]

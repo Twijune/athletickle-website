@@ -6,11 +6,13 @@ import About from './pages/About'
 import BlogIndex from './pages/BlogIndex'
 import BlogPost from './pages/BlogPost'
 import Contact from './pages/Contact'
+import Exercise from './pages/Exercise'
 import NotFound from './pages/NotFound'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
 import { LanguageProvider, detectPreferredLocale, useLanguage } from './i18n/LanguageContext'
-import { localeFromPath } from './blog/paths'
+import { contentLangFromPath, localeFromPath } from './blog/paths'
+import { ExerciseContext, type ExerciseEntry } from './exercises/exercise'
 import type { Locale } from './i18n/translations'
 
 // Blog routes pin the locale via the URL; everywhere else the visitor's
@@ -24,29 +26,40 @@ function LocaleSync() {
     const target = localeFromPath(location.pathname) ?? detectPreferredLocale()
     if (target !== locale) setLocale(target, { persist: false })
   }, [location.pathname, locale, setLocale])
+  // <html lang> follows the page's content: the Finnish legal pages under /fi/
+  // are Finnish whatever language the site chrome is in
+  useEffect(() => {
+    document.documentElement.lang = contentLangFromPath(location.pathname) ?? locale
+  }, [location.pathname, locale])
   return null
 }
 
 // English blog lives at unprefixed /blog; fr/de/es are path-prefixed.
-function App({ initialLocale }: { initialLocale?: Locale }) {
+// `exercise` is the one exercise a prerendered /exercises/<slug> page carries.
+function App({ initialLocale, exercise = null }: { initialLocale?: Locale; exercise?: ExerciseEntry | null }) {
   return (
-    <LanguageProvider initialLocale={initialLocale}>
-      <LocaleSync />
-      <Routes>
-        <Route path="/" element={<Design10 />} />
-        <Route path="/parkour" element={<Edition edition="parkour" />} />
-        <Route path="/strength" element={<Edition edition="strength" />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/terms" element={<Terms />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<BlogIndex />} />
-        <Route path="/blog/:slug" element={<BlogPost />} />
-        <Route path="/:lang/blog" element={<BlogIndex />} />
-        <Route path="/:lang/blog/:slug" element={<BlogPost />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </LanguageProvider>
+    <ExerciseContext.Provider value={exercise}>
+      <LanguageProvider initialLocale={initialLocale}>
+        <LocaleSync />
+        <Routes>
+          <Route path="/" element={<Design10 />} />
+          <Route path="/parkour" element={<Edition edition="parkour" />} />
+          <Route path="/strength" element={<Edition edition="strength" />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/fi/terms" element={<Terms lang="fi" />} />
+          <Route path="/fi/privacy" element={<Privacy lang="fi" />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/exercises/:slug" element={<Exercise />} />
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/:lang/blog" element={<BlogIndex />} />
+          <Route path="/:lang/blog/:slug" element={<BlogPost />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </LanguageProvider>
+    </ExerciseContext.Provider>
   )
 }
 

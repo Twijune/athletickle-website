@@ -2,6 +2,7 @@ import { editions, type Edition } from '../data/marketing'
 import type { Locale } from '../i18n/translations'
 import { blogAlternates, blogPath, type Alternate } from '../blog/paths'
 import { getPostLocales, type Post } from '../blog/posts'
+import { exercisePath, type ExerciseEntry } from '../exercises/exercise'
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from './config'
 
 export type { Alternate }
@@ -12,11 +13,14 @@ export interface PageMeta {
   path: string
   locale: Locale
   ogType: 'website' | 'article'
+  /** Site path, or an absolute URL for an image hosted elsewhere. */
   ogImage: string
   publishedTime?: string
   alternates?: Alternate[]
   jsonLd?: Record<string, unknown>[]
   noindex?: boolean
+  /** Language of the page content when it is not a site locale (the Finnish legal pages). */
+  contentLang?: 'fi'
 }
 
 const OG_LOCALE: Record<Locale, string> = {
@@ -27,28 +31,28 @@ const OG_LOCALE: Record<Locale, string> = {
 }
 
 const LANDING_DESCRIPTION =
-  'Structured training for parkour, strength and muscle. Meet the coach behind Athletickle and join the pre-launch beta community on Discord.'
+  'Structured training for parkour, strength and muscle mass. Athletickle Parkour and Strength are now available on Android via Google Play.'
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
   en: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      'Training intel from Athletickle: evidence-based guides on periodization, progressive overload, RIR, and smarter strength programming.',
+      'Training intel from Athletickle: evidence-based guides on progressive overload, RIR, and smarter strength programming.',
   },
   fr: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      "Intel entraînement par Athletickle : guides fondés sur la science — périodisation, surcharge progressive, RIR et programmation intelligente.",
+      "Intel entraînement par Athletickle : guides fondés sur la science — surcharge progressive, RIR et programmation intelligente.",
   },
   de: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      'Trainings-Intel von Athletickle: evidenzbasierte Guides zu Periodisierung, progressiver Steigerung, RIR und intelligenter Trainingsplanung.',
+      'Trainings-Intel von Athletickle: evidenzbasierte Guides zu progressiver Steigerung, RIR und intelligenter Trainingsplanung.',
   },
   es: {
     title: `Blog | ${SITE_NAME}`,
     description:
-      'Intel de entrenamiento de Athletickle: guías basadas en evidencia sobre periodización, sobrecarga progresiva, RIR y programación inteligente.',
+      'Intel de entrenamiento de Athletickle: guías basadas en evidencia sobre sobrecarga progresiva, RIR y programación inteligente.',
   },
 }
 
@@ -78,7 +82,7 @@ export function landingMeta(): PageMeta {
 }
 
 export function editionMeta(edition: Edition): PageMeta {
-  return { title: `${editions[edition].name} | Structured Training`, description: `${editions[edition].short} First four-week block free. Pre-launch: join the beta community on Discord.`, path: `/${edition}`, locale: 'en', ogType: 'website', ogImage: `/social/${edition}.png` }
+  return { title: `${editions[edition].name} | Structured Training`, description: `${editions[edition].short} First four-week block free. Now available on Android via Google Play.`, path: `/${edition}`, locale: 'en', ogType: 'website', ogImage: `/social/${edition}.png` }
 }
 
 export function aboutMeta(): PageMeta {
@@ -126,28 +130,59 @@ export function blogPostMeta(post: Post): PageMeta {
   }
 }
 
-// Legal/contact pages are English-only canonical pages (no hreflang alternates).
-export function termsMeta(): PageMeta {
+// The legal pages exist in English (/terms, /privacy) and Finnish (/fi/terms,
+// /fi/privacy), each pair linked by hreflang. The Finnish pages keep the 'en'
+// site locale for the chrome; contentLang makes them lang="fi". Contact is
+// English-only.
+function legalMeta(
+  id: 'terms' | 'privacy',
+  lang: 'en' | 'fi',
+  copy: Record<'en' | 'fi', { title: string; description: string }>,
+): PageMeta {
   return {
-    title: `Terms of Use & EULA | ${SITE_NAME}`,
-    description:
-      'Athletickle Terms of Use and End User License Agreement, including the health disclaimer and assumption-of-risk terms for training with the app.',
-    path: '/terms',
+    title: `${copy[lang].title} | ${SITE_NAME}`,
+    description: copy[lang].description,
+    path: lang === 'fi' ? `/fi/${id}` : `/${id}`,
     locale: 'en',
+    ...(lang === 'fi' ? { contentLang: 'fi' as const } : {}),
     ogType: 'website',
     ogImage: DEFAULT_OG_IMAGE,
+    alternates: [
+      { hreflang: 'en', path: `/${id}` },
+      { hreflang: 'fi', path: `/fi/${id}` },
+      { hreflang: 'x-default', path: `/${id}` },
+    ],
   }
 }
 
-export function privacyMeta(): PageMeta {
-  return {
-    title: `Privacy Policy | ${SITE_NAME}`,
-    description: 'How Athletickle handles your data. Full privacy policy published ahead of launch.',
-    path: '/privacy',
-    locale: 'en',
-    ogType: 'website',
-    ogImage: DEFAULT_OG_IMAGE,
-  }
+export function termsMeta(lang: 'en' | 'fi' = 'en'): PageMeta {
+  return legalMeta('terms', lang, {
+    en: {
+      title: 'Terms of Use & EULA',
+      description:
+        'Athletickle Terms of Use and End User License Agreement, including the health disclaimer and assumption-of-risk terms for training with the app.',
+    },
+    fi: {
+      title: 'Käyttöehdot ja käyttöoikeussopimus',
+      description:
+        'Athleticklen käyttöehdot ja käyttöoikeussopimus, mukaan lukien terveyttä koskeva vastuuvapauslauseke ja sovelluksella harjoitteluun liittyvien riskien hyväksyminen.',
+    },
+  })
+}
+
+export function privacyMeta(lang: 'en' | 'fi' = 'en'): PageMeta {
+  return legalMeta('privacy', lang, {
+    en: {
+      title: 'Privacy Policy',
+      description:
+        'How Athletickle handles your data: what stays on your phone, what the website measures, and who delivers the exercise videos.',
+    },
+    fi: {
+      title: 'Tietosuojaseloste',
+      description:
+        'Miten Athletickle käsittelee tietojasi: mikä pysyy puhelimessasi, mitä verkkosivusto mittaa ja kuka toimittaa harjoitusvideot.',
+    },
+  })
 }
 
 export function contactMeta(): PageMeta {
@@ -158,6 +193,21 @@ export function contactMeta(): PageMeta {
     locale: 'en',
     ogType: 'website',
     ogImage: DEFAULT_OG_IMAGE,
+  }
+}
+
+// Unlisted (see exercises/exercise.ts): noindex, but the share preview still
+// shows the clip's poster frame when someone sends the link.
+export function exerciseMeta(exercise: ExerciseEntry): PageMeta {
+  const apps = exercise.editions.map((edition) => editions[edition].name).join(' and ')
+  return {
+    title: `${exercise.name} — Exercise demo | ${SITE_NAME}`,
+    description: `Demonstration clip of ${exercise.name}, from ${apps}.`,
+    path: exercisePath(exercise.slug),
+    locale: 'en',
+    ogType: 'website',
+    ogImage: exercise.poster,
+    noindex: true,
   }
 }
 
@@ -189,7 +239,7 @@ export function canonicalUrl(meta: PageMeta): string {
 // crawlers see. useHead() keeps the client in sync during SPA navigation.
 export function renderHead(meta: PageMeta): string {
   const url = canonicalUrl(meta)
-  const image = `${SITE_URL}${meta.ogImage}`
+  const image = /^https?:\/\//.test(meta.ogImage) ? meta.ogImage : `${SITE_URL}${meta.ogImage}`
   const tags: string[] = [
     `<title>${escapeHtml(meta.title)}</title>`,
     `<meta name="description" content="${escapeHtml(meta.description)}" />`,
@@ -207,7 +257,7 @@ export function renderHead(meta: PageMeta): string {
     `<meta property="og:type" content="${meta.ogType}" />`,
     `<meta property="og:url" content="${url}" />`,
     `<meta property="og:image" content="${image}" />`,
-    `<meta property="og:locale" content="${OG_LOCALE[meta.locale]}" />`,
+    `<meta property="og:locale" content="${meta.contentLang === 'fi' ? 'fi_FI' : OG_LOCALE[meta.locale]}" />`,
   )
   if (meta.publishedTime) {
     tags.push(`<meta property="article:published_time" content="${meta.publishedTime}" />`)
