@@ -99,6 +99,21 @@ for (const [slug, variants] of bySlug) {
   }
 }
 
+// A published post must not link to a blog post that isn't published (still a
+// draft, or a slug that doesn't exist): the link would 404 on the live site.
+// Failing here stops the build, so posts that link to each other have to be
+// published together or in dependency order.
+const BLOG_LINK_RE = /\]\(\/(?:([a-z]{2})\/)?blog\/([a-z0-9-]+)(?=[)#?])/g
+for (const post of allPosts) {
+  for (const [, lang = 'en', slug] of post.body.matchAll(BLOG_LINK_RE)) {
+    if (!bySlug.get(slug)?.has(lang as Locale)) {
+      throw new Error(
+        `Blog post ${post.slug} (${post.lang}): links to /blog/${slug}, which is not a published ${lang} post`,
+      )
+    }
+  }
+}
+
 export function getPosts(lang: Locale): Post[] {
   return allPosts
     .filter((post) => post.lang === lang)

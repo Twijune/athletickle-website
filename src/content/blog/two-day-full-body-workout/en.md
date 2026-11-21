@@ -110,6 +110,6 @@ For maintenance, the Spiering review concluded that one session a week can keep 
 
 Athletickle Strength has a two-day option called minimal effective dose: two full-body sessions a week with a reduced amount of training. Progression and deloads stay in the plan. You choose it when you create a program, and it stays with that program as later blocks become available.
 
-If you log your sets, the app suggests adding load, repeating it or easing back. It doesn't choose the weight for you. It assumes you already know the movements it names and have a gym. If you are coming back after a break, beginner free-weight mode emphasizes fundamental lifts, and demonstration videos help explain what the plan asks of you, though some movements have no video. Your first four-week block is free, and later blocks need a subscription.
+If you log your sets, the app suggests adding load, repeating it or easing back. It doesn't choose the weight for you. It assumes you already know the movements it names and have a gym. Beginner free-weight mode emphasizes fundamental lifts, and demonstration videos show the movements, though some have no video. Your first four-week block is free, and later blocks need a subscription.
 
 - **Athletickle Strength** is structured gym training for strength and muscle mass. [See Athletickle Strength](/strength) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).

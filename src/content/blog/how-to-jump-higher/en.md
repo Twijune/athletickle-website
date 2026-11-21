@@ -10,7 +10,7 @@ draft: true
 
 Jumping higher is trainable. Make your legs stronger with squats and similar lifts, and practise full-effort jumps (plyometrics) two or three times a week. Each works on its own, and combining them works whichever way you arrange it ([Brandt et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37459857/)).
 
-Expect a gain of a few centimetres over two to three months of consistent training. In controlled trials, plyometric programs added roughly 2–6 cm (about ¾ to 2½ inches) on average over about two months, using roughly 70–85 jumps per session, two to three sessions a week ([Markovic, 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC2465309/)). We could not find research supporting the gains of 25 cm (10 inches) or more promised in some videos and programs.
+The gains in trials are a few centimetres. In controlled trials, plyometric programs added roughly 2–6 cm (about ¾ to 2½ inches) on average over about two months, using roughly 70–85 jumps per session, two to three sessions a week ([Markovic, 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC2465309/)). We could not find research supporting the gains of 25 cm (10 inches) or more promised in some videos and programs.
 
 A few centimetres can be enough if you are just short of a target, such as a rim or the top of a wall. If you are 20 cm short, one program is unlikely to get you there.
 

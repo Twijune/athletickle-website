@@ -4,7 +4,7 @@
 
 ## Why these posts
 
-The site has no Google rankings yet (`2026-11-13-dataforseo-first-pass.md`, repo root). The analysis found low-difficulty searches that match what the apps already do. Each post targets one cluster of those searches and ends with an honest link to the app that fits.
+The site has no Google rankings yet (`2026-11-13-dataforseo-first-pass.md`, a local working file that is not committed to this repo). The analysis found low-difficulty searches that match what the apps already do. Each post targets one cluster of those searches and ends with an honest link to the app that fits.
 
 ## Sources to read
 
@@ -12,7 +12,7 @@ The site has no Google rankings yet (`2026-11-13-dataforseo-first-pass.md`, repo
 
 | What | Where |
 |---|---|
-| Keyword data and the reasons for each topic | `2026-11-13-dataforseo-first-pass.md` (repo root), section 3 |
+| Keyword data and the reasons for each topic | `2026-11-13-dataforseo-first-pass.md` (local working file, not committed), section 3 |
 | What the apps do and must not be said to do | `docs/marketing/CLAIMS.md`, `src/data/marketing.ts`, `src/i18n/marketingCopy.ts` |
 | Banned words and sentence shapes | `Athletickle-marketing/slop-blacklist.md` |
 | Brand tone | `Athletickle-marketing/brand-and-source-material.md` (its Strength store note is out of date: Strength is live on Google Play) |
@@ -48,6 +48,7 @@ The app source code is not available. Product statements must come from the file
 ## Links and CTA
 
 - Internal links where they help the reader: `/blog/rir-autoregulation`, `/blog/progressive-overload-guide`, other batch posts at `/blog/<slug>`, `/parkour`, `/strength`, `/about`.
+- A post that links to another batch post can only be published once that post is published. The build fails if a published post links to a draft or to a slug that doesn't exist (`src/blog/posts.ts`). `deload-week` links to no other batch post, so it can go first.
 - The last `##` section says plainly how Athletickle handles the topic, using only statements from the claims sheet. It ends with the CTA links:
   - Parkour: `[See Athletickle Parkour](/parkour)` and `[get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.pk)`
   - Strength: `[See Athletickle Strength](/strength)` and `[get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str)`

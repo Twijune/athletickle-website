@@ -52,7 +52,7 @@ Avoid going to failure, which adds fatigue and may slow recovery.
 
 ### Jumps
 
-Plyometrics are quick jumps and hops with short ground contacts. Adding them to lifting may help further ([Llanos-Lagos et al., 2024b](https://pmc.ncbi.nlm.nih.gov/articles/PMC11258194/)). Good choices are skipping, low hops in place, bounding and small drop jumps from a 20–30 cm box. Start with 30 to 60 landings a session. Trials built mainly on jumps worked up to about 110–230 over six to nine weeks. Do them first, while you are fresh.
+Plyometrics are quick jumps and hops with short ground contacts. Adding them to lifting may help further ([Llanos-Lagos et al., 2024b](https://pmc.ncbi.nlm.nih.gov/articles/PMC11258194/)). Good choices are skipping, low hops in place, bounding and small drop jumps from a 20–30 cm box. Start with 30 to 60 landings a session. Trials built mainly on jumps worked up to about 110–230 over six to nine weeks ([Blagrove et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5889786/)). Do them first, while you are fresh.
 
 ### Two-day example
 
@@ -78,7 +78,7 @@ Many coaches add a lighter [deload week](/blog/deload-week) every few weeks. The
 
 ## How to fit lifting around your running
 
-A hard run means intervals, a tempo run, a race or your long run. An easy run, at a pace where you could chat, doesn't count. The 2018 review recommends:
+A hard run means intervals, a tempo run, a race or your long run. An easy run, at a pace where you could chat, doesn't count. The [Blagrove review](https://pmc.ncbi.nlm.nih.gov/articles/PMC5889786/) recommends:
 
 - at least 24 hours between a lifting session and your next hard run
 - at least three hours after a hard run before you lift
@@ -101,7 +101,7 @@ Each lift leaves more than 24 hours before the next hard run, and nothing heavy 
 
 ### Racing season and race week
 
-The 2018 review suggests dropping to one session a week in the racing season, and that suggestion rests mainly on one small study. In another study, gains were lost within about six weeks once lifting stopped, so keep that one session going. We could not find a trial on race week. A common approach is a short session early in the week with fewer sets, then no lifting in the last few days before a key race.
+The same review suggests dropping to one session a week in the racing season, and that suggestion rests mainly on one small study ([Beattie et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27135468/)). In another small study, the gain in 5 km time returned close to where it started six weeks after lifting stopped ([Karsten et al., 2016](https://pubmed.ncbi.nlm.nih.gov/25946163/)), so keep that one session going. We could not find a trial on race week. A common approach is a short session early in the week with fewer sets, then no lifting in the last few days before a key race.
 
 ## For other athletes
 
@@ -111,13 +111,13 @@ Cyclists, triathletes and team-sport players can use the same pattern: two sessi
 
 ### Economy, race times and weight
 
-The 2018 review covered 24 trials that added heavy lifts, explosive lifts, jumps or a mix to running. Economy improved in 14 of the 20 that measured it, at least at some speeds, and time trials improved in 8 of 12. Most trials lasted 6 to 14 weeks, and 352 of the 469 runners were men. Body weight did not change in 18 trials.
+The Blagrove review covered 24 trials that added heavy lifts, explosive lifts, jumps or a mix to running. Economy improved in 14 of the 20 that measured it, at least at some speeds, and time trials improved in 8 of 12. Most trials lasted 6 to 14 weeks, and 352 of the 469 runners were men. Body weight did not change in 18 trials.
 
 A 2024 meta-analysis found that heavy loads improved economy. Loads of 40–79% of one-rep max showed no clear effect, but only three studies tested them. We could not find a direct comparison of heavy and moderate loads. A companion paper found a moderate effect of heavy loads on time trials and time to exhaustion, rated moderate certainty. Programs that added jumps to lifting showed a larger effect, but that came from six small studies and was rated very low certainty.
 
-Not every trial found a gain. In 19 well-trained female endurance athletes who ran and cycled, 11 weeks of heavy strength training raised leg strength by about 40%, yet neither economy nor a 40-minute all-out run improved compared with usual endurance training ([Vikmoen et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4783109/)). The lifters' average weight rose from 62.4 to 63.1 kg while the non-lifters lost a little. In 20 middle-aged recreational runners, both groups (lifting or jumps) used about 2% less oxygen after 10 weeks, but neither ran 5 km faster, and there was no running-only group.
+Not every trial found a gain. In 19 well-trained female endurance athletes who ran and cycled, 11 weeks of heavy strength training raised leg strength by about 40%, yet neither economy nor a 40-minute all-out run improved compared with usual endurance training ([Vikmoen et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4783109/)). The lifters' average weight rose from 62.4 to 63.1 kg while the non-lifters lost a little. In 20 middle-aged recreational runners, both groups (lifting or jumps) used about 2% less oxygen after 10 weeks, but neither ran 5 km faster, and there was no running-only group ([Eihara et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39523854/)).
 
-The in-season advice rests on a 40-week study of 20 runners, 11 of whom lifted, that was not randomized. In season, its one weekly session was jumps and explosive lifts.
+The in-season advice rests on the Beattie study, which followed 20 runners for 40 weeks, 11 of whom lifted, that was not randomized. In season, its one weekly session was jumps and explosive lifts.
 
 ### Does lifting slow your running?
 
@@ -127,18 +127,18 @@ Those studies measured strength, not running. In the runner trials, adding lifti
 
 ### Injuries
 
-In other sports, mostly team sports, a meta-analysis of six trials with 7,738 people found strength training cut injuries to about a third ([Lauersen et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30131332/)). A later review noted that half of those trials used adolescent athletes.
+In other sports, mostly team sports, a meta-analysis of six trials with 7,738 people found strength training cut injuries to about a third ([Lauersen et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30131332/)). A later review noted that half of those trials used adolescent athletes ([Wu et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11127851/)).
 
-That review pooled nine trials and 1,904 runners. Exercise programs did not clearly reduce injury risk or rate, and the authors rated that result moderate to high certainty, although most single trials were of low quality ([Wu et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11127851/)). Only four programs included strength exercises, mostly bodyweight and low in volume. A post hoc analysis of the three small supervised trials found fewer injuries, possibly because people did the exercises. In 720 first-time marathon runners, a self-directed 10-minute routine three times a week found no clear difference in overuse injuries that stopped people finishing, 7.1% against 7.3% ([Toresdahl et al., 2020](https://pubmed.ncbi.nlm.nih.gov/31642726/)).
+That review pooled nine trials and 1,904 runners. Exercise programs did not clearly reduce injury risk or rate, and the authors rated that result moderate to high certainty, although most single trials were of low quality. Only four programs included strength exercises, mostly bodyweight and low in volume. A post hoc analysis of the three small supervised trials found fewer injuries, possibly because people did the exercises. In 720 first-time marathon runners, a self-directed 10-minute routine three times a week found no clear difference in overuse injuries that stopped people finishing, 7.1% against 7.3% ([Toresdahl et al., 2020](https://pubmed.ncbi.nlm.nih.gov/31642726/)).
 
 We could not find a trial of heavy gym lifting with running injuries as the outcome, so for runners an injury benefit is possible but unproven. If pain changes how you run or keeps getting worse, see a physiotherapist or doctor.
 
 ## How Athletickle Strength fits
 
-Athletickle Strength is a structured gym plan for strength and muscle mass. It has no input for running or any other sport, so it does not plan your running or adjust for your mileage. You decide how the sessions fit around your runs.
+Athletickle Strength is a structured gym plan for strength and muscle mass. You can bias it towards maximal strength and give it a lower-body emphasis. It has no input for running or any other sport, so it does not plan your running or adjust for your mileage. You decide how the sessions fit around your runs.
 
-If two days a week is what you have, there is a two-day option with less total volume: two full-body sessions a week, with progression and deloads still in the plan. You choose it when you create the program, and it stays with that program. You can also bias the plan towards maximal strength and a lower-body emphasis.
+If two days a week is what you have, there is a two-day option with less total volume: two full-body sessions a week, with progression and deloads still in the plan. You choose it when you create the program, and it stays with that program.
 
-Beginner free-weight mode emphasizes fundamental lifts, but the app assumes you already know the movements it names and have a gym. Demonstration videos and an in-app training guide help explain what the plan asks of you, though some movements have no video. Your first four-week block is free, and later blocks need a subscription.
+Beginner free-weight mode emphasizes fundamental lifts, but the app assumes you already know the movements it names and have a gym. Demonstration videos show the movements, though some have no video. Your first four-week block is free, and later blocks need a subscription.
 
 - **Athletickle Strength:** [See Athletickle Strength](/strength) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).

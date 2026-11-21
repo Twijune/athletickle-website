@@ -90,7 +90,7 @@ Pain is a separate question from fatigue. See a physiotherapist or doctor if pai
 
 ### How often
 
-The [common habit among coaches](https://doi.org/10.3389/fspor.2022.1073223) is a lighter week every four to six weeks, and the survey athletes averaged about every five to six. A 2023 consensus study of strength coaches set no fixed number and suggested adjusting the spacing to how you respond ([Bell et al., 2023](https://doi.org/10.1186/s40798-023-00633-0)). We could not find a trial that compares one deload frequency with another. The authors of the trial described below suggested that studies of young lifters lasting nine weeks or less, at up to 90 sets a week, may not need a deload for recovery.
+The [common habit among coaches](https://doi.org/10.3389/fspor.2022.1073223) is a lighter week every four to six weeks, and the survey athletes averaged about every five to six. A 2023 consensus study of strength coaches set no fixed number and suggested adjusting the spacing to how you respond ([Bell et al., 2023](https://doi.org/10.1186/s40798-023-00633-0)). We could not find a trial that compares one deload frequency with another. The authors of the trial described below suggested that research studies in young lifters may not need to include a deload for recovery when they last nine weeks or less and use up to 90 sets a week.
 
 ### Where it fits, and the week after
 
@@ -114,7 +114,7 @@ Many coaches believe deloads reduce injuries, and the consensus panel agreed the
 
 ## How Athletickle handles deloads
 
-Both apps plan training in four-week blocks on a 12- or 24-week roadmap, and every block includes a scheduled deload, planned in advance. They don't monitor your body or rewrite sessions in real time. Instead, your end-of-block check-in informs the next block. Your first four-week block is free, deload included.
+Both apps plan training in four-week blocks on a 12- or 24-week roadmap, and every block includes a scheduled deload, planned in advance. They don't monitor your body or rewrite sessions in real time. Instead, your end-of-block check-in informs the next block. Your first four-week block is free, deload included, and later blocks need a subscription.
 
 - **Athletickle Strength** is structured gym training for strength and muscle mass. [See Athletickle Strength](/strength) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).
 - **Athletickle Parkour** is for people whose main training is parkour, and builds complementary strength and power training around it. [See Athletickle Parkour](/parkour) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.pk).

@@ -26,7 +26,7 @@ A periodized plan nests three time scales:
 - **Mesocycle:** several microcycles, often about a month.
 - **Macrocycle:** the whole plan, often a year.
 
-Lengths vary by source. One clinical review uses the same words for longer units, with 3–4 month mesocycles and 1–4 week microcycles, so check what a program means by each term. Gym programs often use four-week mesocycles, with a lighter [deload week](/blog/deload-week) at the end.
+Lengths vary by source. One clinical review uses the same words for longer units, with 3–4 month mesocycles and 1–4 week microcycles ([Lorenz and Morrison, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4637911/)), so check what a program means by each term. Gym programs often use four-week mesocycles, with a lighter [deload week](/blog/deload-week) at the end.
 
 ## The main models, with example weeks
 
