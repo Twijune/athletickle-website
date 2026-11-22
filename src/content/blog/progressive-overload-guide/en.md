@@ -1,40 +1,41 @@
 ---
 title: "Progressive Overload: The Complete Guide"
-description: "Stop guessing why your lifts stalled. Learn how progressive overload really works, the four levers that drive it, and how to apply them week to week."
+description: "What progressive overload means, why lifts stall, the four ways to make training harder, and how to apply them week to week."
 date: "2026-07-10"
+updated: "2026-11-22"
 slug: "progressive-overload-guide"
 lang: "en"
 tags: ["training", "programming"]
 cover: "/previewofprogram.png"
 ---
 
-## What Progressive Overload Actually Is
+## What Progressive Overload Is
 
-Progressive overload is not "add weight every session." It is the principle that training stress must increase over time for your body to keep adapting. Muscle and strength are expensive. Your body only builds them when the current level is no longer enough to handle what you throw at it.
+Progressive overload means training stress has to rise over time for your body to keep adapting. Adding weight every session is one way to do that, but not the only one. Muscle and strength are costly for the body to build and keep. It adds them only when what it has is no longer enough for the work you give it.
 
-That means overload is about the total stimulus, not the number on the bar. A heavier set, an extra rep, an extra set, or a stricter rep at the same weight all count. If the stimulus this month matches the stimulus from last month, you are maintaining, not building.
+So what counts is the total stimulus. A heavier set, an extra rep, an extra set, or a stricter rep at the same weight all raise it. If this month's training matches last month's, you are maintaining what you have.
 
 ## Why Lifters Plateau
 
-Most plateaus are not mysterious. They come down to a few predictable failures.
+Most plateaus have one of three ordinary causes.
 
-The first is invisible regression. You add weight but shorten the range of motion, speed up the eccentric, or let your spotter do the last rep. The bar goes up, the stimulus does not.
+The first is regression you don't notice. You add weight but shorten the range of motion, rush the lowering phase, or let your spotter finish the last rep. The weight has gone up and the work your muscles do has stayed the same.
 
-The second is unmanaged fatigue. Overload only works when you can recover from it. Push volume and intensity up in a straight line and fatigue eventually swallows your performance. You grind, stall, and blame the program.
+The second is fatigue. Overload works only if you recover from it. If volume and intensity both climb week after week with no easier period, fatigue accumulates and your performance drops. It is easy to blame the program at that point, when the real problem is recovery.
 
-The third is no tracking. If you cannot say what you lifted for sets and reps two weeks ago, you cannot overload it. You are just training hard at random.
+The third is not keeping a log. If you can't say what you lifted two weeks ago, for how many sets and reps, you have nothing to beat. You may be training hard, but you can't tell whether you are doing more.
 
 ## The Four Levers
 
-You have four ways to make training harder. Pull them deliberately, one at a time.
+There are four ways to make training harder. Change one at a time.
 
-- **Load** — more weight on the bar for the same reps. The classic lever, and the slowest one for a trained lifter.
-- **Reps** — same weight, more reps per set. Usually the first lever to pull between load increases.
-- **Sets** — more total working sets per muscle per week. Powerful, but the fastest way to accumulate fatigue.
-- **Execution quality** — fuller range of motion, controlled eccentrics, less momentum and cheating. The lever most lifters ignore, and the one that makes the other three honest.
+- **Load:** more weight on the bar for the same reps. This is the best-known lever, and the slowest for a trained lifter.
+- **Reps:** the same weight for more reps per set. This is usually the first lever to use between load increases.
+- **Sets:** more working sets per muscle per week. It works, but it also builds fatigue faster than the others.
+- **Execution quality:** fuller range of motion, controlled lowering, less momentum. Most lifters ignore it, yet the other three only count if the reps are done to the same standard.
 
 ## Applying It Week to Week
 
-Systematic overload looks boring on paper. Fix your exercises for a training block. Log every set. Each week, beat the logbook on one lever — a rep here, a small load jump there — while keeping execution standards constant. When performance stalls across multiple sessions, that is fatigue talking. Deload, then resume the climb.
+In practice this is repetitive. Keep the same exercises for a whole training block and log every set. Each week, try to beat your log on one lever, such as one more rep or a small increase in load, and hold your execution to the same standard. If performance stalls for several sessions in a row, the likely cause is fatigue. Take a deload week, then carry on from where you were.
 
 Athletickle Strength provides load-direction cues from the reps and RIR you log: add, repeat, or ease back. It does not choose a weight for you or rewrite the current block after each session. Each block includes a scheduled deload, and your end-of-block feedback informs the next block. Athletickle Parkour and Strength are now available on Android. [Explore Strength](/strength) or [get Strength on Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).
