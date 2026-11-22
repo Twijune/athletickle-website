@@ -1,8 +1,9 @@
 import { editions, type Edition } from '../data/marketing'
 import type { Locale } from '../i18n/translations'
-import { blogAlternates, blogPath, type Alternate } from '../blog/paths'
+import { blogAlternates, blogPath, pageAlternates, pagePath, type Alternate } from '../blog/paths'
 import { getPostLocales, type Post } from '../blog/posts'
 import { exercisePath, type ExerciseEntry } from '../exercises/exercise'
+import { editionCopy } from '../i18n/editionCopy'
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from './config'
 
 export type { Alternate }
@@ -29,9 +30,6 @@ const OG_LOCALE: Record<Locale, string> = {
   de: 'de_DE',
   es: 'es_ES',
 }
-
-const LANDING_DESCRIPTION =
-  'Structured training for parkour, strength and muscle mass. Athletickle Parkour and Strength are now available on Android via Google Play.'
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
   en: {
@@ -66,14 +64,17 @@ const ORGANIZATION_JSON_LD = {
   },
 }
 
-export function landingMeta(): PageMeta {
+// The landing and app pages exist per locale (/, /fr, /de/parkour…), linked
+// by hreflang; their text lives in i18n/editionCopy.
+export function landingMeta(locale: Locale = 'en'): PageMeta {
   return {
-    title: `${SITE_NAME} — Parkour & Strength Training`,
-    description: LANDING_DESCRIPTION,
-    path: '/',
-    locale: 'en',
+    title: editionCopy[locale].landingTitle,
+    description: editionCopy[locale].landingDescription,
+    path: pagePath(locale, '/'),
+    locale,
     ogType: 'website',
     ogImage: DEFAULT_OG_IMAGE,
+    alternates: pageAlternates('/'),
     jsonLd: [
       { '@context': 'https://schema.org', ...ORGANIZATION_JSON_LD },
       { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: `${SITE_URL}/` },
@@ -81,8 +82,17 @@ export function landingMeta(): PageMeta {
   }
 }
 
-export function editionMeta(edition: Edition): PageMeta {
-  return { title: `${editions[edition].name} | Structured Training`, description: `${editions[edition].short} First four-week block free. Now available on Android via Google Play.`, path: `/${edition}`, locale: 'en', ogType: 'website', ogImage: `/social/${edition}.png` }
+export function editionMeta(edition: Edition, locale: Locale = 'en'): PageMeta {
+  const copy = editionCopy[locale]
+  return {
+    title: `${editions[edition].name} | ${copy.metaTitleTail}`,
+    description: `${copy.editions[edition].short} ${copy.metaDescriptionTail}`,
+    path: pagePath(locale, `/${edition}`),
+    locale,
+    ogType: 'website',
+    ogImage: `/social/${edition}.png`,
+    alternates: pageAlternates(`/${edition}`),
+  }
 }
 
 export function aboutMeta(): PageMeta {

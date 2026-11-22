@@ -1,21 +1,31 @@
 import { Link } from 'react-router-dom'
 import MarketingLayout from '../components/MarketingLayout'
 import ProgramPreview from '../components/ProgramPreview'
-import { DISCORD_URL, PARKOUR_PLAY_URL, STRENGTH_PLAY_URL, editions, FOUNDER_BIO, sharedFaq, type Edition as EditionName } from '../data/marketing'
+import { pagePath } from '../blog/paths'
+import { DISCORD_URL, PARKOUR_PLAY_URL, STRENGTH_PLAY_URL, editions, type Edition as EditionName } from '../data/marketing'
+import { useLanguage } from '../i18n/LanguageContext'
+import { editionCopy } from '../i18n/editionCopy'
+import { marketingCopy } from '../i18n/marketingCopy'
 import { editionMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
 
+// One page per app and locale (/parkour, /fr/parkour…). App names and codes
+// are not translated; everything else comes from i18n/editionCopy.
 export default function Edition({ edition }: { edition: EditionName }) {
-  const data = editions[edition]
-  const isParkour = edition === 'parkour'
-  useHead(editionMeta(edition))
-  return <MarketingLayout>
-    <section className="marketing-section hero-grid"><div><p className="eyebrow">{data.name} / NOW ON ANDROID</p><h1>{data.title}</h1><p className="lead">{data.description}</p><a className="button primary" href={isParkour ? PARKOUR_PLAY_URL : STRENGTH_PLAY_URL}>Get it on Google Play ↗</a><p className="small-note">Available now on Android. Your first four-week block is free.</p></div><ProgramPreview /></section>
-    <section className="marketing-section section-rule"><h2>Built for your training.</h2><div className="feature-grid three-columns">{data.features.map(([title, text], i) => <article key={title}><span className="feature-number">0{i + 1}</span><h3>{title}</h3><p>{text}</p></article>)}</div></section>
-    <section className="marketing-section section-rule founder-strip"><div><p className="eyebrow">FROM SETUP TO SESSION</p><h2>Make the plan yours.</h2></div><div><p className="lead">Review your exercises. Swap eligible movements for equivalents before saving. Follow the prescribed sets, reps, effort and rest.</p><ul className="detail-list">{data.details.map(text => <li key={text}>{text}</li>)}</ul><p>Export your program through your phone’s share menu. Logging is optional; your generated block is ready to follow.</p></div></section>
-    <section className="marketing-section founder-strip section-rule"><div><p className="eyebrow">MIKA / FOUNDER OF ATHLETICKLE</p><h2>Experience behind the programming.</h2></div><div><p className="lead">{FOUNDER_BIO}</p><Link to="/about" className="text-link">Meet Mika →</Link></div></section>
-    <section className="marketing-section section-rule offer-section"><div className="offer-number">4<span>WEEKS</span></div><div><p className="eyebrow">YOUR FIRST BLOCK IS FREE</p><h2>A complete place to start.</h2><p className="lead">Your first four-week block includes its scheduled deload. Continue into later blocks with a subscription.</p><p>The next block has a 21-day pacing gate, including for subscribers. Store pricing and billing terms appear before purchase.</p></div></section>
-    <section className="marketing-section section-rule"><h2>Before you start.</h2><div className="faq-list">{[...data.faq, ...sharedFaq].map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
-    <section className="marketing-section beta-cta"><p className="eyebrow">{data.code} / COMMUNITY</p><h2>Bring your questions. Share your progress.</h2><p className="lead">Meet the founder and other athletes on Discord. Follow updates and share what works—and what needs work.</p><a href={DISCORD_URL} className="button primary">Join the community ↗</a><p className="small-note"><Link to={edition === 'parkour' ? '/strength' : '/parkour'}>Explore Athletickle {edition === 'parkour' ? 'Strength' : 'Parkour'} →</Link></p></section>
+  const { locale } = useLanguage()
+  const copy = editionCopy[locale]
+  const c = marketingCopy[locale]
+  const { name, code } = editions[edition]
+  const text = copy.editions[edition]
+  const other = edition === 'parkour' ? 'strength' : 'parkour'
+  useHead(editionMeta(edition, locale))
+  return <MarketingLayout localized>
+    <section className="marketing-section hero-grid"><div><p className="eyebrow">{name} / {c.pkStatus}</p><h1>{text.title}</h1><p className="lead">{text.description}</p><a className="button primary" href={edition === 'parkour' ? PARKOUR_PLAY_URL : STRENGTH_PLAY_URL}>{copy.playCta} ↗</a><p className="small-note">{copy.availableNote}</p></div><ProgramPreview locale={locale} /></section>
+    <section className="marketing-section section-rule"><h2>{copy.builtTitle}</h2><div className="feature-grid three-columns">{text.features.map(([title, body], i) => <article key={title}><span className="feature-number">0{i + 1}</span><h3>{title}</h3><p>{body}</p></article>)}</div></section>
+    <section className="marketing-section section-rule founder-strip"><div><p className="eyebrow">{copy.setupEyebrow}</p><h2>{copy.setupTitle}</h2></div><div><p className="lead">{copy.setupLead}</p><ul className="detail-list">{text.details.map(detail => <li key={detail}>{detail}</li>)}</ul><p>{copy.exportNote}</p></div></section>
+    <section className="marketing-section founder-strip section-rule"><div><p className="eyebrow">{c.founderLabel}</p><h2>{copy.founderTitle}</h2></div><div><p className="lead">{copy.founderBio}</p><Link to="/about" className="text-link">{copy.meetMika} →</Link></div></section>
+    <section className="marketing-section section-rule offer-section"><div className="offer-number">4<span>{copy.weeks}</span></div><div><p className="eyebrow">{copy.offerEyebrow}</p><h2>{copy.offerTitle}</h2><p className="lead">{copy.offerLead}</p><p>{copy.offerNote}</p></div></section>
+    <section className="marketing-section section-rule"><h2>{copy.faqTitle}</h2><div className="faq-list">{[...text.faq, ...copy.sharedFaq].map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
+    <section className="marketing-section beta-cta"><p className="eyebrow">{code} / {copy.communityLabel}</p><h2>{copy.communityTitle}</h2><p className="lead">{copy.communityLead}</p><a href={DISCORD_URL} className="button primary">{c.join} ↗</a><p className="small-note"><Link to={pagePath(locale, `/${other}`)}>{copy.exploreOther(editions[other].name)} →</Link></p></section>
   </MarketingLayout>
 }

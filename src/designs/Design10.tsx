@@ -4,14 +4,14 @@ import ProgramPreview from '../components/ProgramPreview'
 import { useLanguage } from '../i18n/LanguageContext'
 import { marketingCopy } from '../i18n/marketingCopy'
 import { DISCORD_URL, PARKOUR_PLAY_URL, STRENGTH_PLAY_URL } from '../data/marketing'
-import { blogPath } from '../blog/paths'
+import { blogPath, pagePath } from '../blog/paths'
 import { landingMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
 
 export default function Design10() {
   const { locale } = useLanguage()
   const c = marketingCopy[locale]
-  useHead(landingMeta())
+  useHead(landingMeta(locale))
   return <MarketingLayout localized>
     <section className="marketing-section hero-grid">
       <div><p className="eyebrow">{c.eyebrow}</p><h1>{c.title}</h1><p className="lead">{c.intro}</p>
@@ -20,12 +20,12 @@ export default function Design10() {
       </div><ProgramPreview locale={locale} />
     </section>
     <section id="editions" className="marketing-section section-rule">
-      <p className="eyebrow">PARKOUR / STRENGTH</p><h2>{c.editionsTitle}</h2><p className="small-note">{c.english}</p>
+      <p className="eyebrow">PARKOUR / STRENGTH</p><h2>{c.editionsTitle}</h2>
       <div className="edition-grid">{(['parkour', 'strength'] as const).map((edition, i) => <article className={`edition-card ${edition}`} key={edition}>
         <div className="card-top"><span className="edition-code">{i === 0 ? 'PK' : 'STR'}</span><span className="eyebrow">{edition === 'parkour' ? c.pkStatus : c.strStatus}</span></div>
         <h3>Athletickle {i === 0 ? 'Parkour' : 'Strength'}</h3><p>{i === 0 ? c.pk : c.str}</p>
         <ul className="tag-list">{(i === 0 ? c.pkTags : c.strTags).map(tag => <li key={tag}>{tag}</li>)}</ul>
-        <Link className="text-link" to={`/${edition}`}>{c.explore} →</Link>
+        <Link className="text-link" to={pagePath(locale, `/${edition}`)}>{c.explore} →</Link>
         <p><a className="text-link" href={edition === 'parkour' ? PARKOUR_PLAY_URL : STRENGTH_PLAY_URL}>{edition === 'parkour' ? c.download : c.downloadStrength} ↗</a></p>
       </article>)}</div>
     </section>

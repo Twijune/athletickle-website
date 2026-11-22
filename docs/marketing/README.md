@@ -5,7 +5,7 @@ Prepared 23 September 2026. Both apps are pre-launch. This kit is ready for foun
 ## What is implemented
 
 - Benefit-led homepage in English, French, German and Spanish.
-- `/parkour`, `/strength`, `/about` in English, with distinct metadata and 1200×630 social cards.
+- `/parkour` and `/strength` in English, French, German and Spanish, and `/about` in English, with distinct metadata and 1200×630 social cards.
 - Working Discord recruitment links; no mailing list or new app analytics.
 - Edition-specific feature claims, free-block explanation, subscription pacing and offline limitations.
 - Revised blog product claims across existing translations.

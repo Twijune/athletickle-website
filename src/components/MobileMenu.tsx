@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { LOCALES, LOCALE_NAMES } from '../i18n/translations'
 import { useLanguage } from '../i18n/LanguageContext'
 import { useLocaleSwitch } from '../i18n/useLocaleSwitch'
+import { pagePath } from '../blog/paths'
 
 export interface NavItem {
   label: string
@@ -107,7 +108,7 @@ export default function MobileMenu({ navItems }: { navItems: NavItem[] }) {
 
             <nav className="flex flex-col gap-6 mt-12">
               <Link
-                to="/"
+                to={pagePath(locale, '/')}
                 onClick={() => {
                   close()
                   // react-router v7 doesn't restore scroll, and Link to "/" is

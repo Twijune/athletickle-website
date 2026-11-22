@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import SiteHeader from './SiteHeader'
 import { useLanguage } from '../i18n/LanguageContext'
-import { blogPath } from '../blog/paths'
+import { blogPath, pagePath } from '../blog/paths'
 
 const AthleLogo = ({ className = '' }: { className?: string }) => (
   <img src="/athletickle-favicon-256.png" alt="Athletickle" className={className} />
@@ -20,7 +20,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
       <footer className="py-8 border-t border-white/10 mt-24">
         <div className="container mx-auto px-5 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <Link to="/" className="flex items-center gap-4">
+            <Link to={pagePath(locale, '/')} className="flex items-center gap-4">
               <AthleLogo className="w-8 h-10" />
               <span className="text-sm tracking-[0.2em]">ATHLETICKLE © 2026</span>
             </Link>

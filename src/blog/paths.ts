@@ -2,11 +2,32 @@ import { LOCALES, type Locale } from '../i18n/translations'
 
 // English lives at the unprefixed URLs (/blog/...); the other locales are
 // path-prefixed (/fr/blog/...). x-default therefore always points at English.
-const PREFIXED_LOCALES = LOCALES.filter((l) => l !== 'en')
+export const PREFIXED_LOCALES = LOCALES.filter((l) => l !== 'en')
 
 export function blogPath(locale: Locale, slug?: string): string {
   const prefix = locale === 'en' ? '' : `/${locale}`
   return slug ? `${prefix}/blog/${slug}` : `${prefix}/blog`
+}
+
+// The landing page and the two app pages exist in every locale, with the same
+// URL scheme as the blog: English unprefixed, the others under /<locale>.
+export const LOCALIZED_PAGES = ['/', '/parkour', '/strength'] as const
+export type LocalizedPage = (typeof LOCALIZED_PAGES)[number]
+
+export function pagePath(locale: Locale, page: LocalizedPage): string {
+  if (locale === 'en') return page
+  return page === '/' ? `/${locale}` : `/${locale}${page}`
+}
+
+/** The localized page at `pathname` and the locale its URL pins, or null. */
+export function localizedPageFromPath(pathname: string): { locale: Locale; page: LocalizedPage } | null {
+  const clean = pathname.length > 1 ? pathname.replace(/\/+$/, '') : pathname
+  for (const locale of LOCALES) {
+    for (const page of LOCALIZED_PAGES) {
+      if (pagePath(locale, page) === clean) return { locale, page }
+    }
+  }
+  return null
 }
 
 export interface Alternate {
@@ -27,6 +48,14 @@ export function blogAlternates(slug?: string, locales: readonly Locale[] = LOCAL
   ]
 }
 
+/** hreflang alternates for a localized page; x-default points at English. */
+export function pageAlternates(page: LocalizedPage): Alternate[] {
+  return [
+    ...LOCALES.map((locale) => ({ hreflang: locale as string, path: pagePath(locale, page) })),
+    { hreflang: 'x-default', path: pagePath('en', page) },
+  ]
+}
+
 /** Slug of the blog post at `pathname`, or null if it isn't a blog post URL. */
 export function blogSlugFromPath(pathname: string): string | null {
   const locale = localeFromPath(pathname)
@@ -42,6 +71,10 @@ export function contentLangFromPath(pathname: string): 'fi' | null {
 }
 
 export function localeFromPath(pathname: string): Locale | null {
+  // /fr, /de/parkour… pin their locale. The English landing and app pages do
+  // not: LocaleSync sends a visitor who prefers another language to its URL.
+  const page = localizedPageFromPath(pathname)
+  if (page) return page.locale === 'en' ? null : page.locale
   for (const locale of PREFIXED_LOCALES) {
     if (pathname === `/${locale}/blog` || pathname.startsWith(`/${locale}/blog/`)) {
       return locale
@@ -51,8 +84,10 @@ export function localeFromPath(pathname: string): Locale | null {
   return null
 }
 
-/** Same page under another locale (blog routes only; other paths unchanged). */
+/** Same page under another locale (blog and localized pages; other paths unchanged). */
 export function swapLocaleInPath(pathname: string, next: Locale): string {
+  const page = localizedPageFromPath(pathname)
+  if (page) return pagePath(next, page.page)
   const current = localeFromPath(pathname)
   if (!current) return pathname
   const rest = current === 'en' ? pathname : pathname.slice(`/${current}`.length)
