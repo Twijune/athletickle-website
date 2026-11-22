@@ -45,14 +45,14 @@ for (const [path, union] of [['terms', /parkour, climbing, snowboarding and surf
 // Translated landing and app pages: each locale has its own prerendered URL,
 // linked to the others by hreflang, with a Play link and a translated hero.
 const englishHero = { '': 'A training plan with a direction.', '/parkour': 'Built around your parkour.', '/strength': 'Give your strength training a direction.' }
-for (const locale of ['fr', 'de', 'es']) {
+for (const locale of ['fr', 'de', 'es', 'pt']) {
   for (const page of ['', '/parkour', '/strength']) {
     const path = `${locale}${page}`
     const html = await readFile(resolve(root, 'dist', path, 'index.html'), 'utf8')
     assert.match(html, new RegExp(`<html lang="${locale}"`), `${path}: html lang`)
     assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `${path}: one H1`)
     assert.ok(html.includes(`rel="canonical" href="https://athletickle.com/${path}"`), `${path}: canonical`)
-    for (const alt of ['en', 'fr', 'de', 'es']) {
+    for (const alt of ['en', 'fr', 'de', 'es', 'pt']) {
       const href = `https://athletickle.com${alt === 'en' ? page || '/' : `/${alt}${page}`}`
       assert.ok(html.includes(`hreflang="${alt}" href="${href}"`), `${path}: hreflang ${alt}`)
     }
@@ -99,4 +99,4 @@ assert.ok(
   'X-Robots-Tag noindex header on /exercises/',
 )
 
-console.log(`Marketing smoke checks passed: 4 routes, 9 translated pages, metadata, sitemap, CTAs, images, edition boundaries; ${exercises.length} unlisted exercise pages.`)
+console.log(`Marketing smoke checks passed: 4 routes, 12 translated pages, metadata, sitemap, CTAs, images, edition boundaries; ${exercises.length} unlisted exercise pages.`)

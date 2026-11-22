@@ -29,6 +29,7 @@ const OG_LOCALE: Record<Locale, string> = {
   fr: 'fr_FR',
   de: 'de_DE',
   es: 'es_ES',
+  pt: 'pt_BR',
 }
 
 const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = {
@@ -51,6 +52,11 @@ const BLOG_INDEX_COPY: Record<Locale, { title: string; description: string }> = 
     title: `Blog | ${SITE_NAME}`,
     description:
       'Intel de entrenamiento de Athletickle: guías basadas en evidencia sobre sobrecarga progresiva, RIR y programación inteligente.',
+  },
+  pt: {
+    title: `Blog | ${SITE_NAME}`,
+    description:
+      'Intel de treino da Athletickle: guias baseados em evidências sobre sobrecarga progressiva, RIR e uma programação de força mais inteligente.',
   },
 }
 
