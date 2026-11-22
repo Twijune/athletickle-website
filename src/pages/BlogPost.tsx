@@ -5,6 +5,7 @@ import BlogLayout from '../components/BlogLayout'
 import NotFound from './NotFound'
 import { blogPath, resolveRouteLang } from '../blog/paths'
 import { getPost } from '../blog/posts'
+import { FOUNDER_NAME } from '../data/marketing'
 import { useLanguage } from '../i18n/LanguageContext'
 import { blogPostMeta } from '../seo/meta'
 import { useHead } from '../seo/useHead'
@@ -71,6 +72,9 @@ export default function BlogPost() {
 
         <div className="flex flex-wrap items-center gap-4 mb-6 text-xs font-['Space_Mono'] tracking-[0.2em]">
           <span className="text-[#D1622A]">{post.date}</span>
+          <Link to="/about" rel="author" className="text-white/50 underline hover:text-white transition-colors">
+            {FOUNDER_NAME}
+          </Link>
           {post.tags.map((tag) => (
             <span key={tag} className="px-3 py-1 border border-white/20 text-white/50 uppercase">
               {tag}
