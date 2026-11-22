@@ -2,6 +2,7 @@
 title: "RIR-Based Autoregulation Explained"
 description: "Learn what Reps In Reserve means, why fixed percentages break down on tired days, and how RIR-based autoregulation matches training to your daily readiness."
 date: "2026-07-18"
+updated: "2026-11-22"
 slug: "rir-autoregulation"
 lang: "en"
 tags: ["autoregulation", "programming"]
@@ -33,6 +34,14 @@ Untrained estimates run optimistic. Most lifters think they're at 2 RIR when the
 - Trust your estimates more within 0–3 RIR. Beyond that range, everyone guesses.
 
 Expect solid calibration within a few weeks of deliberate practice. Compound lifts take longer than isolation work.
+
+## RPE vs RIR
+
+RPE stands for rating of perceived exertion. In lifting it usually means a 1 to 10 scale built on reps in reserve, so the two describe the same thing from opposite ends. RPE 10 is a set with nothing left, RPE 9 leaves one rep, and RPE 8 leaves two. To convert, subtract the RPE from 10.
+
+The scale was described and tested in [a 2016 study by Zourdos and colleagues](https://pubmed.ncbi.nlm.nih.gov/26049792/) on experienced and novice squatters.
+
+The difference is mostly in how the question is asked. RIR asks you to count: how many more reps could you have done? RPE asks you to rate how hard the set felt. Older RPE scales from endurance sport rate overall effort, not closeness to failure. If a program says RPE 8, check which scale it means. In the gym it nearly always means two reps in reserve.
 
 ## Let the System Call the Direction
 

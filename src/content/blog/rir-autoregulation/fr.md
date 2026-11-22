@@ -2,6 +2,7 @@
 title: "L'autorégulation par le RIR expliquée"
 description: "Découvre le RIR (Reps In Reserve), pourquoi les pourcentages fixes lâchent les jours de fatigue et comment l'autorégulation adapte la charge à ta forme."
 date: "2026-07-18"
+updated: "2026-11-22"
 slug: "rir-autoregulation"
 lang: "fr"
 tags: ["autoregulation", "programming"]
@@ -33,6 +34,14 @@ Sans pratique, on surestime. La plupart des pratiquants pensent être à 2 RIR a
 - Fie-toi davantage à tes estimations entre 0 et 3 RIR. Au-delà de cette zone, tout le monde devine.
 
 Compte quelques semaines de pratique délibérée pour obtenir une calibration solide. Les mouvements polyarticulaires demandent plus de temps que le travail d'isolation.
+
+## RPE ou RIR : quelle différence ?
+
+RPE signifie « rating of perceived exertion », l'évaluation de l'effort perçu. En musculation, il s'agit le plus souvent d'une échelle de 1 à 10 construite sur les répétitions en réserve. Les deux décrivent donc la même chose, vue des deux extrémités. Un RPE de 10 correspond à une série où il ne reste rien, un RPE de 9 laisse une répétition et un RPE de 8 en laisse deux. Pour convertir, soustrais le RPE de 10.
+
+Cette échelle a été décrite et testée dans [une étude de 2016 menée par Zourdos et ses collègues](https://pubmed.ncbi.nlm.nih.gov/26049792/) auprès de squatteurs expérimentés et débutants.
+
+La différence tient surtout à la façon de poser la question. Le RIR te demande de compter : combien de répétitions aurais-tu encore pu faire ? Le RPE te demande de noter la difficulté ressentie. Les échelles de RPE plus anciennes, issues des sports d'endurance, notent l'effort global et non la proximité de l'échec. Si un programme indique RPE 8, vérifie de quelle échelle il s'agit. En salle, cela veut presque toujours dire deux répétitions en réserve.
 
 ## Laisse le système indiquer la direction
 
