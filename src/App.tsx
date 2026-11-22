@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
 import { LanguageProvider, detectPreferredLocale, useLanguage } from './i18n/LanguageContext'
-import { localeFromPath } from './blog/paths'
+import { contentLangFromPath, localeFromPath } from './blog/paths'
 import { ExerciseContext, type ExerciseEntry } from './exercises/exercise'
 import type { Locale } from './i18n/translations'
 
@@ -26,6 +26,11 @@ function LocaleSync() {
     const target = localeFromPath(location.pathname) ?? detectPreferredLocale()
     if (target !== locale) setLocale(target, { persist: false })
   }, [location.pathname, locale, setLocale])
+  // <html lang> follows the page's content: the Finnish legal pages under /fi/
+  // are Finnish whatever language the site chrome is in
+  useEffect(() => {
+    document.documentElement.lang = contentLangFromPath(location.pathname) ?? locale
+  }, [location.pathname, locale])
   return null
 }
 
@@ -43,6 +48,8 @@ function App({ initialLocale, exercise = null }: { initialLocale?: Locale; exerc
           <Route path="/about" element={<About />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/fi/terms" element={<Terms lang="fi" />} />
+          <Route path="/fi/privacy" element={<Privacy lang="fi" />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/exercises/:slug" element={<Exercise />} />
           <Route path="/blog" element={<BlogIndex />} />

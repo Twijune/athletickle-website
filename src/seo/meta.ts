@@ -19,6 +19,8 @@ export interface PageMeta {
   alternates?: Alternate[]
   jsonLd?: Record<string, unknown>[]
   noindex?: boolean
+  /** Language of the page content when it is not a site locale (the Finnish legal pages). */
+  contentLang?: 'fi'
 }
 
 const OG_LOCALE: Record<Locale, string> = {
@@ -128,28 +130,59 @@ export function blogPostMeta(post: Post): PageMeta {
   }
 }
 
-// Legal/contact pages are English-only canonical pages (no hreflang alternates).
-export function termsMeta(): PageMeta {
+// The legal pages exist in English (/terms, /privacy) and Finnish (/fi/terms,
+// /fi/privacy), each pair linked by hreflang. The Finnish pages keep the 'en'
+// site locale for the chrome; contentLang makes them lang="fi". Contact is
+// English-only.
+function legalMeta(
+  id: 'terms' | 'privacy',
+  lang: 'en' | 'fi',
+  copy: Record<'en' | 'fi', { title: string; description: string }>,
+): PageMeta {
   return {
-    title: `Terms of Use & EULA | ${SITE_NAME}`,
-    description:
-      'Athletickle Terms of Use and End User License Agreement, including the health disclaimer and assumption-of-risk terms for training with the app.',
-    path: '/terms',
+    title: `${copy[lang].title} | ${SITE_NAME}`,
+    description: copy[lang].description,
+    path: lang === 'fi' ? `/fi/${id}` : `/${id}`,
     locale: 'en',
+    ...(lang === 'fi' ? { contentLang: 'fi' as const } : {}),
     ogType: 'website',
     ogImage: DEFAULT_OG_IMAGE,
+    alternates: [
+      { hreflang: 'en', path: `/${id}` },
+      { hreflang: 'fi', path: `/fi/${id}` },
+      { hreflang: 'x-default', path: `/${id}` },
+    ],
   }
 }
 
-export function privacyMeta(): PageMeta {
-  return {
-    title: `Privacy Policy | ${SITE_NAME}`,
-    description: 'How Athletickle handles your data: what stays on your phone, what the website measures, and who delivers the exercise videos.',
-    path: '/privacy',
-    locale: 'en',
-    ogType: 'website',
-    ogImage: DEFAULT_OG_IMAGE,
-  }
+export function termsMeta(lang: 'en' | 'fi' = 'en'): PageMeta {
+  return legalMeta('terms', lang, {
+    en: {
+      title: 'Terms of Use & EULA',
+      description:
+        'Athletickle Terms of Use and End User License Agreement, including the health disclaimer and assumption-of-risk terms for training with the app.',
+    },
+    fi: {
+      title: 'Käyttöehdot ja käyttöoikeussopimus',
+      description:
+        'Athleticklen käyttöehdot ja käyttöoikeussopimus, mukaan lukien terveyttä koskeva vastuuvapauslauseke ja sovelluksella harjoitteluun liittyvien riskien hyväksyminen.',
+    },
+  })
+}
+
+export function privacyMeta(lang: 'en' | 'fi' = 'en'): PageMeta {
+  return legalMeta('privacy', lang, {
+    en: {
+      title: 'Privacy Policy',
+      description:
+        'How Athletickle handles your data: what stays on your phone, what the website measures, and who delivers the exercise videos.',
+    },
+    fi: {
+      title: 'Tietosuojaseloste',
+      description:
+        'Miten Athletickle käsittelee tietojasi: mikä pysyy puhelimessasi, mitä verkkosivusto mittaa ja kuka toimittaa harjoitusvideot.',
+    },
+  })
 }
 
 export function contactMeta(): PageMeta {
@@ -224,7 +257,7 @@ export function renderHead(meta: PageMeta): string {
     `<meta property="og:type" content="${meta.ogType}" />`,
     `<meta property="og:url" content="${url}" />`,
     `<meta property="og:image" content="${image}" />`,
-    `<meta property="og:locale" content="${OG_LOCALE[meta.locale]}" />`,
+    `<meta property="og:locale" content="${meta.contentLang === 'fi' ? 'fi_FI' : OG_LOCALE[meta.locale]}" />`,
   )
   if (meta.publishedTime) {
     tags.push(`<meta property="article:published_time" content="${meta.publishedTime}" />`)
