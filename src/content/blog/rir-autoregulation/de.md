@@ -8,32 +8,32 @@ lang: "de"
 tags: ["autoregulation", "programming"]
 ---
 
-Dein Plan sagt 80 % für 5 Wiederholungen. Dein Körper sagt etwas anderes. Genau diese Lücke zwischen Tabelle und Langhantel schließt RIR-basierte Autoregulation.
+Dein Plan sieht 5 Wiederholungen bei 80 % vor, aber an manchen Tagen fühlt sich dieses Gewicht viel schwerer an, als es sollte. RIR-basierte Autoregulation löst das, indem sie die Last danach festlegt, wie schwer der Satz an diesem Tag ist.
 
-## Was RIR wirklich misst
+## Was RIR misst
 
-Reps In Reserve beantwortet eine einfache Frage: Wie viele Wiederholungen hättest du noch geschafft, bevor du ans Muskelversagen kommst? Legst du die Stange mit zwei sauberen Wiederholungen im Tank ab, war der Satz 2 RIR. Quälst du dich bis knapp vor den Abbruch, waren es 0 RIR.
+Reps In Reserve stellt eine einzige Frage: Wie viele Wiederholungen hättest du noch geschafft, bevor du ans Muskelversagen kommst? Legst du die Stange ab, obwohl noch zwei saubere Wiederholungen möglich waren, war der Satz 2 RIR. Schaffst du die letzte Wiederholung nur knapp, waren es 0 RIR.
 
-RIR koppelt die Intensität an die Nähe zum Muskelversagen, nicht an eine Zahl in einer Prozenttabelle. Genau diese Nähe zum Versagen bestimmt den tatsächlichen Trainingsreiz eines Satzes. Zwei Athleten können dasselbe Gewicht bewegen und völlig unterschiedliche Trainingseffekte erzielen – je nachdem, wie nah jeder von ihnen am Versagen war.
+RIR koppelt die Intensität an die Nähe zum Muskelversagen, während eine Prozenttabelle sie an eine feste Zahl koppelt. Diese Nähe zum Versagen hat großen Einfluss auf den Trainingsreiz eines Satzes. Zwei Athleten können dasselbe Gewicht bewegen und unterschiedliche Trainingseffekte erzielen, je nachdem, wie nah jeder von ihnen am Versagen war.
 
 ## Warum feste Prozente scheitern
 
-Prozentbasierte Programme gehen davon aus, dass dein 1RM eine Konstante ist. Ist es aber nicht. Schlafmangel, Stress im Job, schlechte Regeneration und angesammelte Ermüdung können deine abrufbare Kraft von Einheit zu Einheit spürbar schwanken lassen.
+Prozentbasierte Programme behandeln dein 1RM als konstant, es schwankt aber. Schlechter Schlaf, Stress im Job, unvollständige Regeneration und angesammelte Ermüdung können deine verfügbare Kraft von Einheit zu Einheit verändern.
 
-An einem Tag mit schlechter Tagesform verhalten sich die vorgeschriebenen 80 % plötzlich wie 88 %. Entweder quälst du dich durch Sätze, die nie als Grinder gedacht waren, oder du verfehlst Wiederholungen komplett. Beides häuft Ermüdung an, ohne zusätzlichen Reiz zu setzen. Wiederhol das ein paar Wochen lang, und das Programm bricht unter Junk Volume und stagnierenden Lifts zusammen.
+An einem schlechten Tag können sich die vorgeschriebenen 80 % wie 88 % anfühlen. Dann quälst du dich durch Sätze, die locker gedacht waren, oder du verfehlst Wiederholungen. Beides erhöht die Ermüdung, ohne viel zusätzlichen Reiz zu setzen, und nach ein paar Wochen stagnieren die Gewichte meist.
 
-RIR umgeht dieses Problem. Eine Vorgabe wie „5 Wiederholungen bei 2 RIR“ korrigiert sich selbst: An einem starken Tag klettert die Last nach oben, an einem zähen Tag sinkt sie. Der Reiz bleibt konstant. Das Gewicht ist nur das Ergebnis.
+Eine RIR-Vorgabe vermeidet das. Mit „5 Wiederholungen bei 2 RIR“ nimmst du an einem starken Tag mehr Gewicht und an einem zähen Tag weniger, und die Anstrengung des Satzes bleibt ungefähr gleich.
 
 ## So kalibrierst du deine RIR-Schätzungen
 
-Ungeübte Schätzungen fallen zu optimistisch aus. Die meisten Athleten glauben, bei 2 RIR zu sein, obwohl sie eher bei 4 liegen. So schärfst du deine Kalibrierung:
+Schätzungen sind ungenau, solange du sie nicht geübt hast. Die meisten Athleten glauben, bei 2 RIR zu sein, obwohl eher noch 4 Wiederholungen möglich wären. So wirst du genauer:
 
-- Führe gelegentlich kontrollierte Sätze bis zum tatsächlichen Muskelversagen aus – auf sicheren Assistenzübungen – und vergleiche das Ergebnis mit deiner Vorhersage.
-- Achte auf die Hantelgeschwindigkeit. Ein deutlicher Geschwindigkeitsabfall zwischen den Wiederholungen ist dein ehrlichstes Signal, dass die Reserve zur Neige geht.
-- Schätze dein RIR direkt nach jedem Arbeitssatz und protokolliere es. Genauigkeit ist eine Fähigkeit – und die baust du durch Wiederholungen der Fähigkeit selbst auf.
-- Vertraue deinen Schätzungen vor allem im Bereich von 0–3 RIR. Alles darüber ist bei jedem nur noch Raterei.
+- Führe gelegentlich einen Satz auf einer sicheren Assistenzübung bis zum Muskelversagen aus und vergleiche das Ergebnis mit deiner Vorhersage.
+- Achte auf die Hantelgeschwindigkeit. Wird die Hantel von einer Wiederholung zur nächsten deutlich langsamer, ist das das verlässlichste Zeichen, dass dir die Wiederholungen ausgehen.
+- Schätze dein RIR direkt nach jedem Arbeitssatz und protokolliere es. Die Genauigkeit verbessert sich mit Übung.
+- Vertraue deinen Schätzungen vor allem zwischen 0 und 3 RIR. Weiter vom Versagen entfernt sind Schätzungen bei allen deutlich ungenauer.
 
-Mit ein paar Wochen bewusster Übung erreichst du eine solide Kalibrierung. Bei Grundübungen dauert es länger als bei Isolationsübungen.
+Die meisten werden nach ein paar Wochen bewusster Übung recht genau. Bei Grundübungen dauert es länger als bei Isolationsübungen.
 
 ## RPE vs. RIR
 
@@ -43,6 +43,6 @@ Beschrieben und geprüft wurde die Skala in [einer Studie von Zourdos und Kolleg
 
 Der Unterschied liegt vor allem in der Frage. RIR lässt dich zählen: Wie viele Wiederholungen wären noch gegangen? RPE lässt dich bewerten, wie schwer sich der Satz angefühlt hat. Ältere RPE-Skalen aus dem Ausdauersport bewerten die Gesamtanstrengung, nicht die Nähe zum Muskelversagen. Steht in einem Plan RPE 8, prüfe, welche Skala gemeint ist. Im Kraftraum heißt das fast immer: zwei Wiederholungen in Reserve.
 
-## Überlass dem System die Richtung
+## So nutzt Athletickle Strength RIR
 
 Athletickle Strength gibt anhand protokollierter Wiederholungen und RIR eine Richtung vor: erhöhen, wiederholen oder reduzieren. Die App wählt kein Gewicht und schreibt den aktuellen Block nicht nach jeder Einheit um. Jeder Block enthält eine geplante Entlastungswoche; dein Feedback am Blockende fließt in den nächsten ein. Athletickle Parkour und Strength sind jetzt für Android verfügbar. [Strength entdecken — Englisch](/strength) oder [Strength bei Google Play herunterladen](https://play.google.com/store/apps/details?id=com.athletickle.str).
