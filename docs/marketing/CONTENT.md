@@ -39,3 +39,15 @@ One weekly topic, reused as a short founder post, a product walkthrough and a Di
 “I’m Mika, founder of Athletickle and an exercise physiologist with an MSc from the University of Jyväskylä. I started parkour in 2005 and coaching in 2006, and co-founded Athletica in 2010. Through the company, we coached thousands of people, from recreational trainees to elite athletes. I built Athletickle because many people who wanted a structured plan couldn’t afford my one-to-one coaching. The first editions are Parkour and Strength. Come and talk with me on Discord.”
 
 Public attribution: **Mika — Founder of Athletickle**. Interim founder photo installed at `public/founder-mika.jpg`; replace with Mika’s studio portrait when supplied. Never name athletes, teams or clients, or use identifying combinations of achievements and sports. Describe coaching experience broadly by sport and level. The coaching company's client count is not an Athletickle user count. Source: `founder-profile.md` in the Algoritmii project folder (23 September 2026).
+
+## Co-founder introduction — reusable
+
+First person, for posts, Discord and the About page:
+
+“I’m Antti Vuoriainen, co-founder of Athletickle. I have two master’s degrees: a Master of Education and a Master of Sport Sciences. I taught parkour in Finland from 2008 to 2024. Today I work as a researcher, and in my free time I lift weights and do bodyweight training.”
+
+Third person, for the founder strip, meta descriptions and third-party mentions. Written without pronouns; substitute if wanted:
+
+“Antti Vuoriainen, M.Ed, M.Sc, is co-founder of Athletickle. Antti taught parkour in Finland from 2008 to 2024 and now works as a researcher. Free time goes to lifting weights and bodyweight training.”
+
+Public attribution: **Antti Vuoriainen, M.Ed, M.Sc — Co-founder of Athletickle**. No portrait supplied yet. Research field and institution are intentionally unnamed. Source: facts supplied by Antti, 24 September 2026.
