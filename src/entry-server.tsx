@@ -82,7 +82,7 @@ export function getStaticRoutes(): StaticRoute[] {
   for (const slug of getAllSlugs()) {
     for (const locale of LOCALES) {
       const post = getPost(locale, slug)
-      if (post) add(blogPostMeta(post), true, post.date)
+      if (post) add(blogPostMeta(post), true, post.updated ?? post.date)
     }
   }
   add(termsMeta(), true)

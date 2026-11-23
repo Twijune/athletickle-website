@@ -1,4 +1,11 @@
-import { editions, type Edition } from '../data/marketing'
+import {
+  DISCORD_URL,
+  FOUNDER_NAME,
+  PARKOUR_PLAY_URL,
+  STRENGTH_PLAY_URL,
+  editions,
+  type Edition,
+} from '../data/marketing'
 import type { Locale } from '../i18n/translations'
 import { blogAlternates, blogPath, pageAlternates, pagePath, type Alternate } from '../blog/paths'
 import { getPostLocales, type Post } from '../blog/posts'
@@ -17,6 +24,7 @@ export interface PageMeta {
   /** Site path, or an absolute URL for an image hosted elsewhere. */
   ogImage: string
   publishedTime?: string
+  modifiedTime?: string
   alternates?: Alternate[]
   jsonLd?: Record<string, unknown>[]
   noindex?: boolean
@@ -62,6 +70,22 @@ const ORGANIZATION_JSON_LD = {
     '@type': 'ImageObject',
     url: `${SITE_URL}/athletickle-favicon-256.png`,
   },
+  // Ties the brand name to its store listings and community for search engines.
+  sameAs: [PARKOUR_PLAY_URL, STRENGTH_PLAY_URL, DISCORD_URL],
+}
+
+// Blog author: the founder, whose credentials are on /about.
+const AUTHOR_JSON_LD = {
+  '@type': 'Person',
+  name: FOUNDER_NAME,
+  url: `${SITE_URL}/about`,
+  jobTitle: 'Exercise physiologist',
+  worksFor: { '@type': 'Organization', name: SITE_NAME, url: `${SITE_URL}/` },
+}
+
+const PLAY_URL: Record<Edition, string> = {
+  parkour: PARKOUR_PLAY_URL,
+  strength: STRENGTH_PLAY_URL,
 }
 
 // The landing and app pages exist per locale (/, /fr, /de/parkour…), linked
@@ -92,6 +116,25 @@ export function editionMeta(edition: Edition, locale: Locale = 'en'): PageMeta {
     ogType: 'website',
     ogImage: `/social/${edition}.png`,
     alternates: pageAlternates(`/${edition}`),
+    jsonLd: [editionJsonLd(edition, locale)],
+  }
+}
+
+// The app is free to install; later blocks are an in-app subscription whose
+// price is shown only in the store, so the offer carries the install price.
+function editionJsonLd(edition: Edition, locale: Locale): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: editions[edition].name,
+    description: editionCopy[locale].editions[edition].short,
+    url: `${SITE_URL}${pagePath(locale, `/${edition}`)}`,
+    image: `${SITE_URL}/social/${edition}.png`,
+    applicationCategory: 'HealthApplication',
+    operatingSystem: 'Android',
+    installUrl: PLAY_URL[edition],
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+    publisher: ORGANIZATION_JSON_LD,
   }
 }
 
@@ -121,6 +164,7 @@ export function blogPostMeta(post: Post): PageMeta {
     ogImage: post.cover ?? DEFAULT_OG_IMAGE,
     // full ISO datetime — the OG spec expects a datetime, not a bare date
     publishedTime: `${post.date}T00:00:00Z`,
+    ...(post.updated ? { modifiedTime: `${post.updated}T00:00:00Z` } : {}),
     alternates: blogAlternates(post.slug, getPostLocales(post.slug)),
     jsonLd: [
       {
@@ -129,11 +173,11 @@ export function blogPostMeta(post: Post): PageMeta {
         headline: post.title,
         description: post.description,
         datePublished: post.date,
-        dateModified: post.date,
+        dateModified: post.updated ?? post.date,
         inLanguage: post.lang,
         image: `${SITE_URL}${post.cover ?? DEFAULT_OG_IMAGE}`,
         mainEntityOfPage: `${SITE_URL}${path}`,
-        author: ORGANIZATION_JSON_LD,
+        author: AUTHOR_JSON_LD,
         publisher: ORGANIZATION_JSON_LD,
       },
     ],
@@ -271,6 +315,9 @@ export function renderHead(meta: PageMeta): string {
   )
   if (meta.publishedTime) {
     tags.push(`<meta property="article:published_time" content="${meta.publishedTime}" />`)
+  }
+  if (meta.modifiedTime) {
+    tags.push(`<meta property="article:modified_time" content="${meta.modifiedTime}" />`)
   }
   tags.push(
     '<meta name="twitter:card" content="summary_large_image" />',
