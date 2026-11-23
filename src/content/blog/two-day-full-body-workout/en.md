@@ -1,11 +1,10 @@
 ---
 title: "2-day full body workout: a sample plan and the evidence"
 description: "Two full-body sessions a week build strength and muscle, more slowly than training more. An example plan, how to start back, how to progress and the research."
-date: "2026-11-14"
+date: "2026-11-23"
 slug: "two-day-full-body-workout"
 lang: "en"
 tags: ["strength", "programming", "training"]
-draft: true
 ---
 
 Yes, two full-body sessions a week can build muscle and make you stronger. You will usually progress more slowly than someone who does more sets or trains more often, but you can still progress. In a large analysis of trials in healthy adults, every training prescription compared did better than no training ([Currier et al., 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10579494/)).

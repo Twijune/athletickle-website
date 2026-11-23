@@ -1,11 +1,10 @@
 ---
 title: "How to jump higher: strength, plyometrics and contrast"
 description: "Jump higher with strength training, plyometrics and contrast sets. What jump height depends on, a sample week, and what research shows about the gains."
-date: "2026-11-14"
+date: "2026-11-23"
 slug: "how-to-jump-higher"
 lang: "en"
 tags: ["jumping", "parkour", "training"]
-draft: true
 ---
 
 Jumping higher is trainable. Make your legs stronger with squats and similar lifts, and practise full-effort jumps (plyometrics) two or three times a week. Each works on its own, and combining them works whichever way you arrange it ([Brandt et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37459857/)).

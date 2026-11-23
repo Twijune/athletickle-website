@@ -1,11 +1,10 @@
 ---
 title: "Deload week: what it is, how often and how to do one"
 description: "A deload week cuts training stress so fatigue can drop. How to run one, a sample week, how often lifters deload and what the research does and doesn't show."
-date: "2026-11-14"
+date: "2026-11-23"
 slug: "deload-week"
 lang: "en"
 tags: ["recovery", "programming"]
-draft: true
 ---
 
 A deload week is a week of easier training. You keep your usual training days and main lifts, but you do fewer sets, use a little less weight and stop further from failure. The aim is to let the fatigue from several hard weeks come down before the next block.

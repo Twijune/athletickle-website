@@ -1,11 +1,10 @@
 ---
 title: "Periodization training: linear, block and undulating models"
 description: "Periodization training explained: macro, meso and microcycles, linear, block and undulating models with example weeks, and what the research shows."
-date: "2026-11-14"
+date: "2026-11-23"
 slug: "periodization-models"
 lang: "en"
 tags: ["programming", "training"]
-draft: true
 ---
 
 Periodization training means planning in advance how your sets, reps and loads change over weeks and months. Linear periodization moves from more reps at lighter loads to fewer reps at heavier loads over several months. Weekly undulating periodization changes the rep range each week, daily undulating changes it each session, and block periodization runs short, focused phases one after another.

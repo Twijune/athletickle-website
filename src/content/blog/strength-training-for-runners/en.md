@@ -1,11 +1,10 @@
 ---
 title: "Strength training for runners: what to lift and when"
 description: "Should runners lift weights? What the research shows for running economy, which lifts and loads to use, two-day examples and how to fit lifting around runs."
-date: "2026-11-14"
+date: "2026-11-23"
 slug: "strength-training-for-runners"
 lang: "en"
 tags: ["running", "strength", "programming"]
-draft: true
 ---
 
 Strength training is worth doing as a runner. Twice a week, with heavy lifts, jumps or both, it tends to make distance runners a little more economical, meaning they use less energy at a given pace. A meta-analysis of heavy and explosive programs put the average gain at about 4%, which its authors called small ([Denadai et al., 2017](https://pubmed.ncbi.nlm.nih.gov/27497600/)). Race results improved in most trials that tested them ([Blagrove et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5889786/)).
