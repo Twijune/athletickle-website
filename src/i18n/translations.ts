@@ -1,6 +1,6 @@
-export const LOCALES = ['en', 'fr', 'de', 'es'] as const
+export const LOCALES = ['en', 'fr', 'de', 'es', 'pt'] as const
 export type Locale = (typeof LOCALES)[number]
-export const LOCALE_NAMES: Record<Locale, string> = { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' }
+export const LOCALE_NAMES: Record<Locale, string> = { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español', pt: 'Português' }
 
 const en = {
   "nav.features": 'FEATURES',
@@ -103,4 +103,29 @@ const es: Record<TranslationKey, string> = {
   "cta.paragraph": "Athletickle Parkour y Strength ya están disponibles en Android. Únete a Discord para recibir novedades y hablar con el fundador.",
 }
 
-export const translations: Record<Locale, Record<TranslationKey, string>> = { en, fr, de, es }
+// Brazilian Portuguese.
+const pt: Record<TranslationKey, string> = {
+  "nav.features": 'RECURSOS',
+  "nav.system": 'SISTEMA',
+  "nav.editions": 'EDIÇÕES',
+  "nav.download": "BAIXAR O APP",
+  "nav.getApp": "BAIXAR PARKOUR",
+  "nav.blog": 'BLOG',
+  "nav.home": 'INÍCIO',
+  "nav.menu": 'MENU',
+  "nav.close": 'FECHAR',
+  "blog.kicker": 'INTEL DE TREINO',
+  "blog.title": 'O DIÁRIO',
+  "blog.readMore": 'LER',
+  "blog.back": 'VOLTAR AO BLOG',
+  "notfound.title": 'PÁGINA NÃO ENCONTRADA',
+  "notfound.home": 'VOLTAR AO INÍCIO',
+  "hero.downloadFree": "PARKOUR PARA ANDROID",
+  "footer.privacy": 'PRIVACIDADE',
+  "footer.terms": 'TERMOS',
+  "footer.contact": 'CONTATO',
+  "lang.label": 'Idioma',
+  "cta.paragraph": "Athletickle Parkour e Strength já estão disponíveis para Android. Entre no Discord para acompanhar as novidades dos apps e conversar com o fundador.",
+}
+
+export const translations: Record<Locale, Record<TranslationKey, string>> = { en, fr, de, es, pt }
