@@ -71,10 +71,8 @@ export function contentLangFromPath(pathname: string): 'fi' | null {
 }
 
 export function localeFromPath(pathname: string): Locale | null {
-  // /fr, /de/parkour… pin their locale. The English landing and app pages do
-  // not: LocaleSync sends a visitor who prefers another language to its URL.
   const page = localizedPageFromPath(pathname)
-  if (page) return page.locale === 'en' ? null : page.locale
+  if (page) return page.locale
   for (const locale of PREFIXED_LOCALES) {
     if (pathname === `/${locale}/blog` || pathname.startsWith(`/${locale}/blog/`)) {
       return locale

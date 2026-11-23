@@ -10,7 +10,7 @@ import Exercise from './pages/Exercise'
 import NotFound from './pages/NotFound'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
-import { LanguageProvider, detectPreferredLocale, useLanguage } from './i18n/LanguageContext'
+import { LanguageProvider, detectPreferredLocale, getSavedLocale, useLanguage } from './i18n/LanguageContext'
 import {
   PREFIXED_LOCALES,
   contentLangFromPath,
@@ -21,27 +21,28 @@ import {
 import { ExerciseContext, type ExerciseEntry } from './exercises/exercise'
 import type { Locale } from './i18n/translations'
 
-// Blog routes and the prefixed landing/app pages (/fr, /de/parkour…) pin the
-// locale via the URL; everywhere else the visitor's saved/browser preference
-// applies. Runs on every navigation (post-mount, so hydration still matches
-// the prerendered HTML). Auto-syncs never persist — only an explicit switcher
+// Blog routes and the landing/app pages (/, /fr, /de/parkour…) pin the locale
+// via the URL; everywhere else the visitor's saved/browser preference applies.
+// Runs on every navigation (post-mount, so hydration still matches the
+// prerendered HTML). Auto-syncs never persist — only an explicit switcher
 // choice does.
 function LocaleSync() {
   const { locale, setLocale } = useLanguage()
   const location = useLocation()
   const navigate = useNavigate()
   useEffect(() => {
-    const preferred = detectPreferredLocale()
     // The English landing and app pages have a translated twin at its own
-    // URL, so a visitor who prefers that language is sent there instead of
-    // having the English URL re-rendered in place. Choosing EN in the
-    // switcher saves the preference, which stops the redirect.
+    // URL. A visitor who chose that language in the switcher is sent there;
+    // the browser language alone never redirects (docs/seo/OPPORTUNITIES.md,
+    // B1), so search engines and shared links get the URL they asked for.
+    // Choosing EN saves the preference, which stops the redirect.
+    const saved = getSavedLocale()
     const page = localizedPageFromPath(location.pathname)
-    if (page?.locale === 'en' && preferred !== 'en') {
-      navigate(`${pagePath(preferred, page.page)}${location.search}${location.hash}`, { replace: true })
+    if (page?.locale === 'en' && saved && saved !== 'en') {
+      navigate(`${pagePath(saved, page.page)}${location.search}${location.hash}`, { replace: true })
       return
     }
-    const target = localeFromPath(location.pathname) ?? preferred
+    const target = localeFromPath(location.pathname) ?? detectPreferredLocale()
     if (target !== locale) setLocale(target, { persist: false })
   }, [location.pathname, location.search, location.hash, locale, setLocale, navigate])
   // <html lang> follows the page's content: the Finnish legal pages under /fi/
