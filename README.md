@@ -23,7 +23,7 @@ Production remains indexable: this configuration does not add the test site's `X
 
 ## Marketing surfaces
 
-- `/`, `/parkour`, `/strength`: homepage and app pages in English, with French, German and Spanish versions at `/fr`, `/de/parkour`, `/es/strength` and so on. Each version is its own prerendered URL, linked to the others by hreflang. On the English URLs, a visitor whose saved or browser language is one of the others is sent to that version.
+- `/`, `/parkour`, `/strength`: homepage and app pages in English, with French, German and Spanish versions at `/fr`, `/de/parkour`, `/es/strength` and so on. Each version is its own prerendered URL, linked to the others by hreflang. The URL decides the language: a visitor is sent from an English URL to a translated one only if they chose that language in the switcher, never because of the browser language.
 - `/about`: English founder page.
 - `/blog`, `/fr/blog`, `/de/blog`, `/es/blog`: existing training content.
 - `/contact`, `/privacy`, `/terms`: company/legal pages. `/fi/terms` and `/fi/privacy` are the Finnish legal pages.

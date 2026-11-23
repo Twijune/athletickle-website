@@ -25,10 +25,17 @@ function safeStoreLocale(locale: Locale): void {
   }
 }
 
+/** The language the visitor chose in the switcher, or null if they never did. */
+// eslint-disable-next-line react-refresh/only-export-components
+export function getSavedLocale(): Locale | null {
+  const stored = safeGetStoredLocale()
+  return isLocale(stored) ? stored : null
+}
+
 // eslint-disable-next-line react-refresh/only-export-components
 export function detectPreferredLocale(): Locale {
-  const stored = safeGetStoredLocale()
-  if (isLocale(stored)) return stored
+  const saved = getSavedLocale()
+  if (saved) return saved
   const browser =
     typeof navigator !== 'undefined' ? navigator.language?.slice(0, 2).toLowerCase() : undefined
   return isLocale(browser) ? browser : 'en'
