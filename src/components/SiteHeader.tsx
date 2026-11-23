@@ -3,7 +3,7 @@ import MobileMenu from './MobileMenu'
 import LanguageSwitcher from './LanguageSwitcher'
 import { useLanguage } from '../i18n/LanguageContext'
 import { marketingCopy } from '../i18n/marketingCopy'
-import { blogPath } from '../blog/paths'
+import { blogPath, pagePath } from '../blog/paths'
 
 // One header for every page. MarketingLayout and BlogLayout both render it, so
 // moving between sections never swaps the top bar's links, styling or position.
@@ -12,8 +12,8 @@ export default function SiteHeader() {
   const { pathname } = useLocation()
   const c = marketingCopy[locale]
   const navItems = [
-    { label: 'Parkour', href: '/parkour' },
-    { label: 'Strength', href: '/strength' },
+    { label: 'Parkour', href: pagePath(locale, '/parkour') },
+    { label: 'Strength', href: pagePath(locale, '/strength') },
     { label: c.about, href: '/about' },
     { label: t('nav.blog'), href: blogPath(locale) },
   ]
@@ -21,7 +21,7 @@ export default function SiteHeader() {
     <a className="skip-link" href="#main">{c.skipToContent}</a>
     <div className="launch-strip">{c.launchStatus}</div>
     <header className="marketing-header">
-      <Link to="/" className="brand"><img src="/athletickle-favicon-256.png" width="42" height="42" alt="" /><span>ATHLETICKLE</span></Link>
+      <Link to={pagePath(locale, '/')} className="brand"><img src="/athletickle-favicon-256.png" width="42" height="42" alt="" /><span>ATHLETICKLE</span></Link>
       <nav className="desktop-links" aria-label="Main navigation">{navItems.map(item => <Link key={item.href} to={item.href} aria-current={pathname === item.href ? 'page' : undefined}>{item.label}</Link>)}</nav>
       <div className="header-actions"><LanguageSwitcher /><MobileMenu navItems={navItems} /></div>
     </header>

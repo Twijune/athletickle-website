@@ -72,15 +72,17 @@ export function getStaticRoutes(): StaticRoute[] {
     })
   }
 
-  add(landingMeta(), true)
-  add(editionMeta('parkour'), true)
-  add(editionMeta('strength'), true)
+  for (const locale of LOCALES) {
+    add(landingMeta(locale), true)
+    add(editionMeta('parkour', locale), true)
+    add(editionMeta('strength', locale), true)
+  }
   add(aboutMeta(), true)
   for (const locale of LOCALES) add(blogIndexMeta(locale), true)
   for (const slug of getAllSlugs()) {
     for (const locale of LOCALES) {
       const post = getPost(locale, slug)
-      if (post) add(blogPostMeta(post), true, post.date)
+      if (post) add(blogPostMeta(post), true, post.updated ?? post.date)
     }
   }
   add(termsMeta(), true)

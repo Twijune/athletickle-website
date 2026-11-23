@@ -23,15 +23,15 @@ Production remains indexable: this configuration does not add the test site's `X
 
 ## Marketing surfaces
 
-- `/`: localized EN/FR/DE/ES homepage.
-- `/parkour`, `/strength`, `/about`: English product and founder pages.
+- `/`, `/parkour`, `/strength`: homepage and app pages in English, with French, German and Spanish versions at `/fr`, `/de/parkour`, `/es/strength` and so on. Each version is its own prerendered URL, linked to the others by hreflang. The URL decides the language: a visitor is sent from an English URL to a translated one only if they chose that language in the switcher, never because of the browser language.
+- `/about`: English founder page.
 - `/blog`, `/fr/blog`, `/de/blog`, `/es/blog`: existing training content.
 - `/contact`, `/privacy`, `/terms`: company/legal pages. `/fi/terms` and `/fi/privacy` are the Finnish legal pages.
   The legal text is the apps' own: `node scripts/sync-legal.mjs` copies Athletickle PK's `legal.ts`, `legal.fi.ts` and
   `company.ts` into `src/data/` (Terms §4 adds STR's risk text in `src/data/legal/site.ts`). Edit the apps, never the copies.
 - `/exercises/<slug>`: one unlisted demo page per filmed exercise (noindex, no sitemap entry, no index page, not linked from the site). Data comes from both apps' `exercises.json` through `node scripts/sync-exercises.ts` (or Bun); re-run it when either app's exercise list changes and commit `src/data/exercises.json`. Each page embeds only its own entry, so the full list never ships to the browser; `check-marketing.mjs` enforces all of this.
 
-Shared product facts and the Discord invitation live in `src/data/marketing.ts`. Homepage copy lives in `src/i18n/marketingCopy.ts`; shared navigation/blog labels remain in `src/i18n/translations.ts`. Add public routes to both App and the prerender route list so direct links, crawlers and the sitemap stay aligned.
+Shared product facts and the Discord invitation live in `src/data/marketing.ts`. Homepage copy lives in `src/i18n/marketingCopy.ts` and app-page copy in `src/i18n/editionCopy/`, one file per language. English is the source: change a product claim in `src/data/marketing.ts` first, then bring every translation into line, or the translated pages will state something the English page no longer does. The shared navigation/blog labels remain in `src/i18n/translations.ts`. Add public routes to both App and the prerender route list so direct links, crawlers and the sitemap stay aligned.
 
 Generate social preview cards with `python3 scripts/social-cards.py` (Pillow and Liberation Sans required). They are deterministic typography, not AI-generated app screens.
 
