@@ -1,40 +1,41 @@
 ---
 title: "Sobrecarga progresiva: la guía completa"
-description: "Deja de adivinar por qué te estancaste. Aprende cómo funciona de verdad la sobrecarga progresiva, sus cuatro palancas y cómo aplicarlas semana a semana."
+description: "Qué significa la sobrecarga progresiva, por qué se estancan las cargas, cuatro formas de endurecer el entrenamiento y cómo aplicarlas semana a semana."
 date: "2026-07-10"
+updated: "2026-11-22"
 slug: "progressive-overload-guide"
 lang: "es"
 tags: ["training", "programming"]
 cover: "/previewofprogram.png"
 ---
 
-## Qué es realmente la sobrecarga progresiva
+## Qué es la sobrecarga progresiva
 
-La sobrecarga progresiva no es "añadir peso en cada sesión". Es el principio de que el estrés del entrenamiento debe aumentar con el tiempo para que tu cuerpo siga adaptándose. El músculo y la fuerza salen caros. Tu cuerpo solo los construye cuando el nivel actual ya no le basta para soportar lo que le exiges.
+La sobrecarga progresiva significa que el estrés del entrenamiento debe aumentar con el tiempo para que tu cuerpo siga adaptándose. Añadir peso en cada sesión es una forma de lograrlo, pero no la única. Construir y mantener músculo y fuerza le cuesta mucho al cuerpo. Por eso solo los añade cuando lo que tiene ya no basta para el trabajo que le pides.
 
-Eso significa que la sobrecarga va del estímulo total, no del número que hay en la barra. Una serie más pesada, una repetición extra, una serie extra o una repetición más estricta con el mismo peso: todo cuenta. Si el estímulo de este mes es igual al del mes pasado, estás manteniendo, no construyendo.
+Lo que cuenta, entonces, es el estímulo total. Una serie más pesada, una repetición extra, una serie extra o una repetición más estricta con el mismo peso lo aumentan. Si el entrenamiento de este mes es igual al del mes pasado, mantienes lo que tienes.
 
 ## Por qué los levantadores se estancan
 
-La mayoría de los estancamientos no tienen nada de misterioso. Se reducen a unos pocos fallos predecibles.
+La mayoría de los estancamientos tienen una de estas tres causas corrientes.
 
-El primero es la regresión invisible. Añades peso, pero acortas el rango de recorrido, aceleras la excéntrica o dejas que tu compañero te saque la última repetición. La barra sube; el estímulo, no.
+La primera es una regresión que no notas. Añades peso, pero acortas el recorrido, bajas la carga más deprisa o dejas que tu compañero termine la última repetición. El peso ha subido y el trabajo de tus músculos sigue igual.
 
-El segundo es la fatiga sin gestionar. La sobrecarga solo funciona si puedes recuperarte de ella. Sube volumen e intensidad en línea recta y la fatiga acabará devorando tu rendimiento. Te atascas, te estancas y le echas la culpa al programa.
+La segunda es la fatiga. La sobrecarga solo funciona si te recuperas de ella. Si el volumen y la intensidad suben semana tras semana, sin un periodo más ligero, la fatiga se acumula y tu rendimiento baja. Entonces es fácil culpar al programa, cuando el problema real es la recuperación.
 
-El tercero es no llevar registro. Si no sabes decir qué peso moviste hace dos semanas, con cuántas series y repeticiones, no puedes sobrecargarlo. Solo estás entrenando duro al azar.
+La tercera es no llevar un registro. Si no sabes decir qué peso moviste hace dos semanas, con cuántas series y repeticiones, no tienes nada que superar. Puede que entrenes duro, pero no puedes saber si estás haciendo más.
 
 ## Las cuatro palancas
 
-Tienes cuatro formas de hacer el entrenamiento más exigente. Tira de ellas con intención, de una en una.
+Hay cuatro formas de hacer el entrenamiento más exigente. Cambia solo una cada vez.
 
-- **Carga** — más peso en la barra para las mismas repeticiones. La palanca clásica, y la más lenta para un levantador con experiencia.
-- **Repeticiones** — mismo peso, más repeticiones por serie. Suele ser la primera palanca que tocar entre subidas de carga.
-- **Series** — más series efectivas totales por músculo a la semana. Potente, pero la vía más rápida para acumular fatiga.
-- **Calidad de ejecución** — rango de recorrido más completo, excéntricas controladas, menos balanceo del cuerpo. La palanca que casi todos ignoran, y la que hace honestas a las otras tres.
+- **Carga:** más peso en la barra para las mismas repeticiones. Es la palanca más conocida, y la más lenta para un levantador con experiencia.
+- **Repeticiones:** el mismo peso para más repeticiones por serie. Suele ser la primera palanca que tocar entre subidas de carga.
+- **Series:** más series efectivas por músculo a la semana. Funciona, pero también es la que acumula fatiga más rápido.
+- **Calidad de ejecución:** recorrido más completo, bajada controlada, menos impulso. Casi todos la ignoran, aunque las otras tres solo cuentan si las repeticiones se hacen con el mismo criterio.
 
 ## Cómo aplicarla semana a semana
 
-La sobrecarga sistemática parece aburrida sobre el papel. Fija tus ejercicios durante todo un bloque de entrenamiento. Anota cada serie. Cada semana, supera tu cuaderno en una palanca — una repetición aquí, un pequeño salto de carga allá — manteniendo constantes los estándares de ejecución. Cuando el rendimiento se estanque durante varias sesiones seguidas, es la fatiga hablando. Haz un deload y retoma la subida.
+En la práctica, esto es repetitivo. Mantén los mismos ejercicios durante todo un bloque de entrenamiento y registra cada serie. Cada semana, intenta superar tu registro en una sola palanca, por ejemplo con una repetición más o un pequeño aumento de carga, manteniendo el mismo nivel de ejecución. Si el rendimiento se estanca durante varias sesiones seguidas, la causa probable es la fatiga. Haz una semana de descarga y luego sigue desde donde estabas.
 
 Athletickle Strength indica la dirección de la carga según las repeticiones y el RIR registrados: subir, repetir o reducir. No elige el peso ni reescribe el bloque después de cada sesión. Cada bloque incluye una descarga planificada y tu valoración final orienta el siguiente. Athletickle Parkour y Strength ya están disponibles en Android. [Explora Strength — en inglés](/strength) o [descarga Strength en Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).

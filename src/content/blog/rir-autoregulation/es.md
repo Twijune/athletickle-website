@@ -2,38 +2,47 @@
 title: "La autorregulación basada en RIR, explicada"
 description: "Descubre qué significa RIR (repeticiones en reserva), por qué los porcentajes fijos fallan en días de fatiga y cómo autorregular tu entrenamiento día a día."
 date: "2026-07-18"
+updated: "2026-11-22"
 slug: "rir-autoregulation"
 lang: "es"
 tags: ["autoregulation", "programming"]
 ---
 
-Tu programa dice 80 % para 5 repeticiones. Tu cuerpo dice otra cosa. Esa brecha entre la hoja de cálculo y la barra es justo lo que corrige la autorregulación basada en RIR.
+Tu programa marca 5 repeticiones al 80 %, pero hay días en que ese peso se siente mucho más pesado de lo que debería. La autorregulación basada en RIR lo resuelve fijando la carga según lo dura que resulta la serie ese día.
 
-## Qué mide realmente el RIR
+## Qué mide el RIR
 
-El RIR (Reps In Reserve, repeticiones en reserva) responde a una pregunta sencilla: ¿cuántas repeticiones más podrías haber hecho antes de llegar al fallo? Si dejas la barra con dos repeticiones limpias en la recámara, esa serie fue un RIR 2. Si la última salió arrastrada y a punto de fallar, fue un RIR 0.
+El RIR (Reps In Reserve, repeticiones en reserva) plantea una sola pregunta: ¿cuántas repeticiones más podrías haber hecho antes de llegar al fallo? Si dejas la barra cuando aún te quedaban dos repeticiones limpias, esa serie fue un RIR 2. Si terminas la última por muy poco, fue un RIR 0.
 
-El RIR ancla la intensidad a la proximidad al fallo, no a un número en una tabla de porcentajes. Y es la proximidad al fallo lo que de verdad genera el estímulo de una serie. Dos levantadores pueden mover el mismo peso y obtener efectos de entrenamiento completamente distintos según lo cerca que estuviera cada uno de fallar.
+El RIR vincula la intensidad a la proximidad al fallo, mientras que una tabla de porcentajes la vincula a un número fijo. Esa proximidad al fallo influye mucho en el estímulo de una serie. Dos levantadores pueden mover el mismo peso y obtener efectos de entrenamiento distintos, según lo cerca que estuviera cada uno de fallar.
 
 ## Por qué fallan los porcentajes fijos
 
-Los programas basados en porcentajes asumen que tu 1RM es una constante. No lo es. La falta de sueño, el estrés del trabajo, una mala recuperación y la fatiga acumulada pueden alterar de forma notable tu fuerza disponible de una sesión a otra.
+Los programas basados en porcentajes tratan tu 1RM como constante, pero cambia. Dormir mal, el estrés del trabajo, una recuperación incompleta y la fatiga acumulada pueden modificar tu fuerza disponible de una sesión a otra.
 
-En un día de baja disponibilidad, ese 80 % prescrito puede comportarse como un 88 %. O te arrastras en series que nunca tocaba arrastrar, o directamente fallas repeticiones. Ambos resultados acumulan fatiga sin añadir estímulo. Repite eso durante unas semanas y el programa se derrumba bajo volumen basura y levantamientos estancados.
+En un mal día, ese 80 % prescrito puede sentirse como un 88 %. Entonces te peleas con series pensadas para ser cómodas, o fallas repeticiones. En ambos casos acumulas fatiga sin añadir mucho estímulo, y al cabo de unas semanas los levantamientos tienden a estancarse.
 
-El RIR esquiva el problema. Un objetivo de «5 repeticiones a RIR 2» se autocorrige: en un día fuerte el peso sube, en un día duro baja. El estímulo se mantiene constante. El peso es solo el resultado.
+Un objetivo en RIR evita este problema. Con «5 repeticiones a RIR 2», usas más peso en un día fuerte y menos en uno duro, y el esfuerzo de la serie se mantiene más o menos igual.
 
 ## Cómo calibrar tus estimaciones de RIR
 
-Sin práctica, las estimaciones pecan de optimistas. La mayoría de levantadores cree estar a RIR 2 cuando en realidad ronda el 4. Afina tu calibración así:
+Las estimaciones son imprecisas hasta que las practicas. La mayoría de levantadores cree estar a RIR 2 cuando en realidad le quedan unas 4 repeticiones. Para ganar precisión:
 
-- Lleva de vez en cuando series controladas hasta el fallo real en accesorios seguros y compara el resultado con lo que habías predicho.
-- Vigila la velocidad de la barra. Una desaceleración brusca entre repeticiones es la señal más honesta de que la reserva se está agotando.
-- Estima el RIR justo después de cada serie efectiva y regístralo. La precisión es una habilidad, y se construye repitiendo la propia habilidad.
-- Fíate más de tus estimaciones entre RIR 0 y 3. Más allá de ese rango, todo el mundo adivina.
+- De vez en cuando, lleva una serie hasta el fallo en un accesorio seguro y compara el resultado con lo que habías predicho.
+- Vigila la velocidad de la barra. Una desaceleración clara de una repetición a la siguiente es la señal más fiable de que se te acaban las repeticiones.
+- Estima el RIR justo después de cada serie efectiva y regístralo. La precisión mejora con la práctica.
+- Fíate sobre todo de tus estimaciones entre RIR 0 y 3. Más lejos del fallo, las estimaciones son mucho menos precisas para todo el mundo.
 
-Con unas semanas de práctica deliberada tendrás una calibración sólida. Los básicos multiarticulares cuestan más de calibrar que el trabajo de aislamiento.
+La mayoría alcanza una precisión razonable tras unas semanas de práctica deliberada. Los básicos multiarticulares cuestan más de calibrar que el trabajo de aislamiento.
 
-## Deja que el sistema marque la dirección
+## RPE vs. RIR: en qué se diferencian
+
+RPE significa «rating of perceived exertion», la valoración del esfuerzo percibido. En el entrenamiento de fuerza suele referirse a una escala del 1 al 10 construida sobre las repeticiones en reserva, así que ambas describen lo mismo desde extremos opuestos. Un RPE 10 es una serie en la que no queda nada, un RPE 9 deja una repetición y un RPE 8 deja dos. Para convertir, resta el RPE a 10.
+
+La escala se describió y se puso a prueba en [un estudio de 2016 de Zourdos y colaboradores](https://pubmed.ncbi.nlm.nih.gov/26049792/) con sentadillistas experimentados y principiantes.
+
+La diferencia está sobre todo en cómo se plantea la pregunta. El RIR te pide contar: ¿cuántas repeticiones más habrías podido hacer? El RPE te pide valorar lo dura que se sintió la serie. Las escalas de RPE más antiguas, procedentes de los deportes de resistencia, valoran el esfuerzo global, no la cercanía al fallo. Si un programa indica RPE 8, comprueba a qué escala se refiere. En el gimnasio casi siempre significa dos repeticiones en reserva.
+
+## Cómo usa el RIR Athletickle Strength
 
 Athletickle Strength indica la dirección de la carga según las repeticiones y el RIR registrados: subir, repetir o reducir. No elige el peso ni reescribe el bloque después de cada sesión. Cada bloque incluye una descarga planificada y tu valoración final orienta el siguiente. Athletickle Parkour y Strength ya están disponibles en Android. [Explora Strength — en inglés](/strength) o [descarga Strength en Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).

@@ -1,40 +1,41 @@
 ---
 title: "Surcharge progressive : le guide complet"
-description: "Tes charges stagnent ? Découvre comment fonctionne vraiment la surcharge progressive, ses quatre leviers et comment les appliquer chaque semaine."
+description: "Ce que signifie la surcharge progressive, pourquoi les charges stagnent, quatre moyens de durcir l'entraînement et comment les appliquer chaque semaine."
 date: "2026-07-10"
+updated: "2026-11-22"
 slug: "progressive-overload-guide"
 lang: "fr"
 tags: ["training", "programming"]
 cover: "/previewofprogram.png"
 ---
 
-## Ce qu'est vraiment la surcharge progressive
+## Ce qu'est la surcharge progressive
 
-La surcharge progressive, ce n'est pas « ajouter du poids à chaque séance ». C'est le principe selon lequel le stress d'entraînement doit augmenter au fil du temps pour que ton corps continue de s'adapter. Le muscle et la force coûtent cher. Ton corps ne les construit que lorsque son niveau actuel ne suffit plus à encaisser ce que tu lui imposes.
+La surcharge progressive signifie que le stress d'entraînement doit augmenter au fil du temps pour que ton corps continue de s'adapter. Ajouter du poids à chaque séance est une façon d'y parvenir, mais ce n'est pas la seule. Le muscle et la force coûtent cher à construire et à entretenir. Ton corps n'en ajoute donc que lorsque ce qu'il a ne suffit plus pour le travail que tu lui demandes.
 
-Autrement dit, la surcharge porte sur le stimulus total, pas sur le chiffre inscrit sur la barre. Une série plus lourde, une répétition de plus, une série supplémentaire ou une répétition plus stricte au même poids comptent tout autant. Si le stimulus de ce mois-ci est identique à celui du mois dernier, tu entretiens tes acquis, tu ne construis rien.
+Ce qui compte, c'est donc le stimulus total. Une série plus lourde, une répétition de plus, une série supplémentaire ou une répétition plus stricte au même poids l'augmentent toutes. Si l'entraînement de ce mois-ci est identique à celui du mois dernier, tu entretiens ce que tu as.
 
 ## Pourquoi les pratiquants stagnent
 
-La plupart des plateaux n'ont rien de mystérieux. Ils se résument à quelques erreurs prévisibles.
+La plupart des plateaux ont l'une de ces trois causes ordinaires.
 
-La première : la régression invisible. Tu ajoutes du poids, mais tu raccourcis l'amplitude, accélères l'excentrique ou laisses ton pareur faire la dernière répétition. La barre monte, le stimulus non.
+La première est une régression que tu ne remarques pas. Tu ajoutes du poids, mais tu raccourcis l'amplitude, tu précipites la descente ou tu laisses ton pareur finir la dernière répétition. Le poids a augmenté et le travail fourni par tes muscles est resté le même.
 
-La deuxième : la fatigue non gérée. La surcharge ne fonctionne que si tu peux en récupérer. Augmente volume et intensité en ligne droite, et la fatigue finit par engloutir tes performances. Tu forces, tu stagnes, et tu accuses le programme.
+La deuxième est la fatigue. La surcharge ne fonctionne que si tu en récupères. Si le volume et l'intensité montent tous les deux semaine après semaine, sans période plus légère, la fatigue s'accumule et tes performances baissent. On accuse alors facilement le programme, alors que le vrai problème est la récupération.
 
-La troisième : l'absence de suivi. Si tu es incapable de dire combien de séries et de répétitions tu as faites il y a deux semaines, tu ne peux pas les dépasser. Tu t'entraînes dur, mais au hasard.
+La troisième est l'absence de carnet d'entraînement. Si tu ne peux pas dire ce que tu as soulevé il y a deux semaines, avec combien de séries et de répétitions, tu n'as rien à battre. Tu t'entraînes peut-être dur, mais tu ne peux pas savoir si tu en fais davantage.
 
 ## Les quatre leviers
 
-Tu disposes de quatre moyens de rendre l'entraînement plus exigeant. Actionne-les délibérément, un à la fois.
+Il existe quatre moyens de rendre l'entraînement plus exigeant. Change-en un seul à la fois.
 
-- **La charge** — plus de poids sur la barre pour le même nombre de répétitions. Le levier classique, et le plus lent chez un pratiquant confirmé.
-- **Les répétitions** — même poids, plus de répétitions par série. En général, le premier levier à actionner entre deux augmentations de charge.
-- **Les séries** — plus de séries effectives par muscle et par semaine. Puissant, mais c'est aussi le moyen le plus rapide d'accumuler de la fatigue.
-- **La qualité d'exécution** — amplitude complète, excentriques contrôlées, moins de triche. Le levier que la plupart des pratiquants ignorent, et celui qui rend les trois autres honnêtes.
+- **La charge :** plus de poids sur la barre pour le même nombre de répétitions. C'est le levier le plus connu, et le plus lent chez un pratiquant confirmé.
+- **Les répétitions :** le même poids pour plus de répétitions par série. C'est en général le premier levier à actionner entre deux augmentations de charge.
+- **Les séries :** plus de séries de travail par muscle et par semaine. Cela fonctionne, mais c'est aussi le levier qui accumule la fatigue le plus vite.
+- **La qualité d'exécution :** amplitude plus complète, descente contrôlée, moins d'élan. La plupart des pratiquants l'ignorent, alors que les trois autres leviers ne comptent que si les répétitions sont faites avec la même rigueur.
 
 ## L'appliquer semaine après semaine
 
-Sur le papier, la surcharge systématique paraît ennuyeuse. Fixe tes exercices pour tout un bloc d'entraînement. Note chaque série. Chaque semaine, bats ton carnet sur un seul levier — une répétition ici, un petit bond de charge là — en gardant des standards d'exécution constants. Quand la performance stagne sur plusieurs séances d'affilée, c'est la fatigue qui parle. Place un deload, puis reprends l'ascension.
+En pratique, c'est répétitif. Garde les mêmes exercices pendant tout un bloc d'entraînement et note chaque série. Chaque semaine, essaie de battre ton carnet sur un seul levier, par exemple une répétition de plus ou une petite augmentation de charge, en gardant la même qualité d'exécution. Si tes performances stagnent sur plusieurs séances de suite, la cause probable est la fatigue. Fais une semaine allégée, puis reprends là où tu en étais.
 
 Athletickle Strength indique une direction à partir des répétitions et du RIR enregistrés : ajouter, répéter ou alléger. L’appli ne choisit pas le poids et ne réécrit pas le bloc après chaque séance. Chaque bloc inclut une semaine allégée prévue, et ton bilan de fin de bloc oriente le suivant. Athletickle Parkour et Strength sont disponibles sur Android. [Découvrir Strength — en anglais](/strength) ou [télécharger Strength sur Google Play](https://play.google.com/store/apps/details?id=com.athletickle.str).
