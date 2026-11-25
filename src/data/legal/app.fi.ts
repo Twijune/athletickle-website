@@ -15,9 +15,12 @@ import type { LegalDocument } from './app';
  *   as the English. legal.test.ts checks the structure and the load-bearing
  *   statements in both languages.
  * - The two-part claim survives translation: the DOSE is prescribed
- *   ("annokset on määrätty"), WHICH MOVEMENT meets it is substantially the
- *   user's ("olennaisesti sinun päätettävissäsi"). Never "liikkeet ovat vain
- *   esimerkkejä", never "Sovellus ei anna määräyksiä".
+ *   ("annostelu on määritelty tarkasti eikä vain suosituksena"), WHICH MOVEMENT
+ *   meets it is substantially the user's ("pitkälti omassa
+ *   päätäntävallassasi"). Never "liikkeet ovat vain esimerkkejä", never
+ *   "Sovellus ei anna määräyksiä". The linguist review of 25 November 2026
+ *   replaced "määrätä" with "määrittää"/"määritelty"; on the dose side never
+ *   use "ehdottaa" or "suositus": the dose is not a suggestion.
  * - No health, rehab or injury-prevention claim, in any wording: section 3 and
  *   the Health page say the opposite, and only in the negative.
  * - The language clause in both intros matches the English one.
@@ -34,38 +37,46 @@ const TERMS_FI: LegalDocument = {
   title: 'Käyttöehdot ja käyttöoikeussopimus',
   summary: 'Sinun ja meidän välinen sopimus, mukaan lukien käyttöoikeus ja vastuuehdot',
   intro:
-    'Nämä käyttöehdot ja loppukäyttäjän käyttöoikeussopimus (”Ehdot”) ovat ' +
-    `oikeudellisesti sitova sopimus sinun ja ${COMPANY_NAME}:n (Y-tunnus ` +
-    `${BUSINESS_ID}; ”me”, ”Athletickle”) välillä, ja ne koskevat ` +
-    'Athletickle-sovelluksen ja -verkkosivuston (yhdessä ”Sovellus”) käyttöä. ' +
-    'Ehdot voidaan antaa useammalla kuin yhdellä kielellä. Tällöin kaikki ' +
-    'kieliversiot ovat sisällöltään samat, ja jos ne näyttävät poikkeavan ' +
-    'toisistaan, sovelletaan sinulle edullisempaa tulkintaa.\n\n' +
-    'Lataamalla, avaamalla tai käyttämällä Sovellusta hyväksyt nämä Ehdot. Jos ' +
-    'et hyväksy niitä, älä käytä Sovellusta.\n\n' +
-    'Mikä Sovellus on. Athletickle on periodisointimoottori. Sen tuote on malli, ' +
-    'joka päättää, miten harjoituskuorman, -volyymin ja -tehon tulisi muuttua ' +
-    'viikkojen ja mesosyklien aikana. Ilmaistakseen mallin se nimeää tietyt ' +
-    'liikkeet ja määrää tarkat annokset – sarjat, toistot, palautukset sekä ' +
-    'joko tavoitteen siitä, kuinka lähelle uupumusta sarja viedään, tai kuorman ' +
-    'prosenttiosuuden.\n\n' +
-    'Annokset on määrätty eikä vain ehdotettu, koska juuri annokset kantavat ' +
-    'periodisoinnin: jos muutat niitä, noudatat eri mallia. Se, millä liikkeillä ' +
-    'annokset täytät, on erillinen kysymys, ja se on olennaisesti sinun ' +
-    'päätettävissäsi. Kun tarkastelet juuri luotua ohjelmaa, ja vain ennen kuin ' +
-    'tallennat sen, voit vaihtaa minkä tahansa yksittäisen liikkeen johonkin ' +
-    'Sovelluksen tähän kohtaan tarjoamista vastaavista liikkeistä; määrätyt ' +
-    'sarjat, toistot ja palautukset pysyvät samoina, koska vastaava liike kantaa ' +
-    'saman annoksen. Kun tallennat ohjelman, se on lopullinen.\n\n' +
-    'Sovellus suunnittelee; sinä harjoittelet. Se ei valvo sinua, se ei voi ' +
-    'mukautua mihinkään, mitä et kerro sille, ja se, toteutatko jonkin ohjelman ' +
-    'osan, milloin ja miten, on sinun päätöksesi. Sovellus on tehty ihmisille, ' +
-    'jotka jo harjoittelevat. Se olettaa, että osaat suorittaa sen nimeämät ' +
-    'liikkeet, että pystyt arvioimaan, sopiiko määrätty kuorma sinulle kunakin ' +
-    'päivänä, ja että korvaat, kevennät tai jätät harjoitteen väliin silloin, kun ' +
-    'se ei sovi. Se ei näe sinua, tekniikkaasi, väsymystäsi eikä alustaa, jolla ' +
-    'harjoittelet. Kohdassa 4 kerrotaan, mitä tämä tarkoittaa riskeille, jotka ' +
-    'otat kantaaksesi.',
+    'Nämä käyttöehdot ja loppukäyttäjän käyttöoikeussopimus (jäljempänä ”Ehdot”) ' +
+    `muodostavat sinun ja ${COMPANY_NAME}:n (Y-tunnus ${BUSINESS_ID}; jäljempänä ` +
+    '”me” tai ”Athletickle”) välisen oikeudellisesti sitovan sopimuksen, joka ' +
+    'koskee Athletickle-sovelluksen ja -verkkosivuston (jäljempänä yhdessä ' +
+    '”Sovellus”) käyttöä. Tämä sopimus voidaan tarjota useammalla kielellä. ' +
+    'Kaikkien kieliversioiden sisältö on sama, ja jos niiden välillä vaikuttaa ' +
+    'olevan eroja, sovelletaan sinulle edullisempaa tulkintaa.\n\n' +
+    'Lataamalla Sovelluksen, avaamalla sen tai käyttämällä sitä hyväksyt nämä ' +
+    'Ehdot. Jos et hyväksy Ehtoja, älä käytä Sovellusta.\n\n' +
+    'Mikä Sovellus on. Athletickle on harjoittelun jaksottamiseen tarkoitettu ' +
+    'järjestelmä. Sen ydin on malli, joka määrittää, miten harjoittelun ' +
+    'kuormituksen, määrän ja intensiteetin tulee muuttua viikkojen ja ' +
+    'mesosyklien eli harjoitusjaksojen aikana. Mallin toteuttamiseksi Sovellus ' +
+    'ehdottaa harjoitusliikkeitä ja määrittää niiden annostelun: sarjojen ja ' +
+    'toistojen määrät, palautumisajat sekä joko tavoitellun toistovaran ' +
+    'suhteessa uupumukseen tai käytettävän kuorman prosenttiosuuden.\n\n' +
+    'Harjoittelun annostelu on määritelty tarkasti eikä vain suosituksena, sillä ' +
+    'juuri se muodostaa harjoittelun jaksottamisen perustan. Jos muutat ' +
+    'annostelua, et enää noudata samaa harjoittelumallia. Sen sijaan se, millä ' +
+    'liikkeillä toteutat ohjelman mukaisen harjoittelun, on erillinen asia ja ' +
+    'pitkälti omassa päätäntävallassasi. Kun tarkastelet uutta, juuri luotua ' +
+    'harjoitusohjelmaa, voit ennen sen tallentamista vaihtaa minkä tahansa ' +
+    'yksittäisen liikkeen Sovelluksen kyseiseen kohtaan tarjoamaan ' +
+    'vaihtoehtoiseen liikkeeseen. Sarjojen ja toistojen määrät sekä ' +
+    'palautumisajat pysyvät tällöin ennallaan, sillä vaihtoehtoinen liike ' +
+    'toteutetaan samalla annostelulla. Kun tallennat harjoitusohjelman, sen ' +
+    'sisältö lukittuu.\n\n' +
+    'Sovellus suunnittelee, sinä harjoittelet. Sovellus ei valvo harjoitteluasi ' +
+    'eikä voi ottaa huomioon asioita, joista et sille kerro. Päätät itse, ' +
+    'toteutatko harjoitusohjelman tai sen yksittäisiä osia sekä milloin ja miten ' +
+    'harjoittelet.\n\n' +
+    'Sovellus on tarkoitettu henkilöille, joilla on jo kokemusta harjoittelusta. ' +
+    'Sen lähtökohtana on, että osaat suorittaa ohjelmaan sisältyvät liikkeet, ' +
+    'pystyt arvioimaan sinulle sopivan harjoituskuorman kunakin päivänä ja ' +
+    'tarvittaessa korvaat liikkeen toisella, kevennät harjoitusta tai jätät sen ' +
+    'tekemättä, jos se ei sovellu sinulle.\n\n' +
+    'Sovellus ei pysty havainnoimaan sinua, suoritustekniikkaasi, väsymystilaasi ' +
+    'tai harjoittelualustaasi. Kohdassa 4 käsitellään tarkemmin, mitä tämä ' +
+    'merkitsee harjoitteluun liittyvien, omalle vastuullesi jäävien riskien ' +
+    'kannalta.',
   sections: [
     {
       heading: '1. Hyväksyminen ja kelpoisuus',
@@ -300,7 +311,7 @@ const PRIVACY_FI: LegalDocument = {
   id: 'privacy',
   icon: 'shield-lock-outline',
   title: 'Tietosuojaseloste',
-  summary: 'Mitä keräämme ja mitä emme – lyhyesti: lähes ei mitään',
+  summary: 'Mitä keräämme ja mitä emme – lyhyesti: emme lähes mitään',
   intro:
     `Tässä tietosuojaselosteessa kerrotaan, miten ${COMPANY_NAME} (Y-tunnus ` +
     `${BUSINESS_ID}; ”me”, ”Athletickle”) käsittelee henkilötietoja ` +
