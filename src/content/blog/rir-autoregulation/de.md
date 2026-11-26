@@ -2,6 +2,7 @@
 title: "RIR-basierte Autoregulation erklärt"
 description: "Erfahre, was Reps In Reserve bedeutet, warum feste Prozente an müden Tagen versagen und wie RIR-Autoregulation dein Training an deine Tagesform anpasst."
 date: "2026-07-18"
+updated: "2026-11-22"
 slug: "rir-autoregulation"
 lang: "de"
 tags: ["autoregulation", "programming"]
@@ -33,6 +34,14 @@ Ungeübte Schätzungen fallen zu optimistisch aus. Die meisten Athleten glauben,
 - Vertraue deinen Schätzungen vor allem im Bereich von 0–3 RIR. Alles darüber ist bei jedem nur noch Raterei.
 
 Mit ein paar Wochen bewusster Übung erreichst du eine solide Kalibrierung. Bei Grundübungen dauert es länger als bei Isolationsübungen.
+
+## RPE vs. RIR
+
+RPE steht für „Rating of Perceived Exertion“, also die Bewertung der empfundenen Anstrengung. Im Krafttraining ist damit meist eine Skala von 1 bis 10 gemeint, die auf den Wiederholungen in Reserve aufbaut. Beide beschreiben also dasselbe, nur von entgegengesetzten Enden. RPE 10 ist ein Satz, bei dem nichts mehr geht, RPE 9 lässt eine Wiederholung übrig und RPE 8 zwei. Zum Umrechnen ziehst du den RPE-Wert von 10 ab.
+
+Beschrieben und geprüft wurde die Skala in [einer Studie von Zourdos und Kollegen aus dem Jahr 2016](https://pubmed.ncbi.nlm.nih.gov/26049792/) mit erfahrenen und unerfahrenen Kniebeugern.
+
+Der Unterschied liegt vor allem in der Frage. RIR lässt dich zählen: Wie viele Wiederholungen wären noch gegangen? RPE lässt dich bewerten, wie schwer sich der Satz angefühlt hat. Ältere RPE-Skalen aus dem Ausdauersport bewerten die Gesamtanstrengung, nicht die Nähe zum Muskelversagen. Steht in einem Plan RPE 8, prüfe, welche Skala gemeint ist. Im Kraftraum heißt das fast immer: zwei Wiederholungen in Reserve.
 
 ## Überlass dem System die Richtung
 

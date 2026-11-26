@@ -2,6 +2,7 @@
 title: "La autorregulación basada en RIR, explicada"
 description: "Descubre qué significa RIR (repeticiones en reserva), por qué los porcentajes fijos fallan en días de fatiga y cómo autorregular tu entrenamiento día a día."
 date: "2026-07-18"
+updated: "2026-11-22"
 slug: "rir-autoregulation"
 lang: "es"
 tags: ["autoregulation", "programming"]
@@ -33,6 +34,14 @@ Sin práctica, las estimaciones pecan de optimistas. La mayoría de levantadores
 - Fíate más de tus estimaciones entre RIR 0 y 3. Más allá de ese rango, todo el mundo adivina.
 
 Con unas semanas de práctica deliberada tendrás una calibración sólida. Los básicos multiarticulares cuestan más de calibrar que el trabajo de aislamiento.
+
+## RPE vs. RIR: en qué se diferencian
+
+RPE significa «rating of perceived exertion», la valoración del esfuerzo percibido. En el entrenamiento de fuerza suele referirse a una escala del 1 al 10 construida sobre las repeticiones en reserva, así que ambas describen lo mismo desde extremos opuestos. Un RPE 10 es una serie en la que no queda nada, un RPE 9 deja una repetición y un RPE 8 deja dos. Para convertir, resta el RPE a 10.
+
+La escala se describió y se puso a prueba en [un estudio de 2016 de Zourdos y colaboradores](https://pubmed.ncbi.nlm.nih.gov/26049792/) con sentadillistas experimentados y principiantes.
+
+La diferencia está sobre todo en cómo se plantea la pregunta. El RIR te pide contar: ¿cuántas repeticiones más habrías podido hacer? El RPE te pide valorar lo dura que se sintió la serie. Las escalas de RPE más antiguas, procedentes de los deportes de resistencia, valoran el esfuerzo global, no la cercanía al fallo. Si un programa indica RPE 8, comprueba a qué escala se refiere. En el gimnasio casi siempre significa dos repeticiones en reserva.
 
 ## Deja que el sistema marque la dirección
 
