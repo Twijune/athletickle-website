@@ -5,6 +5,8 @@ export interface PostMeta {
   title: string
   description: string
   date: string
+  /** Optional YYYY-MM-DD of the last substantive edit; never earlier than `date`. */
+  updated?: string
   slug: string
   lang: Locale
   tags: string[]
@@ -63,10 +65,16 @@ function parsePost(file: string, raw: string): Post & { draft: boolean } {
     throw new Error(`Blog post ${file}: date must be YYYY-MM-DD`)
   }
 
+  const updated = data.updated
+  if (updated !== undefined && (typeof updated !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(updated) || updated < date)) {
+    throw new Error(`Blog post ${file}: updated must be YYYY-MM-DD and not earlier than date`)
+  }
+
   return {
     title: requireString(data, 'title', file),
     description: requireString(data, 'description', file),
     date,
+    updated,
     slug,
     lang,
     tags: Array.isArray(data.tags) ? data.tags.filter((t): t is string => typeof t === 'string') : [],
