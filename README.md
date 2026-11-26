@@ -10,6 +10,7 @@ Install dependencies using the existing `bun.lock`, then run `bun run dev`.
 - `bun run lint`: ESLint.
 - `node scripts/check-marketing.mjs`: check built landing pages, CTAs, metadata, sitemap and social images.
 - `bun run preview`: inspect the production build locally.
+- `bun run check:paths`: fail if any tracked file contains an absolute home-directory path. The repo is public, so these must not be committed. `bun install` enables a pre-commit hook (`.githooks/pre-commit`) that runs the same check on staged files, and a GitHub Actions workflow repeats it on every pull request.
 
 The build requires Bun for `scripts/prerender.ts`. That script can also run directly with a Node version supporting TypeScript stripping (tested with Node 26), after the client and SSR builds.
 

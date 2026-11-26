@@ -1,0 +1,4 @@
+#!/bin/sh
+# Enabled by `git config core.hooksPath .githooks`, which `bun install` sets
+# through the "prepare" script in package.json.
+exec node scripts/check-local-paths.mjs --staged

@@ -1,0 +1,19 @@
+name: Check local paths
+
+# The pre-commit hook only runs on machines that have it enabled. This repeats
+# the check on the server so a pull request cannot bring a home-directory path in.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check-local-paths:
+    runs-on: ubuntu-latest
+    steps:
+      # Pinned to a commit so a moved tag cannot change what runs here.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - run: node scripts/check-local-paths.mjs
