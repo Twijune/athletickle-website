@@ -21,6 +21,8 @@ After prerendering, [`scripts/generate-statichost-routing.mjs`](scripts/generate
 
 Production remains indexable: this configuration does not add the test site's `X-Robots-Tag: noindex, nofollow` header. Custom domains are managed in Statichost's domain settings, separately from the build configuration.
 
+[`public/_headers`](public/_headers) sets the security headers Statichost sends with every response: no framing by other sites, a strict referrer policy, no access to device features, and a Content-Security-Policy. The policy lists every outside origin the site loads from (Glyphex analytics, Google Fonts files and the exercise-video CDN). A new third-party script, font, image or video host must be added there, or browsers will block it. The file uses only the site-wide `*` rule and has no comments, because the documented format shows none.
+
 ## Marketing surfaces
 
 - `/`: localized EN/FR/DE/ES homepage.
