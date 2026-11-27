@@ -176,30 +176,6 @@
     ]
   },
   {
-    "slug": "back-squat-pause-at-ascension",
-    "name": "Back squat pause at ascension",
-    "category": "Lower body, front",
-    "video": "https://vz-198bc333-b0b.b-cdn.net/7aa31965-7f98-45e1-baf0-79b34266c35f/play_720p.mp4",
-    "poster": "https://vz-198bc333-b0b.b-cdn.net/7aa31965-7f98-45e1-baf0-79b34266c35f/thumbnail.jpg",
-    "editions": [
-      "parkour",
-      "strength"
-    ],
-    "info": "1s pause"
-  },
-  {
-    "slug": "back-squat-pause-at-descension",
-    "name": "Back squat pause at descension",
-    "category": "Lower body, front",
-    "video": "https://vz-198bc333-b0b.b-cdn.net/61920c0a-07a6-4919-9a26-9aa2fa838bb4/play_720p.mp4",
-    "poster": "https://vz-198bc333-b0b.b-cdn.net/61920c0a-07a6-4919-9a26-9aa2fa838bb4/thumbnail.jpg",
-    "editions": [
-      "parkour",
-      "strength"
-    ],
-    "info": "1s pause"
-  },
-  {
     "slug": "back-squat-with-band-resistance",
     "name": "Back squat with band resistance",
     "category": "Lower body, front",
@@ -769,17 +745,6 @@
     "category": "Lower body, back",
     "video": "https://vz-198bc333-b0b.b-cdn.net/eb80471b-0c03-4e64-8d2d-d06420dc343f/play_720p.mp4",
     "poster": "https://vz-198bc333-b0b.b-cdn.net/eb80471b-0c03-4e64-8d2d-d06420dc343f/thumbnail.jpg",
-    "editions": [
-      "parkour",
-      "strength"
-    ]
-  },
-  {
-    "slug": "deadlift-pause-at-ascension-below-knee",
-    "name": "Deadlift pause at ascension below knee",
-    "category": "Lower body, back",
-    "video": "https://vz-198bc333-b0b.b-cdn.net/41b884a5-072c-4cd6-86d7-3ca33e9298c0/play_720p.mp4",
-    "poster": "https://vz-198bc333-b0b.b-cdn.net/41b884a5-072c-4cd6-86d7-3ca33e9298c0/thumbnail.jpg",
     "editions": [
       "parkour",
       "strength"
@@ -1800,17 +1765,6 @@
     ]
   },
   {
-    "slug": "one-arm-level-lift-from-laying",
-    "name": "One-arm level lift from laying",
-    "category": "Armouring",
-    "video": "https://vz-198bc333-b0b.b-cdn.net/7bc27bae-a37e-42ea-b1f4-e74e24dbe942/play_720p.mp4",
-    "poster": "https://vz-198bc333-b0b.b-cdn.net/7bc27bae-a37e-42ea-b1f4-e74e24dbe942/thumbnail.jpg",
-    "editions": [
-      "parkour",
-      "strength"
-    ]
-  },
-  {
     "slug": "one-arm-lizard-push-up",
     "name": "One-arm lizard push-up",
     "category": "Upper body, push",
@@ -2159,6 +2113,17 @@
     ]
   },
   {
+    "slug": "pause-deadlift-below-the-knee",
+    "name": "Pause deadlift below the knee",
+    "category": "Lower body, back",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/41b884a5-072c-4cd6-86d7-3ca33e9298c0/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/41b884a5-072c-4cd6-86d7-3ca33e9298c0/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
     "slug": "pause-front-squat",
     "name": "Pause front squat",
     "category": "Lower body, front",
@@ -2180,6 +2145,30 @@
       "strength"
     ],
     "info": "Pause at bottom for 2-3s"
+  },
+  {
+    "slug": "pause-squat-halfway-down",
+    "name": "Pause squat halfway down",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/61920c0a-07a6-4919-9a26-9aa2fa838bb4/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/61920c0a-07a6-4919-9a26-9aa2fa838bb4/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1s pause"
+  },
+  {
+    "slug": "pause-squat-halfway-up",
+    "name": "Pause squat halfway up",
+    "category": "Lower body, front",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7aa31965-7f98-45e1-baf0-79b34266c35f/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7aa31965-7f98-45e1-baf0-79b34266c35f/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ],
+    "info": "1s pause"
   },
   {
     "slug": "pendlay-row",
@@ -2622,6 +2611,17 @@
     "category": "Core",
     "video": "https://vz-198bc333-b0b.b-cdn.net/4eac586e-1f8b-418a-afbe-b4e60e8dbc7a/play_720p.mp4",
     "poster": "https://vz-198bc333-b0b.b-cdn.net/4eac586e-1f8b-418a-afbe-b4e60e8dbc7a/thumbnail.jpg",
+    "editions": [
+      "parkour",
+      "strength"
+    ]
+  },
+  {
+    "slug": "side-lying-straight-arm-lever-lift",
+    "name": "Side lying straight arm lever lift",
+    "category": "Armouring",
+    "video": "https://vz-198bc333-b0b.b-cdn.net/7bc27bae-a37e-42ea-b1f4-e74e24dbe942/play_720p.mp4",
+    "poster": "https://vz-198bc333-b0b.b-cdn.net/7bc27bae-a37e-42ea-b1f4-e74e24dbe942/thumbnail.jpg",
     "editions": [
       "parkour",
       "strength"
